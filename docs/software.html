@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>A Guide to Implementing Nutrition and Food Security Surveys</title>
+  <meta name="description" content="A Guide to Implementing Nutrition and Food Security Surveys">
+  <meta name="generator" content="bookdown 0.7.1 and GitBook 2.6.7">
+
+  <meta property="og:title" content="A Guide to Implementing Nutrition and Food Security Surveys" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="A Guide to Implementing Nutrition and Food Security Surveys" />
+  
+  
+  
+
+<meta name="author" content="">
+
+
+<meta name="date" content="2018-05-03">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="practical.html">
+<link rel="next" href="conclusion.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+a.sourceLine { display: inline-block; min-height: 1.25em; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; }
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: absolute; left: -5em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+pre, code { background-color: #f8f8f8; }
+@media screen {
+a.sourceLine::before { text-decoration: underline; color: initial; }
+}
+code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code span.dt { color: #204a87; } /* DataType */
+code span.dv { color: #0000cf; } /* DecVal */
+code span.bn { color: #0000cf; } /* BaseN */
+code span.fl { color: #0000cf; } /* Float */
+code span.ch { color: #4e9a06; } /* Char */
+code span.st { color: #4e9a06; } /* String */
+code span.co { color: #8f5902; font-style: italic; } /* Comment */
+code span.ot { color: #8f5902; } /* Other */
+code span.al { color: #ef2929; } /* Alert */
+code span.fu { color: #000000; } /* Function */
+code span.er { color: #a40000; font-weight: bold; } /* Error */
+code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+code span.cn { color: #000000; } /* Constant */
+code span.sc { color: #000000; } /* SpecialChar */
+code span.vs { color: #4e9a06; } /* VerbatimString */
+code span.ss { color: #4e9a06; } /* SpecialString */
+code span.im { } /* Import */
+code span.va { color: #000000; } /* Variable */
+code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code span.ex { } /* Extension */
+code span.at { color: #c4a000; } /* Attribute */
+code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">RAM-OP</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="sampling.html"><a href="sampling.html"><i class="fa fa-check"></i><b>2</b> The RAM-OP sample</a><ul>
+<li class="chapter" data-level="2.1" data-path="sampling.html"><a href="sampling.html#the-first-stage-sample"><i class="fa fa-check"></i><b>2.1</b> The first-stage sample</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="indicators.html"><a href="indicators.html"><i class="fa fa-check"></i><b>3</b> Indicators</a></li>
+<li class="chapter" data-level="4" data-path="the-ram-op-questionnaire.html"><a href="the-ram-op-questionnaire.html"><i class="fa fa-check"></i><b>4</b> The RAM-OP questionnaire</a></li>
+<li class="chapter" data-level="5" data-path="datasets.html"><a href="datasets.html"><i class="fa fa-check"></i><b>5</b> Datasets</a></li>
+<li class="chapter" data-level="6" data-path="practical.html"><a href="practical.html"><i class="fa fa-check"></i><b>6</b> Practical Fieldwork</a></li>
+<li class="chapter" data-level="7" data-path="software.html"><a href="software.html"><i class="fa fa-check"></i><b>7</b> RAM-OP Software</a><ul>
+<li class="chapter" data-level="7.1" data-path="software.html"><a href="software.html#data-entry"><i class="fa fa-check"></i><b>7.1</b> Data entry</a></li>
+<li class="chapter" data-level="7.2" data-path="software.html"><a href="software.html#data-analysis"><i class="fa fa-check"></i><b>7.2</b> Data analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>8</b> Conclusion</a></li>
+<li class="divider"></li>
+<li></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">A Guide to Implementing Nutrition and Food Security Surveys</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="software" class="section level1">
+<h1><span class="header-section-number">Chapter 7</span> RAM-OP Software</h1>
+<div id="data-entry" class="section level2">
+<h2><span class="header-section-number">7.1</span> Data entry</h2>
+</div>
+<div id="data-analysis" class="section level2">
+<h2><span class="header-section-number">7.2</span> Data analysis</h2>
+<p>This manual covers analysing your data using the <strong>RAnalyticFlow</strong> workflow. An <strong>RAnalyticFlow</strong> workflow may be thought of as an <em>“app”</em> that makes it easy to analyse your survey data.</p>
+<p>To use the <strong>RAnalyticFlow</strong> workflow you must install:</p>
+<ul>
+<li><p><strong>The <em>R Language for Data-Analysis and Graphics</em> (R)</strong> : This is the <em>“engine”</em> which does all the
+work of analysing your data. You can get the R installation program from: <a href="http://cran.r-project.org" class="uri">http://cran.r-project.org</a>. Following are links to download operating sofware-specific versions of R:</p>
+<ul>
+<li><p><a href="https://cran.r-project.org/bin/linux/">Download R for Linux</a></p></li>
+<li><p><a href="https://cran.r-project.org/bin/macosx/">Download R for (Mac) OS X</a></p></li>
+<li><p><a href="https://cran.r-project.org/bin/windows/">Download R for Windowx</a></p></li>
+</ul></li>
+<li><p><strong>R packages</strong> (libraries of functions needed to work with the <strong>RAnalyticFlow</strong> workflow) : You can install these from within <strong>R</strong> using the Package Installer function within R. The libraries needed are:</p></li>
+</ul>
+<table>
+<colgroup>
+<col width="26%" />
+<col width="73%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Package</strong></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>rJava</strong></td>
+<td>Required: Used by <strong>RAnalyticFlow</strong></td>
+</tr>
+<tr class="even">
+<td><strong>JavaGD</strong></td>
+<td>Required: Used by <strong>RAnalyticFlow</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>codetools</strong></td>
+<td>Required: Used by <strong>RAnalyticFlow</strong></td>
+</tr>
+<tr class="even">
+<td><strong>foreign</strong></td>
+<td>Required: Opens <strong>EpiData</strong> (REC) files</td>
+</tr>
+<tr class="odd">
+<td><strong>car</strong></td>
+<td>Required: Used for PROBIT estimator</td>
+</tr>
+<tr class="even">
+<td><strong>ggplot2</strong></td>
+<td>Desirable: Provides many plotting functions</td>
+</tr>
+<tr class="odd">
+<td><strong>data.table</strong></td>
+<td>Desirable: Speeds up working with large dataset</td>
+</tr>
+</tbody>
+</table>
+<p>The Package Installer function can be called in R using the following command:</p>
+<pre class="sourceCode r" id="cb1"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw">install.packages</span>(<span class="kw">c</span>(<span class="st">&quot;rJava&quot;</span>, <span class="st">&quot;JavaGD&quot;</span>, <span class="st">&quot;codetools&quot;</span>, </a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">                   <span class="st">&quot;foreign&quot;</span>, <span class="st">&quot;car&quot;</span>, <span class="st">&quot;ggplot2&quot;</span>, <span class="st">&quot;data.table&quot;</span>), </a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">                   <span class="dt">repos =</span> <span class="st">&quot;https://cloud.r-project.org/&quot;</span>)</a></code></pre>
+<p>The <code>repos</code> argument in the R command above specifies the CRAN mirror from which you to download the package/s you want to install. Here we specify the cloud-based mirror for CRAN provided by RStudio. If unspecified, the installiation process will prompt you to select a mirror from which to download packages from. If you already know the URL of the CRAN mirror you want to use, specify this in the <code>repos</code> argument.</p>
+<p>Note that <strong>RAnalyticFlow</strong> may require you to have <strong>Java</strong> installed. Check the instructions on the <strong>RAnalyticFlow</strong> <a href="http://r.analyticflow.com/en/download/">download page</a> and on this <a href="http://download.ef-prime.com/ranalyticflow/3.1.5/readme.html">starter guide</a>.</p>
+<p>All of this software is open source and free to download, copy, and use. It will run on Windows, Mac OS X, and Linux (and other UNIX-like) operating systems. Your ICT department should be able to help you with installing this software.</p>
+<p>In addition you will also need a copy of the <strong>RAnalyticFlow</strong> workflow and supporting files. These are available from:</p>
+<p><a href="http://www.brixtonhealth.com/ramOP.rflow.zip" class="uri">http://www.brixtonhealth.com/ramOP.rflow.zip</a></p>
+<p>You may need to extract the file from the ZIP archive before use if this is not done automatically.</p>
+<div class="figure" style="text-align: center"><span id="fig:raf1"></span>
+<img src="figures/dirStructureRAF.png" alt="Directory structure of RAM-OP RAnalyticFlow package" width="702" />
+<p class="caption">
+Figure 7.1: Directory structure of RAM-OP RAnalyticFlow package
+</p>
+</div>
+<p>Before starting to analyse your data you should create a project directory or project folder. This is just a normal folder or directory that can be created using your usual file manager (e.g. Windows ExplorerTM in WindowsTM or the FinderTM in Macintosh OS-XTM). The project directory or project folder should contain:</p>
+<ol style="list-style-type: decimal">
+<li><p>Your PSU file (here we assume this file is called testPSU.csv but it could have any name). This file must be a comma-separated-value (CSV) file.</p></li>
+<li><p>Your survey data file (here we assume this file is called testSVY.rec but it could have any name). This file can be an EpiData (REC) file or a comma-separated-value (CSV) file.</p></li>
+<li><p>The language file (always called ramOP.language.csv). This file provides text that is used in reports and graphics. The purpose of this file is to make the data analysis software produce reports in any language. This file must be a comma-separated-value (CSV) file.</p></li>
+<li><p>A copy of the file ramOP.rflow.</p></li>
+</ol>
+<p>When you have created the project directory or project folder with the required files you can start
+RAnalyticFlow.</p>
+<p>Note: The <code>testSVY.rec</code> and <code>testPSU.csv</code> files are example data files and are distributed with the <strong>RAnalyticFlow</strong> workflow. You can use these files to practice analysing data using <strong>RAnalyticFlow</strong>, and as examples of RAM-OP survey data and PSU files.</p>
+<div class="figure" style="text-align: center"><span id="fig:raf2"></span>
+<img src="figures/openProjectRAF.png" alt="Creating an RAnalyticFlow project" width="693" />
+<p class="caption">
+Figure 7.2: Creating an RAnalyticFlow project
+</p>
+</div>
+<p>Before you start work you will need to create a project for your survey:</p>
+<ol style="list-style-type: decimal">
+<li><p>Click the <strong>New Project…</strong> button</p></li>
+<li><p>Give your project a useful (i.e. descriptive and memorable) name. This might be a name that describes the survey. For example, if the survey was done in the Kereinik locality of West Darfur in December 2015 you might use the name <strong>WD.Kereinik.Dec2015.RAMOP</strong></p></li>
+<li><p>Give the location of your project directory or project folder. This is the directory or folder which contains your survey data file, your PSU file, the RAM-OP language file, and a copy of <strong>RAMOP.rflow</strong> (see previous page). The location of the project directory or project folder (labeled “Path” by the software) that <strong>RAnalyticFlow</strong> selects automatically will almost always be wrong. You need to specify this manually.</p></li>
+<li><p>Click the <strong>OK</strong> button</p></li>
+</ol>
+<div class="figure" style="text-align: center"><span id="fig:raf3"></span>
+<img src="figures/openWorkflowRAF.png" alt="Open an RAnalyticFlow workflow" width="729" />
+<p class="caption">
+Figure 7.3: Open an RAnalyticFlow workflow
+</p>
+</div>
+<p>Double click the item named <strong>ramOP.rflow</strong> shown in the file manager pane of the <strong>RAnalyticFlow</strong> window. This will open the data-analysis workflow which will be shown in the workflow viewer / editor window of the <strong>RAnalyticFlow</strong> window.</p>
+<p>Once you have opened the workflow you need to initialise it (i.e. load libraries, useful analysis function, and initialise the workspace for a new analysis):</p>
+<div class="figure" style="text-align: center"><span id="fig:raf4"></span>
+<img src="figures/runWorkflowRAF.png" alt="Run an RAnalyticFlow workflow" width="729" />
+<p class="caption">
+Figure 7.4: Run an RAnalyticFlow workflow
+</p>
+</div>
+<p>Once this is done, you should:</p>
+<ol style="list-style-type: decimal">
+<li><p>Retrieve your survey data. This can be in EpiDat (REC) format or CSV format. Select and run the
+appropriate <strong>Survey Data</strong> node and select the survey data file.</p></li>
+<li><p>Retrieve the PSU date data. Select and run the <strong>PSU Data</strong> node and select your PSU file.</p></li>
+<li><p>Produce the survey report and graphics. Select and run the <strong>Report</strong> node. This will take some time to complete because the analysis uses computer intensive techniques to make best use of the available data. The Report node/icon will have black lines around it has completed running the report.</p></li>
+</ol>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="practical.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="conclusion.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"download": ["ramOPmanual.pdf", "ramOPmanual.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

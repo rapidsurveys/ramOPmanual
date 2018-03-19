@@ -1,0 +1,541 @@
+\documentclass[12pt,]{book}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={A Guide to Implementing Nutrition and Food Security Surveys},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{natbib}
+\bibliographystyle{apalike}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\usepackage{longtable,booktabs}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+  \title{A Guide to Implementing Nutrition and Food Security Surveys}
+  \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+  \author{}
+  \preauthor{}\postauthor{}
+  \predate{\centering\large\emph}
+  \postdate{\par}
+  \date{05/03/2018}
+
+\usepackage{booktabs}
+
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{lemma}{Lemma}[chapter]
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[chapter]
+\newtheorem{corollary}{Corollary}[chapter]
+\newtheorem{proposition}{Proposition}[chapter]
+\theoremstyle{definition}
+\newtheorem{example}{Example}[chapter]
+\theoremstyle{definition}
+\newtheorem{exercise}{Exercise}[chapter]
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\newtheorem*{solution}{Solution}
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{introduction}{%
+\chapter{Introduction}\label{introduction}}
+
+Older people (generally defined as people aged sixty years and older)
+are a vulnerable group for malnutrition in humanitarian and
+developmental contexts. Due to their age they have specific nutritional
+needs, such as easily digestible and palatable food adapted to those
+with chewing problems, which is dense in nutrients. In famine and
+displacement situations where populations are dependent on food
+distributions, older people often find the general ration inappropriate
+to their tastes and needs, have difficulties accessing the
+distributions, or have difficulties transporting rations home. As a
+result, older people can become malnourished and in need of specifically
+targeted food interventions. In times of drought or food scarcity, older
+people tend to reduce their food intake in order to share or give up
+their ration to younger members of their families. They are then at risk
+of malnutrition.
+
+Despite these potential vulnerabilities in humanitarian situations,
+older people are rarely identified as a group in need of specific
+nutritional or food assistance. Surveys and assessments almost always
+focus on children, and sometimes on pregnant and lactating women.
+Humanitarian workers argue that assessing the nutritional status and
+needs of older people is both costly and complicated. As a consequence,
+the nutritional status and needs of older people in crisis go
+unidentified and unaddressed.
+
+HelpAge International, VALID International, and Brixton Health, with
+financial assistance from the Humanitarian Innovation Fund (HIF), have
+developed a Rapid Assessment Method for Older People (RAM-OP) that
+provides accurate and reliable estimates of the needs of older people.
+The method uses simple procedures, in a short time frame (i.e.~about two
+weeks including training, data collection, data entry, and data
+analysis), and at considerably lower cost than other methods. The RAM-OP
+method is based on the following principles:
+
+\begin{itemize}
+\item
+  Use of a familiar ``household survey'' design employing a two-stage
+  cluster sample design optimised to allow the use of a small primary
+  sample ( m ≥ 16 clusters) and a small overall ( n ≥ 192) sample.
+\item
+  Assessment of multiple dimensions of need in older people (including
+  prevalence of global, moderate and severe acute malnutrition) using,
+  whenever possible, standard and well-tested indicators and question
+  sets.
+\item
+  Data analysis performed using modern computer-intensive methods to
+  allow estimates of indicator levels to be made with useful precision
+  using a small sample size.
+\end{itemize}
+
+The following tools are currently available under the General Public
+Licence / Free Documentation License, meaning that you are free to copy
+and adapt these tools:
+
+\begin{itemize}
+\item
+  an English language manual / guidebook
+\item
+  a questionnaire (available in English and French)
+\item
+  data entry and data checking software (available in English and
+  French)
+\item
+  data analysis software.
+\end{itemize}
+
+We believe that the availability of a rapid, low-cost, and user-friendly
+method will encourage governments, UN agencies, as well as international
+and local non-governmental organisations to actively assess the
+situation of older people in humanitarian contexts, and implement,
+monitor, and evaluate relevant and timely responses to address their
+needs.
+
+\hypertarget{sampling}{%
+\chapter{The RAM-OP sample}\label{sampling}}
+
+RAM-OP uses a two-stage sample:
+
+\textbf{First stage sample:} A sample of communities (e.g.~villages or
+city-blocks) in the survey area is taken. A sampled community is also
+called a primary sampling unit (PSU).
+
+\textbf{Second stage sample:} Domestic dwellings are sampled from within
+the communities selected in the first stage sample. All eligible
+individuals in the sampled dwelling are included in the sample.
+
+\hypertarget{the-first-stage-sample}{%
+\section{The first-stage sample}\label{the-first-stage-sample}}
+
+The first stage sample is a systematic spatial sample. Two methods can
+be used and both methods take the sample from all parts of the survey
+area:
+
+\textbf{List-based method:} Communities to be sampled are selected
+systematically from a complete list of communities in the survey area.
+This list of communities is sorted by one or more non-overlapping
+spatial factors such as district and subdistricts within districts:
+
+\hypertarget{indicators}{%
+\chapter{Indicators}\label{indicators}}
+
+\hypertarget{the-ram-op-questionnaire}{%
+\chapter{The RAM-OP questionnaire}\label{the-ram-op-questionnaire}}
+
+\hypertarget{datasets}{%
+\chapter{Datasets}\label{datasets}}
+
+\hypertarget{practical}{%
+\chapter{Practical Fieldwork}\label{practical}}
+
+\hypertarget{software}{%
+\chapter{RAM-OP Software}\label{software}}
+
+\hypertarget{data-entry}{%
+\section{Data entry}\label{data-entry}}
+
+\hypertarget{data-analysis}{%
+\section{Data analysis}\label{data-analysis}}
+
+This manual covers analysing your data using the \textbf{RAnalyticFlow}
+workflow. An \textbf{RAnalyticFlow} workflow may be thought of as an
+\emph{``app''} that makes it easy to analyse your survey data.
+
+To use the \textbf{RAnalyticFlow} workflow you must install:
+
+\begin{itemize}
+\item
+  \textbf{The \emph{R Language for Data-Analysis and Graphics} (R)} :
+  This is the \emph{``engine''} which does all the work of analysing
+  your data. You can get the R installation program from:
+  \url{http://cran.r-project.org}. Following are links to download
+  operating sofware-specific versions of R:
+
+  \begin{itemize}
+  \item
+    \href{https://cran.r-project.org/bin/linux/}{Download R for Linux}
+  \item
+    \href{https://cran.r-project.org/bin/macosx/}{Download R for (Mac)
+    OS X}
+  \item
+    \href{https://cran.r-project.org/bin/windows/}{Download R for
+    Windowx}
+  \end{itemize}
+\item
+  \textbf{R packages} (libraries of functions needed to work with the
+  \textbf{RAnalyticFlow} workflow) : You can install these from within
+  \textbf{R} using the Package Installer function within R. The
+  libraries needed are:
+\end{itemize}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+\begin{minipage}[b]{0.25\columnwidth}\raggedright
+\textbf{Package}\strut
+\end{minipage} & \begin{minipage}[b]{0.69\columnwidth}\raggedright
+\textbf{Comments}\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.25\columnwidth}\raggedright
+\textbf{rJava}\strut
+\end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
+Required: Used by \textbf{RAnalyticFlow}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.25\columnwidth}\raggedright
+\textbf{JavaGD}\strut
+\end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
+Required: Used by \textbf{RAnalyticFlow}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.25\columnwidth}\raggedright
+\textbf{codetools}\strut
+\end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
+Required: Used by \textbf{RAnalyticFlow}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.25\columnwidth}\raggedright
+\textbf{foreign}\strut
+\end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
+Required: Opens \textbf{EpiData} (REC) files\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.25\columnwidth}\raggedright
+\textbf{car}\strut
+\end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
+Required: Used for PROBIT estimator\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.25\columnwidth}\raggedright
+\textbf{ggplot2}\strut
+\end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
+Desirable: Provides many plotting functions\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.25\columnwidth}\raggedright
+\textbf{data.table}\strut
+\end{minipage} & \begin{minipage}[t]{0.69\columnwidth}\raggedright
+Desirable: Speeds up working with large dataset\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+The Package Installer function can be called in R using the following
+command:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{install.packages}\NormalTok{(}\KeywordTok{c}\NormalTok{(}\StringTok{"rJava"}\NormalTok{, }\StringTok{"JavaGD"}\NormalTok{, }\StringTok{"codetools"}\NormalTok{, }
+                   \StringTok{"foreign"}\NormalTok{, }\StringTok{"car"}\NormalTok{, }\StringTok{"ggplot2"}\NormalTok{, }\StringTok{"data.table"}\NormalTok{), }
+                   \DataTypeTok{repos =} \StringTok{"https://cloud.r-project.org/"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+The \texttt{repos} argument in the R command above specifies the CRAN
+mirror from which you to download the package/s you want to install.
+Here we specify the cloud-based mirror for CRAN provided by RStudio. If
+unspecified, the installiation process will prompt you to select a
+mirror from which to download packages from. If you already know the URL
+of the CRAN mirror you want to use, specify this in the \texttt{repos}
+argument.
+
+Note that \textbf{RAnalyticFlow} may require you to have \textbf{Java}
+installed. Check the instructions on the \textbf{RAnalyticFlow}
+\href{http://r.analyticflow.com/en/download/}{download page} and on this
+\href{http://download.ef-prime.com/ranalyticflow/3.1.5/readme.html}{starter
+guide}.
+
+All of this software is open source and free to download, copy, and use.
+It will run on Windows, Mac OS X, and Linux (and other UNIX-like)
+operating systems. Your ICT department should be able to help you with
+installing this software.
+
+In addition you will also need a copy of the \textbf{RAnalyticFlow}
+workflow and supporting files. These are available from:
+
+\url{http://www.brixtonhealth.com/ramOP.rflow.zip}
+
+You may need to extract the file from the ZIP archive before use if this
+is not done automatically.
+
+\begin{figure}
+
+{\centering \includegraphics[width=9.75in]{figures/dirStructureRAF} 
+
+}
+
+\caption{Directory structure of RAM-OP RAnalyticFlow package}\label{fig:raf1}
+\end{figure}
+
+Before starting to analyse your data you should create a project
+directory or project folder. This is just a normal folder or directory
+that can be created using your usual file manager (e.g.~Windows
+ExplorerTM in WindowsTM or the FinderTM in Macintosh OS-XTM). The
+project directory or project folder should contain:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Your PSU file (here we assume this file is called testPSU.csv but it
+  could have any name). This file must be a comma-separated-value (CSV)
+  file.
+\item
+  Your survey data file (here we assume this file is called testSVY.rec
+  but it could have any name). This file can be an EpiData (REC) file or
+  a comma-separated-value (CSV) file.
+\item
+  The language file (always called ramOP.language.csv). This file
+  provides text that is used in reports and graphics. The purpose of
+  this file is to make the data analysis software produce reports in any
+  language. This file must be a comma-separated-value (CSV) file.
+\item
+  A copy of the file ramOP.rflow.
+\end{enumerate}
+
+When you have created the project directory or project folder with the
+required files you can start RAnalyticFlow.
+
+Note: The \texttt{testSVY.rec} and \texttt{testPSU.csv} files are
+example data files and are distributed with the \textbf{RAnalyticFlow}
+workflow. You can use these files to practice analysing data using
+\textbf{RAnalyticFlow}, and as examples of RAM-OP survey data and PSU
+files.
+
+\begin{figure}
+
+{\centering \includegraphics[width=9.62in]{figures/openProjectRAF} 
+
+}
+
+\caption{Creating an RAnalyticFlow project}\label{fig:raf2}
+\end{figure}
+
+Before you start work you will need to create a project for your survey:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Click the \textbf{New Project\ldots{}} button
+\item
+  Give your project a useful (i.e.~descriptive and memorable) name. This
+  might be a name that describes the survey. For example, if the survey
+  was done in the Kereinik locality of West Darfur in December 2015 you
+  might use the name \textbf{WD.Kereinik.Dec2015.RAMOP}
+\item
+  Give the location of your project directory or project folder. This is
+  the directory or folder which contains your survey data file, your PSU
+  file, the RAM-OP language file, and a copy of \textbf{RAMOP.rflow}
+  (see previous page). The location of the project directory or project
+  folder (labeled ``Path'' by the software) that \textbf{RAnalyticFlow}
+  selects automatically will almost always be wrong. You need to specify
+  this manually.
+\item
+  Click the \textbf{OK} button
+\end{enumerate}
+
+\begin{figure}
+
+{\centering \includegraphics[width=10.12in]{figures/openWorkflowRAF} 
+
+}
+
+\caption{Open an RAnalyticFlow workflow}\label{fig:raf3}
+\end{figure}
+
+Double click the item named \textbf{ramOP.rflow} shown in the file
+manager pane of the \textbf{RAnalyticFlow} window. This will open the
+data-analysis workflow which will be shown in the workflow viewer /
+editor window of the \textbf{RAnalyticFlow} window.
+
+Once you have opened the workflow you need to initialise it (i.e.~load
+libraries, useful analysis function, and initialise the workspace for a
+new analysis):
+
+\begin{figure}
+
+{\centering \includegraphics[width=10.12in]{figures/runWorkflowRAF} 
+
+}
+
+\caption{Run an RAnalyticFlow workflow}\label{fig:raf4}
+\end{figure}
+
+Once this is done, you should:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Retrieve your survey data. This can be in EpiDat (REC) format or CSV
+  format. Select and run the appropriate \textbf{Survey Data} node and
+  select the survey data file.
+\item
+  Retrieve the PSU date data. Select and run the \textbf{PSU Data} node
+  and select your PSU file.
+\item
+  Produce the survey report and graphics. Select and run the
+  \textbf{Report} node. This will take some time to complete because the
+  analysis uses computer intensive techniques to make best use of the
+  available data. The Report node/icon will have black lines around it
+  has completed running the report.
+\end{enumerate}
+
+\hypertarget{conclusion}{%
+\chapter{Conclusion}\label{conclusion}}
+
+We live in an ageing world, where people aged 60 or over will be 2
+billion or about 22\% of the world's population by 2050.
+
+Currently, two in three people aged 60 years or older live in developing
+countries. By 2050, nearly four in five older people will be living in
+the developing world.
+
+The changing demographics of ageing combined with the increasing number
+of disasters will exert a disproportionate impact on the world's oldest
+and poorest.
+
+In this context, identifying the needs of older people as accurately as
+possible is a necessity. More and more donors and UN agencies are now
+willing to include older people in their programmes. Age markers, to
+complement gender markers, will be disseminated very soon
+
+RAM-OP is offering a fast, robust, reliable, tested and user-friendly
+way of assessing the needs of older people. It can be used in
+humanitarian situations as well as in development contexts. The modular
+structure of RAM-OP allows for adaptations, making it exhaustive or
+limited to essential indicators according to the immediate needs.
+
+As more organisations start to use it, RAM-OP will evolve and improve.
+New versions of RAM-OP can be created (for example, RAM-OP for refugee
+or displaced people camps). We wish that a greater number of actors will
+start using RAM-OP and make it their own.
+
+\bibliography{book.bib}
+
+
+\end{document}

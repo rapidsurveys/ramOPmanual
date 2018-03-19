@@ -1,0 +1,15 @@
+# The RAM-OP sample {#sampling}
+
+RAM-OP uses a two-stage sample:
+
+**First stage sample:** A sample of communities (e.g. villages or city-blocks) in the survey area is
+taken. A sampled community is also called a primary sampling unit (PSU).
+
+**Second stage sample:** Domestic dwellings are sampled from within the communities selected in the
+first stage sample. All eligible individuals in the sampled dwelling are included in the sample.
+
+## The first-stage sample
+
+The first stage sample is a systematic spatial sample. Two methods can be used and both methods take the sample from all parts of the survey area:
+
+**List-based method:** Communities to be sampled are selected systematically from a complete list of communities in the survey area. This list of communities is sorted by one or more non-overlapping spatial factors such as district and subdistricts within districts:

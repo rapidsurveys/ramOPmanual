@@ -1,0 +1,19 @@
+bookdown::gitbook:
+  highlight: tango
+  css: style.css
+  fig_caption: yes
+  config:
+    toc:
+      before: |
+        <li><a href="./">RAM-OP</a></li>
+      after: |
+        <li></li>
+    download: ["pdf", "epub"]
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+  latex_engine: xelatex
+  citation_package: natbib
+  keep_tex: yes
+  fig_caption: yes
+bookdown::epub_book: default
