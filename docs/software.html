@@ -122,8 +122,14 @@ code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Infor
 
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
-<li class="chapter" data-level="2" data-path="sampling.html"><a href="sampling.html"><i class="fa fa-check"></i><b>2</b> The RAM-OP sample</a><ul>
-<li class="chapter" data-level="2.1" data-path="sampling.html"><a href="sampling.html#the-first-stage-sample"><i class="fa fa-check"></i><b>2.1</b> The first-stage sample</a></li>
+<li class="chapter" data-level="2" data-path="sampling.html"><a href="sampling.html"><i class="fa fa-check"></i><b>2</b> Sampling</a><ul>
+<li class="chapter" data-level="2.1" data-path="sampling.html"><a href="sampling.html#the-ram-op-sample"><i class="fa fa-check"></i><b>2.1</b> The RAM-OP sample</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="sampling.html"><a href="sampling.html#the-first-stage-sample"><i class="fa fa-check"></i><b>2.1.1</b> The first-stage sample</a></li>
+<li class="chapter" data-level="2.1.2" data-path="sampling.html"><a href="sampling.html#the-second-stage-sample"><i class="fa fa-check"></i><b>2.1.2</b> The second stage sample</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="sampling.html"><a href="sampling.html#implicit-stratification"><i class="fa fa-check"></i><b>2.2</b> Implicit stratification</a></li>
+<li class="chapter" data-level="2.3" data-path="sampling.html"><a href="sampling.html#ram-op-survey-sample-size"><i class="fa fa-check"></i><b>2.3</b> RAM-OP survey sample size</a></li>
+<li class="chapter" data-level="2.4" data-path="sampling.html"><a href="sampling.html#ram-op-survey-sample-size-1"><i class="fa fa-check"></i><b>2.4</b> RAM-OP survey sample size</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="indicators.html"><a href="indicators.html"><i class="fa fa-check"></i><b>3</b> Indicators</a></li>
 <li class="chapter" data-level="4" data-path="the-ram-op-questionnaire.html"><a href="the-ram-op-questionnaire.html"><i class="fa fa-check"></i><b>4</b> The RAM-OP questionnaire</a></li>
@@ -325,6 +331,19 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>
