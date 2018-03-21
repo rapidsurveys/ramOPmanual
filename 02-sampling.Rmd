@@ -144,9 +144,9 @@ If this is below about 20 people then you should consider how you will collect t
 
 * **Relax the eligibility criteria:** You may decide to define older people as “persons aged 50 years or older” or “persons aged 55 years or older”. This may double the size of the eligible population and make the sample easier to collect. This approach is only reasonable if life-expectancy is low.
 
-* **Increase the number of communities that you plan to sample:** You may choose to collect your sample as n = 7 eligible subjects sampled from m = 30 communities giving an expected overall sample size of n = 210. This would be a very good sample. The disadvantage of this approach is that survey costs increase with the number of communities that are sampled, because a lot of survey time and vehicle costs are spent on travelling to and from the selected communities.
+* **Increase the number of communities that you plan to sample:** You may choose to collect your sample as $n = 7$ eligible subjects sampled from $m = 30$ communities giving an expected overall sample size of $n = 210$. This would be a very good sample. The disadvantage of this approach is that survey costs increase with the number of communities that are sampled, because a lot of survey time and vehicle costs are spent on travelling to and from the selected communities.
 
-* **Take a “top-up” sample only when you need to:** The basic procedure when a selected community is small and likely to contain fewer than n = 12 older people is to collect data on all older people in the selected community using a door-to-door census. If the within-community sample size is much smaller than the required one then a “top-up” sample is taken from the nearest neighbouring community using the map-segment-sample method (or a door-to-door census if this community is also small). The advantage of this approach is that travelling time and survey costs are better controlled.
+* **Take a “top-up” sample only when you need to:** The basic procedure when a selected community is small and likely to contain fewer than $n = 12$ older people is to collect data on all older people in the selected community using a door-to-door census. If the within-community sample size is much smaller than the required one then a “top-up” sample is taken from the nearest neighbouring community using the map-segment-sample method (or a door-to-door census if this community is also small). The advantage of this approach is that travelling time and survey costs are better controlled.
 
 If the proportion of older people is not very small and / or communities are large then you should have no problems achieving the overall sample size.
 
@@ -237,4 +237,35 @@ Here is an example of a cluster of dwellings:
 knitr::include_graphics("figures/stage2sample2.png")
 ```
 
+**Segment:** Divide the community into ribbon and cluster segments defined by the physical layout of the community being sampled.
 
+**Sample:** Ribbons and clusters are sampled in different ways:
+
+* **Ribbons** are sampled using **systematic sampling**.
+* **Clusters** are sampled using a **random walk** method.
+
+**Note:** If a small community is selected that is likely to have fewer than the required number of eligible persons then **all** eligible persons in that community are sampled by moving door-to-door.
+
+## Mapping the community - single and multiple clusters
+
+Some communities consist of a single cluster of dwellings:
+
+```{r sample12, echo = FALSE, fig.cap = "Example of a cluster of dwellings", fig.align = "center", fig.retina = 1}
+knitr::include_graphics("figures/stage2sample2.png")
+```
+
+or a set of clusters of dwellings:
+
+```{r sample13, echo = FALSE, fig.cap = "Example of a set of clusters of dwellings", fig.align = "center", fig.retina = 1}
+knitr::include_graphics("figures/stage2sample3.png")
+```
+
+For communities (or parts of communities) structured in this way we use a sampling method called the **random walk**.
+
+### Mapping the community - ribbon communities
+
+Ribbon communities have dwellings arranged in a line:
+
+or in a several lines:
+
+For communities (or parts of communities) structured in this way we use a sampling method called **systematic sampling**.
