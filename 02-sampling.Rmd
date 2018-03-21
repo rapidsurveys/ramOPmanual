@@ -270,3 +270,95 @@ knitr::include_graphics("figures/stage2sample5.png")
 For mixed communities we use a mixture of the **random walk** method (in the clusters) and **systematic sampling** (along the ribbons).
 
 **Segmentation** involves dividing a community into several parts and taking part of the within-community sample from each **segment**. With simple communities, segmentation is not required and we take a single sample from the entire community using the appropriate sampling method.
+
+### Segmentation
+
+For more complicated communities we divide the community into several parts or segments, such as a community made up of several clusters:
+
+
+or a community made up of several ribbons:
+
+
+or a mixed community:
+
+
+We take a small sample from each segment using the appropriate sampling method.
+
+For example, with a community made up of three segments:
+
+
+
+
+we would take one third of the overall sample from each segment.
+
+If the within-community sample size is twelve eligible subjects. we would sample four eligible subjects from each segment (i.e. $12 / 3 = 4$).
+
+Dividing the sample up in this way means that we will sample from every part of the community rather than just one part of the community.
+
+When taking the sample we use the random walk method to take part of the sample from clusters and the systematic sampling method to take part of the sample from ribbons.
+
+Segments should be either ribbons or clusters but should **never** contain both a ribbon and a cluster. This is because clusters and ribbons are sampled in different ways.
+
+A dwelling can only belong to one segment. Segments should **not** overlap.
+
+
+### Sample dwellings
+
+**All** segments should be sampled.
+
+If, for example, there are five segments in a community:
+
+and the within-community sample size is twelve eligible subjects, then you would plan to sample two eligible subjects from each segment (i.e. $12 / 5 = 2.4$ **rounded down** to two) and, if necessary, return to the **largest** segment to complete the sample.
+
+**All** segments should be sampled, even if this means that you take a larger sample than you expected to. 
+
+Remember that different types of segment are sampled in different ways:
+
+* Dwellings in **cluster segments** are sampled using a method called the **random walk**. This involves sampling houses by walking in random directions within the cluster.
+
+* Dwellings in **ribbon segments** are sampled using a method called **systematic sampling**. This involves sampling houses at regular intervals along the ribbon.
+
+We will look at each of these sampling methods in turn.
+
+
+### Random walk sampling
+
+The **random walk** method is used to sample dwellings in **cluster segments**. Sampling proceeds as follows:
+
+1. Move to the approximate centre of the cluster.
+
+2. Select a **random direction** by spinning a bottle on the ground. The neck indicates the **sampling direction**. This is the direction you should walk in order to sample a dwelling. Walk in the sampling direction counting the dwellings that you pass. Sample the third **dwelling**. If there are no eligible persons in the selected dwelling then sample the **nearest** dwelling with an eligible person. Sample **all** eligible persons in the selected dwelling.
+
+3. Apply the survey questionnaire for **all** eligible persons in the selected dwelling.
+
+4. Select the next dwelling to sample by spinning a bottle and walking in the indicated direction. Count the dwellings you pass. Sample the **third** dwelling. If there are no eligible persons in the selected dwelling then sample the **nearest** dwelling with an eligible person. Sample all eligible persons in the selected dwelling. If you reach the edge of the cluster segment then return to the centre of the cluster and repeat step (2) above. Remember to keep count of the number of eligible persons sampled from the segment.
+
+5. Stop sampling in the segment when you have sampled the required number of eligible persons from the segment. Since you sample **all** eligible persons in a selected dwelling, you may sample a few more eligible persons than expected. This is OK. Always sample **all** eligible persons in a selected dwelling.
+
+If, when you have sampled all segments, you have not sampled twelve eligible persons, you should return to the **largest** segment to finish sampling using the appropriate sampling method.
+
+The random walk method is illustrated in Figure 5.
+
+
+### Systematic sampling
+
+The **systematic sampling** method is used to sample houses in **ribbon segments**. 
+
+Sampling proceeds as follows:
+
+1. Move to one end of the ribbon segment.
+
+2. Walk to the other end of the segment counting the houses that you pass.
+
+3. Calculate the **step size** by dividing the number of dwellings in the segment by the required sample size for the segment. Use the **whole number** part of the result only. Do **not** round up.
+
+4. Pick a random number between one and the step size. This is your **starting point**. Select the first dwelling to sample by walking along the segment counting the dwellings that you pass and sample the dwelling indicated by the **starting point**. If there are no eligible persons in the selected dwelling then sample the **nearest** dwelling in any direction with an eligible person. Sample **all** eligible persons in the selected dwelling.
+
+5. Select the next dwelling to sample by walking along the segment. Count the dwellings that you pass. Sample the dwelling indicated by the **step size**. If there are no eligible persons in the selected dwelling then sample the **nearest** dwelling in any direction with an eligible person. Sample **all** eligible persons in the selected dwelling.
+
+6. Stop sampling in the segment when you reach the end of the ribbon segment. This may mean that you sample extra eligible persons. This is OK. Do **not** stop sampling from a ribbon until you reach the end of the ribbon.
+
+If, when you have sampled all segments, you have not sampled twelve eligible persons, you should return to the **largest** segment to finish sampling using the appropriate sampling method.
+
+The systematic sampling method is illustrated in Figure 6.
+
