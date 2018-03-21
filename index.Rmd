@@ -1,14 +1,14 @@
 --- 
-title: "A Guide to Implementing Nutrition and Food Security Surveys"
-author: ""
-date: "05/03/2018"
+title: "Rapid Assessment Method for Older People (RAM-OP): The Manual"
+author: "Pascale Fritsch, Ernest Guevarra, Katja Siling, Mark Myatt"
+date: "21/12/2015"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: ["book.bib"]
 biblio-style: "apalike"
 link-citations: TRUE
 fontsize: 12pt
-description: ""
+description: "Rapid assessment method for older people (RAM-OP) manual"
 ---
 
 # Introduction
