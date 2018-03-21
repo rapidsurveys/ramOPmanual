@@ -48,61 +48,6 @@
 
 
 
-<style type="text/css">
-a.sourceLine { display: inline-block; min-height: 1.25em; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; }
-@media print {
-code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
-}
-pre.numberSource a.sourceLine
-  { position: relative; }
-pre.numberSource a.sourceLine::before
-  { content: attr(data-line-number);
-    position: absolute; left: -5em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-pre, code { background-color: #f8f8f8; }
-@media screen {
-a.sourceLine::before { text-decoration: underline; color: initial; }
-}
-code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
-code span.dt { color: #204a87; } /* DataType */
-code span.dv { color: #0000cf; } /* DecVal */
-code span.bn { color: #0000cf; } /* BaseN */
-code span.fl { color: #0000cf; } /* Float */
-code span.ch { color: #4e9a06; } /* Char */
-code span.st { color: #4e9a06; } /* String */
-code span.co { color: #8f5902; font-style: italic; } /* Comment */
-code span.ot { color: #8f5902; } /* Other */
-code span.al { color: #ef2929; } /* Alert */
-code span.fu { color: #000000; } /* Function */
-code span.er { color: #a40000; font-weight: bold; } /* Error */
-code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
-code span.cn { color: #000000; } /* Constant */
-code span.sc { color: #000000; } /* SpecialChar */
-code span.vs { color: #4e9a06; } /* VerbatimString */
-code span.ss { color: #4e9a06; } /* SpecialString */
-code span.im { } /* Import */
-code span.va { color: #000000; } /* Variable */
-code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
-code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
-code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
-code span.ex { } /* Extension */
-code span.at { color: #c4a000; } /* Attribute */
-code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
-code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
-code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
-</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -135,6 +80,9 @@ code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Infor
 <li class="chapter" data-level="2.7.1" data-path="sampling.html"><a href="sampling.html#the-first-stage-sample---list-based-sampling"><i class="fa fa-check"></i><b>2.7.1</b> The first stage sample - list-based sampling</a></li>
 <li class="chapter" data-level="2.7.2" data-path="sampling.html"><a href="sampling.html#the-first-stage-sample---map-based-sampling"><i class="fa fa-check"></i><b>2.7.2</b> The first stage sample - map-based sampling</a></li>
 <li class="chapter" data-level="2.7.3" data-path="sampling.html"><a href="sampling.html#the-second-stage-within-community-sample"><i class="fa fa-check"></i><b>2.7.3</b> The second stage (within-community) sample</a></li>
+</ul></li>
+<li class="chapter" data-level="2.8" data-path="sampling.html"><a href="sampling.html#mapping-the-community---single-and-multiple-clusters"><i class="fa fa-check"></i><b>2.8</b> Mapping the community - single and multiple clusters</a><ul>
+<li class="chapter" data-level="2.8.1" data-path="sampling.html"><a href="sampling.html#mapping-the-community---ribbon-communities"><i class="fa fa-check"></i><b>2.8.1</b> Mapping the community - ribbon communities</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="indicators.html"><a href="indicators.html"><i class="fa fa-check"></i><b>3</b> Indicators</a></li>
@@ -273,8 +221,8 @@ aged 50 years or older” or “persons aged 55 years or older”.</p>
 <p>If this is below about 20 people then you should consider how you will collect the required overall sample size. Three approaches may be used:</p>
 <ul>
 <li><p><strong>Relax the eligibility criteria:</strong> You may decide to define older people as “persons aged 50 years or older” or “persons aged 55 years or older”. This may double the size of the eligible population and make the sample easier to collect. This approach is only reasonable if life-expectancy is low.</p></li>
-<li><p><strong>Increase the number of communities that you plan to sample:</strong> You may choose to collect your sample as n = 7 eligible subjects sampled from m = 30 communities giving an expected overall sample size of n = 210. This would be a very good sample. The disadvantage of this approach is that survey costs increase with the number of communities that are sampled, because a lot of survey time and vehicle costs are spent on travelling to and from the selected communities.</p></li>
-<li><p><strong>Take a “top-up” sample only when you need to:</strong> The basic procedure when a selected community is small and likely to contain fewer than n = 12 older people is to collect data on all older people in the selected community using a door-to-door census. If the within-community sample size is much smaller than the required one then a “top-up” sample is taken from the nearest neighbouring community using the map-segment-sample method (or a door-to-door census if this community is also small). The advantage of this approach is that travelling time and survey costs are better controlled.</p></li>
+<li><p><strong>Increase the number of communities that you plan to sample:</strong> You may choose to collect your sample as <span class="math inline">\(n = 7\)</span> eligible subjects sampled from <span class="math inline">\(m = 30\)</span> communities giving an expected overall sample size of <span class="math inline">\(n = 210\)</span>. This would be a very good sample. The disadvantage of this approach is that survey costs increase with the number of communities that are sampled, because a lot of survey time and vehicle costs are spent on travelling to and from the selected communities.</p></li>
+<li><p><strong>Take a “top-up” sample only when you need to:</strong> The basic procedure when a selected community is small and likely to contain fewer than <span class="math inline">\(n = 12\)</span> older people is to collect data on all older people in the selected community using a door-to-door census. If the within-community sample size is much smaller than the required one then a “top-up” sample is taken from the nearest neighbouring community using the map-segment-sample method (or a door-to-door census if this community is also small). The advantage of this approach is that travelling time and survey costs are better controlled.</p></li>
 </ul>
 <p>If the proportion of older people is not very small and / or communities are large then you should have no problems achieving the overall sample size.</p>
 </div>
@@ -358,6 +306,37 @@ Figure 2.10: Example of a ribbon of dwellings
 Figure 2.11: Example of a cluster of dwellings
 </p>
 </div>
+<p><strong>Segment:</strong> Divide the community into ribbon and cluster segments defined by the physical layout of the community being sampled.</p>
+<p><strong>Sample:</strong> Ribbons and clusters are sampled in different ways:</p>
+<ul>
+<li><strong>Ribbons</strong> are sampled using <strong>systematic sampling</strong>.</li>
+<li><strong>Clusters</strong> are sampled using a <strong>random walk</strong> method.</li>
+</ul>
+<p><strong>Note:</strong> If a small community is selected that is likely to have fewer than the required number of eligible persons then <strong>all</strong> eligible persons in that community are sampled by moving door-to-door.</p>
+</div>
+</div>
+<div id="mapping-the-community---single-and-multiple-clusters" class="section level2">
+<h2><span class="header-section-number">2.8</span> Mapping the community - single and multiple clusters</h2>
+<p>Some communities consist of a single cluster of dwellings:</p>
+<div class="figure" style="text-align: center"><span id="fig:sample12"></span>
+<img src="figures/stage2sample2.png" alt="Example of a cluster of dwellings" width="700" />
+<p class="caption">
+Figure 2.12: Example of a cluster of dwellings
+</p>
+</div>
+<p>or a set of clusters of dwellings:</p>
+<div class="figure" style="text-align: center"><span id="fig:sample13"></span>
+<img src="figures/stage2sample3.png" alt="Example of a set of clusters of dwellings" width="700" />
+<p class="caption">
+Figure 2.13: Example of a set of clusters of dwellings
+</p>
+</div>
+<p>For communities (or parts of communities) structured in this way we use a sampling method called the <strong>random walk</strong>.</p>
+<div id="mapping-the-community---ribbon-communities" class="section level3">
+<h3><span class="header-section-number">2.8.1</span> Mapping the community - ribbon communities</h3>
+<p>Ribbon communities have dwellings arranged in a line:</p>
+<p>or in a several lines:</p>
+<p>For communities (or parts of communities) structured in this way we use a sampling method called <strong>systematic sampling</strong>.</p>
 
 </div>
 </div>
