@@ -17,13 +17,9 @@ The first stage sample is a systematic spatial sample. Two methods can be used a
 
 **List-based method:** Communities to be sampled are selected systematically from a complete list of communities in the survey area. This list of communities is sorted by one or more non-overlapping spatial factors such as district and subdistricts within districts:
 
-&nbsp;
-
 ```{r sample1, echo = FALSE, fig.cap = "Communities listing by district and sub-district", fig.align = "center", fig.retina = 1}
 knitr::include_graphics("figures/listSample1.png")
 ```
-
-&nbsp;
 
 **Map-based method:** Communities to be sampled are selected from the centres of the squares of a grid drawn over a map. The map must be sufficiently well made and of sufficiently large scale to show the position of every community in the survey area. This type of sample is known as a centric systematic area sample and is often referred to as a CSAS sample.
 
@@ -55,15 +51,12 @@ The use of implicit stratification improves the efficiency of a two-stage cluste
 
 The following shorthand symbols will be used when describing sample designs:
 
-&nbsp;
-
 $m = \text{Number of primary sampling units (PSUs).}$
 
-$n = \text{Size of the sample of individuals or households from a PSU. May also mean the overall survey sample size (this meaning will be made clear in the text).}$
+$n = \text{Size of the sample of individuals or households from a PSU.}$
+$n = \text{May also mean the overall survey sample size (this meaning will be made clear in the text).}$
 
 $N = \text{Population}$
-
-&nbsp;
 
 The overall sample size for a RAM-OP survey is about $n = 192$ individual subjects. You should aim to collect
 an overall sample of at least $n = 192$ individuals. 
@@ -76,11 +69,7 @@ the communities selected for inclusion in the first stage sample.
 
 The overall sample size from $m = 16$ communities and $n = 12$ eligible subjects is about:
 
-&nbsp;
-
 $$ \text{overall sample size} ~ \approx ~ m ~ \times ~ n ~ \approx ~ 16 ~ \times ~ 12 ~ \approx ~ 192 $$
-
-&nbsp;
 
 It is not recommended that fewer than $m = 16$ communities are sampled.
 
@@ -93,13 +82,9 @@ Do not be tempted to increase the size of the within-community sample in order t
 
 Here, for example, is a *population pyramid* for a typical developing country:
 
-&nbsp;
-
 ```{r sample2, echo = FALSE, fig.cap = "Population pyramid for a typical developing country", fig.align = "center", fig.retina = 1}
 knitr::include_graphics("figures/popPyramid1.png")
 ```
-
-&nbsp;
 
 If the average community population is $N = 300$ then there will be fewer than 15 people aged 60 years and older in about half of the selected communities. This is because about half of the selected communities are likely to have a population below the average population.
 
@@ -134,11 +119,7 @@ The overall sample size for a RAM-OP sample should be at least $n = 192$ usually
 
 You can calculate the number of older people that you would expect to be living in a community of average size using the following formula:
 
-&nbsp;
-
-$$ n_{\text{aged 60+ in an average village}} = \text{average village population}_{\text{all ages}} \times \frac{\text{percentage of population}_{\text{aged 60+}}}{100} $$
-
-&nbsp;
+$$ n_{\text{aged 60+ in an average village}} ~ = ~ \text{average village population}_{\text{all ages}} ~ \times ~ \frac{\text{percentage of population}_{\text{aged 60+}}}{100} $$
 
 If this is below about 20 people then you should consider how you will collect the required overall sample size. Three approaches may be used:
 
@@ -266,6 +247,26 @@ For communities (or parts of communities) structured in this way we use a sampli
 
 Ribbon communities have dwellings arranged in a line:
 
+```{r sample14, echo = FALSE, fig.cap = "Dwellings arranged in a line", fig.align = "center", fig.retina = 1}
+knitr::include_graphics("figures/stage2sample1.png")
+```
+
 or in a several lines:
 
+```{r sample15, echo = FALSE, fig.cap = "Dwellings arranged in several lines", fig.align = "center", fig.retina = 1}
+knitr::include_graphics("figures/stage2sample4.png")
+```
+
 For communities (or parts of communities) structured in this way we use a sampling method called **systematic sampling**.
+
+### Mapping the community - mixed communities
+
+Some communities are a mixture of clusters and ribbons:
+
+```{r sample16, echo = FALSE, fig.cap = "Mixture of clusters and ribbons", fig.align = "center", fig.retina = 1}
+knitr::include_graphics("figures/stage2sample5.png")
+```
+
+For mixed communities we use a mixture of the **random walk** method (in the clusters) and **systematic sampling** (along the ribbons).
+
+**Segmentation** involves dividing a community into several parts and taking part of the within-community sample from each **segment**. With simple communities, segmentation is not required and we take a single sample from the entire community using the appropriate sampling method.
