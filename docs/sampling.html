@@ -48,6 +48,61 @@
 
 
 
+<style type="text/css">
+a.sourceLine { display: inline-block; min-height: 1.25em; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; }
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: absolute; left: -5em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+pre, code { background-color: #f8f8f8; }
+@media screen {
+a.sourceLine::before { text-decoration: underline; color: initial; }
+}
+code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code span.dt { color: #204a87; } /* DataType */
+code span.dv { color: #0000cf; } /* DecVal */
+code span.bn { color: #0000cf; } /* BaseN */
+code span.fl { color: #0000cf; } /* Float */
+code span.ch { color: #4e9a06; } /* Char */
+code span.st { color: #4e9a06; } /* String */
+code span.co { color: #8f5902; font-style: italic; } /* Comment */
+code span.ot { color: #8f5902; } /* Other */
+code span.al { color: #ef2929; } /* Alert */
+code span.fu { color: #000000; } /* Function */
+code span.er { color: #a40000; font-weight: bold; } /* Error */
+code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+code span.cn { color: #000000; } /* Constant */
+code span.sc { color: #000000; } /* SpecialChar */
+code span.vs { color: #4e9a06; } /* VerbatimString */
+code span.ss { color: #4e9a06; } /* SpecialString */
+code span.im { } /* Import */
+code span.va { color: #000000; } /* Variable */
+code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code span.ex { } /* Extension */
+code span.at { color: #c4a000; } /* Attribute */
+code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -84,6 +139,10 @@
 <li class="chapter" data-level="2.8" data-path="sampling.html"><a href="sampling.html#mapping-the-community---single-and-multiple-clusters"><i class="fa fa-check"></i><b>2.8</b> Mapping the community - single and multiple clusters</a><ul>
 <li class="chapter" data-level="2.8.1" data-path="sampling.html"><a href="sampling.html#mapping-the-community---ribbon-communities"><i class="fa fa-check"></i><b>2.8.1</b> Mapping the community - ribbon communities</a></li>
 <li class="chapter" data-level="2.8.2" data-path="sampling.html"><a href="sampling.html#mapping-the-community---mixed-communities"><i class="fa fa-check"></i><b>2.8.2</b> Mapping the community - mixed communities</a></li>
+<li class="chapter" data-level="2.8.3" data-path="sampling.html"><a href="sampling.html#segmentation"><i class="fa fa-check"></i><b>2.8.3</b> Segmentation</a></li>
+<li class="chapter" data-level="2.8.4" data-path="sampling.html"><a href="sampling.html#sample-dwellings"><i class="fa fa-check"></i><b>2.8.4</b> Sample dwellings</a></li>
+<li class="chapter" data-level="2.8.5" data-path="sampling.html"><a href="sampling.html#random-walk-sampling"><i class="fa fa-check"></i><b>2.8.5</b> Random walk sampling</a></li>
+<li class="chapter" data-level="2.8.6" data-path="sampling.html"><a href="sampling.html#systematic-sampling"><i class="fa fa-check"></i><b>2.8.6</b> Systematic sampling</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="indicators.html"><a href="indicators.html"><i class="fa fa-check"></i><b>3</b> Indicators</a></li>
@@ -353,6 +412,61 @@ Figure 2.16: Mixture of clusters and ribbons
 </div>
 <p>For mixed communities we use a mixture of the <strong>random walk</strong> method (in the clusters) and <strong>systematic sampling</strong> (along the ribbons).</p>
 <p><strong>Segmentation</strong> involves dividing a community into several parts and taking part of the within-community sample from each <strong>segment</strong>. With simple communities, segmentation is not required and we take a single sample from the entire community using the appropriate sampling method.</p>
+</div>
+<div id="segmentation" class="section level3">
+<h3><span class="header-section-number">2.8.3</span> Segmentation</h3>
+<p>For more complicated communities we divide the community into several parts or segments, such as a community made up of several clusters:</p>
+<p>or a community made up of several ribbons:</p>
+<p>or a mixed community:</p>
+<p>We take a small sample from each segment using the appropriate sampling method.</p>
+<p>For example, with a community made up of three segments:</p>
+<p>we would take one third of the overall sample from each segment.</p>
+<p>If the within-community sample size is twelve eligible subjects. we would sample four eligible subjects from each segment (i.e. <span class="math inline">\(12 / 3 = 4\)</span>).</p>
+<p>Dividing the sample up in this way means that we will sample from every part of the community rather than just one part of the community.</p>
+<p>When taking the sample we use the random walk method to take part of the sample from clusters and the systematic sampling method to take part of the sample from ribbons.</p>
+<p>Segments should be either ribbons or clusters but should <strong>never</strong> contain both a ribbon and a cluster. This is because clusters and ribbons are sampled in different ways.</p>
+<p>A dwelling can only belong to one segment. Segments should <strong>not</strong> overlap.</p>
+</div>
+<div id="sample-dwellings" class="section level3">
+<h3><span class="header-section-number">2.8.4</span> Sample dwellings</h3>
+<p><strong>All</strong> segments should be sampled.</p>
+<p>If, for example, there are five segments in a community:</p>
+<p>and the within-community sample size is twelve eligible subjects, then you would plan to sample two eligible subjects from each segment (i.e. <span class="math inline">\(12 / 5 = 2.4\)</span> <strong>rounded down</strong> to two) and, if necessary, return to the <strong>largest</strong> segment to complete the sample.</p>
+<p><strong>All</strong> segments should be sampled, even if this means that you take a larger sample than you expected to.</p>
+<p>Remember that different types of segment are sampled in different ways:</p>
+<ul>
+<li><p>Dwellings in <strong>cluster segments</strong> are sampled using a method called the <strong>random walk</strong>. This involves sampling houses by walking in random directions within the cluster.</p></li>
+<li><p>Dwellings in <strong>ribbon segments</strong> are sampled using a method called <strong>systematic sampling</strong>. This involves sampling houses at regular intervals along the ribbon.</p></li>
+</ul>
+<p>We will look at each of these sampling methods in turn.</p>
+</div>
+<div id="random-walk-sampling" class="section level3">
+<h3><span class="header-section-number">2.8.5</span> Random walk sampling</h3>
+<p>The <strong>random walk</strong> method is used to sample dwellings in <strong>cluster segments</strong>. Sampling proceeds as follows:</p>
+<ol style="list-style-type: decimal">
+<li><p>Move to the approximate centre of the cluster.</p></li>
+<li><p>Select a <strong>random direction</strong> by spinning a bottle on the ground. The neck indicates the <strong>sampling direction</strong>. This is the direction you should walk in order to sample a dwelling. Walk in the sampling direction counting the dwellings that you pass. Sample the third <strong>dwelling</strong>. If there are no eligible persons in the selected dwelling then sample the <strong>nearest</strong> dwelling with an eligible person. Sample <strong>all</strong> eligible persons in the selected dwelling.</p></li>
+<li><p>Apply the survey questionnaire for <strong>all</strong> eligible persons in the selected dwelling.</p></li>
+<li><p>Select the next dwelling to sample by spinning a bottle and walking in the indicated direction. Count the dwellings you pass. Sample the <strong>third</strong> dwelling. If there are no eligible persons in the selected dwelling then sample the <strong>nearest</strong> dwelling with an eligible person. Sample all eligible persons in the selected dwelling. If you reach the edge of the cluster segment then return to the centre of the cluster and repeat step (2) above. Remember to keep count of the number of eligible persons sampled from the segment.</p></li>
+<li><p>Stop sampling in the segment when you have sampled the required number of eligible persons from the segment. Since you sample <strong>all</strong> eligible persons in a selected dwelling, you may sample a few more eligible persons than expected. This is OK. Always sample <strong>all</strong> eligible persons in a selected dwelling.</p></li>
+</ol>
+<p>If, when you have sampled all segments, you have not sampled twelve eligible persons, you should return to the <strong>largest</strong> segment to finish sampling using the appropriate sampling method.</p>
+<p>The random walk method is illustrated in Figure 5.</p>
+</div>
+<div id="systematic-sampling" class="section level3">
+<h3><span class="header-section-number">2.8.6</span> Systematic sampling</h3>
+<p>The <strong>systematic sampling</strong> method is used to sample houses in <strong>ribbon segments</strong>.</p>
+<p>Sampling proceeds as follows:</p>
+<ol style="list-style-type: decimal">
+<li><p>Move to one end of the ribbon segment.</p></li>
+<li><p>Walk to the other end of the segment counting the houses that you pass.</p></li>
+<li><p>Calculate the <strong>step size</strong> by dividing the number of dwellings in the segment by the required sample size for the segment. Use the <strong>whole number</strong> part of the result only. Do <strong>not</strong> round up.</p></li>
+<li><p>Pick a random number between one and the step size. This is your <strong>starting point</strong>. Select the first dwelling to sample by walking along the segment counting the dwellings that you pass and sample the dwelling indicated by the <strong>starting point</strong>. If there are no eligible persons in the selected dwelling then sample the <strong>nearest</strong> dwelling in any direction with an eligible person. Sample <strong>all</strong> eligible persons in the selected dwelling.</p></li>
+<li><p>Select the next dwelling to sample by walking along the segment. Count the dwellings that you pass. Sample the dwelling indicated by the <strong>step size</strong>. If there are no eligible persons in the selected dwelling then sample the <strong>nearest</strong> dwelling in any direction with an eligible person. Sample <strong>all</strong> eligible persons in the selected dwelling.</p></li>
+<li><p>Stop sampling in the segment when you reach the end of the ribbon segment. This may mean that you sample extra eligible persons. This is OK. Do <strong>not</strong> stop sampling from a ribbon until you reach the end of the ribbon.</p></li>
+</ol>
+<p>If, when you have sampled all segments, you have not sampled twelve eligible persons, you should return to the <strong>largest</strong> segment to finish sampling using the appropriate sampling method.</p>
+<p>The systematic sampling method is illustrated in Figure 6.</p>
 
 </div>
 </div>
