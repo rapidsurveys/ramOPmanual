@@ -48,61 +48,6 @@
 
 
 
-<style type="text/css">
-a.sourceLine { display: inline-block; min-height: 1.25em; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; }
-@media print {
-code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
-}
-pre.numberSource a.sourceLine
-  { position: relative; }
-pre.numberSource a.sourceLine::before
-  { content: attr(data-line-number);
-    position: absolute; left: -5em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-pre, code { background-color: #f8f8f8; }
-@media screen {
-a.sourceLine::before { text-decoration: underline; color: initial; }
-}
-code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
-code span.dt { color: #204a87; } /* DataType */
-code span.dv { color: #0000cf; } /* DecVal */
-code span.bn { color: #0000cf; } /* BaseN */
-code span.fl { color: #0000cf; } /* Float */
-code span.ch { color: #4e9a06; } /* Char */
-code span.st { color: #4e9a06; } /* String */
-code span.co { color: #8f5902; font-style: italic; } /* Comment */
-code span.ot { color: #8f5902; } /* Other */
-code span.al { color: #ef2929; } /* Alert */
-code span.fu { color: #000000; } /* Function */
-code span.er { color: #a40000; font-weight: bold; } /* Error */
-code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
-code span.cn { color: #000000; } /* Constant */
-code span.sc { color: #000000; } /* SpecialChar */
-code span.vs { color: #4e9a06; } /* VerbatimString */
-code span.ss { color: #4e9a06; } /* SpecialString */
-code span.im { } /* Import */
-code span.va { color: #000000; } /* Variable */
-code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
-code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
-code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
-code span.ex { } /* Extension */
-code span.at { color: #c4a000; } /* Attribute */
-code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
-code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
-code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
-</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -199,6 +144,7 @@ Figure 2.1: Communities listing by district and sub-district
 <div id="the-second-stage-sample" class="section level3">
 <h3><span class="header-section-number">2.1.2</span> The second stage sample</h3>
 <p>The second stage within-community sample uses a method called map-segment-sample. This method takes the within-community sample from all parts of a sampled community.</p>
+
 </div>
 </div>
 <div id="implicit-stratification" class="section level2">
@@ -213,13 +159,14 @@ spatial factor such as districts and subdistricts within districts.</p></li>
 </ul>
 <p>These sampling procedures provide implicit stratification and tend to spread the sample properly among important sub-groups of the population such as rural / urban / peri-urban populations, administrative areas, ethnic sub-populations, religious sub-populations, and socio-economic groups. This often improves the precision of estimates made from survey data.</p>
 <p>The use of implicit stratification improves the efficiency of a two-stage cluster sample and allows RAM-OP to use relatively small sample sizes compared to other methods, such as SMART surveys. The use of modern computer-intensive data analysis techniques also allows RAM-OP to make better use of the available sample than is done in other methods.</p>
+
 </div>
 <div id="ram-op-survey-sample-size" class="section level2">
 <h2><span class="header-section-number">2.3</span> RAM-OP survey sample size</h2>
 <p>The following shorthand symbols will be used when describing sample designs:</p>
 <p><span class="math inline">\(m = \text{Number of primary sampling units (PSUs).}\)</span></p>
-<p><span class="math inline">\(n = \text{Size of the sample of individuals or households from a PSU.}\)</span>
-<span class="math inline">\(n = \text{May also mean the overall survey sample size (this meaning will be made clear in the text).}\)</span></p>
+<p><span class="math inline">\(n = \text{Size of the sample of individuals or households from a PSU.}\)</span></p>
+<p><span class="math inline">\(n = \text{May also mean the overall survey sample size (this meaning will be made clear in the text).}\)</span></p>
 <p><span class="math inline">\(N = \text{Population}\)</span></p>
 <p>The overall sample size for a RAM-OP survey is about <span class="math inline">\(n = 192\)</span> individual subjects. You should aim to collect
 an overall sample of at least <span class="math inline">\(n = 192\)</span> individuals.</p>
@@ -232,6 +179,7 @@ the communities selected for inclusion in the first stage sample.</li>
 <p>The overall sample size from <span class="math inline">\(m = 16\)</span> communities and <span class="math inline">\(n = 12\)</span> eligible subjects is about:</p>
 <p><span class="math display">\[ \text{overall sample size} ~ \approx ~ m ~ \times ~ n ~ \approx ~ 16 ~ \times ~ 12 ~ \approx ~ 192 \]</span></p>
 <p>It is not recommended that fewer than <span class="math inline">\(m = 16\)</span> communities are sampled.</p>
+
 </div>
 <div id="ram-op-survey-sample-size-1" class="section level2">
 <h2><span class="header-section-number">2.4</span> RAM-OP survey sample size</h2>
@@ -239,12 +187,13 @@ the communities selected for inclusion in the first stage sample.</li>
 <p>Do not be tempted to increase the size of the within-community sample in order to achieve an overall sample size of <span class="math inline">\(n = 192\)</span> from fewer than <span class="math inline">\(m = 16\)</span> communities. Doing so will tend to reduce the precision with which estimates are made. It may also be impossible to do this in many settings.</p>
 <p>Here, for example, is a <em>population pyramid</em> for a typical developing country:</p>
 <div class="figure" style="text-align: center"><span id="fig:sample2"></span>
-<img src="figures/popPyramid1.png" alt="Population pyramid for a typical developing country" width="732" />
+<img src="figures/popPyramid1.png" alt="Population pyramid for a typical developing country" width="1200" />
 <p class="caption">
 Figure 2.2: Population pyramid for a typical developing country
 </p>
 </div>
 <p>If the average community population is <span class="math inline">\(N = 300\)</span> then there will be fewer than 15 people aged 60 years and older in about half of the selected communities. This is because about half of the selected communities are likely to have a population below the average population.</p>
+
 </div>
 <div id="eligibility" class="section level2">
 <h2><span class="header-section-number">2.5</span> Eligibility</h2>
@@ -252,16 +201,15 @@ Figure 2.2: Population pyramid for a typical developing country
 <p>In some settings different eligibility criteria may apply. This will likely be the case in settings with very high life-expectancies (usually middle and high income countries) or very low life-expectancies (usually low income countries and in emergencies).</p>
 <p>In a setting of very high life-expectancy you may want to restrict eligibility - to persons aged 65 years or older, for example. A local definition of older people is likely to be available.</p>
 <p>In a setting with very low life-expectancy, very few people are aged 60 years or older. For example:</p>
-<p> </p>
 <div class="figure" style="text-align: center"><span id="fig:sample3"></span>
-<img src="figures/popPyramid2.png" alt="Population pyramid for a setting with low life-expectancy" width="700" />
+<img src="figures/popPyramid2.png" alt="Population pyramid for a setting with low life-expectancy" width="1200" />
 <p class="caption">
 Figure 2.3: Population pyramid for a setting with low life-expectancy
 </p>
 </div>
-<p> </p>
 <p>It is common in such setting for there to be a local definition of older people. This will usually be “persons
 aged 50 years or older” or “persons aged 55 years or older”.</p>
+
 </div>
 <div id="age-distribution-eligibility-criteria-and-sample-design" class="section level2">
 <h2><span class="header-section-number">2.6</span> Age distribution, eligibility criteria, and sample design</h2>
@@ -276,6 +224,7 @@ aged 50 years or older” or “persons aged 55 years or older”.</p>
 <li><p><strong>Take a “top-up” sample only when you need to:</strong> The basic procedure when a selected community is small and likely to contain fewer than <span class="math inline">\(n = 12\)</span> older people is to collect data on all older people in the selected community using a door-to-door census. If the within-community sample size is much smaller than the required one then a “top-up” sample is taken from the nearest neighbouring community using the map-segment-sample method (or a door-to-door census if this community is also small). The advantage of this approach is that travelling time and survey costs are better controlled.</p></li>
 </ul>
 <p>If the proportion of older people is not very small and / or communities are large then you should have no problems achieving the overall sample size.</p>
+
 </div>
 <div id="practical-sampling" class="section level2">
 <h2><span class="header-section-number">2.7</span> Practical sampling</h2>
@@ -291,7 +240,7 @@ aged 50 years or older” or “persons aged 55 years or older”.</p>
 <p><code>RANDBETWEEN(1, 4)</code></p>
 <p><strong>Step 3:</strong> Using the <em>random starting point</em> and the <em>sampling interval</em>, select the sampling villages from a list of all villages organised/sorted by a <strong>non-overalapping</strong> spatial factor such as district or sub-district.</p>
 <div class="figure" style="text-align: center"><span id="fig:sample4"></span>
-<img src="figures/listSample2.png" alt="Selection of sampling villages using lists" width="710" />
+<img src="figures/listSample2.png" alt="Selection of sampling villages using lists" width="1200" />
 <p class="caption">
 Figure 2.4: Selection of sampling villages using lists
 </p>
@@ -304,7 +253,7 @@ Figure 2.4: Selection of sampling villages using lists
 <p>A square grid is drawn over the map. The size of the grid squares should be small enough so that the number of squares covering the survey area is the same as (or very similar to) the number of communities that you plan to sample. You may need to experiment with different grid sizes to achieve this. Figure <a href="sampling.html#fig:sample6">2.6</a> shows an example map and grid with <span class="math inline">\(m = 16\)</span> grid squares.</p>
 <p>The sample is drawn by selecting the community that is located closest to the centre of each grid square:</p>
 <div class="figure" style="text-align: center"><span id="fig:sample5"></span>
-<img src="figures/mapSample1.png" alt="Selection of sampling villages using maps" width="700" />
+<img src="figures/mapSample1.png" alt="Selection of sampling villages using maps" width="1200" />
 <p class="caption">
 Figure 2.5: Selection of sampling villages using maps
 </p>
@@ -314,25 +263,25 @@ Figure 2.5: Selection of sampling villages using maps
 <p>Both the list-based and the map-based (CSAS) sampling methods spread the sample of communities evenly across the entire survey area. Each community has an equal chance of being included in the sample. Population proportional sampling (PPS) is not used since this would concentrate the sample in the larger communities.</p>
 <p>The same method can be used when sampling in urban contexts. Figure <a href="sampling.html#fig:sample8">2.8</a> shows a sample drawn from a list of census enumeration areas sorted by administrative district. Figure <a href="sampling.html#fig:sample9">2.9</a> shows a sample drawn using the map- based (CSAS) method. In both cases the primary sampling units (PSUs) are census enumeration areas.</p>
 <div class="figure" style="text-align: center"><span id="fig:sample6"></span>
-<img src="figures/mapSample2.png" alt="Drawing a square grid over the map" width="700" />
+<img src="figures/mapSample2.png" alt="Drawing a square grid over the map" width="1200" />
 <p class="caption">
 Figure 2.6: Drawing a square grid over the map
 </p>
 </div>
 <div class="figure" style="text-align: center"><span id="fig:sample7"></span>
-<img src="figures/mapSample3.png" alt="Drawing the first-stage CSAS sample" width="700" />
+<img src="figures/mapSample3.png" alt="Drawing the first-stage CSAS sample" width="1200" />
 <p class="caption">
 Figure 2.7: Drawing the first-stage CSAS sample
 </p>
 </div>
 <div class="figure" style="text-align: center"><span id="fig:sample8"></span>
-<img src="figures/mapSample4.png" alt="Example of an urban sample (list-based)" width="700" />
+<img src="figures/mapSample4.png" alt="Example of an urban sample (list-based)" width="1200" />
 <p class="caption">
 Figure 2.8: Example of an urban sample (list-based)
 </p>
 </div>
 <div class="figure" style="text-align: center"><span id="fig:sample9"></span>
-<img src="figures/mapSample5.png" alt="Example of an urban sample (map-based)" width="700" />
+<img src="figures/mapSample5.png" alt="Example of an urban sample (map-based)" width="576" />
 <p class="caption">
 Figure 2.9: Example of an urban sample (map-based)
 </p>
@@ -416,10 +365,34 @@ Figure 2.16: Mixture of clusters and ribbons
 <div id="segmentation" class="section level3">
 <h3><span class="header-section-number">2.8.3</span> Segmentation</h3>
 <p>For more complicated communities we divide the community into several parts or segments, such as a community made up of several clusters:</p>
+<div class="figure" style="text-align: center"><span id="fig:sample17"></span>
+<img src="figures/stage2sample3.png" alt="Example of a set of clusters of dwellings" width="700" />
+<p class="caption">
+Figure 2.17: Example of a set of clusters of dwellings
+</p>
+</div>
 <p>or a community made up of several ribbons:</p>
+<div class="figure" style="text-align: center"><span id="fig:sample18"></span>
+<img src="figures/stage2sample4.png" alt="Dwellings arranged in several lines" width="700" />
+<p class="caption">
+Figure 2.18: Dwellings arranged in several lines
+</p>
+</div>
 <p>or a mixed community:</p>
+<div class="figure" style="text-align: center"><span id="fig:sample19"></span>
+<img src="figures/stage2sample5.png" alt="Mixture of clusters and ribbons" width="700" />
+<p class="caption">
+Figure 2.19: Mixture of clusters and ribbons
+</p>
+</div>
 <p>We take a small sample from each segment using the appropriate sampling method.</p>
 <p>For example, with a community made up of three segments:</p>
+<div class="figure" style="text-align: center"><span id="fig:sample20"></span>
+<img src="figures/stage2sample6.png" alt="Community made up of three segments" width="700" />
+<p class="caption">
+Figure 2.20: Community made up of three segments
+</p>
+</div>
 <p>we would take one third of the overall sample from each segment.</p>
 <p>If the within-community sample size is twelve eligible subjects. we would sample four eligible subjects from each segment (i.e. <span class="math inline">\(12 / 3 = 4\)</span>).</p>
 <p>Dividing the sample up in this way means that we will sample from every part of the community rather than just one part of the community.</p>
@@ -431,6 +404,12 @@ Figure 2.16: Mixture of clusters and ribbons
 <h3><span class="header-section-number">2.8.4</span> Sample dwellings</h3>
 <p><strong>All</strong> segments should be sampled.</p>
 <p>If, for example, there are five segments in a community:</p>
+<div class="figure" style="text-align: center"><span id="fig:sample21"></span>
+<img src="figures/stage2sample7.png" alt="Community made up of five segments" width="700" />
+<p class="caption">
+Figure 2.21: Community made up of five segments
+</p>
+</div>
 <p>and the within-community sample size is twelve eligible subjects, then you would plan to sample two eligible subjects from each segment (i.e. <span class="math inline">\(12 / 5 = 2.4\)</span> <strong>rounded down</strong> to two) and, if necessary, return to the <strong>largest</strong> segment to complete the sample.</p>
 <p><strong>All</strong> segments should be sampled, even if this means that you take a larger sample than you expected to.</p>
 <p>Remember that different types of segment are sampled in different ways:</p>
@@ -451,7 +430,13 @@ Figure 2.16: Mixture of clusters and ribbons
 <li><p>Stop sampling in the segment when you have sampled the required number of eligible persons from the segment. Since you sample <strong>all</strong> eligible persons in a selected dwelling, you may sample a few more eligible persons than expected. This is OK. Always sample <strong>all</strong> eligible persons in a selected dwelling.</p></li>
 </ol>
 <p>If, when you have sampled all segments, you have not sampled twelve eligible persons, you should return to the <strong>largest</strong> segment to finish sampling using the appropriate sampling method.</p>
-<p>The random walk method is illustrated in Figure 5.</p>
+<p>The random walk method is illustrated in Figure <a href="sampling.html#fig:sample22">2.22</a>.</p>
+<div class="figure" style="text-align: center"><span id="fig:sample22"></span>
+<img src="figures/stage2sample8.png" alt="Random walk sampling in a cluster segment" width="700" />
+<p class="caption">
+Figure 2.22: Random walk sampling in a cluster segment
+</p>
+</div>
 </div>
 <div id="systematic-sampling" class="section level3">
 <h3><span class="header-section-number">2.8.6</span> Systematic sampling</h3>

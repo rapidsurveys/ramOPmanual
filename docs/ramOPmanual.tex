@@ -31,46 +31,6 @@
 \urlstyle{same}  % don't use monospace font for urls
 \usepackage{natbib}
 \bibliographystyle{apalike}
-\usepackage{color}
-\usepackage{fancyvrb}
-\newcommand{\VerbBar}{|}
-\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
-\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
-% Add ',fontsize=\small' for more characters per line
-\usepackage{framed}
-\definecolor{shadecolor}{RGB}{248,248,248}
-\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
-\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
-\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\ImportTok}[1]{#1}
-\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
-\newcommand{\BuiltInTok}[1]{#1}
-\newcommand{\ExtensionTok}[1]{#1}
-\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
-\newcommand{\RegionMarkerTok}[1]{#1}
-\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
-\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
-\newcommand{\NormalTok}[1]{#1}
 \usepackage{longtable,booktabs}
 \usepackage{graphicx,grffile}
 \makeatletter
@@ -252,7 +212,7 @@ systematically from a complete list of communities in the survey area.
 This list of communities is sorted by one or more non-overlapping
 spatial factors such as district and subdistricts within districts:
 
-\begin{figure}
+\begin{figure}[h]
 
 {\centering \includegraphics[width=9.72in]{figures/listSample1} 
 
@@ -282,6 +242,8 @@ during the survey.
 The second stage within-community sample uses a method called
 map-segment-sample. This method takes the within-community sample from
 all parts of a sampled community.
+
+\newpage
 
 \hypertarget{implicit-stratification}{%
 \section{Implicit stratification}\label{implicit-stratification}}
@@ -320,6 +282,8 @@ of modern computer-intensive data analysis techniques also allows RAM-OP
 to make better use of the available sample than is done in other
 methods.
 
+\newpage
+
 \hypertarget{ram-op-survey-sample-size}{%
 \section{RAM-OP survey sample size}\label{ram-op-survey-sample-size}}
 
@@ -329,6 +293,7 @@ designs:
 \(m = \text{Number of primary sampling units (PSUs).}\)
 
 \(n = \text{Size of the sample of individuals or households from a PSU.}\)
+
 \(n = \text{May also mean the overall survey sample size (this meaning will be made clear in the text).}\)
 
 \(N = \text{Population}\)
@@ -358,6 +323,8 @@ eligible subjects is about:
 It is not recommended that fewer than \(m = 16\) communities are
 sampled.
 
+\newpage
+
 \hypertarget{ram-op-survey-sample-size-1}{%
 \section{RAM-OP survey sample size}\label{ram-op-survey-sample-size-1}}
 
@@ -377,9 +344,9 @@ settings.
 Here, for example, is a \emph{population pyramid} for a typical
 developing country:
 
-\begin{figure}
+\begin{figure}[h]
 
-{\centering \includegraphics[width=10.17in]{figures/popPyramid1} 
+{\centering \includegraphics[width=16.67in]{figures/popPyramid1} 
 
 }
 
@@ -391,6 +358,8 @@ fewer than 15 people aged 60 years and older in about half of the
 selected communities. This is because about half of the selected
 communities are likely to have a population below the average
 population.
+
+\newpage
 
 \hypertarget{eligibility}{%
 \section{Eligibility}\label{eligibility}}
@@ -411,22 +380,20 @@ definition of older people is likely to be available.
 In a setting with very low life-expectancy, very few people are aged 60
 years or older. For example:
 
-~
+\begin{figure}[h]
 
-\begin{figure}
-
-{\centering \includegraphics[width=9.72in]{figures/popPyramid2} 
+{\centering \includegraphics[width=16.67in]{figures/popPyramid2} 
 
 }
 
 \caption{Population pyramid for a setting with low life-expectancy}\label{fig:sample3}
 \end{figure}
 
-~
-
 It is common in such setting for there to be a local definition of older
 people. This will usually be ``persons aged 50 years or older'' or
 ``persons aged 55 years or older''.
+
+\newpage
 
 \hypertarget{age-distribution-eligibility-criteria-and-sample-design}{%
 \section{Age distribution, eligibility criteria, and sample
@@ -488,6 +455,8 @@ If the proportion of older people is not very small and / or communities
 are large then you should have no problems achieving the overall sample
 size.
 
+\newpage
+
 \hypertarget{practical-sampling}{%
 \section{Practical sampling}\label{practical-sampling}}
 
@@ -532,9 +501,9 @@ function as follows:
 all villages organised/sorted by a \textbf{non-overalapping} spatial
 factor such as district or sub-district.
 
-\begin{figure}
+\begin{figure}[h]
 
-{\centering \includegraphics[width=9.86in]{figures/listSample2} 
+{\centering \includegraphics[width=16.67in]{figures/listSample2} 
 
 }
 
@@ -567,9 +536,9 @@ with \(m = 16\) grid squares.
 The sample is drawn by selecting the community that is located closest
 to the centre of each grid square:
 
-\begin{figure}
+\begin{figure}[h]
 
-{\centering \includegraphics[width=9.72in]{figures/mapSample1} 
+{\centering \includegraphics[width=16.67in]{figures/mapSample1} 
 
 }
 
@@ -595,36 +564,36 @@ areas sorted by administrative district. Figure \ref{fig:sample9} shows
 a sample drawn using the map- based (CSAS) method. In both cases the
 primary sampling units (PSUs) are census enumeration areas.
 
-\begin{figure}
+\begin{figure}[h]
 
-{\centering \includegraphics[width=9.72in]{figures/mapSample2} 
+{\centering \includegraphics[width=16.67in]{figures/mapSample2} 
 
 }
 
 \caption{Drawing a square grid over the map}\label{fig:sample6}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[h]
 
-{\centering \includegraphics[width=9.72in]{figures/mapSample3} 
+{\centering \includegraphics[width=16.67in]{figures/mapSample3} 
 
 }
 
 \caption{Drawing the first-stage CSAS sample}\label{fig:sample7}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[h]
 
-{\centering \includegraphics[width=9.72in]{figures/mapSample4} 
+{\centering \includegraphics[width=16.67in]{figures/mapSample4} 
 
 }
 
 \caption{Example of an urban sample (list-based)}\label{fig:sample8}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[h]
 
-{\centering \includegraphics[width=9.72in]{figures/mapSample5} 
+{\centering \includegraphics[width=8in]{figures/mapSample5} 
 
 }
 
@@ -649,7 +618,7 @@ helpful to think of communities as being made of ribbons (i.e.~lines of
 dwellings located along roads, tracks, or rivers) and clusters of
 dwellings. Here is an example of a ribbon of dwellings:
 
-\begin{figure}
+\begin{figure}[h]
 
 {\centering \includegraphics[width=9.72in]{figures/stage2sample1} 
 
@@ -660,7 +629,7 @@ dwellings. Here is an example of a ribbon of dwellings:
 
 Here is an example of a cluster of dwellings:
 
-\begin{figure}
+\begin{figure}[h]
 
 {\centering \includegraphics[width=9.72in]{figures/stage2sample2} 
 
@@ -692,7 +661,7 @@ clusters}\label{mapping-the-community---single-and-multiple-clusters}}
 
 Some communities consist of a single cluster of dwellings:
 
-\begin{figure}
+\begin{figure}[h]
 
 {\centering \includegraphics[width=9.72in]{figures/stage2sample2} 
 
@@ -703,7 +672,7 @@ Some communities consist of a single cluster of dwellings:
 
 or a set of clusters of dwellings:
 
-\begin{figure}
+\begin{figure}[h]
 
 {\centering \includegraphics[width=9.72in]{figures/stage2sample3} 
 
@@ -721,7 +690,7 @@ communities}\label{mapping-the-community---ribbon-communities}}
 
 Ribbon communities have dwellings arranged in a line:
 
-\begin{figure}
+\begin{figure}[h]
 
 {\centering \includegraphics[width=9.72in]{figures/stage2sample1} 
 
@@ -732,7 +701,7 @@ Ribbon communities have dwellings arranged in a line:
 
 or in a several lines:
 
-\begin{figure}
+\begin{figure}[h]
 
 {\centering \includegraphics[width=9.72in]{figures/stage2sample4} 
 
@@ -750,7 +719,7 @@ communities}\label{mapping-the-community---mixed-communities}}
 
 Some communities are a mixture of clusters and ribbons:
 
-\begin{figure}
+\begin{figure}[h]
 
 {\centering \includegraphics[width=9.72in]{figures/stage2sample5} 
 
@@ -775,14 +744,50 @@ appropriate sampling method.
 For more complicated communities we divide the community into several
 parts or segments, such as a community made up of several clusters:
 
+\begin{figure}[h]
+
+{\centering \includegraphics[width=9.72in]{figures/stage2sample3} 
+
+}
+
+\caption{Example of a set of clusters of dwellings}\label{fig:sample17}
+\end{figure}
+
 or a community made up of several ribbons:
 
+\begin{figure}[h]
+
+{\centering \includegraphics[width=9.72in]{figures/stage2sample4} 
+
+}
+
+\caption{Dwellings arranged in several lines}\label{fig:sample18}
+\end{figure}
+
 or a mixed community:
+
+\begin{figure}[h]
+
+{\centering \includegraphics[width=9.72in]{figures/stage2sample5} 
+
+}
+
+\caption{Mixture of clusters and ribbons}\label{fig:sample19}
+\end{figure}
 
 We take a small sample from each segment using the appropriate sampling
 method.
 
 For example, with a community made up of three segments:
+
+\begin{figure}[h]
+
+{\centering \includegraphics[width=9.72in]{figures/stage2sample6} 
+
+}
+
+\caption{Community made up of three segments}\label{fig:sample20}
+\end{figure}
 
 we would take one third of the overall sample from each segment.
 
@@ -810,6 +815,15 @@ overlap.
 \textbf{All} segments should be sampled.
 
 If, for example, there are five segments in a community:
+
+\begin{figure}[h]
+
+{\centering \includegraphics[width=9.72in]{figures/stage2sample7} 
+
+}
+
+\caption{Community made up of five segments}\label{fig:sample21}
+\end{figure}
 
 and the within-community sample size is twelve eligible subjects, then
 you would plan to sample two eligible subjects from each segment (i.e.
@@ -877,7 +891,16 @@ If, when you have sampled all segments, you have not sampled twelve
 eligible persons, you should return to the \textbf{largest} segment to
 finish sampling using the appropriate sampling method.
 
-The random walk method is illustrated in Figure 5.
+The random walk method is illustrated in Figure \ref{fig:sample22}.
+
+\begin{figure}[h]
+
+{\centering \includegraphics[width=9.72in]{figures/stage2sample8} 
+
+}
+
+\caption{Random walk sampling in a cluster segment}\label{fig:sample22}
+\end{figure}
 
 \hypertarget{systematic-sampling}{%
 \subsection{Systematic sampling}\label{systematic-sampling}}
@@ -1029,14 +1052,6 @@ Desirable: Speeds up working with large dataset\strut
 The Package Installer function can be called in R using the following
 command:
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{install.packages}\NormalTok{(}\KeywordTok{c}\NormalTok{(}\StringTok{"rJava"}\NormalTok{, }\StringTok{"JavaGD"}\NormalTok{, }\StringTok{"codetools"}\NormalTok{, }
-                   \StringTok{"foreign"}\NormalTok{, }\StringTok{"car"}\NormalTok{, }\StringTok{"ggplot2"}\NormalTok{, }\StringTok{"data.table"}\NormalTok{), }
-                   \DataTypeTok{repos =} \StringTok{"https://cloud.r-project.org/"}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
-
 The \texttt{repos} argument in the R command above specifies the CRAN
 mirror from which you to download the package/s you want to install.
 Here we specify the cloud-based mirror for CRAN provided by RStudio. If
@@ -1064,7 +1079,7 @@ workflow and supporting files. These are available from:
 You may need to extract the file from the ZIP archive before use if this
 is not done automatically.
 
-\begin{figure}
+\begin{figure}[h]
 
 {\centering \includegraphics[width=9.75in]{figures/dirStructureRAF} 
 
@@ -1107,7 +1122,7 @@ workflow. You can use these files to practice analysing data using
 \textbf{RAnalyticFlow}, and as examples of RAM-OP survey data and PSU
 files.
 
-\begin{figure}
+\begin{figure}[h]
 
 {\centering \includegraphics[width=9.62in]{figures/openProjectRAF} 
 
@@ -1139,7 +1154,7 @@ Before you start work you will need to create a project for your survey:
   Click the \textbf{OK} button
 \end{enumerate}
 
-\begin{figure}
+\begin{figure}[h]
 
 {\centering \includegraphics[width=10.12in]{figures/openWorkflowRAF} 
 
@@ -1157,7 +1172,7 @@ Once you have opened the workflow you need to initialise it (i.e.~load
 libraries, useful analysis function, and initialise the workspace for a
 new analysis):
 
-\begin{figure}
+\begin{figure}[h]
 
 {\centering \includegraphics[width=10.12in]{figures/runWorkflowRAF} 
 
