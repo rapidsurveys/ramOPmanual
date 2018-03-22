@@ -1,3 +1,7 @@
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.pos= "h")
+```
+
 # Sampling {#sampling}
 
 ## The RAM-OP sample 
@@ -17,7 +21,7 @@ The first stage sample is a systematic spatial sample. Two methods can be used a
 
 **List-based method:** Communities to be sampled are selected systematically from a complete list of communities in the survey area. This list of communities is sorted by one or more non-overlapping spatial factors such as district and subdistricts within districts:
 
-```{r sample1, echo = FALSE, fig.cap = "Communities listing by district and sub-district", fig.align = "center", fig.retina = 1}
+```{r sample1, echo = FALSE, fig.cap = "Communities listing by district and sub-district", fig.align = "center", fig.pos = "h", fig.retina = 1}
 knitr::include_graphics("figures/listSample1.png")
 ```
 
@@ -28,7 +32,7 @@ knitr::include_graphics("figures/listSample1.png")
 ### The second stage sample
 The second stage within-community sample uses a method called map-segment-sample. This method takes the within-community sample from all parts of a sampled community.
 
-
+\newpage
 ## Implicit stratification
 
 Both the first and second stage samples use a form of spatial stratification:
@@ -46,7 +50,7 @@ These sampling procedures provide implicit stratification and tend to spread the
 
 The use of implicit stratification improves the efficiency of a two-stage cluster sample and allows RAM-OP to use relatively small sample sizes compared to other methods, such as SMART surveys. The use of modern computer-intensive data analysis techniques also allows RAM-OP to make better use of the available sample than is done in other methods.
 
-
+\newpage
 ## RAM-OP survey sample size
 
 The following shorthand symbols will be used when describing sample designs:
@@ -54,6 +58,7 @@ The following shorthand symbols will be used when describing sample designs:
 $m = \text{Number of primary sampling units (PSUs).}$
 
 $n = \text{Size of the sample of individuals or households from a PSU.}$
+
 $n = \text{May also mean the overall survey sample size (this meaning will be made clear in the text).}$
 
 $N = \text{Population}$
@@ -73,7 +78,7 @@ $$ \text{overall sample size} ~ \approx ~ m ~ \times ~ n ~ \approx ~ 16 ~ \times
 
 It is not recommended that fewer than $m = 16$ communities are sampled.
 
-
+\newpage
 ## RAM-OP survey sample size
 
 Sampling fewer than $m = 16$ communities will tend to reduce the precision with which estimates can be made. If you have the resources to sample more than $m = 16$ communities then you should do so. A sample of $m = 24$ communities and $n = 8$ eligible subjects, for example, will tend to yield estimates with better precision than a sample with $m = 16$ communities and $n = 12$ eligible subjects.
@@ -82,13 +87,13 @@ Do not be tempted to increase the size of the within-community sample in order t
 
 Here, for example, is a *population pyramid* for a typical developing country:
 
-```{r sample2, echo = FALSE, fig.cap = "Population pyramid for a typical developing country", fig.align = "center", fig.retina = 1}
+```{r sample2, echo = FALSE, fig.cap = "Population pyramid for a typical developing country", fig.align = "center", fig.pos = "h", fig.retina = 1}
 knitr::include_graphics("figures/popPyramid1.png")
 ```
 
 If the average community population is $N = 300$ then there will be fewer than 15 people aged 60 years and older in about half of the selected communities. This is because about half of the selected communities are likely to have a population below the average population.
 
-
+\newpage
 ## Eligibility
 
 Older people are usual defined as persons aged 60 years and older (UN definition). This means your sample will usually be restricted to people aged 60 years and older.
@@ -99,18 +104,14 @@ In a setting of very high life-expectancy you may want to restrict eligibility -
 
 In a setting with very low life-expectancy, very few people are aged 60 years or older. For example:
 
-&nbsp;
-
-```{r sample3, echo = FALSE, fig.cap = "Population pyramid for a setting with low life-expectancy", fig.align = "center", fig.retina = 1}
+```{r sample3, echo = FALSE, fig.cap = "Population pyramid for a setting with low life-expectancy", fig.align = "center", fig.pos = "h", fig.retina = 1}
 knitr::include_graphics("figures/popPyramid2.png")
 ```
-
-&nbsp;
 
 It is common in such setting for there to be a local definition of older people. This will usually be “persons
 aged 50 years or older” or “persons aged 55 years or older”.
 
-
+\newpage
 ## Age distribution, eligibility criteria, and sample design
 
 The age distribution of the population and the survey eligibility criteria will affect the sample design in terms of the number of communities that you will need to sample ($m$) and the number of older persons ($n$) that can be sampled from each community.
@@ -131,7 +132,7 @@ If this is below about 20 people then you should consider how you will collect t
 
 If the proportion of older people is not very small and / or communities are large then you should have no problems achieving the overall sample size.
 
-
+\newpage
 ## Practical sampling
 
 ### The first stage sample - list-based sampling
@@ -155,7 +156,7 @@ A random number can be selected through simple lottery (i.e., draw from a lot of
 **Step 3:** Using the *random starting point* and the *sampling interval*, select the sampling villages from a list of all villages organised/sorted by a **non-overalapping** spatial factor such as district or sub-district.
 
 
-```{r sample4, echo = FALSE, fig.cap = "Selection of sampling villages using lists", fig.align = "center", fig.retina = 1}
+```{r sample4, echo = FALSE, fig.cap = "Selection of sampling villages using lists", fig.align = "center", fig.pos = "h", fig.retina = 1}
 knitr::include_graphics("figures/listSample2.png")
 ```
 
@@ -169,11 +170,9 @@ A square grid is drawn over the map. The size of the grid squares should be smal
 
 The sample is drawn by selecting the community that is located closest to the centre of each grid square:
 
-
-```{r sample5, echo = FALSE, fig.cap = "Selection of sampling villages using maps", fig.align = "center", fig.retina = 1}
+```{r sample5, echo = FALSE, fig.cap = "Selection of sampling villages using maps", fig.align = "center", fig.pos = "h", fig.retina = 1}
 knitr::include_graphics("figures/mapSample1.png")
 ```
-
 
 If two or more villages are located the same distance from the centre of a grid square then a single village is picked at random, by tossing a coin for example.
 
@@ -183,20 +182,19 @@ Both the list-based and the map-based (CSAS) sampling methods spread the sample 
 
 The same method can be used when sampling in urban contexts. Figure \@ref(fig:sample8) shows a sample drawn from a list of census enumeration areas sorted by administrative district. Figure \@ref(fig:sample9) shows a sample drawn using the map- based (CSAS) method. In both cases the primary sampling units (PSUs) are census enumeration areas.
 
-
-```{r sample6, echo = FALSE, fig.cap = "Drawing a square grid over the map", fig.align = "center", fig.retina = 1}
+```{r sample6, echo = FALSE, fig.cap = "Drawing a square grid over the map", fig.align = "center", fig.pos = "h", fig.retina = 1}
 knitr::include_graphics("figures/mapSample2.png")
 ```
 
-```{r sample7, echo = FALSE, fig.cap = "Drawing the first-stage CSAS sample", fig.align = "center", fig.retina = 1}
+```{r sample7, echo = FALSE, fig.cap = "Drawing the first-stage CSAS sample", fig.align = "center", fig.pos = "h", fig.retina = 1}
 knitr::include_graphics("figures/mapSample3.png")
 ```
 
-```{r sample8, echo = FALSE, fig.cap = "Example of an urban sample (list-based)", fig.align = "center", fig.retina = 1}
+```{r sample8, echo = FALSE, fig.cap = "Example of an urban sample (list-based)", fig.align = "center", fig.pos = "h", fig.retina = 1}
 knitr::include_graphics("figures/mapSample4.png")
 ```
 
-```{r sample9, echo = FALSE, fig.cap = "Example of an urban sample (map-based)", fig.align = "center", fig.retina = 1}
+```{r sample9, echo = FALSE, fig.cap = "Example of an urban sample (map-based)", fig.align = "center", fig.pos = "h", fig.retina = 1}
 knitr::include_graphics("figures/mapSample5.png")
 ```
 **Note:** In this example twenty-one (21) blocks have been selected. It can be difficult to achieve exactly the number of blocks that you need when using this type of sample. It is best to select more rather than fewer blocks than you need
@@ -208,13 +206,13 @@ The second stage (within-community) sample uses a map-segment-sample approach:
 
 **Map:** Make a rough map of the community to be sampled. It is helpful to think of communities as being made of ribbons (i.e. lines of dwellings located along roads, tracks, or rivers) and clusters of dwellings. Here is an example of a ribbon of dwellings:
 
-```{r sample10, echo = FALSE, fig.cap = "Example of a ribbon of dwellings", fig.align = "center", fig.retina = 1}
+```{r sample10, echo = FALSE, fig.cap = "Example of a ribbon of dwellings", fig.align = "center", fig.pos = "h", fig.retina = 1}
 knitr::include_graphics("figures/stage2sample1.png")
 ```
 
 Here is an example of a cluster of dwellings:
 
-```{r sample11, echo = FALSE, fig.cap = "Example of a cluster of dwellings", fig.align = "center", fig.retina = 1}
+```{r sample11, echo = FALSE, fig.cap = "Example of a cluster of dwellings", fig.align = "center", fig.pos = "h", fig.retina = 1}
 knitr::include_graphics("figures/stage2sample2.png")
 ```
 
@@ -231,13 +229,13 @@ knitr::include_graphics("figures/stage2sample2.png")
 
 Some communities consist of a single cluster of dwellings:
 
-```{r sample12, echo = FALSE, fig.cap = "Example of a cluster of dwellings", fig.align = "center", fig.retina = 1}
+```{r sample12, echo = FALSE, fig.cap = "Example of a cluster of dwellings", fig.align = "center", fig.pos = "h", fig.retina = 1}
 knitr::include_graphics("figures/stage2sample2.png")
 ```
 
 or a set of clusters of dwellings:
 
-```{r sample13, echo = FALSE, fig.cap = "Example of a set of clusters of dwellings", fig.align = "center", fig.retina = 1}
+```{r sample13, echo = FALSE, fig.cap = "Example of a set of clusters of dwellings", fig.align = "center", fig.pos = "h", fig.retina = 1}
 knitr::include_graphics("figures/stage2sample3.png")
 ```
 
@@ -247,13 +245,13 @@ For communities (or parts of communities) structured in this way we use a sampli
 
 Ribbon communities have dwellings arranged in a line:
 
-```{r sample14, echo = FALSE, fig.cap = "Dwellings arranged in a line", fig.align = "center", fig.retina = 1}
+```{r sample14, echo = FALSE, fig.cap = "Dwellings arranged in a line", fig.align = "center", fig.pos = "h", fig.retina = 1}
 knitr::include_graphics("figures/stage2sample1.png")
 ```
 
 or in a several lines:
 
-```{r sample15, echo = FALSE, fig.cap = "Dwellings arranged in several lines", fig.align = "center", fig.retina = 1}
+```{r sample15, echo = FALSE, fig.cap = "Dwellings arranged in several lines", fig.align = "center", fig.pos = "h", fig.retina = 1}
 knitr::include_graphics("figures/stage2sample4.png")
 ```
 
@@ -263,7 +261,7 @@ For communities (or parts of communities) structured in this way we use a sampli
 
 Some communities are a mixture of clusters and ribbons:
 
-```{r sample16, echo = FALSE, fig.cap = "Mixture of clusters and ribbons", fig.align = "center", fig.retina = 1}
+```{r sample16, echo = FALSE, fig.cap = "Mixture of clusters and ribbons", fig.align = "center", fig.pos = "h", fig.retina = 1}
 knitr::include_graphics("figures/stage2sample5.png")
 ```
 
@@ -275,19 +273,29 @@ For mixed communities we use a mixture of the **random walk** method (in the clu
 
 For more complicated communities we divide the community into several parts or segments, such as a community made up of several clusters:
 
+```{r sample17, echo = FALSE, fig.cap = "Example of a set of clusters of dwellings", fig.align = "center", fig.pos = "h", fig.retina = 1}
+knitr::include_graphics("figures/stage2sample3.png")
+```
 
 or a community made up of several ribbons:
 
+```{r sample18, echo = FALSE, fig.cap = "Dwellings arranged in several lines", fig.align = "center", fig.pos = "h", fig.retina = 1}
+knitr::include_graphics("figures/stage2sample4.png")
+```
 
 or a mixed community:
 
+```{r sample19, echo = FALSE, fig.cap = "Mixture of clusters and ribbons", fig.align = "center", fig.pos = "h", fig.retina = 1}
+knitr::include_graphics("figures/stage2sample5.png")
+```
 
 We take a small sample from each segment using the appropriate sampling method.
 
 For example, with a community made up of three segments:
 
-
-
+```{r sample20, echo = FALSE, fig.cap = "Community made up of three segments", fig.align = "center", fig.pos = "h", fig.retina = 1}
+knitr::include_graphics("figures/stage2sample6.png")
+```
 
 we would take one third of the overall sample from each segment.
 
@@ -307,6 +315,10 @@ A dwelling can only belong to one segment. Segments should **not** overlap.
 **All** segments should be sampled.
 
 If, for example, there are five segments in a community:
+
+```{r sample21, echo = FALSE, fig.cap = "Community made up of five segments", fig.align = "center", fig.pos = "h", fig.retina = 1}
+knitr::include_graphics("figures/stage2sample7.png")
+```
 
 and the within-community sample size is twelve eligible subjects, then you would plan to sample two eligible subjects from each segment (i.e. $12 / 5 = 2.4$ **rounded down** to two) and, if necessary, return to the **largest** segment to complete the sample.
 
@@ -337,8 +349,11 @@ The **random walk** method is used to sample dwellings in **cluster segments**. 
 
 If, when you have sampled all segments, you have not sampled twelve eligible persons, you should return to the **largest** segment to finish sampling using the appropriate sampling method.
 
-The random walk method is illustrated in Figure 5.
+The random walk method is illustrated in Figure \@ref(fig:sample22).
 
+```{r sample22, echo = FALSE, fig.cap = "Random walk sampling in a cluster segment", fig.align = "center", fig.pos = "h", fig.retina = 1}
+knitr::include_graphics("figures/stage2sample8.png")
+```
 
 ### Systematic sampling
 
