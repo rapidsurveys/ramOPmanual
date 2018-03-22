@@ -48,6 +48,61 @@
 
 
 
+<style type="text/css">
+a.sourceLine { display: inline-block; min-height: 1.25em; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; }
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: absolute; left: -5em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+pre, code { background-color: #f8f8f8; }
+@media screen {
+a.sourceLine::before { text-decoration: underline; color: initial; }
+}
+code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code span.dt { color: #204a87; } /* DataType */
+code span.dv { color: #0000cf; } /* DecVal */
+code span.bn { color: #0000cf; } /* BaseN */
+code span.fl { color: #0000cf; } /* Float */
+code span.ch { color: #4e9a06; } /* Char */
+code span.st { color: #4e9a06; } /* String */
+code span.co { color: #8f5902; font-style: italic; } /* Comment */
+code span.ot { color: #8f5902; } /* Other */
+code span.al { color: #ef2929; } /* Alert */
+code span.fu { color: #000000; } /* Function */
+code span.er { color: #a40000; font-weight: bold; } /* Error */
+code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+code span.cn { color: #000000; } /* Constant */
+code span.sc { color: #000000; } /* SpecialChar */
+code span.vs { color: #4e9a06; } /* VerbatimString */
+code span.ss { color: #4e9a06; } /* SpecialString */
+code span.im { } /* Import */
+code span.va { color: #000000; } /* Variable */
+code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code span.ex { } /* Extension */
+code span.at { color: #c4a000; } /* Attribute */
+code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -260,8 +315,6 @@ Figure 2.5: Selection of sampling villages using maps
 </div>
 <p>If two or more villages are located the same distance from the centre of a grid square then a single village is picked at random, by tossing a coin for example.</p>
 <p>Figure <a href="sampling.html#fig:sample7">2.7</a> shows the sample selected by this process for the area shown in Figure <a href="sampling.html#fig:sample6">2.6</a>.</p>
-<p>Both the list-based and the map-based (CSAS) sampling methods spread the sample of communities evenly across the entire survey area. Each community has an equal chance of being included in the sample. Population proportional sampling (PPS) is not used since this would concentrate the sample in the larger communities.</p>
-<p>The same method can be used when sampling in urban contexts. Figure <a href="sampling.html#fig:sample8">2.8</a> shows a sample drawn from a list of census enumeration areas sorted by administrative district. Figure <a href="sampling.html#fig:sample9">2.9</a> shows a sample drawn using the map- based (CSAS) method. In both cases the primary sampling units (PSUs) are census enumeration areas.</p>
 <div class="figure" style="text-align: center"><span id="fig:sample6"></span>
 <img src="figures/mapSample2.png" alt="Drawing a square grid over the map" width="1200" />
 <p class="caption">
@@ -274,6 +327,8 @@ Figure 2.6: Drawing a square grid over the map
 Figure 2.7: Drawing the first-stage CSAS sample
 </p>
 </div>
+<p>Both the list-based and the map-based (CSAS) sampling methods spread the sample of communities evenly across the entire survey area. Each community has an equal chance of being included in the sample. Population proportional sampling (PPS) is not used since this would concentrate the sample in the larger communities.</p>
+<p>The same method can be used when sampling in urban contexts. Figure <a href="sampling.html#fig:sample8">2.8</a> shows a sample drawn from a list of census enumeration areas sorted by administrative district. Figure <a href="sampling.html#fig:sample9">2.9</a> shows a sample drawn using the map- based (CSAS) method. In both cases the primary sampling units (PSUs) are census enumeration areas.</p>
 <div class="figure" style="text-align: center"><span id="fig:sample8"></span>
 <img src="figures/mapSample4.png" alt="Example of an urban sample (list-based)" width="1200" />
 <p class="caption">
@@ -288,17 +343,21 @@ Figure 2.9: Example of an urban sample (map-based)
 </div>
 <p><strong>Note:</strong> In this example twenty-one (21) blocks have been selected. It can be difficult to achieve exactly the number of blocks that you need when using this type of sample. It is best to select more rather than fewer blocks than you need
 Here we would take our sample as <span class="math inline">\(n = 10\)</span> individuals from <span class="math inline">\(m = 21\)</span> blocks (overall <span class="math inline">\(n = 210\)</span>).</p>
+
 </div>
 <div id="the-second-stage-within-community-sample" class="section level3">
 <h3><span class="header-section-number">2.7.3</span> The second stage (within-community) sample</h3>
 <p>The second stage (within-community) sample uses a map-segment-sample approach:</p>
-<p><strong>Map:</strong> Make a rough map of the community to be sampled. It is helpful to think of communities as being made of ribbons (i.e. lines of dwellings located along roads, tracks, or rivers) and clusters of dwellings. Here is an example of a ribbon of dwellings:</p>
+<p><strong>Map:</strong> Make a rough map of the community to be sampled. It is helpful to think of communities as being made of ribbons (i.e. lines of dwellings located along roads, tracks, or rivers) and clusters of dwellings.</p>
+<p>Here is an example of a ribbon of dwellings:</p>
+<p> </p>
 <div class="figure" style="text-align: center"><span id="fig:sample10"></span>
 <img src="figures/stage2sample1.png" alt="Example of a ribbon of dwellings" width="700" />
 <p class="caption">
 Figure 2.10: Example of a ribbon of dwellings
 </p>
 </div>
+<p> </p>
 <p>Here is an example of a cluster of dwellings:</p>
 <div class="figure" style="text-align: center"><span id="fig:sample11"></span>
 <img src="figures/stage2sample2.png" alt="Example of a cluster of dwellings" width="700" />
@@ -313,6 +372,7 @@ Figure 2.11: Example of a cluster of dwellings
 <li><strong>Clusters</strong> are sampled using a <strong>random walk</strong> method.</li>
 </ul>
 <p><strong>Note:</strong> If a small community is selected that is likely to have fewer than the required number of eligible persons then <strong>all</strong> eligible persons in that community are sampled by moving door-to-door.</p>
+
 </div>
 </div>
 <div id="mapping-the-community---single-and-multiple-clusters" class="section level2">

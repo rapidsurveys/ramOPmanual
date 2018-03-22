@@ -31,6 +31,46 @@
 \urlstyle{same}  % don't use monospace font for urls
 \usepackage{natbib}
 \bibliographystyle{apalike}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
 \usepackage{longtable,booktabs}
 \usepackage{graphicx,grffile}
 \makeatletter
@@ -552,18 +592,6 @@ coin for example.
 Figure \ref{fig:sample7} shows the sample selected by this process for
 the area shown in Figure \ref{fig:sample6}.
 
-Both the list-based and the map-based (CSAS) sampling methods spread the
-sample of communities evenly across the entire survey area. Each
-community has an equal chance of being included in the sample.
-Population proportional sampling (PPS) is not used since this would
-concentrate the sample in the larger communities.
-
-The same method can be used when sampling in urban contexts. Figure
-\ref{fig:sample8} shows a sample drawn from a list of census enumeration
-areas sorted by administrative district. Figure \ref{fig:sample9} shows
-a sample drawn using the map- based (CSAS) method. In both cases the
-primary sampling units (PSUs) are census enumeration areas.
-
 \begin{figure}[h]
 
 {\centering \includegraphics[width=16.67in]{figures/mapSample2} 
@@ -581,6 +609,18 @@ primary sampling units (PSUs) are census enumeration areas.
 
 \caption{Drawing the first-stage CSAS sample}\label{fig:sample7}
 \end{figure}
+
+Both the list-based and the map-based (CSAS) sampling methods spread the
+sample of communities evenly across the entire survey area. Each
+community has an equal chance of being included in the sample.
+Population proportional sampling (PPS) is not used since this would
+concentrate the sample in the larger communities.
+
+The same method can be used when sampling in urban contexts. Figure
+\ref{fig:sample8} shows a sample drawn from a list of census enumeration
+areas sorted by administrative district. Figure \ref{fig:sample9} shows
+a sample drawn using the map- based (CSAS) method. In both cases the
+primary sampling units (PSUs) are census enumeration areas.
 
 \begin{figure}[h]
 
@@ -606,6 +646,8 @@ that you need when using this type of sample. It is best to select more
 rather than fewer blocks than you need Here we would take our sample as
 \(n = 10\) individuals from \(m = 21\) blocks (overall \(n = 210\)).
 
+\newpage
+
 \hypertarget{the-second-stage-within-community-sample}{%
 \subsection{The second stage (within-community)
 sample}\label{the-second-stage-within-community-sample}}
@@ -616,7 +658,11 @@ approach:
 \textbf{Map:} Make a rough map of the community to be sampled. It is
 helpful to think of communities as being made of ribbons (i.e.~lines of
 dwellings located along roads, tracks, or rivers) and clusters of
-dwellings. Here is an example of a ribbon of dwellings:
+dwellings.
+
+Here is an example of a ribbon of dwellings:
+
+~
 
 \begin{figure}[h]
 
@@ -626,6 +672,8 @@ dwellings. Here is an example of a ribbon of dwellings:
 
 \caption{Example of a ribbon of dwellings}\label{fig:sample10}
 \end{figure}
+
+~
 
 Here is an example of a cluster of dwellings:
 
@@ -654,6 +702,8 @@ defined by the physical layout of the community being sampled.
 \textbf{Note:} If a small community is selected that is likely to have
 fewer than the required number of eligible persons then \textbf{all}
 eligible persons in that community are sampled by moving door-to-door.
+
+\newpage
 
 \hypertarget{mapping-the-community---single-and-multiple-clusters}{%
 \section{Mapping the community - single and multiple
@@ -1052,6 +1102,14 @@ Desirable: Speeds up working with large dataset\strut
 The Package Installer function can be called in R using the following
 command:
 
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{install.packages}\NormalTok{(}\KeywordTok{c}\NormalTok{(}\StringTok{"rJava"}\NormalTok{, }\StringTok{"JavaGD"}\NormalTok{, }\StringTok{"codetools"}\NormalTok{, }
+                   \StringTok{"foreign"}\NormalTok{, }\StringTok{"car"}\NormalTok{, }\StringTok{"ggplot2"}\NormalTok{, }\StringTok{"data.table"}\NormalTok{), }
+                   \DataTypeTok{repos =} \StringTok{"https://cloud.r-project.org/"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
 The \texttt{repos} argument in the R command above specifies the CRAN
 mirror from which you to download the package/s you want to install.
 Here we specify the cloud-based mirror for CRAN provided by RStudio. If
@@ -1079,7 +1137,7 @@ workflow and supporting files. These are available from:
 You may need to extract the file from the ZIP archive before use if this
 is not done automatically.
 
-\begin{figure}[h]
+\begin{figure}
 
 {\centering \includegraphics[width=9.75in]{figures/dirStructureRAF} 
 
@@ -1122,7 +1180,7 @@ workflow. You can use these files to practice analysing data using
 \textbf{RAnalyticFlow}, and as examples of RAM-OP survey data and PSU
 files.
 
-\begin{figure}[h]
+\begin{figure}
 
 {\centering \includegraphics[width=9.62in]{figures/openProjectRAF} 
 
@@ -1154,7 +1212,7 @@ Before you start work you will need to create a project for your survey:
   Click the \textbf{OK} button
 \end{enumerate}
 
-\begin{figure}[h]
+\begin{figure}
 
 {\centering \includegraphics[width=10.12in]{figures/openWorkflowRAF} 
 
@@ -1172,7 +1230,7 @@ Once you have opened the workflow you need to initialise it (i.e.~load
 libraries, useful analysis function, and initialise the workspace for a
 new analysis):
 
-\begin{figure}[h]
+\begin{figure}
 
 {\centering \includegraphics[width=10.12in]{figures/runWorkflowRAF} 
 
