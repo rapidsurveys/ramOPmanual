@@ -1,7 +1,3 @@
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, fig.pos= "h")
-```
-
 # Sampling {#sampling}
 
 ## The RAM-OP sample 
@@ -178,10 +174,6 @@ If two or more villages are located the same distance from the centre of a grid 
 
 Figure \@ref(fig:sample7) shows the sample selected by this process for the area shown in Figure \@ref(fig:sample6).
 
-Both the list-based and the map-based (CSAS) sampling methods spread the sample of communities evenly across the entire survey area. Each community has an equal chance of being included in the sample. Population proportional sampling (PPS) is not used since this would concentrate the sample in the larger communities.
-
-The same method can be used when sampling in urban contexts. Figure \@ref(fig:sample8) shows a sample drawn from a list of census enumeration areas sorted by administrative district. Figure \@ref(fig:sample9) shows a sample drawn using the map- based (CSAS) method. In both cases the primary sampling units (PSUs) are census enumeration areas.
-
 ```{r sample6, echo = FALSE, fig.cap = "Drawing a square grid over the map", fig.align = "center", fig.pos = "h", fig.retina = 1}
 knitr::include_graphics("figures/mapSample2.png")
 ```
@@ -189,6 +181,10 @@ knitr::include_graphics("figures/mapSample2.png")
 ```{r sample7, echo = FALSE, fig.cap = "Drawing the first-stage CSAS sample", fig.align = "center", fig.pos = "h", fig.retina = 1}
 knitr::include_graphics("figures/mapSample3.png")
 ```
+
+Both the list-based and the map-based (CSAS) sampling methods spread the sample of communities evenly across the entire survey area. Each community has an equal chance of being included in the sample. Population proportional sampling (PPS) is not used since this would concentrate the sample in the larger communities.
+
+The same method can be used when sampling in urban contexts. Figure \@ref(fig:sample8) shows a sample drawn from a list of census enumeration areas sorted by administrative district. Figure \@ref(fig:sample9) shows a sample drawn using the map- based (CSAS) method. In both cases the primary sampling units (PSUs) are census enumeration areas.
 
 ```{r sample8, echo = FALSE, fig.cap = "Example of an urban sample (list-based)", fig.align = "center", fig.pos = "h", fig.retina = 1}
 knitr::include_graphics("figures/mapSample4.png")
@@ -200,15 +196,22 @@ knitr::include_graphics("figures/mapSample5.png")
 **Note:** In this example twenty-one (21) blocks have been selected. It can be difficult to achieve exactly the number of blocks that you need when using this type of sample. It is best to select more rather than fewer blocks than you need
 Here we would take our sample as $n = 10$ individuals from $m = 21$ blocks (overall $n = 210$).
 
+\newpage
 ### The second stage (within-community) sample
 
 The second stage (within-community) sample uses a map-segment-sample approach:
 
-**Map:** Make a rough map of the community to be sampled. It is helpful to think of communities as being made of ribbons (i.e. lines of dwellings located along roads, tracks, or rivers) and clusters of dwellings. Here is an example of a ribbon of dwellings:
+**Map:** Make a rough map of the community to be sampled. It is helpful to think of communities as being made of ribbons (i.e. lines of dwellings located along roads, tracks, or rivers) and clusters of dwellings. 
+
+Here is an example of a ribbon of dwellings:
+
+&nbsp;
 
 ```{r sample10, echo = FALSE, fig.cap = "Example of a ribbon of dwellings", fig.align = "center", fig.pos = "h", fig.retina = 1}
 knitr::include_graphics("figures/stage2sample1.png")
 ```
+
+&nbsp;
 
 Here is an example of a cluster of dwellings:
 
@@ -225,6 +228,7 @@ knitr::include_graphics("figures/stage2sample2.png")
 
 **Note:** If a small community is selected that is likely to have fewer than the required number of eligible persons then **all** eligible persons in that community are sampled by moving door-to-door.
 
+\newpage
 ## Mapping the community - single and multiple clusters
 
 Some communities consist of a single cluster of dwellings:
