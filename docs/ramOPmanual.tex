@@ -23,10 +23,14 @@
 }{}
 \usepackage[margin=1in]{geometry}
 \usepackage{hyperref}
+\PassOptionsToPackage{usenames,dvipsnames}{color} % color is loaded by hyperref
 \hypersetup{unicode=true,
             pdftitle={Rapid Assessment Method for Older People (RAM-OP): The Manual},
             pdfauthor={Pascale Fritsch, Ernest Guevarra, Katja Siling, Mark Myatt},
-            pdfborder={0 0 0},
+            colorlinks=true,
+            linkcolor=Maroon,
+            citecolor=Blue,
+            urlcolor=Blue,
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
 \usepackage{natbib}
@@ -127,6 +131,72 @@
   \date{21/12/2015}
 
 \usepackage{booktabs}
+\usepackage{color}
+\usepackage{tcolorbox}
+\usepackage{float}
+\graphicspath{ {images/} }
+
+\newenvironment{rmdremind}
+  {\begin{tcolorbox}[width=\textwidth, 
+                     colback = {white}, 
+                     title = {\textbf{Remember}}, 
+                     colbacktitle = lightgray,
+                     coltitle = black]
+  \begin{includegraphics}[scale = 1]{remind.png}
+  \begin{itemize}}
+  {\end{itemize}
+  \end{includegraphics}
+  \end{tcolorbox}}
+
+\newenvironment{rmdnote}
+  {\begin{tcolorbox}[width=\textwidth, 
+                     colback = {white}, 
+                     title = {\textbf{Note}}, 
+                     colbacktitle = lightgray,
+                     coltitle = black]
+  \begin{includegraphics}[scale = 1]{pencil.png}}
+  {\end{includegraphics}
+  \end{tcolorbox}}
+  
+\newenvironment{rmdexercise}
+  {\begin{tcolorbox}[width=\textwidth, 
+                     colback = {white}, 
+                     title = {\textbf{Exercise}}, 
+                     colbacktitle = lightgray,
+                     coltitle = black]
+  \begin{includegraphics}[scale = 1]{exercise.png}}
+  {\end{includegraphics}
+  \end{tcolorbox}}
+  
+\newenvironment{rmdinfo}
+  {\begin{tcolorbox}[width=\textwidth, 
+                     colback = {white}, 
+                     title = {\textbf{Info}}, 
+                     colbacktitle = lightgray,
+                     coltitle = black]
+  \begin{includegraphics}[scale = 1]{info.png}}
+  {\end{includegraphics}
+  \end{tcolorbox}}  
+  
+\newenvironment{rmdwarning}
+  {\begin{tcolorbox}[width=\textwidth, 
+                     colback = {white}, 
+                     title = {\textbf{Warning}}, 
+                     colbacktitle = lightgray,
+                     coltitle = black]
+  \begin{includegraphics}[scale = 1]{warning.png}}
+  {\end{includegraphics}
+  \end{tcolorbox}}
+
+\newenvironment{rmddownload}
+  {\begin{tcolorbox}[width=\textwidth, 
+                     colback = {white}, 
+                     title = {\textbf{Download}}, 
+                     colbacktitle = lightgray,
+                     coltitle = black]
+  \begin{includegraphics}[scale = 1]{download.png}}
+  {\end{includegraphics}
+  \end{tcolorbox}}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
@@ -146,11 +216,19 @@
 \maketitle
 
 {
+\hypersetup{linkcolor=black}
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
+\hypertarget{the-ram-op-manual}{%
+\chapter*{The RAM-OP Manual}\label{the-ram-op-manual}}
+\addcontentsline{toc}{chapter}{The RAM-OP Manual}
+
+\includegraphics{figures/coverImage.jpg}
+
 \hypertarget{introduction}{%
-\chapter{Introduction}\label{introduction}}
+\chapter*{Introduction}\label{introduction}}
+\addcontentsline{toc}{chapter}{Introduction}
 
 Older people (generally defined as people aged sixty years and older)
 are a vulnerable group for malnutrition in humanitarian and
@@ -254,7 +332,7 @@ spatial factors such as district and subdistricts within districts:
 
 \begin{figure}[h]
 
-{\centering \includegraphics[width=9.72in]{figures/listSample1} 
+{\centering \includegraphics{figures/listSample1} 
 
 }
 
@@ -386,7 +464,7 @@ developing country:
 
 \begin{figure}[h]
 
-{\centering \includegraphics[width=16.67in]{figures/popPyramid1} 
+{\centering \includegraphics{figures/popPyramid1} 
 
 }
 
@@ -422,7 +500,7 @@ years or older. For example:
 
 \begin{figure}[h]
 
-{\centering \includegraphics[width=16.67in]{figures/popPyramid2} 
+{\centering \includegraphics{figures/popPyramid2} 
 
 }
 
@@ -543,7 +621,7 @@ factor such as district or sub-district.
 
 \begin{figure}[h]
 
-{\centering \includegraphics[width=16.67in]{figures/listSample2} 
+{\centering \includegraphics{figures/listSample2} 
 
 }
 
@@ -578,7 +656,7 @@ to the centre of each grid square:
 
 \begin{figure}[h]
 
-{\centering \includegraphics[width=16.67in]{figures/mapSample1} 
+{\centering \includegraphics{figures/mapSample1} 
 
 }
 
@@ -594,7 +672,7 @@ the area shown in Figure \ref{fig:sample6}.
 
 \begin{figure}[h]
 
-{\centering \includegraphics[width=16.67in]{figures/mapSample2} 
+{\centering \includegraphics{figures/mapSample2} 
 
 }
 
@@ -603,7 +681,7 @@ the area shown in Figure \ref{fig:sample6}.
 
 \begin{figure}[h]
 
-{\centering \includegraphics[width=16.67in]{figures/mapSample3} 
+{\centering \includegraphics{figures/mapSample3} 
 
 }
 
@@ -624,7 +702,7 @@ primary sampling units (PSUs) are census enumeration areas.
 
 \begin{figure}[h]
 
-{\centering \includegraphics[width=16.67in]{figures/mapSample4} 
+{\centering \includegraphics{figures/mapSample4} 
 
 }
 
@@ -633,7 +711,7 @@ primary sampling units (PSUs) are census enumeration areas.
 
 \begin{figure}[h]
 
-{\centering \includegraphics[width=8in]{figures/mapSample5} 
+{\centering \includegraphics{figures/mapSample5} 
 
 }
 
@@ -666,7 +744,7 @@ Here is an example of a ribbon of dwellings:
 
 \begin{figure}[h]
 
-{\centering \includegraphics[width=9.72in]{figures/stage2sample1} 
+{\centering \includegraphics{figures/stage2sample1} 
 
 }
 
@@ -679,7 +757,7 @@ Here is an example of a cluster of dwellings:
 
 \begin{figure}[h]
 
-{\centering \includegraphics[width=9.72in]{figures/stage2sample2} 
+{\centering \includegraphics{figures/stage2sample2} 
 
 }
 
@@ -713,7 +791,7 @@ Some communities consist of a single cluster of dwellings:
 
 \begin{figure}[h]
 
-{\centering \includegraphics[width=9.72in]{figures/stage2sample2} 
+{\centering \includegraphics{figures/stage2sample2} 
 
 }
 
@@ -724,7 +802,7 @@ or a set of clusters of dwellings:
 
 \begin{figure}[h]
 
-{\centering \includegraphics[width=9.72in]{figures/stage2sample3} 
+{\centering \includegraphics{figures/stage2sample3} 
 
 }
 
@@ -742,7 +820,7 @@ Ribbon communities have dwellings arranged in a line:
 
 \begin{figure}[h]
 
-{\centering \includegraphics[width=9.72in]{figures/stage2sample1} 
+{\centering \includegraphics{figures/stage2sample1} 
 
 }
 
@@ -753,7 +831,7 @@ or in a several lines:
 
 \begin{figure}[h]
 
-{\centering \includegraphics[width=9.72in]{figures/stage2sample4} 
+{\centering \includegraphics{figures/stage2sample4} 
 
 }
 
@@ -771,7 +849,7 @@ Some communities are a mixture of clusters and ribbons:
 
 \begin{figure}[h]
 
-{\centering \includegraphics[width=9.72in]{figures/stage2sample5} 
+{\centering \includegraphics{figures/stage2sample5} 
 
 }
 
@@ -796,7 +874,7 @@ parts or segments, such as a community made up of several clusters:
 
 \begin{figure}[h]
 
-{\centering \includegraphics[width=9.72in]{figures/stage2sample3} 
+{\centering \includegraphics{figures/stage2sample3} 
 
 }
 
@@ -807,7 +885,7 @@ or a community made up of several ribbons:
 
 \begin{figure}[h]
 
-{\centering \includegraphics[width=9.72in]{figures/stage2sample4} 
+{\centering \includegraphics{figures/stage2sample4} 
 
 }
 
@@ -818,7 +896,7 @@ or a mixed community:
 
 \begin{figure}[h]
 
-{\centering \includegraphics[width=9.72in]{figures/stage2sample5} 
+{\centering \includegraphics{figures/stage2sample5} 
 
 }
 
@@ -832,7 +910,7 @@ For example, with a community made up of three segments:
 
 \begin{figure}[h]
 
-{\centering \includegraphics[width=9.72in]{figures/stage2sample6} 
+{\centering \includegraphics{figures/stage2sample6} 
 
 }
 
@@ -868,7 +946,7 @@ If, for example, there are five segments in a community:
 
 \begin{figure}[h]
 
-{\centering \includegraphics[width=9.72in]{figures/stage2sample7} 
+{\centering \includegraphics{figures/stage2sample7} 
 
 }
 
@@ -945,7 +1023,7 @@ The random walk method is illustrated in Figure \ref{fig:sample22}.
 
 \begin{figure}[h]
 
-{\centering \includegraphics[width=9.72in]{figures/stage2sample8} 
+{\centering \includegraphics{figures/stage2sample8} 
 
 }
 
@@ -1139,7 +1217,7 @@ is not done automatically.
 
 \begin{figure}
 
-{\centering \includegraphics[width=9.75in]{figures/dirStructureRAF} 
+{\centering \includegraphics{figures/dirStructureRAF} 
 
 }
 
@@ -1182,7 +1260,7 @@ files.
 
 \begin{figure}
 
-{\centering \includegraphics[width=9.62in]{figures/openProjectRAF} 
+{\centering \includegraphics{figures/openProjectRAF} 
 
 }
 
@@ -1214,7 +1292,7 @@ Before you start work you will need to create a project for your survey:
 
 \begin{figure}
 
-{\centering \includegraphics[width=10.12in]{figures/openWorkflowRAF} 
+{\centering \includegraphics{figures/openWorkflowRAF} 
 
 }
 
@@ -1232,7 +1310,7 @@ new analysis):
 
 \begin{figure}
 
-{\centering \includegraphics[width=10.12in]{figures/runWorkflowRAF} 
+{\centering \includegraphics{figures/runWorkflowRAF} 
 
 }
 
