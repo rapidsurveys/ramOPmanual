@@ -2,16 +2,28 @@
 title: "Rapid Assessment Method for Older People (RAM-OP): The Manual"
 author: "Pascale Fritsch, Ernest Guevarra, Katja Siling, Mark Myatt"
 date: "21/12/2015"
+knit: bookdown::render_book
 site: bookdown::bookdown_site
+output: bookdown::gitbook
 documentclass: book
 bibliography: ["book.bib"]
 biblio-style: "apalike"
 link-citations: TRUE
+links-as-notes: FALSE
+colorlinks: TRUE
 fontsize: 12pt
+url: https\://validmeasures.org/ramp-op
+github-repo: validmeasures/ramOPmanual
+cover-image: figures/coverImage.jpg
 description: "Rapid assessment method for older people (RAM-OP) manual"
 ---
 
-# Introduction
+# The RAM-OP Manual {-}
+
+![](figures/coverImage.jpg)
+
+
+# Introduction {-}
 
 Older people (generally defined as people aged sixty years and older) are a vulnerable group for malnutrition in humanitarian and developmental contexts. Due to their age they have specific nutritional needs, such as easily digestible and palatable food adapted to those with chewing problems, which is dense in nutrients. In famine and displacement situations where populations are dependent on food distributions, older people often find the general ration inappropriate to their tastes and needs, have difficulties accessing the distributions, or have difficulties transporting rations home. As a result, older people can become malnourished and in need of specifically targeted food interventions. In times of drought or food scarcity, older people tend to reduce their food intake in order to share or give up their ration to younger members of their families. They are then at risk of malnutrition.
 
