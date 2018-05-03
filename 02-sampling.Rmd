@@ -217,7 +217,7 @@ knitr::include_graphics("figures/stage2sample2.png")
 
 **Note:** If a small community is selected that is likely to have fewer than the required number of eligible persons then **all** eligible persons in that community are sampled by moving door-to-door.
 
-## Mapping the community - single and multiple clusters
+### Mapping the community - single and multiple clusters
 
 Some communities consist of a single cluster of dwellings:
 
@@ -367,5 +367,54 @@ Sampling proceeds as follows:
 
 If, when you have sampled all segments, you have not sampled twelve eligible persons, you should return to the **largest** segment to finish sampling using the appropriate sampling method.
 
-The systematic sampling method is illustrated in Figure 6.
+The systematic sampling method is illustrated in \@ref(fig:sample23).
 
+```{r sample23, echo = FALSE, fig.cap = "Systematic sampling in a ribbon segment", fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/stage2sample9.png")
+```
+
+### Sampling in urban settings
+
+In urban areas the first stage sample is taken by replacing sub-districts with “sections” and communities with city blocks. Examples of sections may be administrative districts/sub-districts or electoral wards.
+
+```{r sample24, echo = FALSE, fig.cap = "Administrative divisions in an urban setting", fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/stage2sample10.png")
+```
+
+Census enumeration areas (EAs) are usually city blocks. Central statistics offices can usually provide lists of EAs by “section” and large-scale maps of EAs selected for sampling (See \@ref(fig:sample25) and \@ref(fig:sample26)). These maps make it easy to locate EAs and their boundaries. The sample of EAs can be decided using list-based or map-based (CSAS) sampling.
+
+In these settings, eligible persons may be sampled by moving from door-to-door. All dwellings in the selected block are sampled and all eligible persons in the selected dwellings are sampled. This means that all eligible persons in a selected block are sampled.
+
+If city blocks are large then a type of systematic sampling may be used. With this method a rough map of the streets in the block is made and the number of doorways on each street is counted and copied onto the rough street map (as shown in \@ref(fig:sample27)). The total number of doorways on all streets is calculated. A step size is calculated by dividing the total number of doorways on all streets by the number of dwellings to be sampled. A systematic sample along a route around the block that includes all streets in the block is taken. Streets can be sampled in any order. If you find that you have sampled all streets but have not yet sampled the required number of eligible persons then you should return to the street with the largest number of houses to collect the remainder of the sample.
+
+The number of blocks to be sampled will depend on the expected number of eligible persons in each block. You should aim for an overall sample size of about $n = 192$. You should not sample fewer than $m = 16$ blocks.
+
+```{r sample25, echo = FALSE, fig.cap = "Enumeration area map for a city block in Freetown, Sierra Leone", fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/stage2sample11.png")
+```
+
+```{r sample26, echo = FALSE, fig.cap = "Enumeration area map for a city block in Addis Ababa, Ethiopia", fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/stage2sample12.png")
+```
+
+```{r sample27, echo = FALSE, fig.cap = "Systematic sampling in a city block", fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/stage2sample13.png")
+```
+
+When useful lists and maps are not available then satellite imagery available though free services such as Google Earth (http://earth.google.com) may be used.
+
+The quality (resolution) of the images available from these services is variable but is usually good enough to allow you to segment the town into small areas of approximately equal volume (approximately the same number of dwellings) in each:
+
+```{r sample28, echo = FALSE, fig.cap = "Segmenting a town into smaller sampling areas", fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/stage2sample14.png")
+```
+
+When creating segments using maps or satellite images it is a good idea to use main roads, rivers, canals, railway lines, public parks, etc as boundaries. This simplifies the segmentation process and also simplifies fieldwork by making areas and their boundaries easier to locate and sample.
+
+The first stage sample can be list-based (such as where each area is numbered in a systematic north to south and east to west order and a systematic sample taken) or map-based (CSAS).
+
+Larger scale “maps” of blocks to be sampled can also me made using satellite imagery (see \@ref(fig:sample29)).
+
+```{r sample29, echo = FALSE, fig.cap = "A large scale “map” of a city block made from satellite imagery", fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/stage2sample15.png")
+```
