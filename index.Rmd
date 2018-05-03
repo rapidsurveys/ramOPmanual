@@ -5,6 +5,7 @@ date: "21/12/2015"
 knit: bookdown::render_book
 site: bookdown::bookdown_site
 output: bookdown::gitbook
+geometry: margin=1.5cm
 documentclass: book
 classoption: a4paper
 bibliography: ["book.bib"]
@@ -13,7 +14,7 @@ link-citations: TRUE
 links-as-notes: FALSE
 colorlinks: TRUE
 fontsize: 12pt
-url: https\://validmeasures.org/ramp-op
+url: https\://validmeasures.org/ramOPmanual
 github-repo: validmeasures/ramOPmanual
 cover-image: figures/coverImage.jpg
 description: "Rapid assessment method for older people (RAM-OP) manual"
