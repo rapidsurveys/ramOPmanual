@@ -1,1 +1,78 @@
 # Indicators {#indicators}
+
+## The RAM-OP indicator set
+
+RAM-OP surveys collect and report on data for a broad range of indicators relevant to older people.
+
+These indicators cover the following dimensions:
+
+* Demography and situation
+* Food intake
+* Severe food insecurity
+* Disability
+* Activities of daily living
+* Mental health and well-being
+* Dementia
+* Health and health-seeking behaviour
+* Sources of income
+* Water, sanitation, and hygiene
+* Anthropometry and screening coverage
+* Visual impairment
+
+Data for a small group of miscellaneous indicators are also collected and reported.
+
+The RAM-OP indicator set has been designed on a modular basis. Each module is a set of indicators relating to a single dimension from the list given above and is collected using a dedicated set of questions and measurements. This means that the RAM-OP questionnaire also consists of a set of modules.
+
+Whenever possible, RAM-OP uses standard and validated indicators and question sets.
+
+Indicators are described below, showing the questionnaire components that are used to collect and record the data required, and flowcharts of the process used to derive indicators from the collected data. Standard symbols are used. For example:
+
+```{r indicators01, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/indicators01.png")
+```
+
+A non-standard symbol is used to show **recode operations**. A recode operation shows changes that are made to data so that it can be used to derive indicators without having to show many decision nodes in the flowchart. They are also used to specify what should be done with missing or out-of-range values. For example:
+
+```{r indicators02, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/indicators02.png")
+```
+
+### Demography and situation
+
+The demography and situation indicators are used to describe the survey sample and are derived from this questionnaire component:
+
++----------+--------------------------------------------------+----------------------------------------+----------+
+| d1       | Who is answering these questions?                | 1 = Subject                            | |__|     |
+|          |                                                  |                                        |          |
+|          |                                                  | 2 = Family carer                       |          |
+|          |                                                  |                                        |          |
+|          |                                                  | 3 = Other carer                        |          |
+|          |                                                  |                                        |          |
+|          |                                                  | 4 = Other                              |          |
++----------+--------------------------------------------------+----------------------------------------+----------+
+
+
+
+|__|
+d2
+How old are you (age in years)?
+888 = DK / REFUSED
+|__|__|__|
+d3
+Sex
+1 = Male; 2 = Female
+|__|
+d4
+Marital status
+1 = Single (never married)
+2 = Married
+3 = Living together
+4 = Divorced
+5 = Widowed
+6 = Other
+|__|
+d5
+Do you live alone?
+1 = Yes; 2 = No
+|__|
+
