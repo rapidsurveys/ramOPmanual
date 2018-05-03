@@ -215,4 +215,8 @@ requires the consumption of one or more of green leafy vegetables, organ meats, 
 
 Indicators of consumption of protein rich foods from animal sources, plant source, and any / all sources are calculated as:
 
+```{r indicators09, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/indicators09.png")
+```
+
 
