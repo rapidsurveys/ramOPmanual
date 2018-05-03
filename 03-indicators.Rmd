@@ -175,3 +175,39 @@ knitr::include_graphics("figures/indicators05.png")
 Meal frequency is a crude measure of food security.
 
 Higher values of meal frequency are associated with better food security.
+
+### Food groups and dietary diversity
+
+Questions relating to the consumption of individual food items / food types are combined to create food groups and the number of food groups consumed are counted to create a dietary diversity score:
+
+```{r indicators06, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/indicators06.png")
+```
+
+The consumption of the eleven individual food groups and the dietary diversity score are reported separately.
+
+The dietary diversity score is a crude measure of food security. The dietary diversity score ranges between zero (no food groups) and eleven (eleven food groups). Higher values of the dietary diversity score are associated with better food security.
+
+### Indicators of nutrient consumption
+
+**Overview**
+
+Questions and combinations of questions relating to the consumption of individual food items and food types can be used to determine whether the reported diet is likely to be provide sufficient nutrients of various types:
+
+```{r indicators07, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/indicators07.png")
+```
+
+Each indicator is formed using logical “or” operations (i.e. the indicator is true if **any** of the constituent foods are consumed). For example, the indicator for the consumption of iron rich foods:
+
+```{r indicators08, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/indicators08.png")
+```
+
+requires the consumption of one or more of green leafy vegetables, organ meats, meat, or fish and shellfish. Consumption of **any** of these foods is sufficient to indicate that the survey subject consumes iron rich food.
+
+#### Protein rich foods
+
+Indicators of consumption of protein rich foods from animal sources, plant source, and any / all sources are calculated as:
+
+
