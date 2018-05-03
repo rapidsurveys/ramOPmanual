@@ -149,6 +149,8 @@ code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Infor
 <li class="chapter" data-level="2" data-path="indicators.html"><a href="indicators.html"><i class="fa fa-check"></i><b>2</b> Indicators</a><ul>
 <li class="chapter" data-level="2.1" data-path="indicators.html"><a href="indicators.html#the-ram-op-indicator-set"><i class="fa fa-check"></i><b>2.1</b> The RAM-OP indicator set</a><ul>
 <li class="chapter" data-level="2.1.1" data-path="indicators.html"><a href="indicators.html#demography-and-situation"><i class="fa fa-check"></i><b>2.1.1</b> Demography and situation</a></li>
+<li class="chapter" data-level="2.1.2" data-path="indicators.html"><a href="indicators.html#food-intake"><i class="fa fa-check"></i><b>2.1.2</b> Food intake</a></li>
+<li class="chapter" data-level="2.1.3" data-path="indicators.html"><a href="indicators.html#meal-frequency"><i class="fa fa-check"></i><b>2.1.3</b> Meal frequency</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="the-ram-op-questionnaire.html"><a href="the-ram-op-questionnaire.html"><i class="fa fa-check"></i><b>3</b> The RAM-OP questionnaire</a></li>
@@ -211,10 +213,10 @@ code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Infor
 <p>The demography and situation indicators are used to describe the survey sample and are derived from this questionnaire component:</p>
 <table>
 <colgroup>
-<col width="9%" />
-<col width="44%" />
-<col width="35%" />
-<col width="9%" />
+<col width="10%" />
+<col width="46%" />
+<col width="28%" />
+<col width="14%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -226,30 +228,225 @@ code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Infor
 <p>4 = Other</p></td>
 <td>|__|</td>
 </tr>
-</tbody>
-</table>
-<p>|<strong>|
-d2
-How old are you (age in years)?
-888 = DK / REFUSED
-|</strong>|<strong>|</strong>|
-d3
-Sex
-1 = Male; 2 = Female
-|<strong>|
-d4
-Marital status
-1 = Single (never married)
+<tr class="even">
+<td>d2</td>
+<td>How old are you (age in years)?</td>
+<td>888 = DK / REFUSED</td>
+<td>|<strong>|</strong>|__|</td>
+</tr>
+<tr class="odd">
+<td>d3</td>
+<td>Sex</td>
+<td>1 = Male; 2 = Female</td>
+<td>|__|</td>
+</tr>
+<tr class="even">
+<td>d4</td>
+<td>Marital status</td>
+<td>1 = Single (never married)
 2 = Married
 3 = Living together
 4 = Divorced
 5 = Widowed
-6 = Other
-|</strong>|
-d5
-Do you live alone?
-1 = Yes; 2 = No
-|__|</p>
+6 = Other</td>
+<td>|__|</td>
+</tr>
+<tr class="odd">
+<td>d5</td>
+<td>Do you live alone?</td>
+<td>1= Yes; 2 = No</td>
+<td>|__|</td>
+</tr>
+</tbody>
+</table>
+<p>Each of the questions yields a separate indicator:</p>
+<p><img src="figures/indicators03.png" style="display: block; margin: auto;" /></p>
+</div>
+<div id="food-intake" class="section level3">
+<h3><span class="header-section-number">2.1.2</span> Food intake</h3>
+<p>Food-intake indicators are derived from this questionnaire component. This data can be queried to yield a large number of useful indicators.</p>
+<table>
+<colgroup>
+<col width="10%" />
+<col width="46%" />
+<col width="28%" />
+<col width="14%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>f1</td>
+<td>How many meals did you eat since this time
+yesterday (Ask about breakfast, lunch, dinner,
+and snacks)?</td>
+<td>Number of meals</td>
+<td>|__|</td>
+</tr>
+<tr class="even">
+<td>f2</td>
+<td>Since this time yesterday did you eat any of the
+following foods …</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>f2a</td>
+<td>Tinned, powdered or fresh milk?</td>
+<td>1 = Yes; 2 = No</td>
+<td>|__|</td>
+</tr>
+<tr class="even">
+<td>f2b</td>
+<td>Sweetened or flavoured water, “soda” drink,
+alcoholic drink, beer, tea or infusion, coffee,
+soup, or broth?</td>
+<td>1 = Yes; 2 = No</td>
+<td>|__|</td>
+</tr>
+<tr class="odd">
+<td>f2c</td>
+<td>Any food made from grain such as millet, wheat,
+barley, sorghum, rice, maize, pasta, noodles,
+bread, pizza, porridge?</td>
+<td>1 = Yes; 2 = No</td>
+<td>|__|</td>
+</tr>
+<tr class="even">
+<td>f2d</td>
+<td>Any food made from fruits or vegetables that
+have yellow or orange flesh such as carrots,
+pumpkin, red sweet potatoes, mangoes, and papaya?</td>
+<td>1 = Yes; 2 = No</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>f2e</td>
+<td>Any food made with red palm oil or red palm nuts?</td>
+<td>1 = Yes; 2 = No</td>
+<td>|__|</td>
+</tr>
+<tr class="even">
+<td>f2f</td>
+<td>Any dark green leafy vegetables such as cabbage,
+broccoli, spinach, moringa leaves, cassava
+leaves?</td>
+<td>1 = Yes; 2 = No</td>
+<td>|__|</td>
+</tr>
+<tr class="odd">
+<td>f2g</td>
+<td>Any food made from roots or tubers such as white
+potatoes, white yams, false banana, cassava,
+manioc, onions, beets, turnips, and swedes?</td>
+<td>1 = Yes; 2 = No</td>
+<td>|__|</td>
+</tr>
+<tr class="even">
+<td>f2h</td>
+<td>Any food made from lentils, beans, peas,
+groundnuts, nuts, or seeds?</td>
+<td>1 = Yes; 2 = No</td>
+<td>|__|</td>
+</tr>
+<tr class="odd">
+<td>f2i</td>
+<td>Any other fruits or vegetables such as banana,
+plantain, avocado, cauliflower, coconut?</td>
+<td>1 = Yes; 2 = No</td>
+<td>|__|</td>
+</tr>
+<tr class="even">
+<td>f2j</td>
+<td>Liver, kidney, heart, black pudding, blood, or
+other organ meats?</td>
+<td>1 = Yes; 2 = No</td>
+<td>|__|</td>
+</tr>
+<tr class="odd">
+<td>f2k</td>
+<td>Any meat such as beef, pork, goat, lamb, mutton,
+veal, chicken, camel, or bush meat?</td>
+<td>1 = Yes; 2 = No</td>
+<td>|__|</td>
+</tr>
+<tr class="even">
+<td>f2l</td>
+<td>Fresh or dried fish, shellfish, or seafood?</td>
+<td>1 = Yes; 2 = No</td>
+<td>|__|</td>
+</tr>
+<tr class="odd">
+<td>f2m</td>
+<td>Cheese, yoghurt, or other milk products?</td>
+<td>1 = Yes; 2 = No</td>
+<td>|__|</td>
+</tr>
+<tr class="even">
+<td>f2n</td>
+<td>Eggs?</td>
+<td>1 = Yes; 2 = No</td>
+<td>|__|</td>
+</tr>
+<tr class="odd">
+<td>f2o</td>
+<td>Any food made with oil, fat, butter, or ghee?</td>
+<td>1 = Yes; 2 = No</td>
+<td>|__|</td>
+</tr>
+<tr class="even">
+<td>f2p</td>
+<td>Any mushrooms or fungi?</td>
+<td>1 = Yes; 2 = No</td>
+<td>|__|</td>
+</tr>
+<tr class="odd">
+<td>f2q</td>
+<td>Grubs, snails, insects?</td>
+<td>1 = Yes; 2 = No</td>
+<td>|__|</td>
+</tr>
+<tr class="even">
+<td>f2r</td>
+<td>Sugar, honey and foods made with sugar or honey
+such as sweets, candies, chocolate, cakes, and
+biscuits?</td>
+<td>1 = Yes; 2 = No</td>
+<td>|__|</td>
+</tr>
+<tr class="odd">
+<td>f2s</td>
+<td>Salt, pepper, herbs, spices, or sauces
+(hot sauce, soy sauce, ketchup)?</td>
+<td>1 = Yes; 2 = No</td>
+<td>|__|</td>
+</tr>
+</tbody>
+</table>
+<p>There are three related sets of diet-related indicators:</p>
+<ul>
+<li>meal frequency</li>
+<li>food groups consumed / dietary diversity</li>
+<li>indicators of nutrient consumption.</li>
+</ul>
+<p>The indicator hierarchy is:</p>
+<p><img src="figures/indicators04.png" style="display: block; margin: auto;" /></p>
+<p>The data on the number of meals taken in the previous twenty-four hours forms a <em>meal frequency score</em>.</p>
+<p>Food intake data from each subject is combined into a <em>dietary diversity score</em>. The dietary diversity score is a crude measure of food security. The dietary diversity score ranges between zero (i.e. no food groups) and eleven (i.e. eleven food groups). Higher values of the dietary diversity sore are associated with better food security.</p>
+<p>The meal frequency score and the dietary diversity score follow:</p>
+<ul>
+<li><p>Swindale A, Bilinsky P, <em>Household Dietary Diversity Score (HDDS) for measurement of household food access: Indicator guide</em>.,Washington DC, Food and Nutrition Technical Assistance (FANTA) Project, 2006</p></li>
+<li><p>Kennedy G, Ballard T, Dop MC, <em>Guidelines for Measuring Household and Individual Dietary Diversity</em>, Rome, Food and Agricultural Organization, 2010</p></li>
+</ul>
+<p>The data on the types of food consumed in the previous twenty-four hours are analysed in order to determine the diet’s content of specific micronutrients that are important for older people. This also follows Swindale &amp; Bilinsky (2006) and Kennedy et al (2010), and:</p>
+<ul>
+<li>World Health Organisation, <em>The management of nutrition in major emergencies</em>, Geneva, WHO, 2000</li>
+</ul>
+</div>
+<div id="meal-frequency" class="section level3">
+<h3><span class="header-section-number">2.1.3</span> Meal frequency</h3>
+<p>The meal frequency score indicator is the answer given to the first food intake question:</p>
+<p><img src="figures/indicators05.png" style="display: block; margin: auto;" /></p>
+<p>Meal frequency is a crude measure of food security.</p>
+<p>Higher values of meal frequency are associated with better food security.</p>
 
 </div>
 </div>
