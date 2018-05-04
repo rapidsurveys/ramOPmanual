@@ -41,33 +41,34 @@ knitr::include_graphics("figures/indicators02.png")
 
 The demography and situation indicators are used to describe the survey sample and are derived from this questionnaire component:
 
-+----------+--------------------------------------------------+------------------------------+---------------+
-| d1       | Who is answering these questions?                | 1 = Subject                  | |__|          |
-|          |                                                  |                              |               |
-|          |                                                  | 2 = Family carer             |               |
-|          |                                                  |                              |               |
-|          |                                                  | 3 = Other carer              |               |
-|          |                                                  |                              |               |
-|          |                                                  | 4 = Other                    |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| d2       | How old are you (age in years)?                  | 888 = DK / REFUSED           | |__|__|__|    |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| d3       | Sex                                              | 1 = Male; 2 = Female         | |__|          |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| d4       | Marital status                                   | 1 = Single (never married)   | |__|          |
-|          |                                                  |                              |               |
-|          |                                                  | 2 = Married                  |               |
-|          |                                                  |                              |               |
-|          |                                                  | 3 = Living together          |               |
-|          |                                                  |                              |               |
-|          |                                                  | 4 = Divorced                 |               |
-|          |                                                  |                              |               |
-|          |                                                  | 5 = Widowed                  |               |
-|          |                                                  |                              |               |
-|          |                                                  | 6 = Other                    |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| d5       | Do you live alone?                               | 1= Yes; 2 = No               | |__|          |
-+----------+--------------------------------------------------+------------------------------+---------------+
+
++----------+------------------------------------+------------------------------+---------------+
+| d1       | Who is answering these questions?  | 1 = Subject                  | [__]          |
+|          |                                    |                              |               |
+|          |                                    | 2 = Family carer             |               |
+|          |                                    |                              |               |
+|          |                                    | 3 = Other carer              |               |
+|          |                                    |                              |               |
+|          |                                    | 4 = Other                    |               |
++----------+------------------------------------+------------------------------+---------------+
+| d2       | How old are you (age in years)?    | 888 = DK / REFUSED           | [__][__][__]  |
++----------+------------------------------------+------------------------------+---------------+
+| d3       | Sex                                | 1 = Male; 2 = Female         | [__]          |
++----------+------------------------------------+------------------------------+---------------+
+| d4       | Marital status                     | 1 = Single (never married)   | [__]          |
+|          |                                    |                              |               |
+|          |                                    | 2 = Married                  |               |
+|          |                                    |                              |               |
+|          |                                    | 3 = Living together          |               |
+|          |                                    |                              |               |
+|          |                                    | 4 = Divorced                 |               |
+|          |                                    |                              |               |
+|          |                                    | 5 = Widowed                  |               |
+|          |                                    |                              |               |
+|          |                                    | 6 = Other                    |               |
++----------+------------------------------------+------------------------------+---------------+
+| d5       | Do you live alone?                 | 1= Yes; 2 = No               | [__]          |
++----------+------------------------------------+------------------------------+---------------+
 
 Each of the questions yields a separate indicator:
 
@@ -80,66 +81,66 @@ knitr::include_graphics("figures/indicators03.png")
 Food-intake indicators are derived from this questionnaire component. This data can be queried to yield a large number of useful indicators.
 
 +----------+--------------------------------------------------+------------------------------+---------------+
-| f1       | How many meals did you eat since this time       | Number of meals              | |__|          |
+| f1       | How many meals did you eat since this time       | Number of meals              | [__]          |
 |          | yesterday (Ask about breakfast, lunch, dinner,   |                              |               |
 |          | and snacks)?                                     |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
 | f2       | Since this time yesterday did you eat any of the |                              |               |
 |          | following foods ...                              |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
-| f2a      | Tinned, powdered or fresh milk?                  | 1 = Yes; 2 = No              | |__|          |
+| f2a      | Tinned, powdered or fresh milk?                  | 1 = Yes; 2 = No              | [__]          |
 +----------+--------------------------------------------------+------------------------------+---------------+
-| f2b      | Sweetened or flavoured water, “soda” drink,      | 1 = Yes; 2 = No              | |__|          |
+| f2b      | Sweetened or flavoured water, “soda” drink,      | 1 = Yes; 2 = No              | [__]          |
 |          | alcoholic drink, beer, tea or infusion, coffee,  |                              |               |
 |          | soup, or broth?                                  |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
-| f2c      | Any food made from grain such as millet, wheat,  | 1 = Yes; 2 = No              | |__|          |      
+| f2c      | Any food made from grain such as millet, wheat,  | 1 = Yes; 2 = No              | [__]          |      
 |          | barley, sorghum, rice, maize, pasta, noodles,    |                              |               |
 |          | bread, pizza, porridge?                          |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
-| f2d      | Any food made from fruits or vegetables that     | 1 = Yes; 2 = No              |               |
+| f2d      | Any food made from fruits or vegetables that     | 1 = Yes; 2 = No              | [__]          |
 |          | have yellow or orange flesh such as carrots,     |                              |               |
 |          | pumpkin, red sweet potatoes, mangoes, and papaya?|                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
-| f2e      | Any food made with red palm oil or red palm nuts?| 1 = Yes; 2 = No              | |__|          |
+| f2e      | Any food made with red palm oil or red palm nuts?| 1 = Yes; 2 = No              | [__]          |
 +----------+--------------------------------------------------+------------------------------+---------------+
-| f2f      | Any dark green leafy vegetables such as cabbage, | 1 = Yes; 2 = No              | |__|          |
+| f2f      | Any dark green leafy vegetables such as cabbage, | 1 = Yes; 2 = No              | [__]          |
 |          | broccoli, spinach, moringa leaves, cassava       |                              |               |
 |          | leaves?                                          |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
-| f2g      | Any food made from roots or tubers such as white | 1 = Yes; 2 = No              | |__|          |
+| f2g      | Any food made from roots or tubers such as white | 1 = Yes; 2 = No              | [__]          |
 |          | potatoes, white yams, false banana, cassava,     |                              |               |
 |          | manioc, onions, beets, turnips, and swedes?      |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
-| f2h      | Any food made from lentils, beans, peas,         | 1 = Yes; 2 = No              | |__|          |
+| f2h      | Any food made from lentils, beans, peas,         | 1 = Yes; 2 = No              | [__]          |
 |          | groundnuts, nuts, or seeds?                      |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
-| f2i      | Any other fruits or vegetables such as banana,   | 1 = Yes; 2 = No              | |__|          |
+| f2i      | Any other fruits or vegetables such as banana,   | 1 = Yes; 2 = No              | [__]          |
 |          | plantain, avocado, cauliflower, coconut?         |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
-| f2j      | Liver, kidney, heart, black pudding, blood, or   | 1 = Yes; 2 = No              | |__|          |
+| f2j      | Liver, kidney, heart, black pudding, blood, or   | 1 = Yes; 2 = No              | [__]          |
 |          | other organ meats?                               |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
-| f2k      | Any meat such as beef, pork, goat, lamb, mutton, | 1 = Yes; 2 = No              | |__|          |
+| f2k      | Any meat such as beef, pork, goat, lamb, mutton, | 1 = Yes; 2 = No              | [__]          |
 |          | veal, chicken, camel, or bush meat?              |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
-| f2l      | Fresh or dried fish, shellfish, or seafood?      | 1 = Yes; 2 = No              | |__|          |
+| f2l      | Fresh or dried fish, shellfish, or seafood?      | 1 = Yes; 2 = No              | [__]          |
 +----------+--------------------------------------------------+------------------------------+---------------+
-| f2m      | Cheese, yoghurt, or other milk products?         | 1 = Yes; 2 = No              | |__|          |
+| f2m      | Cheese, yoghurt, or other milk products?         | 1 = Yes; 2 = No              | [__]          |
 +----------+--------------------------------------------------+------------------------------+---------------+
-| f2n      | Eggs?                                            | 1 = Yes; 2 = No              | |__|          |
+| f2n      | Eggs?                                            | 1 = Yes; 2 = No              | [__]          |
 +----------+--------------------------------------------------+------------------------------+---------------+
-| f2o      | Any food made with oil, fat, butter, or ghee?    | 1 = Yes; 2 = No              | |__|          |
+| f2o      | Any food made with oil, fat, butter, or ghee?    | 1 = Yes; 2 = No              | [__]          |
 +----------+--------------------------------------------------+------------------------------+---------------+
-| f2p      | Any mushrooms or fungi?                          | 1 = Yes; 2 = No              | |__|          |
+| f2p      | Any mushrooms or fungi?                          | 1 = Yes; 2 = No              | [__]          |
 +----------+--------------------------------------------------+------------------------------+---------------+
-| f2q      | Grubs, snails, insects?                          | 1 = Yes; 2 = No              | |__|          |
+| f2q      | Grubs, snails, insects?                          | 1 = Yes; 2 = No              | [__]          |
 +----------+--------------------------------------------------+------------------------------+---------------+
-| f2r      | Sugar, honey and foods made with sugar or honey  | 1 = Yes; 2 = No              | |__|          |
+| f2r      | Sugar, honey and foods made with sugar or honey  | 1 = Yes; 2 = No              | [__]          |
 |          | such as sweets, candies, chocolate, cakes, and   |                              |               |
 |          | biscuits?                                        |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
-| f2s      | Salt, pepper, herbs, spices, or sauces           | 1 = Yes; 2 = No              | |__|          |
+| f2s      | Salt, pepper, herbs, spices, or sauces           | 1 = Yes; 2 = No              | [__]          |
 |          | (hot sauce, soy sauce, ketchup)?                 |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
 
@@ -219,4 +220,85 @@ Indicators of consumption of protein rich foods from animal sources, plant sourc
 knitr::include_graphics("figures/indicators09.png")
 ```
 
+#### Vitamin A rich foods
+
+Indicators of consumption of vitamin A rich foods from animal sources, plant source, and any / all sources are calculated as:
+
+```{r indicators10, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/indicators10.png")
+```
+
+#### Iron rich foods
+
+An indicator of consumption of iron rich foods from any / all sources is calculated as:
+
+```{r indicators11, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/indicators11.png")
+```
+
+#### Calcium rich foods
+
+An indicator of consumption of calcium rich foods from any / all sources is calculated as:
+
+```{r indicators12, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/indicators12.png")
+```
+
+#### Zinc rich foods
+
+An indicator of consumption of zinc rich foods from any / all sources is calculated as:
+
+```{r indicators13, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/indicators13.png")
+```
+
+####Vitamin B rich foods
+
+Indicators of consumption of vitamin B rich foods from any / all sources are calculated as:
+
+```{r indicators14, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/indicators14.png")
+```
+
+Note that the vitamin B complex indicator requires that at least one food from each of the B1, B2, B3, B6, and B12 rich food combinations is consumed.
+
+### Severe food insecurity
+
+An indicator of severe food insecurity (hunger) is derived from this questionnaire component:
+
++:----------------------------------------------------------------------------------------------------------:+
+| **Hunger – Ration - Relief**                                                                               |
++------------------------------------------------------------------------------------------------------------+
+
++----------+--------------------------------------------------+------------------------------+---------------+
+| f3       | In the past four weeks, how often was there ever | 0 = Never                    | [__]          |
+|          | no food to eat of any kind in your home because  |                              |               |
+|          | of lack of resources to get food?                | 1 = Rarely (1-2x)            |               |
+|          |                                                  |                              |               |
+|          |                                                  | 2 = Sometimes (3-10x)        |               |
+|          |                                                  |                              |               |
+|          |                                                  | 3 = Often (> 10x))           |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| f4       | In the past four weeks, how often did you go to  | 0 = Never                    | [__]          |
+|          | sleep at night hungry because there was not      |                              |               |
+|          | enough food?                                     | 1 = Rarely (1-2x)            |               |
+|          |                                                  |                              |               |
+|          |                                                  | 2 = Sometimes (3-10x)        |               |
+|          |                                                  |                              |               |
+|          |                                                  | 3 = Often (> 10x))           |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| f5       | In the past four weeks, how often did you go a   | 0 = Never                    | [__]          |
+|          | whole day and night without eating anything at   |                              |               |
+|          | all because there was not enough food?           | 1 = Rarely (1-2x)            |               |
+|          |                                                  |                              |               |
+|          |                                                  | 2 = Sometimes (3-10x)        |               |
+|          |                                                  |                              |               |
+|          |                                                  | 3 = Often (> 10x))           |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+
+and is calculated as:
+
+```{r indicators15, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/indicators15.png")
+```
 
