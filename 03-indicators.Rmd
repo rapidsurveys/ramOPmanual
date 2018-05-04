@@ -747,3 +747,154 @@ Indicators of health and health-seeking behaviour for acute conditions are calcu
 knitr::include_graphics("figures/indicators22.png")
 ```
 
+### Sources of income
+
+Indicators related to sources of income are derived from this questionnaire component:
+
++:----------------------------------------------------------------------------------------------------------:+
+| **Income**                                                                                                 |
++------------------------------------------------------------------------------------------------------------+
+
++----------+--------------------------------------------------+------------------------------+---------------+
+| m1       | Do you have a personal source of income or money?| 1 = Yes; 2 = No              | |__|          |
++----------+--------------------------------------------------+------------------------------+---------------+
+| ??       | Continue to question m2 even if the subject      |                              |               |
+|          | reports having no personal income...             |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| m2       | Where does your income or money come from?       |                              |               |
+|          | (prompt “Anything else?”)                        |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| m2a      | Agriculture, livestock, or fishing               | 1 = Yes; 2 = No              | [__]          |
++----------+--------------------------------------------------+------------------------------+---------------+
+| m2b      | Wages or salary                                  | 1 = Yes; 2 = No              | [__]          |
++----------+--------------------------------------------------+------------------------------+---------------+
+| m2c      | Sale of charcoal, bricks, firewood, poles, etc.  | 1 = Yes; 2 = No              | [__]          |
++----------+--------------------------------------------------+------------------------------+---------------+
+| m2d      | Trading (e.g. market, shop)                      | 1 = Yes; 2 = No              | [__]          |
++----------+--------------------------------------------------+------------------------------+---------------+
+| m2e      | Private pension, investments, interest, rents,   | 1 = Yes; 2 = No              | [__]          |
+|          | etc.                                             |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| m2f      | Spending savings                                 |                              |               |
+|          | Sale of household goods, personal goods, or      | 1 = Yes; 2 = No              | [__]          |
+|          | jewellery                                        |                              |               |
+|          | Sale of livestock, land, or other assets         |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| m2g      | Aid, gifts, charity (e.g. from church, mosque,   | 1 = Yes; 2 = No              | [__]          |
+|          | temple), begging, borrowing, or sale of food aid |                              |               |
+|          | or relief items                                  |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| m2h      | Cash transfer (NGO, UNO, government)             | 1 = Yes; 2 = No              | [__]          |
+|          | State pension, social security, benefits, welfare|                              |               |
+|          | program                                          |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| m2i      | Other                                            | 1 = Yes; 2 = No              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+
+and are calculated as:
+
+```{r indicators23, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/indicators23.png")
+```
+
+The grouped income sources (i.e. `m2a`, `m2b`, etc.) and individual income sources may vary between settings. The questionnaire component shown above has proved suitable for use in Ethiopia, South Sudan, and Tanzania.
+
+### Water, sanitation, and hygiene
+Indicators relating to water, sanitation, and hygiene (WASH) are derived from this questionnaire component:
+
++:----------------------------------------------------------------------------------------------------------:+
+| **Water, Sanitation, Hygiene**                                                                             |
++------------------------------------------------------------------------------------------------------------+
+
++----------+--------------------------------------------------+------------------------------+---------------+
+| w1       | What is your main source of drinking water?      |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+|          |      Piped water into dwelling                   |                              |               |
+|          |                                                  |                              |               |
+|          |      Piped water into compound                   |                              |               |
+|          |                                                  |                              |               |
+|          |      Public tap / Standpipe                      |                              |               |
+|          |                                                  |                              |               |
+|          |      Tube-well / Borehole                        |                1            | [__]          |     
+|          |                                                  |                              |               |
+|          |      Protected dug well                          |                              |               |
+|          |                                                  |                              |               |
+|          |      Protected spring                            |                              |               |
+|          |                                                  |                              |               |
+|          |      Rainwater collection system                 |                              |               |
+|          |                                                  |                              |               |
+|          |      Bottled water / sachet water                |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+|          |      Unprotected dug well                        |                              |               |
+|          |                                                  |                              |               |
+|          |      Unprotected spring                          |                              |               |
+|          |                                                  |                              |               |
+|          |      Cart with small tank or drum                |                              |               |
+|          |                                                  |                              |               |
+|          |      Tanker-truck                                |                2             | [__]          |
+|          |                                                  |                              |               |
+|          |      River, stream, dam, lake, pond, or puddle   |                              |               |
+|          |                                                  |                              |               |
+|          |      Canal or irrigation channel                 |                              |               |
+|          |                                                  |                              |               |
+|          |      Other                                       |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| w2       | What do you usually do to the water to make it   |                              |               |
+|          | safer to drink?                                  |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+|          |      Boil                                        |                              |               |
+|          |                                                  |                              |               |
+|          |      Add bleach / chlorine tablet                |                              |               |
+|          |                                                  |                1             | [__]          |
+|          |      Use a water filter (gravel / sand / ceramic)|                              |               |
+|          |                                                  |                              |               |
+|          |      Solar disinfection                          |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+|          |      Strain it through a cloth only              |                              |               |
+|          |                                                  |                              |               |
+|          |      Let it stand and settle only                |                              |               |
+|          |                                                  |                              |               |
+|          |      Nothing                                     |               2              | [__]          |
+|          |                                                  |                              |               |
+|          |      Other                                       |                              |               |
+|          |                                                  |                              |               |
+|          |      Don't know                                  |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| w3       | What kind of toilet facility do members of your  |                              |               |
+|          | household usually use?                           |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+|          |      Flush or pour flush to:                     |                              |               |
+| 
+      Piped sewer system
+      Septic tank
+      Pit latrine
+      Don't know
+
+    VIP latrine
+    Pit latrine with slab
+    Composting toilet	
+
+1
+|__|
+
+    Flush or pour flush to:
+
+      Elsewhere (anywhere not specified above)
+
+    Pit latrine without slab
+    Bucket
+    Hanging latrine
+    Bush or field
+    No facilities
+
+2
+
+w4
+Do you share this toilet facility with other households?
+1 = Yes
+2 = No
+3 = NA (no facility)
+|__|
+
+Indicators are calculated following:
+WHO / UNICEF, Core Questions on Drinking-water and Sanitation for Household Surveys, Geneva, WHO / UNICEF, 2006
