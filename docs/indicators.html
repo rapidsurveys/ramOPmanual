@@ -652,6 +652,37 @@ understanding or being understood?</td>
 <li><p><a href="https://www.cdc.gov/nchs/washington_group/wg_documents.htm" class="uri">https://www.cdc.gov/nchs/washington_group/wg_documents.htm</a></p></li>
 </ul>
 <p>Overall disability prevalence indicators are also reported.</p>
+<p>Indicators of disability in each domain are calculated as:</p>
+<p><img src="figures/indicators16.png" width="800pt" style="display: block; margin: auto;" /></p>
+<p>Overall disability prevalence indicators are calculated as:</p>
+<table>
+<colgroup>
+<col width="11%" />
+<col width="88%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><code>P0</code> = 1</td>
+<td>if no domain has <code>D1</code> = 1, else = 0 (no disability in any domain)</td>
+</tr>
+<tr class="even">
+<td><code>P1</code> = 1</td>
+<td>if at least one domain has <code>D1</code> = 1, else = 0</td>
+</tr>
+<tr class="odd">
+<td><code>P2</code> = 1</td>
+<td>if at least one domain has <code>D2</code> = 1, else = 0</td>
+</tr>
+<tr class="even">
+<td><code>P3</code> = 1</td>
+<td>if at least one domain has <code>D3</code> = 1, else = 0</td>
+</tr>
+<tr class="odd">
+<td><code>PM</code> = 1</td>
+<td>if at more than one domain has <code>D1</code> = 1, else = 0 (M stands for “Multiple”)</td>
+</tr>
+</tbody>
+</table>
 
 </div>
 </div>

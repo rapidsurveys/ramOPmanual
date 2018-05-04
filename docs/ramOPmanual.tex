@@ -1915,6 +1915,44 @@ survey format:
 
 Overall disability prevalence indicators are also reported.
 
+Indicators of disability in each domain are calculated as:
+
+\begin{center}\includegraphics[width=800pt]{figures/indicators16} \end{center}
+
+Overall disability prevalence indicators are calculated as:
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+\begin{minipage}[t]{0.11\columnwidth}\raggedright
+\texttt{P0} = 1\strut
+\end{minipage} & \begin{minipage}[t]{0.83\columnwidth}\raggedright
+if no domain has \texttt{D1} = 1, else = 0 (no disability in any
+domain)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.11\columnwidth}\raggedright
+\texttt{P1} = 1\strut
+\end{minipage} & \begin{minipage}[t]{0.83\columnwidth}\raggedright
+if at least one domain has \texttt{D1} = 1, else = 0\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.11\columnwidth}\raggedright
+\texttt{P2} = 1\strut
+\end{minipage} & \begin{minipage}[t]{0.83\columnwidth}\raggedright
+if at least one domain has \texttt{D2} = 1, else = 0\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.11\columnwidth}\raggedright
+\texttt{P3} = 1\strut
+\end{minipage} & \begin{minipage}[t]{0.83\columnwidth}\raggedright
+if at least one domain has \texttt{D3} = 1, else = 0\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.11\columnwidth}\raggedright
+\texttt{PM} = 1\strut
+\end{minipage} & \begin{minipage}[t]{0.83\columnwidth}\raggedright
+if at more than one domain has \texttt{D1} = 1, else = 0 (M stands for
+``Multiple'')\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
 \hypertarget{the-ram-op-questionnaire}{%
 \chapter{The RAM-OP questionnaire}\label{the-ram-op-questionnaire}}
 
