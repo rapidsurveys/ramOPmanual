@@ -397,5 +397,250 @@ Overall disability prevalence indicators are calculated as:
 | `PM` = 1 | if at more than one domain has `D1` = 1, else = 0 (M stands for “Multiple”)      |
 +----------+----------------------------------------------------------------------------------+
 
+### Activities of daily living
 
+Indicators of how well the subject copes with activities of daily living are derived from this questionnaire component:
+
++:----------------------------------------------------------------------------------------------------------:+
+| **Activities of Daily Living**                                                                             |
++------------------------------------------------------------------------------------------------------------+
+
++----------+--------------------------------------------------+------------------------------+---------------+
+| a1       | Do you need help with bathing more than one part | 1 = Yes; 2 = No              | [__]          |
+|          | of your body or getting in or out of the tub or  |                              |               |
+|          | shower?                                          |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| a2       | Do you need help getting dressed partially or    | 1 = Yes; 2 = No              | [__]          |
+|          | completely (not including tying of shoes)?       |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| a3       | Do you need help going to the toilet or cleaning | 1 = Yes; 2 = No              | [__]          |
+|          | yourself after using the toilet or do you use a  |                              |               |
+|          | commode or bed-pan?                              |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| a4       | Do you need someone (i.e. not a walking aid) to  | 1 = Yes; 2 = No              | [__]          |
+|          | help you move from a bed to a chair?             |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| a5       | Are you partially or totally incontinent of bowel| 1 = Yes; 2  = No             | [__]          |
+|          | or bladder?                                      |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| a6       | Do you need partial or total help with eating?   | 1 = Yes; 2 = No              | [__]          |
++----------+--------------------------------------------------+------------------------------+---------------+
+| a7       | Is someone taking care of you or helping you with| 1 = Yes; 2 = No              | [__]          |
+|          | everyday activities such as shopping, cooking,   |                              |               |
+|          | bathing and dressing?                            |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+
+Individual *independence* indicators are reported for each dimension (i.e. bathing, dressing, toilet, mobility, continence, and eating) of daily living activities.
+
+A composite indicator of the degree of *independence* (i.e. how well the subject can cope with activities of daily living) is also reported. This indicator is the *Katz Index of Independence in Activities of Daily Living* (or the *Katz Index of ADL* for short) and is a simple, well-validated, and widely used indicator of how well the subject can cope with activities of daily living:
+
+* Katz S, Ford AB, Moskowitz RW, Jackson BA, Jaffe MW, *Studies of illness in the aged. The Index of ADL: A standardized measure of biological and psychosocial function*, JAMA, 185(12), 1963, pp. 914-9
+
+* Katz S, Down TD, Cash HR, Grotz, RC, *Progress in the development of the index of ADL*, The Gerontologist, 10(1), 1970, pp. 20-30
+
+* Katz S, *Assessing self-maintenance: Activities of daily living, mobility and instrumental activities of daily living*, JAGS, 31(12), 1983, pp. 721-726
+
+The Katz Index of ADL ranges between zero (complete dependence) and six (independence).
+
+The seventh question of this module, which is not part of the Katz Index of ADL, is reported separately and indicates whether the subject has someone to help them with activities of daily living:
+
++:----------------------------------------------------------------------------------------------------------:+
+| **Activities of Daily Living**                                                                             |
++------------------------------------------------------------------------------------------------------------+
+
++----------+--------------------------------------------------+------------------------------+---------------+
+| a7       | Is someone taking care of you or helping you with| 1 = Yes; 2 = No              | [__]          |
+|          | everyday activities such as shopping, cooking,   |                              |               |
+|          | bathing and dressing?                            |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+
+t is not possible to know if the help available completely meets a subject's needs, but we can identify the proportion of subjects needing help with one or more activities of daily living who also report not having someone to help them:
+
+```{r indicators17, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/indicators17.png")
+```
+
+This is an indicator of unmet need.
+
+Indicators of how well the subject can cope with activities of daily living and probable unmet need are calculated as:
+
+```{r indicators18, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/indicators18.png")
+```
+
+### Mental health and well-being
+Indicators of mental health and well being are derived from this questionnaire component:
+
++:----------------------------------------------------------------------------------------------------------:+
+| **Mental Health & Wellbeing**                                                                             |
++------------------------------------------------------------------------------------------------------------+
+
++----------+--------------------------------------------------+------------------------------+---------------+
+| k6a      | About how often during the past four weeks did   | 1 = All of the time          | [__]          |
+|          | you feel nervous – all of the time, most of the  |                              |               |
+|          | time, some of the time, a little of the time, or | 2 = Most of the time         |               |
+|          | none of the time?                                |                              |               |
+|          |                                                  | 3 = Some of the time         |               |
+|          |                                                  | 4 = A little                 |               |
+|          |                                                  | 5 = None                     |               |
+|          |                                                  | 6 = Don't know               |               |
+|          |                                                  | 7 = Refused                  |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| k6b      | During the past four weeks, about how often did  | 1 = All of the time          | [__]          |
+|          | you feel hopeless – all of the time, most of the |                              |               |
+|          | time, some of the time, a little of the time, or | 2 = Most of the time         |               |
+|          | none of the time?                                |                              |               |
+|          |                                                  | 3 = Some of the time         |               |
+|          |                                                  | 4 = A little                 |               |
+|          |                                                  | 5 = None                     |               |
+|          |                                                  | 6 = Don't know               |               |
+|          |                                                  | 7 = Refused                  |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| k6c      | During the past four weeks, about how often did  | 1 = All of the time          | [__]          |
+|          | you feel restless or fidgety – all of the time,  |                              |               |
+|          | most of the time, some of the time, a little of  | 2 = Most of the time         |               |
+|          | the time, or none of the time?                   |                              |               |
+|          |                                                  | 3 = Some of the time         |               |
+|          |                                                  | 5 = None                     |               |
+|          |                                                  | 4 = A little                 |               |
+|          |                                                  | 6 = Don't know               |               |
+|          |                                                  | 7 = Refused                  |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| k6d      | During the past four weeks, about how often did  | 1 = All of the time          | [__]          |
+|          | you feel so depressed that nothing could cheer   |                              |               |
+|          | you up – all of the time, most of the time, some | 2 = Most of the time         |               |
+|          | of the time, a little of the time, or none of the|                              |               |
+|          | time?                                            | 3 = Some of the time         |               |
+|          |                                                  | 4 = A little                 |               |
+|          |                                                  | 6 = Don't know               |               |
+|          |                                                  | 7 = Refused                  |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| k6e      | During the past four weeks, about how often did  | 1 = All of the time          | [__]          |
+|          | you feel that everything was an effort – all of  |                              |               |
+|          | the time, most of the time, some of the time, a  | 2 = Most of the time         |               |
+|          | little of the time, or none of the time?         |                              |               |
+|          |                                                  | 3 = Some of the time         |               |
+|          |                                                  | 5 = None                     |               |
+|          |                                                  | 4 = A little                 |               |
+|          |                                                  | 6 = Don't know               |               |
+|          |                                                  | 7 = Refused                  |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| k6f      | During the past four weeks, about how often did  | 1 = All of the time          | [__]          |
+|          | you feel worthless – all of the time, most of the|                              |               |
+|          | time, some of the time, a little of the time, or | 2 = Most of the time         |               |
+|          | none of the time?                                |                              |               |  
+|          |                                                  | 3 = Some of the time         |               |
+|          |                                                  | 5 = None                     |               |
+|          |                                                  | 4 = A little                 |               |
+|          |                                                  | 6 = Don't know               |               |
+|          |                                                  | 7 = Refused                  |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+
+A score is calculated. This is the *Kessler K6 Psychological Distress Scale*. The score ranges from zero (indicating no psychological distress) to twenty-four (indicating severe psychological distress). A score of thirteen or more indicates serious psychological distress. The Kessler K6 Psychological Distress Scale is a widely recommended, widely used, accurate, reliable, and simple measure of psychological distress:
+
+* Kessler RC, Andrews G, Colpe LJ, Hiripi E, Mroczek, DK, Normand SLT, et al, “Short screening scales to monitor population prevalences and trends in non-specific psychological distress”, *Psychological Medicine*, 32(6), 2002, pp. 959–976
+
+* Kessler RC, Barker PR, Colpe LJ, Epstein JF, Gfroerer JC, Hiripi E, “Screening for Serious Mental Illness in the General Population”, *Archives of General Psychiatry*, 60(2), 2003, pp. 184-189
+
+Indicators of mental health and well-being are calculated as:
+
+```{r indicators19, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/indicators19.png")
+```
+
+### Dementia
+
+An indicator of probable dementia is derived from this questionnaire component:
+
+Dementia Screen
+ds0
+This section can only be completed if the subject is answering for themselves.
+
+If the respondent is not answering for themselves then record '8' as the answer for all questions below and continue with the interview. Write the reason why the subject is not answering for themselves in the OBSERVATIONS section at the end of the questionnaire.
+
+Say :
+
+I am going to tell you three words.
+
+I would like you to repeat them after me.
+
+“CHILD”
+
+“HOUSE”
+
+“ROAD”
+
+Repeat the three words, up to a maximum of six (6) times, or until the person has remembered them all correctly.
+
+Say :
+
+Try to remember these words. I will ask about them later.
+ds1
+
+Point to your nose and ask :
+
+What do we call this?
+
+1 = Correct
+2 = Incorrect
+8 = Not applicable
+|__|
+ds2
+
+What do you do with a hammer?
+
+Accept answers such as :
+
+Drive a nail into something
+Straighten metal
+Hit a wedge or something else
+Use with a chisel
+
+1 = Correct
+2 = Incorrect
+8 = Not applicable
+|__|
+ds3
+What day of the week is it?
+1 = Correct
+2 = Incorrect
+8 = Not applicable
+|__|
+ds4
+What is the season?
+1 = Correct
+2 = Incorrect
+8 = Not applicable
+|__|
+ds5
+
+Say:
+
+Please point first to the window and then
+to the door.
+
+1 = Correct
+2 = Incorrect
+8 = Not applicable
+|__|
+ds6
+Do you remember the three words I asked you to remember a few minutes ago?
+ds6a
+CHILD
+1 = Correct
+2 = Incorrect
+8 = Not applicable
+|__|
+ds6b
+HOUSE
+1 = Correct
+2 = Incorrect
+8 = Not applicable
+|__|
+ds6c
+ROAD
+1 = Correct
+2 = Incorrect
+8 = Not applicable
+|__|
 
