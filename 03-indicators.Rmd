@@ -376,3 +376,26 @@ Individual disability indicators are reported for each domain (i.e. vision, hear
 * https://www.cdc.gov/nchs/washington_group/wg_documents.htm
 
 Overall disability prevalence indicators are also reported.
+
+Indicators of disability in each domain are calculated as:
+
+```{r indicators16, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/indicators16.png")
+```
+
+Overall disability prevalence indicators are calculated as:
+
++----------+----------------------------------------------------------------------------------+
+| `P0` = 1 | if no domain has `D1` = 1, else = 0 (no disability in any domain)                |
++----------+----------------------------------------------------------------------------------+
+| `P1` = 1 | if at least one domain has `D1` = 1, else = 0                                    |
++----------+----------------------------------------------------------------------------------+
+| `P2` = 1 | if at least one domain has `D2` = 1, else = 0                                    |
++----------+----------------------------------------------------------------------------------+
+| `P3` = 1 | if at least one domain has `D3` = 1, else = 0                                    |
++----------+----------------------------------------------------------------------------------+
+| `PM` = 1 | if at more than one domain has `D1` = 1, else = 0 (M stands for “Multiple”)      |
++----------+----------------------------------------------------------------------------------+
+
+
+
