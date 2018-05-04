@@ -481,9 +481,13 @@ Indicators of mental health and well being are derived from this questionnaire c
 |          | time, some of the time, a little of the time, or | 2 = Most of the time         |               |
 |          | none of the time?                                |                              |               |
 |          |                                                  | 3 = Some of the time         |               |
+|          |                                                  |                              |               |
 |          |                                                  | 4 = A little                 |               |
+|          |                                                  |                              |               |
 |          |                                                  | 5 = None                     |               |
+|          |                                                  |                              |               |
 |          |                                                  | 6 = Don't know               |               |
+|          |                                                  |                              |               |
 |          |                                                  | 7 = Refused                  |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
 | k6b      | During the past four weeks, about how often did  | 1 = All of the time          | [__]          |
@@ -491,9 +495,13 @@ Indicators of mental health and well being are derived from this questionnaire c
 |          | time, some of the time, a little of the time, or | 2 = Most of the time         |               |
 |          | none of the time?                                |                              |               |
 |          |                                                  | 3 = Some of the time         |               |
+|          |                                                  |                              |               |
 |          |                                                  | 4 = A little                 |               |
+|          |                                                  |                              |               |
 |          |                                                  | 5 = None                     |               |
+|          |                                                  |                              |               |
 |          |                                                  | 6 = Don't know               |               |
+|          |                                                  |                              |               |
 |          |                                                  | 7 = Refused                  |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
 | k6c      | During the past four weeks, about how often did  | 1 = All of the time          | [__]          |
@@ -501,9 +509,13 @@ Indicators of mental health and well being are derived from this questionnaire c
 |          | most of the time, some of the time, a little of  | 2 = Most of the time         |               |
 |          | the time, or none of the time?                   |                              |               |
 |          |                                                  | 3 = Some of the time         |               |
-|          |                                                  | 5 = None                     |               |
+|          |                                                  |                              |               |
 |          |                                                  | 4 = A little                 |               |
+|          |                                                  |                              |               |
+|          |                                                  | 5 = None                     |               |
+|          |                                                  |                              |               |
 |          |                                                  | 6 = Don't know               |               |
+|          |                                                  |                              |               |
 |          |                                                  | 7 = Refused                  |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
 | k6d      | During the past four weeks, about how often did  | 1 = All of the time          | [__]          |
@@ -511,8 +523,11 @@ Indicators of mental health and well being are derived from this questionnaire c
 |          | you up – all of the time, most of the time, some | 2 = Most of the time         |               |
 |          | of the time, a little of the time, or none of the|                              |               |
 |          | time?                                            | 3 = Some of the time         |               |
+|          |                                                  |                              |               |
 |          |                                                  | 4 = A little                 |               |
+|          |                                                  |                              |               |
 |          |                                                  | 6 = Don't know               |               |
+|          |                                                  |                              |               |
 |          |                                                  | 7 = Refused                  |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
 | k6e      | During the past four weeks, about how often did  | 1 = All of the time          | [__]          |
@@ -520,9 +535,13 @@ Indicators of mental health and well being are derived from this questionnaire c
 |          | the time, most of the time, some of the time, a  | 2 = Most of the time         |               |
 |          | little of the time, or none of the time?         |                              |               |
 |          |                                                  | 3 = Some of the time         |               |
-|          |                                                  | 5 = None                     |               |
+|          |                                                  |                              |               |
 |          |                                                  | 4 = A little                 |               |
+|          |                                                  |                              |               |
+|          |                                                  | 5 = None                     |               |
+|          |                                                  |                              |               |
 |          |                                                  | 6 = Don't know               |               |
+|          |                                                  |                              |               |
 |          |                                                  | 7 = Refused                  |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
 | k6f      | During the past four weeks, about how often did  | 1 = All of the time          | [__]          |
@@ -530,9 +549,13 @@ Indicators of mental health and well being are derived from this questionnaire c
 |          | time, some of the time, a little of the time, or | 2 = Most of the time         |               |
 |          | none of the time?                                |                              |               |  
 |          |                                                  | 3 = Some of the time         |               |
+|          |                                                  |                              |               |
 |          |                                                  | 5 = None                     |               |
+|          |                                                  |                              |               |
 |          |                                                  | 4 = A little                 |               |
+|          |                                                  |                              |               |
 |          |                                                  | 6 = Don't know               |               |
+|          |                                                  |                              |               |
 |          |                                                  | 7 = Refused                  |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
 
@@ -552,69 +575,62 @@ knitr::include_graphics("figures/indicators19.png")
 
 An indicator of probable dementia is derived from this questionnaire component:
 
-Dementia Screen
-ds0
-This section can only be completed if the subject is answering for themselves.
++:----------------------------------------------------------------------------------------------------------:+
+| **Dementia Screen**                                                                                        |
++------------------------------------------------------------------------------------------------------------+
 
-If the respondent is not answering for themselves then record '8' as the answer for all questions below and continue with the interview. Write the reason why the subject is not answering for themselves in the OBSERVATIONS section at the end of the questionnaire.
++------------------------------------------------------------------------------------------------------------+
+| ds0      | This section can only be completed if the subject is answering for themselves.                  |
+|          |                                                                                                 |
+|          | If the respondent is not answering for themselves then record '8' as the answer for all         |
+|          | questions below and continue with the interview. Write the reason why the subject is not        |
+|          | answering for themselves in the OBSERVATIONS section at the end of the questionnaire.           |
+|          |                                                                                                 |
+|          |      Say :                                                                                      |
+|          |                                                                                                 |
+|          |           I am going to tell you three words.                                                   |
+|          |                                                                                                 |
+|          |           I would like you to repeat them after me.                                             |
+|          |                                                                                                 |
+|          |                “CHILD”                                                                          |
+|          |                                                                                                 |
+|          |                “HOUSE”                                                                          |
+|          |                                                                                                 |
+|          |                “ROAD”                                                                           |
+|          |                                                                                                 |
+|          |      Repeat the three words, up to a maximum of six (6) times, or until the person has          |
+|          |      remembered them all correctly.                                                             |
+|          |                                                                                                 |
+|          |      Say :                                                                                      |
+|          |                                                                                                 |
+|          |           Try to remember these words. I will ask about them later.                             |
++------------------------------------------------------------------------------------------------------------+
 
-Say :
-
-I am going to tell you three words.
-
-I would like you to repeat them after me.
-
-“CHILD”
-
-“HOUSE”
-
-“ROAD”
-
-Repeat the three words, up to a maximum of six (6) times, or until the person has remembered them all correctly.
-
-Say :
-
-Try to remember these words. I will ask about them later.
-ds1
-
-Point to your nose and ask :
-
-What do we call this?
-
-1 = Correct
-2 = Incorrect
-8 = Not applicable
-|__|
-ds2
-
-What do you do with a hammer?
-
-Accept answers such as :
-
-Drive a nail into something
-Straighten metal
-Hit a wedge or something else
-Use with a chisel
-
-1 = Correct
-2 = Incorrect
-8 = Not applicable
-|__|
-ds3
-What day of the week is it?
-1 = Correct
-2 = Incorrect
-8 = Not applicable
-|__|
-ds4
-What is the season?
-1 = Correct
-2 = Incorrect
-8 = Not applicable
-|__|
-ds5
-
-Say:
++----------+--------------------------------------------------+------------------------------+---------------+
+| ds1      | Point to your nose and ask :                     | 1 = Correct                  | [__]          |
+|          |                                                  |                              |               |
+|          |      What do we call this?                       | 2 = Incorrect                |               |
+|          |                                                  |                              |               |
+|          |                                                  | 8 = Not applicable           |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| ds2      | What do you do with a hammer?                    | 1 = Correct                  | [__]          |      
+|          |                                                  |                              |               |
+|          |      Accept answers such as :                    | 2 = Incorrect                |               |
+|          |                                                  |                              |               |
+|          |          * Drive a nail into something           | 8 = Not applicable           |               |
+|          |          * Straighten metal                      |                              |               |
+|          |          * Hit a wedge or something else         |                              |               |
+|          |          * Use with a chisel                     |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| ds3      | What day of the week is it?                      | 1 = Correct                  | [__]          |
+|          |                                                  |                              |               |
+|          |                                                  | 2 = Incorrect                |               |
+|          |                                                  |                              |               |
+|          |                                                  | 8 = Not applicable           |               |
+| ds4      | What is the season?                              | 1 = Correct                  | [__]          |
+|          |                                                  | 2 = Incorrect                |               |
+|          |                                                  | 8 = Not applicable           |               |
+| ds5      | Say:              
 
 Please point first to the window and then
 to the door.
