@@ -627,36 +627,39 @@ An indicator of probable dementia is derived from this questionnaire component:
 |          |                                                  | 2 = Incorrect                |               |
 |          |                                                  |                              |               |
 |          |                                                  | 8 = Not applicable           |               |
++----------+--------------------------------------------------+------------------------------+---------------+
 | ds4      | What is the season?                              | 1 = Correct                  | [__]          |
+|          |                                                  |                              |               |
 |          |                                                  | 2 = Incorrect                |               |
+|          |                                                  |                              |               |
 |          |                                                  | 8 = Not applicable           |               |
-| ds5      | Say:              
++----------+--------------------------------------------------+------------------------------+---------------+
+| ds5      | Say:                                             | 1 = Correct                  | [__]          |
+|          |      Please point first to the window and then   |                              |               |
+|          |      to the door.                                | 2 = Incorrect                |               |
+|          |                                                  |                              |               |
+|          |                                                  | 8 = Not applicable           |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| ds6      | Do you remember the three words I asked you to   |                              |               |
+|          | remember a few minutes ago?                      |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| ds6a     | CHILD                                            | 1 = Correct                  | [__]          |
+|          |                                                  |                              |               |
+|          |                                                  | 2 = Incorrect                |               |
+|          |                                                  |                              |               |
+|          |                                                  | 8 = Not applicable           |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| ds6b     | HOUSE                                            | 1 = Correct                  | [__]          |
+|          |                                                  |                              |               |
+|          |                                                  | 2 = Incorrect                |               |
+|          |                                                  |                              |               |
+|          |                                                  | 8 = Not applicable           |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| ds6c     | ROAD                                             | 1 = Correct                  |               |
+|          |                                                  |                              |               |
+|          |                                                  | 2 = Incorrect                |               |
+|          |                                                  |                              |               |
+|          |                                                  | 8 = Not applicable           |               |
++----------+--------------------------------------------------+------------------------------+---------------+
 
-Please point first to the window and then
-to the door.
-
-1 = Correct
-2 = Incorrect
-8 = Not applicable
-|__|
-ds6
-Do you remember the three words I asked you to remember a few minutes ago?
-ds6a
-CHILD
-1 = Correct
-2 = Incorrect
-8 = Not applicable
-|__|
-ds6b
-HOUSE
-1 = Correct
-2 = Incorrect
-8 = Not applicable
-|__|
-ds6c
-ROAD
-1 = Correct
-2 = Incorrect
-8 = Not applicable
-|__|
 
