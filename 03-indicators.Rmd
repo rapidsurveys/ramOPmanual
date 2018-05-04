@@ -672,5 +672,78 @@ This indicator is derived from the Community Screening Instrument for Dementia (
 
 Prince M, et al, “A brief dementia screener suitable for use by non-specialists in resource poor settings - The cross-cultural derivation and validation of the brief Community Screening Instrument for Dementia”, *International Journal of Geriatric Psychiatry*, 26(9), 2011, pp. 899–907
 
+### Health and health-seeking behaviour
 
+Indicators of health and health-seeking behaviour for chronic and acute conditions are derived from this questionnaire component:
+
++:----------------------------------------------------------------------------------------------------------:+
+| **Health Seeking & Healthcare**                                                                            |
++------------------------------------------------------------------------------------------------------------+
+
++----------+--------------------------------------------------+------------------------------+---------------+
+| h1       | Do you suffer from a long term disease that      | 1 = Yes; 2 = No              | [__]          |
+|          | requires you to take regular medication?         |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| ??       | If ***NO*** jump to question `h4` (below)        |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| h2       | Do you take drugs regularly for this?            | 1 = Yes; 2 = No              | [__]          |
++----------+--------------------------------------------------+------------------------------+---------------+
+| ??       | If ***YES*** jump to question h4                 |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| h3       | Why not?                                         | 1 = No drugs available       | [__]          |
+|          |                                                  |                              |               |
+|          |      Prompt for the main reason                  | 2 = Too expensive / no money |               |
+|          |                                                  |                              |               |
+|          |      Record main reason only                     | 3 = Too old to look for care |               |
+|          |                                                  |                              |               |
+|          |                                                  | 4 = Use traditional medicine |               |
+|          |                                                  |                              |               |
+|          |                                                  | 5 = Drugs don't help         |               |
+|          |                                                  |                              |               |
+|          |                                                  | 6 = No-one to help me        |               |
+|          |                                                  |                              |               |
+|          |                                                  | 7 = No need                  |               |
+|          |                                                  |                              |               |
+|          |                                                  | 8 = Other                    |               |
+|          |                                                  |                              |               |
+|          |                                                  | 9 = No reason given          |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| h4       | Have you been ill in the past two weeks?         |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| ??       | If ***NO*** jump to question `m1` (below)        |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| h5       | Did you go to the pharmacy, dispensary, health   | 1 = Yes; 2 = No              | [__]          |
+|          | centre, health post, clinic, or hospital?        |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| ??       | If ***YES*** then jump to question `m1` (below)  |                              |               |
+| h6       | Why not?                                         | 1 = No drugs available       | [__]          |
+|          |                                                  |                              |               |
+|          |      Prompt for the main reason                  | 2 = Too expensive / no money |               |
+|          |                                                  |                              |               |
+|          |      Record main reason only                     | 3 = Too old to look for care |               |
+|          |                                                  |                              |               |
+|          |                                                  | 4 = Use traditional medicine |               |
+|          |                                                  |                              |               |
+|          |                                                  | 5 = Drugs don't help         |               |
+|          |                                                  |                              |               |
+|          |                                                  | 6 = No-one to help me        |               |
+|          |                                                  |                              |               |
+|          |                                                  | 7 = No need                  |               |
+|          |                                                  |                              |               |
+|          |                                                  | 8 = Other                    |               |
+|          |                                                  |                              |               |
+|          |                                                  | 9 = No reason given          |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+
+Indicators of health and health-seeking behaviour for chronic conditions are calculated as:
+
+```{r indicators21, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/indicators21.png")
+```
+
+Indicators of health and health-seeking behaviour for acute conditions are calculated as:
+
+```{r indicators22, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/indicators22.png")
+```
 
