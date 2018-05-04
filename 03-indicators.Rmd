@@ -864,34 +864,24 @@ Indicators relating to water, sanitation, and hygiene (WASH) are derived from th
 |          | household usually use?                           |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
 |          |      Flush or pour flush to:                     |                              |               |
-| 
-      Piped sewer system
-      Septic tank
-      Pit latrine
-      Don't know
+|          |         Piped sewer system                       |
+|          |         Septic tank                              |
+|          |         Pit latrine                              |
+|          |         Don't know                               |
+|          |      VIP latrine                                 | 
+|          |      Pit latrine with slab                       |
+|          |      Composting toilet	                          |
++----------+--------------------------------------------------+------------------------------+---------------+
+|          |      Flush or pour flush to:                     | 1 = Yes
+|          |         Elsewhere (anywhere not specified above) |
+|          |      Pit latrine without slab                    |
+|          |      Bucket                                      |
+|          |      Hanging latrine                             |
+|          |      Bush or field                               |
+|          |      No facilities                               |
+| w4       | Do you share this toilet facility with other     |
+|          | households?                                      |
 
-    VIP latrine
-    Pit latrine with slab
-    Composting toilet	
-
-1
-|__|
-
-    Flush or pour flush to:
-
-      Elsewhere (anywhere not specified above)
-
-    Pit latrine without slab
-    Bucket
-    Hanging latrine
-    Bush or field
-    No facilities
-
-2
-
-w4
-Do you share this toilet facility with other households?
-1 = Yes
 2 = No
 3 = NA (no facility)
 |__|
