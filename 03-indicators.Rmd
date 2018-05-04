@@ -252,7 +252,7 @@ An indicator of consumption of zinc rich foods from any / all sources is calcula
 knitr::include_graphics("figures/indicators13.png")
 ```
 
-####Vitamin B rich foods
+#### Vitamin B rich foods
 
 Indicators of consumption of vitamin B rich foods from any / all sources are calculated as:
 
