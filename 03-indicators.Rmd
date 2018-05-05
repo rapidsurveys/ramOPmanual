@@ -807,7 +807,7 @@ Indicators relating to water, sanitation, and hygiene (WASH) are derived from th
 +------------------------------------------------------------------------------------------------------------+
 
 +----------+--------------------------------------------------+------------------------------+---------------+
-| w1       | What is your main source of drinking water?      |                              |               |
+| w1       | What is your main source of drinking water?      |                              | [__]          |
 +----------+--------------------------------------------------+------------------------------+---------------+
 |          |      Piped water into dwelling                   |                              |               |
 |          |                                                  |                              |               |
@@ -815,7 +815,7 @@ Indicators relating to water, sanitation, and hygiene (WASH) are derived from th
 |          |                                                  |                              |               |
 |          |      Public tap / Standpipe                      |                              |               |
 |          |                                                  |                              |               |
-|          |      Tube-well / Borehole                        |                1            | [__]          |     
+|          |      Tube-well / Borehole                        |                1             |               |     
 |          |                                                  |                              |               |
 |          |      Protected dug well                          |                              |               |
 |          |                                                  |                              |               |
@@ -831,7 +831,7 @@ Indicators relating to water, sanitation, and hygiene (WASH) are derived from th
 |          |                                                  |                              |               |
 |          |      Cart with small tank or drum                |                              |               |
 |          |                                                  |                              |               |
-|          |      Tanker-truck                                |                2             | [__]          |
+|          |      Tanker-truck                                |                2             |               |
 |          |                                                  |                              |               |
 |          |      River, stream, dam, lake, pond, or puddle   |                              |               |
 |          |                                                  |                              |               |
@@ -840,12 +840,12 @@ Indicators relating to water, sanitation, and hygiene (WASH) are derived from th
 |          |      Other                                       |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
 | w2       | What do you usually do to the water to make it   |                              |               |
-|          | safer to drink?                                  |                              |               |
+|          | safer to drink?                                  |                              | [__]          |
 +----------+--------------------------------------------------+------------------------------+---------------+
 |          |      Boil                                        |                              |               |
 |          |                                                  |                              |               |
 |          |      Add bleach / chlorine tablet                |                              |               |
-|          |                                                  |                1             | [__]          |
+|          |                                                  |                1             |               |
 |          |      Use a water filter (gravel / sand / ceramic)|                              |               |
 |          |                                                  |                              |               |
 |          |      Solar disinfection                          |                              |               |
@@ -854,37 +854,61 @@ Indicators relating to water, sanitation, and hygiene (WASH) are derived from th
 |          |                                                  |                              |               |
 |          |      Let it stand and settle only                |                              |               |
 |          |                                                  |                              |               |
-|          |      Nothing                                     |               2              | [__]          |
+|          |      Nothing                                     |               2              |               |
 |          |                                                  |                              |               |
 |          |      Other                                       |                              |               |
 |          |                                                  |                              |               |
 |          |      Don't know                                  |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
 | w3       | What kind of toilet facility do members of your  |                              |               |
-|          | household usually use?                           |                              |               |
+|          | household usually use?                           |                              | [__]          |
 +----------+--------------------------------------------------+------------------------------+---------------+
 |          |      Flush or pour flush to:                     |                              |               |
-|          |         Piped sewer system                       |
-|          |         Septic tank                              |
-|          |         Pit latrine                              |
-|          |         Don't know                               |
-|          |      VIP latrine                                 | 
-|          |      Pit latrine with slab                       |
-|          |      Composting toilet	                          |
+|          |                                                  |                              |               |
+|          |         Piped sewer system                       |                              |               |
+|          |                                                  |                              |               |
+|          |         Septic tank                              |                              |               |
+|          |                                                  |                              |               |
+|          |         Pit latrine                              |                              |               |
+|          |                                                  |               1              |               |
+|          |         Don't know                               |                              |               |
+|          |                                                  |                              |               |
+|          |      VIP latrine                                 |                              |               |
+|          |                                                  |                              |               |
+|          |      Pit latrine with slab                       |                              |               |
+|          |                                                  |                              |               |
+|          |      Composting toilet	                          |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
-|          |      Flush or pour flush to:                     | 1 = Yes
-|          |         Elsewhere (anywhere not specified above) |
-|          |      Pit latrine without slab                    |
-|          |      Bucket                                      |
-|          |      Hanging latrine                             |
-|          |      Bush or field                               |
-|          |      No facilities                               |
-| w4       | Do you share this toilet facility with other     |
-|          | households?                                      |
-
-2 = No
-3 = NA (no facility)
-|__|
+|          |      Flush or pour flush to:                     |                              |               |
+|          |                                                  |                              |               |
+|          |         Elsewhere (anywhere not specified above) |                              |               |
+|          |                                                  |                              |               |
+|          |      Pit latrine without slab                    |                              |               |
+|          |                                                  |                              |               |
+|          |      Bucket                                      |               2              |               |
+|          |                                                  |                              |               |
+|          |      Hanging latrine                             |                              |               |
+|          |                                                  |                              |               |
+|          |      Bush or field                               |                              |               |
+|          |                                                  |                              |               |
+|          |      No facilities                               |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| w4       | Do you share this toilet facility with other     |                              | [__]          |
+|          | households?                                      | 1 = Yes                      |               |
+|          |                                                  |                              |               |
+|          |                                                  | 2 = No                       |               |
+|          |                                                  |                              |               |
+|          |                                                  | 3 = NA (no facility)         |               |
++----------+--------------------------------------------------+------------------------------+---------------+
 
 Indicators are calculated following:
-WHO / UNICEF, Core Questions on Drinking-water and Sanitation for Household Surveys, Geneva, WHO / UNICEF, 2006
+
+* WHO / UNICEF, *Core Questions on Drinking-water and Sanitation for Household Surveys*, Geneva, WHO / UNICEF, 2006
+
+Indicators relating to water, sanitation, and hygiene (WASH) are calculated as:
+
+```{r indicators24, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/indicators24.png")
+```
+
+
