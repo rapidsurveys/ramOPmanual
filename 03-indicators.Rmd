@@ -806,10 +806,12 @@ Indicators relating to water, sanitation, and hygiene (WASH) are derived from th
 | **Water, Sanitation, Hygiene**                                                                             |
 +------------------------------------------------------------------------------------------------------------+
 
++----------+-------------------------------------------------------------------------------------------------+
+| w1       | What is your main source of drinking water?                                                     |
++----------+-------------------------------------------------------------------------------------------------+
+
 +----------+--------------------------------------------------+------------------------------+---------------+
-| w1       | What is your main source of drinking water?      |                              | [__]          |
-+----------+--------------------------------------------------+------------------------------+---------------+
-|          |      Piped water into dwelling                   |                              |               |
+|          |      Piped water into dwelling                   |                              | [__]          |
 |          |                                                  |                              |               |
 |          |      Piped water into compound                   |                              |               |
 |          |                                                  |                              |               |
@@ -839,10 +841,14 @@ Indicators relating to water, sanitation, and hygiene (WASH) are derived from th
 |          |                                                  |                              |               |
 |          |      Other                                       |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
-| w2       | What do you usually do to the water to make it   |                              |               |
-|          | safer to drink?                                  |                              | [__]          |
+
 +----------+--------------------------------------------------+------------------------------+---------------+
-|          |      Boil                                        |                              |               |
+| w2       | What do you usually do to the water to make it   |                              |               |
+|          | safer to drink?                                  |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+
++----------+--------------------------------------------------+------------------------------+---------------+
+|          |      Boil                                        |                              | [__]          |
 |          |                                                  |                              |               |
 |          |      Add bleach / chlorine tablet                |                              |               |
 |          |                                                  |                1             |               |
@@ -860,10 +866,14 @@ Indicators relating to water, sanitation, and hygiene (WASH) are derived from th
 |          |                                                  |                              |               |
 |          |      Don't know                                  |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
-| w3       | What kind of toilet facility do members of your  |                              |               |
-|          | household usually use?                           |                              | [__]          |
+
 +----------+--------------------------------------------------+------------------------------+---------------+
-|          |      Flush or pour flush to:                     |                              |               |
+| w3       | What kind of toilet facility do members of your  |                              |               |
+|          | household usually use?                           |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+
++----------+--------------------------------------------------+------------------------------+---------------+
+|          |      Flush or pour flush to:                     |                              | [__]          |
 |          |                                                  |                              |               |
 |          |         Piped sewer system                       |                              |               |
 |          |                                                  |                              |               |
@@ -893,6 +903,8 @@ Indicators relating to water, sanitation, and hygiene (WASH) are derived from th
 |          |                                                  |                              |               |
 |          |      No facilities                               |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
+
++----------+--------------------------------------------------+------------------------------+---------------+
 | w4       | Do you share this toilet facility with other     |                              | [__]          |
 |          | households?                                      | 1 = Yes                      |               |
 |          |                                                  |                              |               |
@@ -910,5 +922,29 @@ Indicators relating to water, sanitation, and hygiene (WASH) are calculated as:
 ```{r indicators24, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/indicators24.png")
 ```
+
+Anthropometry and screening coverage
+Indicators relating to anthropometry and screening coverage are derived from this questionnaire component:
+Anthropometry / Screening Coverage
+as1
+MUAC in mm
+777 = Too large
+888 = Refused
+|__|__|__|
+as2
+Has someone measured your arm like this in the
+previous month?
+1 = Yes; 2 = No
+|__|
+as3
+Bilateral pitting oedema
+1 = Yes; 2 = No
+|__|
+as4
+Has someone examined your feet like this in the previous month?
+1 = Yes; 2 = No
+|__|
+
+And are calculated as:
 
 
