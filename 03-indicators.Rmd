@@ -817,7 +817,7 @@ Indicators relating to water, sanitation, and hygiene (WASH) are derived from th
 |          |                                                  |                              |               |
 |          | Public tap / Standpipe                           |                              |               |
 |          |                                                  |                              |               |
-|          | Tube-well / Borehole                             |                1             |               |     
+|          | Tube-well / Borehole                             | 1                            |               |     
 |          |                                                  |                              |               |
 |          | Protected dug well                               |                              |               |
 |          |                                                  |                              |               |
@@ -833,7 +833,7 @@ Indicators relating to water, sanitation, and hygiene (WASH) are derived from th
 |          |                                                  |                              |               |
 |          | Cart with small tank or drum                     |                              |               |
 |          |                                                  |                              |               |
-|          | Tanker-truck                                     |                2             |               |
+|          | Tanker-truck                                     | 2                            |               |
 |          |                                                  |                              |               |
 |          | River, stream, dam, lake, pond, or puddle        |                              |               |
 |          |                                                  |                              |               |
@@ -851,7 +851,7 @@ Indicators relating to water, sanitation, and hygiene (WASH) are derived from th
 |          | Boil                                             |                              | [__]          |
 |          |                                                  |                              |               |
 |          | Add bleach / chlorine tablet                     |                              |               |
-|          |                                                  |                1             |               |
+|          |                                                  | 1                            |               |
 |          | Use a water filter (gravel / sand / ceramic)     |                              |               |
 |          |                                                  |                              |               |
 |          | Solar disinfection                               |                              |               |
@@ -860,7 +860,7 @@ Indicators relating to water, sanitation, and hygiene (WASH) are derived from th
 |          |                                                  |                              |               |
 |          | Let it stand and settle only                     |                              |               |
 |          |                                                  |                              |               |
-|          | Nothing                                          |               2              |               |
+|          | Nothing                                          | 2                            |               |
 |          |                                                  |                              |               |
 |          | Other                                            |                              |               |
 |          |                                                  |                              |               |
@@ -880,7 +880,7 @@ Indicators relating to water, sanitation, and hygiene (WASH) are derived from th
 |          |   Septic tank                                    |                              |               |
 |          |                                                  |                              |               |
 |          |   Pit latrine                                    |                              |               |
-|          |                                                  |               1              |               |
+|          |                                                  | 1                            |               |
 |          |   Don't know                                     |                              |               |
 |          |                                                  |                              |               |
 |          | VIP latrine                                      |                              |               |
@@ -895,7 +895,7 @@ Indicators relating to water, sanitation, and hygiene (WASH) are derived from th
 |          |                                                  |                              |               |
 |          | Pit latrine without slab                         |                              |               |
 |          |                                                  |                              |               |
-|          | Bucket                                           |               2              |               |
+|          | Bucket                                           | 2                            |               |
 |          |                                                  |                              |               |
 |          | Hanging latrine                                  |                              |               |
 |          |                                                  |                              |               |
@@ -923,7 +923,12 @@ Indicators relating to water, sanitation, and hygiene (WASH) are calculated as:
 knitr::include_graphics("figures/indicators24.png")
 ```
 
-Anthropometry and screening coverage
++:----------------------------------------------------------------------------------------------------------:+
+| **Anthropometry and screening coverage**                                                                   |
++------------------------------------------------------------------------------------------------------------+
+
+
+
 Indicators relating to anthropometry and screening coverage are derived from this questionnaire component:
 Anthropometry / Screening Coverage
 as1
