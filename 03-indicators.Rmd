@@ -811,35 +811,35 @@ Indicators relating to water, sanitation, and hygiene (WASH) are derived from th
 +----------+-------------------------------------------------------------------------------------------------+
 
 +----------+--------------------------------------------------+------------------------------+---------------+
-|          |      Piped water into dwelling                   |                              | [__]          |
+|          | Piped water into dwelling                        |                              | [__]          |
 |          |                                                  |                              |               |
-|          |      Piped water into compound                   |                              |               |
+|          | Piped water into compound                        |                              |               |
 |          |                                                  |                              |               |
-|          |      Public tap / Standpipe                      |                              |               |
+|          | Public tap / Standpipe                           |                              |               |
 |          |                                                  |                              |               |
-|          |      Tube-well / Borehole                        |                1             |               |     
+|          | Tube-well / Borehole                             |                1             |               |     
 |          |                                                  |                              |               |
-|          |      Protected dug well                          |                              |               |
+|          | Protected dug well                               |                              |               |
 |          |                                                  |                              |               |
-|          |      Protected spring                            |                              |               |
+|          | Protected spring                                 |                              |               |
 |          |                                                  |                              |               |
-|          |      Rainwater collection system                 |                              |               |
+|          | Rainwater collection system                      |                              |               |
 |          |                                                  |                              |               |
-|          |      Bottled water / sachet water                |                              |               |
+|          | Bottled water / sachet water                     |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
-|          |      Unprotected dug well                        |                              |               |
+|          | Unprotected dug well                             |                              |               |
 |          |                                                  |                              |               |
-|          |      Unprotected spring                          |                              |               |
+|          | Unprotected spring                               |                              |               |
 |          |                                                  |                              |               |
-|          |      Cart with small tank or drum                |                              |               |
+|          | Cart with small tank or drum                     |                              |               |
 |          |                                                  |                              |               |
-|          |      Tanker-truck                                |                2             |               |
+|          | Tanker-truck                                     |                2             |               |
 |          |                                                  |                              |               |
-|          |      River, stream, dam, lake, pond, or puddle   |                              |               |
+|          | River, stream, dam, lake, pond, or puddle        |                              |               |
 |          |                                                  |                              |               |
-|          |      Canal or irrigation channel                 |                              |               |
+|          | Canal or irrigation channel                      |                              |               |
 |          |                                                  |                              |               |
-|          |      Other                                       |                              |               |
+|          | Other                                            |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
 
 +----------+--------------------------------------------------+------------------------------+---------------+
@@ -848,23 +848,23 @@ Indicators relating to water, sanitation, and hygiene (WASH) are derived from th
 +----------+--------------------------------------------------+------------------------------+---------------+
 
 +----------+--------------------------------------------------+------------------------------+---------------+
-|          |      Boil                                        |                              | [__]          |
+|          | Boil                                             |                              | [__]          |
 |          |                                                  |                              |               |
-|          |      Add bleach / chlorine tablet                |                              |               |
+|          | Add bleach / chlorine tablet                     |                              |               |
 |          |                                                  |                1             |               |
-|          |      Use a water filter (gravel / sand / ceramic)|                              |               |
+|          | Use a water filter (gravel / sand / ceramic)     |                              |               |
 |          |                                                  |                              |               |
-|          |      Solar disinfection                          |                              |               |
+|          | Solar disinfection                               |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
-|          |      Strain it through a cloth only              |                              |               |
+|          | Strain it through a cloth only                   |                              |               |
 |          |                                                  |                              |               |
-|          |      Let it stand and settle only                |                              |               |
+|          | Let it stand and settle only                     |                              |               |
 |          |                                                  |                              |               |
-|          |      Nothing                                     |               2              |               |
+|          | Nothing                                          |               2              |               |
 |          |                                                  |                              |               |
-|          |      Other                                       |                              |               |
+|          | Other                                            |                              |               |
 |          |                                                  |                              |               |
-|          |      Don't know                                  |                              |               |
+|          | Don't know                                       |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
 
 +----------+--------------------------------------------------+------------------------------+---------------+
@@ -873,35 +873,35 @@ Indicators relating to water, sanitation, and hygiene (WASH) are derived from th
 +----------+--------------------------------------------------+------------------------------+---------------+
 
 +----------+--------------------------------------------------+------------------------------+---------------+
-|          |      Flush or pour flush to:                     |                              | [__]          |
+|          | Flush or pour flush to:                          |                              | [__]          |
 |          |                                                  |                              |               |
-|          |         Piped sewer system                       |                              |               |
+|          |   Piped sewer system                             |                              |               |
 |          |                                                  |                              |               |
-|          |         Septic tank                              |                              |               |
+|          |   Septic tank                                    |                              |               |
 |          |                                                  |                              |               |
-|          |         Pit latrine                              |                              |               |
+|          |   Pit latrine                                    |                              |               |
 |          |                                                  |               1              |               |
-|          |         Don't know                               |                              |               |
+|          |   Don't know                                     |                              |               |
 |          |                                                  |                              |               |
-|          |      VIP latrine                                 |                              |               |
+|          | VIP latrine                                      |                              |               |
 |          |                                                  |                              |               |
-|          |      Pit latrine with slab                       |                              |               |
+|          | Pit latrine with slab                            |                              |               |
 |          |                                                  |                              |               |
-|          |      Composting toilet	                          |                              |               |
+|          | Composting toilet	                              |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
-|          |      Flush or pour flush to:                     |                              |               |
+|          | Flush or pour flush to:                          |                              |               |
 |          |                                                  |                              |               |
-|          |         Elsewhere (anywhere not specified above) |                              |               |
+|          |   Elsewhere (anywhere not specified above)       |                              |               |
 |          |                                                  |                              |               |
-|          |      Pit latrine without slab                    |                              |               |
+|          | Pit latrine without slab                         |                              |               |
 |          |                                                  |                              |               |
-|          |      Bucket                                      |               2              |               |
+|          | Bucket                                           |               2              |               |
 |          |                                                  |                              |               |
-|          |      Hanging latrine                             |                              |               |
+|          | Hanging latrine                                  |                              |               |
 |          |                                                  |                              |               |
-|          |      Bush or field                               |                              |               |
+|          | Bush or field                                    |                              |               |
 |          |                                                  |                              |               |
-|          |      No facilities                               |                              |               |
+|          | No facilities                                    |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
 
 +----------+--------------------------------------------------+------------------------------+---------------+
