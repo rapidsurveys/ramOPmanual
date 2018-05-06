@@ -212,6 +212,7 @@
 \theoremstyle{remark}
 \newtheorem*{remark}{Remark}
 \newtheorem*{solution}{Solution}
+\let\BeginKnitrBlock\begin \let\EndKnitrBlock\end
 \begin{document}
 \maketitle
 
@@ -3051,6 +3052,130 @@ Has someone examined your feet like this in the previous month?\strut
 \end{longtable}
 
 And are calculated as:
+
+\begin{center}\includegraphics[width=800pt]{figures/indicators25} \end{center}
+
+Raw MUAC data (i.e.~not MUAC class) is collected, entered, and analysed.
+This requires that an adult MUAC tape (i.e.~capable of measuring MUAC to
+450 mm) is used.
+
+The presence of bilateral oedema is assessed by pressing with your
+thumbs \textbf{both} feet of the older person for three seconds and
+checking whether this creates a lasting depression or ``pit'' on both
+feet. Bilateral pitting oedema in older people may not be
+``nutritional'' oedema (as is almost always the case with children).
+Older people with bilateral pitting oedema should be advised to consult
+a doctor.
+
+The prevalence of GAM, MAM, and SAM are estimated using a PROBIT
+estimator. This type of estimator provides better precision than a
+classic estimator at small sample sizes:
+
+\begin{itemize}
+\tightlist
+\item
+  World Health Organisation, \emph{Physical Status: The use and
+  interpretation of anthropometry. Report of a WHO expert committee},
+  WHO Technical Report Series 854, WHO, Geneva, 1995
+\end{itemize}
+
+Dale NM, Myatt M, Prudhon C, Briend, A, ``Assessment of the PROBIT
+approach for estimating the prevalence of global, moderate and severe
+acute malnutrition from population surveys'', \emph{Public Health
+Nutrition}, 1--6. \url{doi:10.1017/S1368980012003345}, 2012
+
+Blanton CJ, Bilukha, OO, ``The PROBIT approach in estimating the
+prevalence of wasting: revisiting bias and precision'', \emph{Emerging
+Themes in Epidemiology}, 10(1), 2013, p.~8
+
+The PROBIT estimator is described in Box 1.
+
+MUAC-based case definitions for acute malnutrition are used:
+
+\begin{verbatim}
+**GAM** :   MUAC < 210 mm  
+**MAM** :   185 mm ≤ MUAC < 210mm  
+**SAM** :   MUAC < 185mm  
+\end{verbatim}
+
+These are standard case definitions for acute malnutrition in adults and
+recommended by HelpAge International for use in older people in
+humanitarian contexts.
+
+\textbf{Note} : MUAC in adults should be measured on the non-dominant
+arm. This is usually the left arm. The importance of high levels of
+accuracy and precision at the individual level is of lesser importance
+in survey work compared to case-finding or diagnosis in clinical
+contexts, for example. This means that a simple rule such as ``Always
+measure MUAC on the left arm'' may be used.
+
+\BeginKnitrBlock{rmdexercise}
+An estimate of GAM prevalence can be made using a classic estimator:
+
+\[\text{prevalence} = \frac{\text{number of respondents with MUAC < 210 mm}}{\text{total number of respondents}}\]
+
+The estimate of GAM prevalence made from the RAM-OP survey data is made
+using a PROBIT estimator. The PROBIT function is also known as the
+\emph{inverse cumulative distribution} function. This function converts
+parameters of the distribution of an indicator (e.g.~the mean and
+standard deviation of a \emph{normally} distributed variable) into
+cumulative percentiles. This means that it is possible to use the normal
+PROBIT function with estimates of the mean and standard deviation of
+indicator values in a survey sample to predict (or estimate) the
+proportion of the population falling below a given threshold. For
+example, for data with a mean MUAC of 256 mm and a standard deviation of
+28 mm the output of the normal PROBIT function for a threshold of 210 mm
+is 0.0502 meaning that 5.02\% of the population are \emph{predicted} (or
+\emph{estimated}) to fall below the 210 mm threshold.
+
+Both the classic and the PROBIT methods can be thought of as estimating
+area:
+
+\includegraphics{figures/indicators26.png}
+
+The principal advantage of the PROBIT approach is that the required
+sample size is usually smaller than that required to estimate prevalence
+with a given precision using the classic method.
+
+The PROBIT method assumes that MUAC is a normally distributed variable.
+If this is not the case then the distribution of MUAC is transformed
+towards normality.
+
+The prevalence of SAM is estimated in a similar way to GAM. The
+prevalence of MAM is estimated as the difference between the GAM and SAM
+prevalence estimates:
+
+\[\widehat{MAM prevalence} = \widehat{GAM prevalence} - \widehat{SAM prevalence}\]
+\EndKnitrBlock{rmdexercise}
+
+\hypertarget{visual-impairment}{%
+\subsection{Visual impairment}\label{visual-impairment}}
+
+Visual impairment An indicator of visual impairment is derived from this
+questionnaire component: Visual Acuity va1 Do you normally wear glasses?
+
+If the person wears glasses, ask if they are more comfortable wearing
+their glasses to look at your chart at 2 meters. Let the person decide.
+
+Demonstrate (close to the person) how to do the `tumbling E' test:
+
+Show the direction the E is pointing.
+
+Ask the person if they understand. REPEAT if needed.
+
+Test with E at 2 meters:
+
+Use the string to measure 2 meters from the person.
+
+Hold the card at eye level and 2 meters away from the person.
+
+Turn the card in four different directions. Hide the card in your back
+before turning it each time. va2a First time 1 = Correct 2 = Incorrect 3
+= Refused 4 = Blind \textbar{}\textbf{\textbar{} va2b Second time 1 =
+Correct 2 = Incorrect 3 = Refused 4 = Blind \textbar{}}\textbar{} va2c
+Third time 1 = Correct 2 = Incorrect 3 = Refused 4 = Blind
+\textbar{}\textbf{\textbar{} va2d Fourth time 1 = Correct 2 = Incorrect
+3 = Refused 4 = Blind \textbar{}}\textbar{}
 
 \hypertarget{the-ram-op-questionnaire}{%
 \chapter{The RAM-OP questionnaire}\label{the-ram-op-questionnaire}}
