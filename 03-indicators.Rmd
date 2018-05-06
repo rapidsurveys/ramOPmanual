@@ -1062,4 +1062,12 @@ An indicator of visual impairment is derived from this questionnaire component:
 |          |                                                  | 4 = Blind                    |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
 
+And is calculated as:
+
+```{r indicators27, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/indicators27.png")
+```
+
+
+
 
