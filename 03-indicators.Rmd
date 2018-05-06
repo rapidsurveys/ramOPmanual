@@ -1082,7 +1082,7 @@ knitr::include_graphics("figures/indicators28.png")
 
 as well as the distance used for the test (two metres) and the indicator calculation apply the WHO case definition of visual impairment (i.e. visual acuity < 6 / 18).
 
-The tumbling E card should be laminated (i.e. plastic coated and have a two metre cord attached which helps to ensure that the visual acuity test is performed at the correct distance (See Figure 11).
+The tumbling E card should be laminated (i.e. plastic coated and have a two metre cord attached which helps to ensure that the visual acuity test is performed at the correct distance (See Figure \@ref(fig:indicators29)).
 
 After demonstrating to the respondent what the test is about (i.e. the subject should indicate which direction the branches of the 'E' are pointing), the test is administered at a distance of two meters, turning the card in four different directions, and asking the person to indicate which direction the branches of the “E” is pointing. If the subject wears glasses, they are allowed to use them during the test if they want to.
 
