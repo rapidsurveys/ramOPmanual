@@ -923,32 +923,26 @@ Indicators relating to water, sanitation, and hygiene (WASH) are calculated as:
 knitr::include_graphics("figures/indicators24.png")
 ```
 
-+:----------------------------------------------------------------------------------------------------------:+
-| **Anthropometry and screening coverage**                                                                   |
-+------------------------------------------------------------------------------------------------------------+
-
-
+### Anthropometry and screening coverage**                                                                   
 
 Indicators relating to anthropometry and screening coverage are derived from this questionnaire component:
-Anthropometry / Screening Coverage
-as1
-MUAC in mm
-777 = Too large
-888 = Refused
-|__|__|__|
-as2
-Has someone measured your arm like this in the
-previous month?
-1 = Yes; 2 = No
-|__|
-as3
-Bilateral pitting oedema
-1 = Yes; 2 = No
-|__|
-as4
-Has someone examined your feet like this in the previous month?
-1 = Yes; 2 = No
-|__|
+
++:----------------------------------------------------------------------------------------------------------:+
+| **Anthropometry / Screening Coverage**                                                                     |
++------------------------------------------------------------------------------------------------------------+
+
++----------+--------------------------------------------------+------------------------------+---------------+
+| as1      | MUAC in mm                                       | 777 = Too large              | [__][__][__]  |
+|          |                                                  | 888 = Refused                |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| as2      | Has someone measured your arm like this in the   | 1 = Yes; 2 = No              | [__]          |
+|          | previous month?                                  |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| as3      | Bilateral pitting oedema                         | 1 = Yes; 2 = No              | [__]          |
++----------+--------------------------------------------------+------------------------------+---------------+
+| as4      | Has someone examined your feet like this in the  | 1 = Yes; 2 = No              | [__]          |
+|          | previous month?                                  |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
 
 And are calculated as:
 
