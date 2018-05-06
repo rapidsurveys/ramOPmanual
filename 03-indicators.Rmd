@@ -1092,4 +1092,35 @@ After demonstrating to the respondent what the test is about (i.e. the subject s
 knitr::include_graphics("figures/indicators29.png")
 ```
 
+### Miscellaneous indicators
 
+Data for a small group of miscellaneous indicators are also collected and reported. These are derived from these questions:
+
++:----------------------------------------------------------------------------------------------------------:+
+| **Hunger – Ration - Relief**                                                                               |
++------------------------------------------------------------------------------------------------------------+
+
++----------+--------------------------------------------------+------------------------------+---------------+
+| f6       | Are you or anyone in your household receiving a  | 1 = Yes; 2 = No              | [__]          |
+|          | food ration on a regular basis?                  |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| f7       | Have you or another member of your household     | 1 = Yes; 2 = No              | [__]          |
+|          | received non-food relief items such as soap,     |                              |               |
+|          | bucket, water container, bedding, mosquito net,  |                              |               |
+|          | clothes, or plastic sheet in the previous four   |                              |               |
+|          | weeks?                                           |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+
++:----------------------------------------------------------------------------------------------------------:+
+| **Activities of Daily Living**                                                                             |
++------------------------------------------------------------------------------------------------------------+
+
++----------+--------------------------------------------------+------------------------------+---------------+
+| a8       | Do you have problems chewing food?               | 1 = Yes; 2 = No              | [__]          |
++----------+--------------------------------------------------+------------------------------+---------------+
+
+and are calculated as:
+
+```{r indicators30, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/indicators30.png")
+```
