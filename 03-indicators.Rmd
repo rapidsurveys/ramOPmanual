@@ -974,16 +974,22 @@ These are standard case definitions for acute malnutrition in adults and recomme
 
 **Note** : MUAC in adults should be measured on the non-dominant arm. This is usually the left arm. The importance of high levels of accuracy and precision at the individual level is of lesser importance in survey work compared to case-finding or diagnosis in clinical contexts, for example. This means that a simple rule such as “Always measure MUAC on the left arm” may be used.
 
-```{block2, type = "rmdnote"}
+```{block2, type = "rmdexercise"}
 An estimate of GAM prevalence can be made using a classic estimator:
 
-$$\text{prevalence} `=` \frac{\text{number of respondents with MUAC < 210 mm}}{\text{total number of respondents}}$$
+$$\text{prevalence} = \frac{\text{number of respondents with MUAC < 210 mm}}{\text{total number of respondents}}$$
   
 The estimate of GAM prevalence made from the RAM-OP survey data is made using a PROBIT estimator. The PROBIT function is also known as the *inverse cumulative distribution* function. This function converts parameters of the distribution of an indicator (e.g. the mean and standard deviation of a *normally* distributed variable) into cumulative percentiles. This means that it is possible to use the normal PROBIT function with estimates of the mean and standard deviation of indicator values in a survey sample to predict (or estimate) the proportion of the population falling below a given threshold. For example, for data with a mean MUAC of 256 mm and a standard deviation of 28 mm the output of the normal PROBIT function for a threshold of 210 mm is 0.0502 meaning that 5.02% of the population are *predicted* (or *estimated*) to fall below the 210 mm threshold.
 
+<br/>
+
 Both the classic and the PROBIT methods can be thought of as estimating area:
 
-knitr::include_graphics("figures/indicators26.png")
+<br/>
+  
+![](figures/indicators26.png)
+
+<br/>
 
 The principal advantage of the PROBIT approach is that the required sample size is usually smaller than that required to estimate prevalence with a given precision using the classic method.
 
@@ -991,5 +997,69 @@ The PROBIT method assumes that MUAC is a normally distributed variable. If this 
 
 The prevalence of SAM is estimated in a similar way to GAM. The prevalence of MAM is estimated as the difference between the GAM and SAM prevalence estimates:
   
-$$\widehat{MAM prevalence} `=` \widehat{GAM prevalence} - \widehat{SAM prevalence}$$
+$$\widehat{MAM prevalence} = \widehat{GAM prevalence} - \widehat{SAM prevalence}$$
 ```
+
+
+### Visual impairment
+
+An indicator of visual impairment is derived from this questionnaire component:
+
++:----------------------------------------------------------------------------------------------------------:+
+| **Visual Acuity**                                                                                          |
++------------------------------------------------------------------------------------------------------------+
+
++----------+-------------------------------------------------------------------------------------------------+
+| va1      | Do you normally wear glasses?                                                                   |
+|          |                                                                                                 |
+|          | *If the person wears glasses, ask if they are more comfortable wearing their glasses to look at |
+|          | your chart at 2 meters. Let the person decide.*                                                 |
+|          |                                                                                                 |
+|          | *Demonstrate (close to the person) how to do the 'tumbling E' test:*                            |
+|          |                                                                                                 |
+|          | * Show the direction the E is pointing.                                                         |
+|          | * Ask the person if they understand. REPEAT if needed.                                          |
+|          |                                                                                                 |
+|          | Test with E at 2 meters:                                                                        |
+|          |                                                                                                 |
+|          | * Use the string to measure 2 meters from the person.                                           |
+|          | * Hold the card at eye level and 2 meters away from the person.                                 |
+|          | * Turn the card in four different directions. Hide the card in your back before turning it      |
+|          | each time.                                                                                      |
++----------+-------------------------------------------------------------------------------------------------+
+
++----------+--------------------------------------------------+------------------------------+---------------+
+| va2a     | First time                                       | 1 = Correct                  | [__]          |
+|          |                                                  |                              |               |
+|          |                                                  | 2 = Incorrect                |               |
+|          |                                                  |                              |               |
+|          |                                                  | 3 = Refused                  |               |
+|          |                                                  |                              |               |
+|          |                                                  | 4 = Blind                    |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| va2b     | Second time                                      | 1 = Correct                  | [__]          |
+|          |                                                  |                              |               |
+|          |                                                  | 2 = Incorrect                |               |
+|          |                                                  |                              |               |
+|          |                                                  | 3 = Refused                  |               |
+|          |                                                  |                              |               |
+|          |                                                  | 4 = Blind                    |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| va2c     | Third time                                       | 1 = Correct                  | [__]          |
+|          |                                                  |                              |               |
+|          |                                                  | 2 = Incorrect                |               |
+|          |                                                  |                              |               |
+|          |                                                  | 3 = Refused                  |               |
+|          |                                                  |                              |               |
+|          |                                                  | 4 = Blind                    |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+| va2d     | Fourth time                                      | 1 = Correct                  | [__]          |
+|          |                                                  |                              |               |
+|          |                                                  | 2 = Incorrect                |               |
+|          |                                                  |                              |               |
+|          |                                                  | 3 = Refused                  |               |
+|          |                                                  |                              |               |
+|          |                                                  | 4 = Blind                    |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+
+
