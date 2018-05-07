@@ -44,6 +44,8 @@ These sampling procedures provide *implicit stratification* and tend to spread t
 
 The use of implicit stratification improves the efficiency of a two-stage cluster sample and allows RAM-OP to use relatively small sample sizes compared to other methods, such as SMART surveys. The use of modern computer-intensive data analysis techniques also allows RAM-OP to make better use of the available sample than is done in other methods.
 
+\newpage
+
 ## RAM-OP survey sample size
 
 The following shorthand symbols will be used when describing sample designs:
@@ -138,13 +140,23 @@ The *sampling interval* needs to be a whole number. Remember to **always** *roun
 
 A random number can be selected through simple lottery (i.e., draw from a lot of 4 numbered from 1 to 4). A standard spreadsheet software can also be used to draw the random number using the `RANDBETWEEN` function as follows:
 
-`RANDBETWEEN(1, 4)`
+&nbsp;
+
+```{r, eval = FALSE}
+RANDBETWEEN(1, 4)
+```
+
+&nbsp;
 
 **Step 3:** Using the *random starting point* and the *sampling interval*, select the sampling villages from a list of all villages organised/sorted by a **non-overalapping** spatial factor such as district or sub-district.
+
+\newpage
 
 ```{r sample4, echo = FALSE, fig.cap = "Selection of sampling villages using lists", fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/listSample2.png")
 ```
+
+\newpage
 
 ### The first stage sample - map-based sampling
 
@@ -384,6 +396,8 @@ The number of blocks to be sampled will depend on the expected number of eligibl
 ```{r sample25, echo = FALSE, fig.cap = "Enumeration area map for a city block in Freetown, Sierra Leone", fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/stage2sample11.png")
 ```
+
+\newpage
 
 ```{r sample26, echo = FALSE, fig.cap = "Enumeration area map for a city block in Addis Ababa, Ethiopia", fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/stage2sample12.png")
