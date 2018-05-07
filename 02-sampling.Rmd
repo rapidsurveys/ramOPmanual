@@ -421,6 +421,8 @@ The first stage sample can be list-based (such as where each area is numbered in
 
 Larger scale “maps” of blocks to be sampled can also me made using satellite imagery (see Figure \@ref(fig:sample29)).
 
+\newpage
+
 ```{r sample29, echo = FALSE, fig.cap = "A large scale “map” of a city block made from satellite imagery", fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/stage2sample15.png")
 ```
