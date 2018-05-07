@@ -71,8 +71,6 @@ $$ \text{overall sample size} ~ \approx ~ m ~ \times ~ n ~ \approx ~ 16 ~ \times
 
 It is not recommended that fewer than $m = 16$ communities are sampled.
 
-## RAM-OP survey sample size
-
 Sampling fewer than $m = 16$ communities will tend to reduce the precision with which estimates can be made. If you have the resources to sample more than $m = 16$ communities then you should do so. A sample of $m = 24$ communities and $n = 8$ eligible subjects, for example, will tend to yield estimates with better precision than a sample with $m = 16$ communities and $n = 12$ eligible subjects.
 
 Do not be tempted to increase the size of the within-community sample in order to achieve an overall sample size of $n = 192$ from fewer than $m = 16$ communities. Doing so will tend to reduce the precision with which estimates are made. It may also be impossible to do this in many settings.
