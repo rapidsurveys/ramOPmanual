@@ -2,6 +2,16 @@
 
 ## Data entry
 
+A data entry system for RAM-OP data using EpiData has been developed.
+
+This software can be downloaded from http://www.brixtonhealth.com/enterRAMOP.zip.
+
+This software runs on the Windows operating system. It does not need to be installed and can be run from a USB drive.
+
+The data entry system provides facilities for entering data, interactive checking of data as it is entered, batch checking of entered data, data summary, and data export. The system creates files that can be read by the standard RAM-OP data analysis software.
+
+Documentation of Epidata can be found here http://www.epidata.dk/index.htm.
+
 ## Data analysis
 
 This manual covers analysing your data using the **RAnalyticFlow** workflow. An **RAnalyticFlow** workflow may be thought of as an *“app”* that makes it easy to analyse your survey data.
