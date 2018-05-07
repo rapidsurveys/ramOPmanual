@@ -69,7 +69,7 @@ In addition you will also need a copy of the **RAnalyticFlow** workflow and supp
 You may need to extract the file from the ZIP archive before use if this is not done automatically.
 
 
-```{r raf1, fig.cap = "Directory structure of RAM-OP RAnalyticFlow package", echo = FALSE, fig.align = "center", fig.retina = 1}
+```{r raf1, echo = FALSE, fig.align = "center", fig.retina = 1}
 knitr::include_graphics("figures/dirStructureRAF.png")
 ```
 
@@ -90,7 +90,7 @@ RAnalyticFlow.
 Note: The `testSVY.rec` and `testPSU.csv` files are example data files and are distributed with the **RAnalyticFlow** workflow. You can use these files to practice analysing data using **RAnalyticFlow**, and as examples of RAM-OP survey data and PSU files.
 
 
-```{r raf2, fig.cap = "Creating an RAnalyticFlow project", echo = FALSE, fig.align = "center", fig.retina = 1}
+```{r raf2, echo = FALSE, fig.align = "center", fig.retina = 1}
 knitr::include_graphics("figures/openProjectRAF.png")
 ```
 
@@ -106,7 +106,7 @@ Before you start work you will need to create a project for your survey:
 4. Click the **OK** button
 
 
-```{r raf3, fig.cap = "Open an RAnalyticFlow workflow", echo = FALSE, fig.align = "center", fig.retina = 1}
+```{r raf3, echo = FALSE, fig.align = "center", fig.retina = 1}
 knitr::include_graphics("figures/openWorkflowRAF.png")
 ```
 
@@ -115,7 +115,7 @@ Double click the item named **ramOP.rflow** shown in the file manager pane of th
 
 Once you have opened the workflow you need to initialise it (i.e. load libraries, useful analysis function, and initialise the workspace for a new analysis):
 
-```{r raf4, fig.cap = "Run an RAnalyticFlow workflow", echo = FALSE, fig.align = "center", fig.retina = 1}
+```{r raf4, echo = FALSE, fig.align = "center", fig.retina = 1}
 knitr::include_graphics("figures/runWorkflowRAF.png")
 ```
 
@@ -130,13 +130,13 @@ appropriate **Survey Data** node and select the survey data file.
 
 When the analysis is complete your project directory or project folder should contain eight new files:
 
-```{r raf5, fig.cap = "Files created in the project directory", echo = FALSE, fig.align = "center", fig.retina = 1}
+```{r raf5, echo = FALSE, fig.align = "center", fig.retina = 1}
 knitr::include_graphics("figures/workflowResults01.png")
 ```
 
 The files ending in `.png` are graphics files. The names of these files are intended to be informative. For example:
 
-```{r raf6, fig.cap = "Files created in the project directory", echo = FALSE, fig.align = "center", fig.retina = 1}
+```{r raf6, echo = FALSE, fig.align = "center", fig.retina = 1}
 knitr::include_graphics("figures/workflowResults02.png")
 ```
 
