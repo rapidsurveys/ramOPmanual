@@ -44,8 +44,6 @@ These sampling procedures provide *implicit stratification* and tend to spread t
 
 The use of implicit stratification improves the efficiency of a two-stage cluster sample and allows RAM-OP to use relatively small sample sizes compared to other methods, such as SMART surveys. The use of modern computer-intensive data analysis techniques also allows RAM-OP to make better use of the available sample than is done in other methods.
 
-\newpage
-
 ## RAM-OP survey sample size
 
 The following shorthand symbols will be used when describing sample designs:
@@ -85,8 +83,6 @@ knitr::include_graphics("figures/popPyramid1.png")
 
 If the average community population is $N = 300$ then there will be fewer than 15 people aged 60 years and older in about half of the selected communities. This is because about half of the selected communities are likely to have a population below the average population.
 
-\newpage
-
 ## Eligibility
 
 Older people are usual defined as persons aged 60 years and older (UN definition). This means your sample will usually be restricted to people aged 60 years and older.
@@ -103,8 +99,6 @@ knitr::include_graphics("figures/popPyramid2.png")
 
 It is common in such setting for there to be a local definition of older people. This will usually be “persons
 aged 50 years or older” or “persons aged 55 years or older”.
-
-\newpage
 
 ## Age distribution, eligibility criteria, and sample design
 
@@ -125,8 +119,6 @@ If this is below about 20 people then you should consider how you will collect t
 * **Take a “top-up” sample only when you need to:** The basic procedure when a selected community is small and likely to contain fewer than $n = 12$ older people is to collect data on all older people in the selected community using a door-to-door census. If the within-community sample size is much smaller than the required one then a “top-up” sample is taken from the nearest neighbouring community using the map-segment-sample method (or a door-to-door census if this community is also small). The advantage of this approach is that travelling time and survey costs are better controlled.
 
 If the proportion of older people is not very small and / or communities are large then you should have no problems achieving the overall sample size.
-
-\newpage
 
 ## Practical sampling
 
