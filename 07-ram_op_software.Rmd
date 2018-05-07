@@ -105,11 +105,9 @@ Double click the item named **ramOP.rflow** shown in the file manager pane of th
 
 Once you have opened the workflow you need to initialise it (i.e. load libraries, useful analysis function, and initialise the workspace for a new analysis):
 
-
 ```{r raf4, fig.cap = "Run an RAnalyticFlow workflow", echo = FALSE, fig.align = "center", fig.retina = 1}
 knitr::include_graphics("figures/runWorkflowRAF.png")
 ```
-
 
 Once this is done, you should:
 
@@ -120,3 +118,28 @@ appropriate **Survey Data** node and select the survey data file.
 
 3. Produce the survey report and graphics. Select and run the **Report** node. This will take some time to complete because the analysis uses computer intensive techniques to make best use of the available data. The Report node/icon will have black lines around it has completed running the report.
 
+When the analysis is complete your project directory or project folder should contain eight new files:
+
+```{r raf5, fig.cap = "Files created in the project directory", echo = FALSE, fig.align = "center", fig.retina = 1}
+knitr::include_graphics("figures/workflowResults01.png")
+```
+
+The files ending in `.png` are graphics files. The names of these files are intended to be informative. For example:
+
+```{r raf6, fig.cap = "Files created in the project directory", echo = FALSE, fig.align = "center", fig.retina = 1}
+knitr::include_graphics("figures/workflowResults02.png")
+```
+
+The file ending in `.report.csv` is the survey report file (see below).
+
+There may also be a file ending in `.afp`. This is a project information file used by **RAnalyticFlow** and can be ignored.
+
+The file ending in `.report.csv` is the survey report file. This file can be opened, formatted and edited in a spreadsheet program such as **Microsoft Excel** or **OpenOffice Calc**:
+
+```{r raf7, echo = FALSE, fig.align = "center", fig.retina = 1}
+knitr::include_graphics("figures/reportFile.png")
+```
+
+In the illustration above, proportions have been formatted as percentages with one decimal place, means have been formatted as numbers with two decimal places, and column titles have been formatted as bold text.
+
+You can edit the labels as you see fit. If you plan to do several RAM-OP surveys then you may want to edit the language file (always called `ramOP.language.csv`). This file provides text that is used in reports and graphics. The purpose of this file is to make the data analysis software produce reports in any language. This file **must** be a comma-separated-value (CSV) file.
