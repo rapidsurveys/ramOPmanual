@@ -89,6 +89,8 @@ knitr::include_graphics("figures/indicators03.png")
 
 Food-intake indicators are derived from this questionnaire component. This data can be queried to yield a large number of useful indicators.
 
+\newpage
+
 +:----------------------------------------------------------------------------------------------------------:+
 | **Food Intake**                                                                                            |
 +------------------------------------------------------------------------------------------------------------+
