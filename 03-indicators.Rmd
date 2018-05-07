@@ -168,6 +168,8 @@ There are three related sets of diet-related indicators:
 
 The indicator hierarchy is:
 
+\newpage
+
 ```{r indicators04, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/indicators04.png")
 ```
