@@ -32,7 +32,7 @@
   
   
 <link rel="prev" href="sampling.html">
-<link rel="next" href="the-ram-op-questionnaire.html">
+<link rel="next" href="questionnaire.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -163,9 +163,11 @@ code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Infor
 <li class="chapter" data-level="2.1.13" data-path="indicators.html"><a href="indicators.html#water-sanitation-and-hygiene"><i class="fa fa-check"></i><b>2.1.13</b> Water, sanitation, and hygiene</a></li>
 <li class="chapter" data-level="2.1.14" data-path="indicators.html"><a href="indicators.html#anthropometry-and-screening-coverage"><i class="fa fa-check"></i><b>2.1.14</b> Anthropometry and screening coverage**</a></li>
 <li class="chapter" data-level="2.1.15" data-path="indicators.html"><a href="indicators.html#visual-impairment"><i class="fa fa-check"></i><b>2.1.15</b> Visual impairment</a></li>
+<li class="chapter" data-level="2.1.16" data-path="indicators.html"><a href="indicators.html#miscellaneous-indicators"><i class="fa fa-check"></i><b>2.1.16</b> Miscellaneous indicators</a></li>
 </ul></li>
+<li class="chapter" data-level="2.2" data-path="indicators.html"><a href="indicators.html#a-note-on-data-management-and-data-analysis"><i class="fa fa-check"></i><b>2.2</b> A note on data management and data analysis</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="the-ram-op-questionnaire.html"><a href="the-ram-op-questionnaire.html"><i class="fa fa-check"></i><b>3</b> The RAM-OP questionnaire</a></li>
+<li class="chapter" data-level="3" data-path="questionnaire.html"><a href="questionnaire.html"><i class="fa fa-check"></i><b>3</b> The RAM-OP questionnaire</a></li>
 <li class="chapter" data-level="4" data-path="datasets.html"><a href="datasets.html"><i class="fa fa-check"></i><b>4</b> Datasets</a></li>
 <li class="chapter" data-level="5" data-path="practical.html"><a href="practical.html"><i class="fa fa-check"></i><b>5</b> Practical Fieldwork</a></li>
 <li class="chapter" data-level="6" data-path="software.html"><a href="software.html"><i class="fa fa-check"></i><b>6</b> RAM-OP Software</a><ul>
@@ -1660,8 +1662,106 @@ each time.</li>
 Figure 2.1: Equipment used to measure visual acuity
 </p>
 </div>
-
 </div>
+<div id="miscellaneous-indicators" class="section level3">
+<h3><span class="header-section-number">2.1.16</span> Miscellaneous indicators</h3>
+<p>Data for a small group of miscellaneous indicators are also collected and reported. These are derived from these questions:</p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="center"><strong>Hunger – Ration - Relief</strong></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="10%" />
+<col width="46%" />
+<col width="28%" />
+<col width="14%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>f6</td>
+<td>Are you or anyone in your household receiving a
+food ration on a regular basis?</td>
+<td>1 = Yes; 2 = No</td>
+<td>[__]</td>
+</tr>
+<tr class="even">
+<td>f7</td>
+<td>Have you or another member of your household
+received non-food relief items such as soap,
+bucket, water container, bedding, mosquito net,
+clothes, or plastic sheet in the previous four
+weeks?</td>
+<td>1 = Yes; 2 = No</td>
+<td>[__]</td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="center"><strong>Activities of Daily Living</strong></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="10%" />
+<col width="46%" />
+<col width="28%" />
+<col width="14%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>a8</td>
+<td>Do you have problems chewing food?</td>
+<td>1 = Yes; 2 = No</td>
+<td>[__]</td>
+</tr>
+</tbody>
+</table>
+<p>and are calculated as:</p>
+<p><img src="figures/indicators30.png" width="800pt" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+<div id="a-note-on-data-management-and-data-analysis" class="section level2">
+<h2><span class="header-section-number">2.2</span> A note on data management and data analysis</h2>
+<p>This section has described how RAM-OP data is used to create a broad set of indicators. If you do not want to use the standard RAM-OP software to do this then you can use this information to create data entry systems and data management scripts for your favoured database or statistical analysis software. See the sections on <a href="datasets.html#datasets"><strong>RAM-OP datasets</strong></a> and <a href="questionnaire.html#questionnaire"><strong>RAM-OP questionnaire</strong></a> for more compact information on variable names and codes that you may find helpful.</p>
+<p>It is important to note that data analysis procedures need to account for the sample design. All major statistical analysis software can do this (details vary). There are two things to note:</p>
+<ul>
+<li>The RAM-OP sample is a two-stage sample. Subjects are sampled from a small number of primary sampling units (PSUs).</li>
+<li>The RAM-OP sample is <strong>not</strong> prior weighted. This means that you will need to provide per-PSU sampling weights. These are usually the populations of the PSU.</li>
+</ul>
+<p>You will need to specify this sample design to your statistical analysis software. If you fail to do this then your analysis may produce estimates that place undue weight to observations from smaller communities with confidence intervals with lower than nominal coverage (i.e. they will be too narrow).</p>
+<p>The standard RAM-OP software uses <em>blocked weighted bootstrap</em> estimation approach:</p>
+<ul>
+<li><strong>Blocked</strong> : The block corresponds to the PSU or cluster.</li>
+<li><strong>Weighted</strong> : The RAM-OP sampling procedure does not use population proportional sampling to weight the sample prior to data collection as is done with SMART type surveys. This means that a posterior weighting procedure is required. The standard RAM-OP software uses a “roulette wheel” algorithm to weight (i.e. by population) the selection probability of PSUs in bootstrap replicates.</li>
+</ul>
+<p>A total of <code>m'</code> PSUs are sampled <em>with-replacement</em> from the survey dataset where <code>m'</code> is the number of PSUs in the survey sample. Individual records within each PSU are then sampled <em>with-replacement</em>. A total of n’ records are sampled <em>with-replacement</em> from each of the selected PSUs where <code>n'</code> is the number of individual records in a selected PSU. The resulting collection of records replicates the original survey in terms of both sample design and sample size. A large number of replicate surveys are taken (the standard RAM-OP software uses <span class="math inline">\(r = 399\)</span> replicate surveys but this can be changed). The required statistic (e.g. the mean of an indicator value) is applied to each replicate survey. The reported estimate consists of the 50th (point estimate), 2.5th (lower 95% confidence limit), and the 97.5th (upper 95% confidence limit) percentiles of the distribution of the statistic observed across all replicate surveys. The blocked weighted bootstrap procedure is outlined in Figure <a href="indicators.html#fig:indicators31">2.2</a>.</p>
+<p>The principal advantages of using a bootstrap estimator are:</p>
+<ul>
+<li>Bootstrap estimators work well with small sample sizes.</li>
+<li>The method is <em>non-parametric</em> and uses empirical rather than theoretical distributions. There are no assumptions of things like normality to worry about.</li>
+<li>The method allows estimation of the sampling distribution of almost any statistic using only simple computational methods.</li>
+</ul>
+<p>The standard RAM-OP data analysis software is described in the section <a href="software.html#software"><strong>Standard RAM-OP software</strong></a>.</p>
+<div class="figure" style="text-align: center"><span id="fig:indicators31"></span>
+<img src="figures/bbw.png" alt="The blocked weighted bootstrap used by the standard RAM-OP software" width="800pt" />
+<p class="caption">
+Figure 2.2: The blocked weighted bootstrap used by the standard RAM-OP software
+</p>
+</div>
+
 </div>
 </div>
             </section>
@@ -1670,7 +1770,7 @@ Figure 2.1: Equipment used to measure visual acuity
         </div>
       </div>
 <a href="sampling.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="the-ram-op-questionnaire.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="questionnaire.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

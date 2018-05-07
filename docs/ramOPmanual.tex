@@ -3323,8 +3323,170 @@ examination.
 \caption{Equipment used to measure visual acuity}\label{fig:indicators29}
 \end{figure}
 
-\hypertarget{the-ram-op-questionnaire}{%
-\chapter{The RAM-OP questionnaire}\label{the-ram-op-questionnaire}}
+\hypertarget{miscellaneous-indicators}{%
+\subsection{Miscellaneous indicators}\label{miscellaneous-indicators}}
+
+Data for a small group of miscellaneous indicators are also collected
+and reported. These are derived from these questions:
+
+\begin{longtable}[]{@{}c@{}}
+\toprule
+\begin{minipage}[t]{0.97\columnwidth}\centering
+\textbf{Hunger -- Ration - Relief}\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule
+\begin{minipage}[t]{0.09\columnwidth}\raggedright
+f6\strut
+\end{minipage} & \begin{minipage}[t]{0.41\columnwidth}\raggedright
+Are you or anyone in your household receiving a food ration on a regular
+basis?\strut
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\raggedright
+1 = Yes; 2 = No\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\raggedright
+{[}\_\_{]}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.09\columnwidth}\raggedright
+f7\strut
+\end{minipage} & \begin{minipage}[t]{0.41\columnwidth}\raggedright
+Have you or another member of your household received non-food relief
+items such as soap, bucket, water container, bedding, mosquito net,
+clothes, or plastic sheet in the previous four weeks?\strut
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\raggedright
+1 = Yes; 2 = No\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\raggedright
+{[}\_\_{]}\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}c@{}}
+\toprule
+\begin{minipage}[t]{0.97\columnwidth}\centering
+\textbf{Activities of Daily Living}\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule
+\begin{minipage}[t]{0.09\columnwidth}\raggedright
+a8\strut
+\end{minipage} & \begin{minipage}[t]{0.41\columnwidth}\raggedright
+Do you have problems chewing food?\strut
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\raggedright
+1 = Yes; 2 = No\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\raggedright
+{[}\_\_{]}\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+and are calculated as:
+
+\begin{center}\includegraphics[width=800pt]{figures/indicators30} \end{center}
+
+\hypertarget{a-note-on-data-management-and-data-analysis}{%
+\section{A note on data management and data
+analysis}\label{a-note-on-data-management-and-data-analysis}}
+
+This section has described how RAM-OP data is used to create a broad set
+of indicators. If you do not want to use the standard RAM-OP software to
+do this then you can use this information to create data entry systems
+and data management scripts for your favoured database or statistical
+analysis software. See the sections on
+\protect\hyperlink{datasets}{\textbf{RAM-OP datasets}} and
+\protect\hyperlink{questionnaire}{\textbf{RAM-OP questionnaire}} for
+more compact information on variable names and codes that you may find
+helpful.
+
+It is important to note that data analysis procedures need to account
+for the sample design. All major statistical analysis software can do
+this (details vary). There are two things to note:
+
+\begin{itemize}
+\tightlist
+\item
+  The RAM-OP sample is a two-stage sample. Subjects are sampled from a
+  small number of primary sampling units (PSUs).
+\item
+  The RAM-OP sample is \textbf{not} prior weighted. This means that you
+  will need to provide per-PSU sampling weights. These are usually the
+  populations of the PSU.
+\end{itemize}
+
+You will need to specify this sample design to your statistical analysis
+software. If you fail to do this then your analysis may produce
+estimates that place undue weight to observations from smaller
+communities with confidence intervals with lower than nominal coverage
+(i.e.~they will be too narrow).
+
+The standard RAM-OP software uses \emph{blocked weighted bootstrap}
+estimation approach:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Blocked} : The block corresponds to the PSU or cluster.
+\item
+  \textbf{Weighted} : The RAM-OP sampling procedure does not use
+  population proportional sampling to weight the sample prior to data
+  collection as is done with SMART type surveys. This means that a
+  posterior weighting procedure is required. The standard RAM-OP
+  software uses a ``roulette wheel'' algorithm to weight (i.e.~by
+  population) the selection probability of PSUs in bootstrap replicates.
+\end{itemize}
+
+A total of \texttt{m\textquotesingle{}} PSUs are sampled
+\emph{with-replacement} from the survey dataset where
+\texttt{m\textquotesingle{}} is the number of PSUs in the survey sample.
+Individual records within each PSU are then sampled
+\emph{with-replacement}. A total of n' records are sampled
+\emph{with-replacement} from each of the selected PSUs where
+\texttt{n\textquotesingle{}} is the number of individual records in a
+selected PSU. The resulting collection of records replicates the
+original survey in terms of both sample design and sample size. A large
+number of replicate surveys are taken (the standard RAM-OP software uses
+\(r = 399\) replicate surveys but this can be changed). The required
+statistic (e.g.~the mean of an indicator value) is applied to each
+replicate survey. The reported estimate consists of the 50th (point
+estimate), 2.5th (lower 95\% confidence limit), and the 97.5th (upper
+95\% confidence limit) percentiles of the distribution of the statistic
+observed across all replicate surveys. The blocked weighted bootstrap
+procedure is outlined in Figure \ref{fig:indicators31}.
+
+The principal advantages of using a bootstrap estimator are:
+
+\begin{itemize}
+\tightlist
+\item
+  Bootstrap estimators work well with small sample sizes.
+\item
+  The method is \emph{non-parametric} and uses empirical rather than
+  theoretical distributions. There are no assumptions of things like
+  normality to worry about.
+\item
+  The method allows estimation of the sampling distribution of almost
+  any statistic using only simple computational methods.
+\end{itemize}
+
+The standard RAM-OP data analysis software is described in the section
+\protect\hyperlink{software}{\textbf{Standard RAM-OP software}}.
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=800pt]{figures/bbw} 
+
+}
+
+\caption{The blocked weighted bootstrap used by the standard RAM-OP software}\label{fig:indicators31}
+\end{figure}
+
+\hypertarget{questionnaire}{%
+\chapter{The RAM-OP questionnaire}\label{questionnaire}}
 
 \hypertarget{datasets}{%
 \chapter{Datasets}\label{datasets}}
