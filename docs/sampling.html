@@ -250,6 +250,7 @@ spatial factor such as districts and subdistricts within districts.</p></li>
 </ul>
 <p>These sampling procedures provide <em>implicit stratification</em> and tend to spread the sample properly among important sub-groups of the population such as rural / urban / peri-urban populations, administrative areas, ethnic sub-populations, religious sub-populations, and socio-economic groups. This often improves the precision of estimates made from survey data.</p>
 <p>The use of implicit stratification improves the efficiency of a two-stage cluster sample and allows RAM-OP to use relatively small sample sizes compared to other methods, such as SMART surveys. The use of modern computer-intensive data analysis techniques also allows RAM-OP to make better use of the available sample than is done in other methods.</p>
+
 </div>
 <div id="ram-op-survey-sample-size" class="section level2">
 <h2><span class="header-section-number">1.3</span> RAM-OP survey sample size</h2>
@@ -322,14 +323,18 @@ aged 50 years or older” or “persons aged 55 years or older”.</p>
 <p>The <em>sampling interval</em> needs to be a whole number. Remember to <strong>always</strong> <em>round down</em> when calculating the <em>sampling interval</em> to the nearest whole number.</p>
 <p><strong>Step 2:</strong> Choose a <em>random starting point</em> between 1 and <em>sampling interval</em>. In this example, this would be a random number <strong>between 1 and 4</strong>.</p>
 <p>A random number can be selected through simple lottery (i.e., draw from a lot of 4 numbered from 1 to 4). A standard spreadsheet software can also be used to draw the random number using the <code>RANDBETWEEN</code> function as follows:</p>
-<p><code>RANDBETWEEN(1, 4)</code></p>
+<p> </p>
+<pre class="sourceCode r" id="cb1"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw">RANDBETWEEN</span>(<span class="dv">1</span>, <span class="dv">4</span>)</a></code></pre>
+<p> </p>
 <p><strong>Step 3:</strong> Using the <em>random starting point</em> and the <em>sampling interval</em>, select the sampling villages from a list of all villages organised/sorted by a <strong>non-overalapping</strong> spatial factor such as district or sub-district.</p>
+
 <div class="figure" style="text-align: center"><span id="fig:sample4"></span>
 <img src="figures/listSample2.png" alt="Selection of sampling villages using lists"  />
 <p class="caption">
 Figure 1.4: Selection of sampling villages using lists
 </p>
 </div>
+
 </div>
 <div id="the-first-stage-sample---map-based-sampling" class="section level3">
 <h3><span class="header-section-number">1.6.2</span> The first stage sample - map-based sampling</h3>
