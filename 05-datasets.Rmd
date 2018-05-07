@@ -1,1 +1,47 @@
 # Datasets {#datasets}
+
+This section details the RAM-OP datasets. The information presented here is of most use if you decide not to use the RAM-OP data entry and data checking software. You might, for example, decide to enter survey data using spreadsheet software such as Microsoft Excel. If you do this and want to use the RAM-OP data analysis software then you will need to export the data as a comma-separated-value (CSV) file with the same variable names, variable types and lengths, and using the same codes as shown in the tables in this section. For the main RAM-OP survey dataset these are the same variable names, variable types, variable lengths, codes, and in the same order as shown on the standard RAM-OP questionnaire.
+
+There are **two** RAM-OP datasets:
+
+1. **The main RAM-OP survey dataset** :
+This is the data collected by the survey questionnaire. The dataset definition for the main RAM-OP dataset is shown in Table 1.
+
+2. **The PSU dataset** : 
+This a short and narrow file with one record per PSU and just two variables:
+
++----------+--------------------------------------------------------------------------------+
+| **psu**  | The PSU identifier. This **must** use the same coding system used to identify  |
+|          | PSUs that is used in the main RAM-OP dataset.                                  |
++----------+--------------------------------------------------------------------------------+
+| **pop**  | The population of the PSU.                                                     |
++----------+--------------------------------------------------------------------------------+
+
+The PSU dataset is used during data-analysis to weight data by PSU population.
+
+If you do not know population sizes (as might be the case in emergencies) then you can collect this data:
+
+* When you visit the PSU (i.e. from community leaders or health centres).
+
+* When you visit the PSU as a doorway count or roof count.
+
+* Using recent satellite imagery as a roof count.
+
+Relative population sizes can be used. If no better data is available then it is reasonable to use a simple semi-quantitative assessment such as:
+
++:------------------:+:---------------------:+:--------------------------------------:+:------------------------:+
+| **Type of place**  | **Population range*** | Features                               | Record population as ... |
++====================+=======================+========================================+==========================+
+| Hamlet             | < 1,000               | Very small local market or no market   | 1                        |
++--------------------+-----------------------+----------------------------------------+--------------------------+
+| Village            | 1,000 – 4,000         | Market and small shops serving the     | 2                        |
+|                    |                       | village and the surrounding hamlets    |                          |
++--------------------+-----------------------+----------------------------------------+--------------------------+
+| Town               | > 4,000               | Large market, many shops (some         | 4                        | 
+|                    |                       | specialised), guest houses, bus        |                          |
+|                    |                       | station, government offices            |                          |
++--------------------+-----------------------+----------------------------------------+--------------------------+
+
+*These ranges may need to be adjusted to match local circumstances.
+
+The PSU dataset must be in comma-separated-value (CSV) format (see Figure 13) for use with the RAM-OP data analysis software.
