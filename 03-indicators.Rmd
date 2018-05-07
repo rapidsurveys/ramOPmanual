@@ -1124,3 +1124,34 @@ and are calculated as:
 ```{r indicators30, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/indicators30.png")
 ```
+
+## A note on data management and data analysis
+
+This section has described how RAM-OP data is used to create a broad set of indicators. If you do not want to use the standard RAM-OP software to do this then you can use this information to create data entry systems and data management scripts for your favoured database or statistical analysis software. See the sections on [**RAM-OP datasets**](#datasets) and [**RAM-OP questionnaire**](#questionnaire) for more compact information on variable names and codes that you may find helpful.
+
+It is important to note that data analysis procedures need to account for the sample design. All major statistical analysis software can do this (details vary). There are two things to note:
+
+* The RAM-OP sample is a two-stage sample. Subjects are sampled from a small number of primary sampling units (PSUs).
+* The RAM-OP sample is **not** prior weighted. This means that you will need to provide per-PSU sampling weights. These are usually the populations of the PSU.
+
+You will need to specify this sample design to your statistical analysis software. If you fail to do this then your analysis may produce estimates that place undue weight to observations from smaller communities with confidence intervals with lower than nominal coverage (i.e. they will be too narrow).
+
+The standard RAM-OP software uses *blocked weighted bootstrap* estimation approach:
+
+* **Blocked** : The block corresponds to the PSU or cluster.
+* **Weighted** : The RAM-OP sampling procedure does not use population proportional sampling to weight the sample prior to data collection as is done with SMART type surveys. This means that a posterior weighting procedure is required. The standard RAM-OP software uses a “roulette wheel” algorithm to weight (i.e. by population) the selection probability of PSUs in bootstrap replicates.
+
+A total of `m'` PSUs are sampled *with-replacement* from the survey dataset where `m'` is the number of PSUs in the survey sample. Individual records within each PSU are then sampled *with-replacement*. A total of n' records are sampled *with-replacement* from each of the selected PSUs where `n'` is the number of individual records in a selected PSU. The resulting collection of records replicates the original survey in terms of both sample design and sample size. A large number of replicate surveys are taken (the standard RAM-OP software uses $r = 399$ replicate surveys but this can be changed). The required statistic (e.g. the mean of an indicator value) is applied to each replicate survey. The reported estimate consists of the 50th (point estimate), 2.5th (lower 95% confidence limit), and the 97.5th (upper 95% confidence limit) percentiles of the distribution of the statistic observed across all replicate surveys. The blocked weighted bootstrap procedure is outlined in Figure \@ref(fig:indicators31).
+
+The principal advantages of using a bootstrap estimator are:
+
+* Bootstrap estimators work well with small sample sizes.
+* The method is *non-parametric* and uses empirical rather than theoretical distributions. There are no assumptions of things like normality to worry about.
+* The method allows estimation of the sampling distribution of almost any statistic using only simple computational methods.
+
+The standard RAM-OP data analysis software is described in the section [**Standard RAM-OP software**](#software).
+
+```{r indicators31, echo = FALSE, fig.cap = "The blocked weighted bootstrap used by the standard RAM-OP software", fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/bbw.png")
+```
+
