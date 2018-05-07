@@ -284,7 +284,7 @@ work of analysing your data. You can get the R installation program from: <a hre
 <p>In addition you will also need a copy of the <strong>RAnalyticFlow</strong> workflow and supporting files. These are available from:</p>
 <p><a href="http://www.brixtonhealth.com/ramOP.rflow.zip" class="uri">http://www.brixtonhealth.com/ramOP.rflow.zip</a></p>
 <p>You may need to extract the file from the ZIP archive before use if this is not done automatically.</p>
-<p><img src="figures/dirStructureRAF.png" width="800pt" style="display: block; margin: auto;" /></p>
+<p><img src="figures/dirStructureRAF.png" style="display: block; margin: auto;" /></p>
 <p>Before starting to analyse your data you should create a project directory or project folder. This is just a normal folder or directory that can be created using your usual file manager (e.g. Windows ExplorerTM in WindowsTM or the FinderTM in Macintosh OS-XTM). The project directory or project folder should contain:</p>
 <ol style="list-style-type: decimal">
 <li><p>Your PSU file (here we assume this file is called testPSU.csv but it could have any name). This file must be a comma-separated-value (CSV) file.</p></li>
@@ -295,7 +295,7 @@ work of analysing your data. You can get the R installation program from: <a hre
 <p>When you have created the project directory or project folder with the required files you can start
 RAnalyticFlow.</p>
 <p>Note: The <code>testSVY.rec</code> and <code>testPSU.csv</code> files are example data files and are distributed with the <strong>RAnalyticFlow</strong> workflow. You can use these files to practice analysing data using <strong>RAnalyticFlow</strong>, and as examples of RAM-OP survey data and PSU files.</p>
-<p><img src="figures/openProjectRAF.png" width="800pt" style="display: block; margin: auto;" /></p>
+<p><img src="figures/openProjectRAF.png" style="display: block; margin: auto;" /></p>
 <p>Before you start work you will need to create a project for your survey:</p>
 <ol style="list-style-type: decimal">
 <li><p>Click the <strong>New Project…</strong> button</p></li>
@@ -303,10 +303,10 @@ RAnalyticFlow.</p>
 <li><p>Give the location of your project directory or project folder. This is the directory or folder which contains your survey data file, your PSU file, the RAM-OP language file, and a copy of <strong>RAMOP.rflow</strong> (see previous page). The location of the project directory or project folder (labeled “Path” by the software) that <strong>RAnalyticFlow</strong> selects automatically will almost always be wrong. You need to specify this manually.</p></li>
 <li><p>Click the <strong>OK</strong> button</p></li>
 </ol>
-<p><img src="figures/openWorkflowRAF.png" width="800pt" style="display: block; margin: auto;" /></p>
+<p><img src="figures/openWorkflowRAF.png" style="display: block; margin: auto;" /></p>
 <p>Double click the item named <strong>ramOP.rflow</strong> shown in the file manager pane of the <strong>RAnalyticFlow</strong> window. This will open the data-analysis workflow which will be shown in the workflow viewer / editor window of the <strong>RAnalyticFlow</strong> window.</p>
 <p>Once you have opened the workflow you need to initialise it (i.e. load libraries, useful analysis function, and initialise the workspace for a new analysis):</p>
-<p><img src="figures/runWorkflowRAF.png" width="800pt" style="display: block; margin: auto;" /></p>
+<p><img src="figures/runWorkflowRAF.png" style="display: block; margin: auto;" /></p>
 <p>Once this is done, you should:</p>
 <ol style="list-style-type: decimal">
 <li><p>Retrieve your survey data. This can be in EpiDat (REC) format or CSV format. Select and run the
@@ -315,13 +315,13 @@ appropriate <strong>Survey Data</strong> node and select the survey data file.</
 <li><p>Produce the survey report and graphics. Select and run the <strong>Report</strong> node. This will take some time to complete because the analysis uses computer intensive techniques to make best use of the available data. The Report node/icon will have black lines around it has completed running the report.</p></li>
 </ol>
 <p>When the analysis is complete your project directory or project folder should contain eight new files:</p>
-<p><img src="figures/workflowResults01.png" width="800pt" style="display: block; margin: auto;" /></p>
+<p><img src="figures/workflowResults01.png" style="display: block; margin: auto;" /></p>
 <p>The files ending in <code>.png</code> are graphics files. The names of these files are intended to be informative. For example:</p>
-<p><img src="figures/workflowResults02.png" width="800pt" style="display: block; margin: auto;" /></p>
+<p><img src="figures/workflowResults02.png" style="display: block; margin: auto;" /></p>
 <p>The file ending in <code>.report.csv</code> is the survey report file (see below).</p>
 <p>There may also be a file ending in <code>.afp</code>. This is a project information file used by <strong>RAnalyticFlow</strong> and can be ignored.</p>
 <p>The file ending in <code>.report.csv</code> is the survey report file. This file can be opened, formatted and edited in a spreadsheet program such as <strong>Microsoft Excel</strong> or <strong>OpenOffice Calc</strong>:</p>
-<p><img src="figures/reportFile.png" width="800pt" style="display: block; margin: auto;" /></p>
+<p><img src="figures/reportFile.png" style="display: block; margin: auto;" /></p>
 <p>In the illustration above, proportions have been formatted as percentages with one decimal place, means have been formatted as numbers with two decimal places, and column titles have been formatted as bold text.</p>
 <p>You can edit the labels as you see fit. If you plan to do several RAM-OP surveys then you may want to edit the language file (always called <code>ramOP.language.csv</code>). This file provides text that is used in reports and graphics. The purpose of this file is to make the data analysis software produce reports in any language. This file <strong>must</strong> be a comma-separated-value (CSV) file.</p>
 
