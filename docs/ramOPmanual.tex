@@ -4730,6 +4730,54 @@ Once this is done, you should:
   has completed running the report.
 \end{enumerate}
 
+When the analysis is complete your project directory or project folder
+should contain eight new files:
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=800pt]{figures/workflowResults01} 
+
+}
+
+\caption{Files created in the project directory}\label{fig:raf5}
+\end{figure}
+
+The files ending in \texttt{.png} are graphics files. The names of these
+files are intended to be informative. For example:
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=800pt]{figures/workflowResults02} 
+
+}
+
+\caption{Files created in the project directory}\label{fig:raf6}
+\end{figure}
+
+The file ending in \texttt{.report.csv} is the survey report file (see
+below).
+
+There may also be a file ending in \texttt{.afp}. This is a project
+information file used by \textbf{RAnalyticFlow} and can be ignored.
+
+The file ending in \texttt{.report.csv} is the survey report file. This
+file can be opened, formatted and edited in a spreadsheet program such
+as \textbf{Microsoft Excel} or \textbf{OpenOffice Calc}:
+
+\begin{center}\includegraphics[width=800pt]{figures/reportFile} \end{center}
+
+In the illustration above, proportions have been formatted as
+percentages with one decimal place, means have been formatted as numbers
+with two decimal places, and column titles have been formatted as bold
+text.
+
+You can edit the labels as you see fit. If you plan to do several RAM-OP
+surveys then you may want to edit the language file (always called
+\texttt{ramOP.language.csv}). This file provides text that is used in
+reports and graphics. The purpose of this file is to make the data
+analysis software produce reports in any language. This file
+\textbf{must} be a comma-separated-value (CSV) file.
+
 \hypertarget{conclusion}{%
 \chapter{Conclusion}\label{conclusion}}
 

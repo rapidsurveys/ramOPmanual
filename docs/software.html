@@ -329,6 +329,26 @@ appropriate <strong>Survey Data</strong> node and select the survey data file.</
 <li><p>Retrieve the PSU date data. Select and run the <strong>PSU Data</strong> node and select your PSU file.</p></li>
 <li><p>Produce the survey report and graphics. Select and run the <strong>Report</strong> node. This will take some time to complete because the analysis uses computer intensive techniques to make best use of the available data. The Report node/icon will have black lines around it has completed running the report.</p></li>
 </ol>
+<p>When the analysis is complete your project directory or project folder should contain eight new files:</p>
+<div class="figure" style="text-align: center"><span id="fig:raf5"></span>
+<img src="figures/workflowResults01.png" alt="Files created in the project directory" width="800pt" />
+<p class="caption">
+Figure 6.5: Files created in the project directory
+</p>
+</div>
+<p>The files ending in <code>.png</code> are graphics files. The names of these files are intended to be informative. For example:</p>
+<div class="figure" style="text-align: center"><span id="fig:raf6"></span>
+<img src="figures/workflowResults02.png" alt="Files created in the project directory" width="800pt" />
+<p class="caption">
+Figure 6.6: Files created in the project directory
+</p>
+</div>
+<p>The file ending in <code>.report.csv</code> is the survey report file (see below).</p>
+<p>There may also be a file ending in <code>.afp</code>. This is a project information file used by <strong>RAnalyticFlow</strong> and can be ignored.</p>
+<p>The file ending in <code>.report.csv</code> is the survey report file. This file can be opened, formatted and edited in a spreadsheet program such as <strong>Microsoft Excel</strong> or <strong>OpenOffice Calc</strong>:</p>
+<p><img src="figures/reportFile.png" width="800pt" style="display: block; margin: auto;" /></p>
+<p>In the illustration above, proportions have been formatted as percentages with one decimal place, means have been formatted as numbers with two decimal places, and column titles have been formatted as bold text.</p>
+<p>You can edit the labels as you see fit. If you plan to do several RAM-OP surveys then you may want to edit the language file (always called <code>ramOP.language.csv</code>). This file provides text that is used in reports and graphics. The purpose of this file is to make the data analysis software produce reports in any language. This file <strong>must</strong> be a comma-separated-value (CSV) file.</p>
 
 </div>
 </div>
