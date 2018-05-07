@@ -1,1 +1,320 @@
 # Practical Fieldwork {#practical}
+
+This section is intended to guide you through the different steps leading up to the fieldwork once the survey location has been identified, and gives some tips on how the fieldwork might be organised.
+
+## Authorisations and clearances
+
+Before implementing the survey, you will need to get all the authorisations relevant to the country in which you plan to work. These could include:
+
+* **Clearance from the national nutrition cluster** or the equivalent structure co-ordinating national assessment activities. In humanitarian contexts, this might be the only clearance that you will need at the national level.
+
+* **Ethical approval** : This is obtained from the country's national ethical committee (or equivalent). Some NGOs and UNOs also have ethical committees and you may also need to submit your survey plans to them for ethical approval. It may be necessary to work with both national and local ethical committees. The process of gaining ethical approval can take several months.  It is important to note that RAM-OP surveys are needs assessments rather than experiments upon human subjects. This means that ethical clearance may not be required for RAM-OP surveys, or that it can be given by the chair of the appropriate ethical review committee without the need for a full meeting of the ethical review committee. It is a good idea to check this with the chair of the appropriate committees to see if permissions can be expedited. Getting ethical clearance is often very useful when applying for other permission as it shows that some technical quality assurance has been done.
+
+* **Authorisation from the appropriate government departments** at various levels (i.e. national, regional, and at the level where you are going to implement the survey). Authorisation of the authority managing the survey site should be sought.  For example, a survey in a refugee camp will need the authorisation of UNHCR, the national administrative authority in charge of refugees and displaced persons, and the agency in charge of the camp management. In some settings you may also need to obtain authorisation from other government departments such as the Ministry of Health, the Department of Rural Affairs, or the Department of Social Affairs.
+
+* **Authorisation from the administrative authorities at local level** : Make sure that all levels of the local administration are informed about what you intend to do (i.e. what, where, and when). It is essential to meet with the local administrative and health authorities prior to the survey. This is done to avoid problems with permissions and to involve them in the implementation of the survey. Describe the survey and explain what might be expected from their staff. You might, for example, need some help in identifying the exact location and boundaries of villages and hamlets in rural areas, or blocks and sections of towns in urban areas. You might need translators or guides to travel with the enumerators, and you might need facilitators to introduce you to village executives. Make sure that you share the results of the survey with them once it is available.
+
+* **Security clearance** : Be aware of the potential security problems in the survey area. Inform all agencies with security responsibilities in the area about the dates and locations of the survey. The police or the army may have to be specifically informed. You may also need to negotiate access with non-state actors. Field staff should be provided with copies of official documents (in the local language) proving that they are authorised to carry out survey work in the specific area between specific dates. They will have to carry this document with them at all times during the fieldwork and present it on request to local authorities and study subjects. It can also be useful to give a copy of this and other official documents to village leaders on arrival at the survey location.
+
+## Working with a local partner
+
+It is often very useful to prepare and carry out the survey in collaboration with one or more local partners, such as a local NGO, the local health authority, or the camp management agency in a refugee camp.
+
+If feasible, you should recruit a representative of your local partner as a “survey facilitator” with responsibility for liaising with the national and local stakeholders.
+
+This person will support your survey preparation with the following:
+
+* At national or regional level, support the endorsement of the survey objectives by the national authorities, and facilitation in obtaining the relevant authorisations and clearances.
+* At local level, be the link between you and the local communities informing health staff and village leaders in the areas where the enumerators are going to sample households. This information  should be disseminated before the survey starts and reiterated a day or two before teams travel to survey locations either by telephone or by personal visits.
+* Provide you with a list of useful contacts (with telephone numbers) for each of the areas covered by the survey. This list should be shared with all program staff.
+
+* Identify local guides or translators to support the teams in the field.
+
+* In-depth knowledge of the survey area, useful for checking the location of the villages to be surveyed on a map.
+
+* Information about travel and security constraints, travel distances and times, and assist in formulating the survey travel plan.
+
+* Support with the survey logistics, such as renting vehicles, renting accommodation and training venues, where to purchase food and drinks, where to have forms and questionnaires printed / copied, etc.
+
+* Help with the referral of malnourished or sick older people identified during the survey by liaising with community services, ambulance services, and relevant health facilities as needed.
+
+The local partner will also help you disseminate the results of the survey to the various stakeholders, and might be involved in response plans following the assessment.
+
+## Translating the questionnaire
+
+Precision and accuracy are improved by translating the questionnaire in the local language appropriate to the survey area before data is collected. This allows enumerators to ask questions using the same language and terminology in every interview.
+
+Thorough training of the enumerators in applying the questionnaire will also improve the precision and accuracy of your survey results.
+
+A translated questionnaire may also be a requirement for getting the ethical clearance for the survey.
+
+We advise you to use an iterative translation process and use:
+
+* **Standard language if available** : Most indicators used in RAM-OP have question sets available in different languages. You can check for these online. You may need to alter some language to account for local dialects and idioms but using standard language, when it is available, can save you a lot of time and effort
+
+* **Knowledgeable lead translators** : You need to use people who know the target language and culture but are also fluent in the starting language of the questionnaire.
+
+* **Forward translation and back translation** : The questionnaire is translated from English, for example, into the local language by one person or team (this is *forward translation*) and is then translated back into the original language by another person or team (this is *back translation*). The back translated questionnaire is then checked against the original questionnaire. Differences are then analysed and a new translation produced. You may need to go through this process several times until a satisfactory version of the translated questionnaire is reached.
+
+* **Your survey staff** to provide language and to pilot (i.e. test) questionnaire components as they are translated. Piloting can be done with community members and by role-playing between survey staff. Test interviews and group discussions usually help to improve the language used in the questionnaire.
+
+* **Your intended survey population** to help you make sure that the language you are using is simple and to the point. Test interviews and group discussions usually help to improve the language used in the questionnaire.
+
+Having enumerators translate the English language questionnaire (for example) each time they apply the questionnaire is **not** a good option and should be avoided.
+
+## Supervisors, enumerators, and data entry staff
+
+The more survey teams you recruit and use, the quicker the survey will be finished. However, the number of teams should be linked to your capacity for supervision. Also, having a large number of teams usually means that you will need a large number of vehicles and drivers. This can be hard to achieve and hard to manage.
+
+We recommend that you recruit three teams of two enumerators with one supervisor per team. The duties of supervisors and enumerators are:
+
+**Supervisors** have to take all necessary actions to ensure the accuracy of the collected data, particularly:
+
+* Checking equipment before departure and when leaving the survey site.
+* Travelling with a team every day, to observe and correct the enumerators' work.
+* Introducing teams to local leaders.
+* Ensuring households and subjects are selected properly, that the interviews are conducted with respect and thoroughness, and that measurements are taken and recorded accurately.
+
+**Enumerators** are in charge of implementing the field procedures:
+
+* Identifying the households to survey.
+* Apply the questionnaires to older people.
+* Measure MUAC, oedema, and visual acuity and complete questionnaires.
+
+If each team can complete a single PSU per day (this is the minimum you can expect from a team) then the survey may be completed in six days (i.e. three PSUs per day for five days plus one PSU on the last day). This will depend on context and on the teams' expertise. It is often possible for a team to reach more than one location per day, such as in cities or camps where sectors and blocks are close to each other and travelling time is not high. You will often find that survey data can be collected in just four or five days. 
+
+It is important not to rush data collection. It is also important to supervise the teams from day one in order to ensure they follow the proper sampling procedures and applying the questionnaires correctly.
+
+It is advisable to enlist more enumerators to be trained than the minimum number needed. This will ensure that you have sufficient enumerators should you find, during training, that some recruits cannot perform their duties well enough. It will also provide additional trained staff should you need to cover for absences, due to illness for example. Make sure that you enlist both male and female trainees.
+
+You will also need to recruit data entry staff. The workload for the data entry staff is usually between about thirty-six and seventy-two questionnaires per day.
+
+## Training of enumerators
+Training the enumerators is a crucial step to ensuring the quality of the data collection.
+
+At the end of training each enumerator should be able to:
+
+* Explain the objectives of the survey.
+* Sample households and older people in the survey area following the appropriate field procedures.
+* Introduce themselves to older people in a polite and respectful manner.
+* Apply the questionnaire smoothly and efficiently.
+* Properly measure MUAC, check for bilateral pitting oedema, and properly measure visual acuity.
+* Complete the questionnaire neatly and without making mistakes (including the correct numbering of PSU, households and individual subjects).
+* Advise the subject or their family in case there is a need for referral, such as to a health facility.
+
+A typical first RAM-OP training course will last for five days:
+
++------------+----------------------------------------------------------------------+
+| **Day 1**  | Presentation of your organisation (mission, code of conduct, etc.)   |
+|            |                                                                      |
+|            | Objectives of the survey                                             |
+|            |                                                                      |
+|            | How are we going to do it?                                           |
+|            |                                                                      |
+|            | Questionnaire : First reading and explanations                       |
+|            |                                                                      |
+|            | Recap                                                                |
++------------+----------------------------------------------------------------------+
+| **Day 2**  | Field procedures                                                     |
+|            |                                                                      |
+|            | Job descriptions                                                     |
+|            |                                                                      |
+|            | Measurements: MUAC, oedema, visual acuity (practice on each other)   |
+|            |                                                                      |
+|            | Questionnaire : Role-playing                                         |
+|            |                                                                      |
+|            | Lessons learned                                                      |
+|            |                                                                      |
+|            | Recap                                                                |
++------------+----------------------------------------------------------------------+
+| **Day 3**  | Measurements: MUAC, oedema, visual acuity (practice on ten older     |
+|            | people)                                                              |
+|            |                                                                      |
+|            | Testing the questionnaire with ten older people                      |
+|            |                                                                      |
+|            | Lessons learned                                                      |
+|            |                                                                      |
+|            | Recap                                                                |
++------------+----------------------------------------------------------------------+
+| **Day 4**  | Questionnaire : Role-playing                                         |
+|            |                                                                      |
+|            | Field procedures : Recap and group work                              |
+|            |                                                                      |
+|            | Recap                                                                |
++------------+----------------------------------------------------------------------+
+| **Day 5**  | Field test : Practical field procedures, etc. in one community       |
+|            |                                                                      |
+|            | Lessons learned from field test                                      |
+|            |                                                                      |
+|            | Recap                                                                |
++------------+----------------------------------------------------------------------+
+
+Additional notes:
+
+* **Practising the questionnaire** : This is very important. Each training day should contain some work on the questionnaire. Particular attention is paid to the content and function of each question set, the numbering system for the PSU, household, and subject, the meaning / intention of each question set, skip / jump patterns, coding, ranges, and checking for completeness and consistency. Extensive use should be made of role-playing (in pairs and in groups) and testing with eligible subjects. Care needs to be taken to ensure that **all** field staff have extensive practice in working with the questionnaire.
+
+* **Practising measurements** : This is very important. Most training days should contain some work on measurement. Care needs to be taken to ensure that **all** field staff have extensive practice in taking **all** measurements.
+
+* **Standardisation of measurement** : A formal standardisation exercise for MUAC measurement is **not** required. The format of such an exercise does, however, provide a useful framework for training enumerators to measure MUAC with acceptable accuracy and precision by:
+
+   * Comparisons of measurements made by different enumerators on the same person to explore accuracy (bias).
+
+   * Comparisons of measurements made by different enumerators on the same person with the measurements made by the training supervisor to explore accuracy (bias).
+
+   * Repeated measurements on the same persons by the same enumerator to explore repeatability (precision).
+
+* **Ten older people** : The survey facilitator should be able to mobilise ten older people (women and men) to participate in questionnaire and measurement exercises. Make sure to explain to these volunteers what is going to happen to them. The exercises will last a half day (maybe longer) and may be quite tiring for older persons. Make sure they are comfortably accommodated, organise their transport to and from the training venue (which should be easily accessible and so avoiding stairs), indoors or under shelter, with chairs or benches. Provide safe drinking water and possibly tea, coffee and snacks. It is also advisable to provide them with a small *ex gratia* payment.
+
+* **The field test** : This will put the trainees in to field conditions but without the stress of having to take a full sample. It is a “dummy run” of all survey activities. Divide the trainees into teams assigning a supervisor to each team. The test area should not be one of the areas to be sampled for the survey and can be close to the training venue.
+
+At the end of the training week, you should be able to select the best enumerators and divide them in to teams, balancing genders and personalities, as well as strengths and weaknesses. 
+
+## Survey logistics
+
+Thorough logistics preparation is essential to the smooth implementation of a survey. Transportation is particularly important.
+
+### Transportation
+Ideally you will need one car and driver per survey team. Depending on the area, you may be able to reduce this number and organise the survey travel plan so that vehicles can be pooled between the teams. You will need strong cars (ones adapted to the terrain) and reliable and safe drivers ready to work flexible hours.
+
+It is very useful to brief the teams and the drivers about the management of the cars:
+
+* Who gives instructions to the drivers on a daily basis. One person per car should be in charge.
+* Who is checking the car log book every morning and every evening.
+* What to do in case of an accident.
+
+All staff should be given the contact telephone numbers of all the drivers
+
+Safety and security procedures should be followed thoroughly, such as use of seat belts, speed limits, prohibitions on “racing”, carrying of water, first aid kits, and spare wheels.
+
+### Tools and equipment
+
+The equipment needed for a RAM-OP survey is minimal:
+
+* MUAC tapes for adults (i.e. minimum 450 mm long, graduated in millimetres).
+* A “tumbling E chart” to perform the visual acuity test.
+* Pens, notebooks, clip-boards, etc.
+* Questionnaires.
+* Maps of the area showing PSU locations.
+* PSU maps (if required).
+* Official letters of authorisation to carry out the survey.
+
+Every morning during the survey, each team should receive a schedule of that day's activities detailing the team's objectives for the day giving  PSU numbers, location, PSU maps, sample target sizes, local contact information, emergency contact list, etc.
+
+## Data collection
+
+Each team should be able to survey at least one PSU per day.
+
+No community mobilisation is necessary but community officials should be informed of your arrival in advance.
+
+Avoid sampling at special or busy times, such as holy days and market days.
+
+When arriving in the community, the teams should introduce themselves to community leaders  and explain the conduct of the survey.
+
+The supervisor should collect and record information about the PSU's total population.
+
+The team should then explore the boundaries of the community and perform mapping and segmentation as required.
+
+Eligible subjects are usually people aged 60 years and older (this may differ in some settings). We accept the respondents' statement of their own age, and we do not challenge them if they appear younger or older than the age they declare. We usually do not ask for a proof of age. However, it might be useful to have compiled a list of events related to the past hundred years of the country's history, as some older people do not remember their age, but remember living at the time of some remarkable events (independence, elections, wars, etc). Women often remember the age at which they had their children
+
+**All** eligible older people present in and belonging to the sampled household are interviewed and measured, even if the required quota of respondents has been reached. Older people visiting the household should only be included if they are residing there for more than two weeks. Person such as maids, houseboys, watchmen, and carers should be treated as part of the household (i.e. should be interviewed) if the sampled dwelling / compound is their principal place of residence. Older people should be interviewed in their houses. It is not good practice to have the older people in the community gathered in one place.
+
+When entering older people's houses, the enumerators should always be polite, respectful, and attentive not to intrude on people's privacy.
+
+Older people should not be intimidated into answering the questionnaire or being measured. They always have a right to refuse to answer some or all of the questions and to refuse measurements. Refusals should be noted on the questionnaire.
+
+Some of the questions are of an intimate nature. Be careful not to administer the questionnaire in an open space where everybody present can hear the answers. This may embarrass the respondent or cause the respondent to answer wrongly. This is important as a “wrong answer” will tend to hide need and will bias the survey results.
+
+Some older women may object to having their MUAC taken by a man (or vice versa). This is why it is advisable that the team has both male and female members. This not always possible, but older people are often  more free from prejudices than the younger members of their community. It is rare for an older  woman to refuse to expose her arms or feet before a male enumerator, and also rare that an older man objects to being measured by a female enumerator.
+
+## Survey planning
+Here is a typical timetable of survey activities:
+
++:----------------------:+:--------------------------------------------------------------------:+
+| **When?**              | **What?**                                                            |
++========================+======================================================================+
+| **Several weeks in     | * Identify survey area                                               |
+| advance**              | * Recruit local partner                                              |
+|                        | * Obtain ethical clearance                                           |
+|                        | * Obtain technical approval from relevant bodies                     |
+|                        | * Obtain permissions and letters from appropriate authorities        |
+|                        | * Start translation of questionnaire                                 |
+|                        | * Obtain maps / lists as required                                    |
+|                        | * Obtain map(s) of the survey area                                   |
++------------------------+----------------------------------------------------------------------+
+| **One month in         | * Advertise staff positions                                          |
+| advance**              | * Recruit and contract supervisors                                   |
+|                        | * Define first stage sample from list / map                          |
+|                        | * Make (draft) survey travel plans                                   |
+|                        | * Obtain permissions for travel                                      |
+|                        | * Book training venue                                                |
+|                        | * Arrange staff accommodation (if required)                          |
+|                        | * Continue translation of questionnaire                              |
+|                        | * Begin sourcing equipment                                           |
+|                        | * Identify potential suppliers and contractors                       |
++------------------------+----------------------------------------------------------------------+
+| **One week before the  | * Recruit enumerators                                                |
+| training**             | * Purchase equipment                                                 |
+|                        | * Book vehicles and drivers                                          |
+|                        | * Review and print / copy training manual                            |
+|                        | * Print translated questionnaire for the training                    |
+|                        | * Print “daily program” forms                                        |
+|                        | * Finalise survey travel plans                                       |
+|                        | * Disseminate travel plans to local authorities (with survey         |
+|                        | facilitator)                                                         |
+|                        | * Arrange logistics for the training                                 |
++------------------------+----------------------------------------------------------------------+
+| **During the           | * Arrange for ten older people to participate in training.           |
+| training**             | * Revise the questionnaire with the trainees.                        |
+|                        | * Print revised version of questionnaire for the field test          |
+|                        | (c. 50 copies)                                                       |
+|                        | * Arrange the logistics for the field test (vehicles, drivers,       |
+|                        | equipment)                                                           |
+|                        | * Review logistics arrangements with the trainees                    |
++------------------------+----------------------------------------------------------------------+
+| **At the end of the    | * Provide each trainee with a certificate of attendance              |
+| training**             | * Pay the training incentives                                        |
+|                        | * Review and amend questionnaire from the feedback of the field test |
+|                        | * Print survey questionnaires (c. 250 copies)                        |
+|                        | * Recruit enumerators and data entry staff                           |
++------------------------+----------------------------------------------------------------------+
+| **During the survey**  | * Train the data entry clerk (day one) using the results of the      |
+|                        | field test                                                           |
+|                        | * Manage survey activities (see below)                               |
+|                        | * Data entry and cleaning                                            |
++------------------------+----------------------------------------------------------------------+
+| **At the end of the    | * Complete data entry                                                |
+| survey**               | * Provide all staff with certificates of participation               |
+|                        | * Pay incentives                                                     |
+|                        | * Thank the local authorities                                        |
+|                        | * Party for all staff                                                |
+|                        | * Data analysis and reporting                                        |
+|                        | * Disseminate results                                                |
++------------------------+----------------------------------------------------------------------+
+
+## Daily survey activities
+
+Here is a list of typical survey activities:
+
++:----------------------:+:--------------------------------------------------------------------:+
+| **When?**              | **What?**                                                            |
++========================+======================================================================+
+| **Morning**            | * Brief the teams on the day's objectives                            |
+|                        | * Provide feedback on the previous day (success and failures,        |
+|                        | correction of mistakes made in field procedures or data collection). |
+|                        | * Discuss problems with supervisors                                  |
+|                        | * Provide water and snacks (or food allowance)                       |
+|                        | * Provide forms, questionnaires, maps (as required)                  |
++------------------------+----------------------------------------------------------------------+
+| **Evening**            | * Check the data entry with the data-entry staff                     |
+|                        | * Identify problematic questionnaires                                |
+|                        | * Identify common data collection problems                           |
+|                        | * Plan the next day's programme with the facilitator and the         |
+|                        | supervisors                                                          |
+|                        | * Discuss the problems met during the day and their resolution       |
+|                        | (particularly mistakes that they have observed in the field          |
+|                        | procedures or in the data collection).                               |
+|                        | * Prepare the day programme forms for the next day                   |
+|                        | * Check that there are enough forms, questionnaires, maps for the    |
+|                        | next day                                                             |
++------------------------+----------------------------------------------------------------------+
+
