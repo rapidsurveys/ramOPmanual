@@ -20,9 +20,9 @@ cover-image: figures/coverImage.jpg
 description: "Rapid assessment method for older people (RAM-OP) manual"
 ---
 
-```{r global_options, include = FALSE}
-knitr::opts_chunk$set(fig.pos = "H", out.width = "800pt")
-```
+#```{r global_options, include = FALSE}
+#knitr::opts_chunk$set(fig.pos = "H")
+#```
 
 
 # The RAM-OP Manual {-}
