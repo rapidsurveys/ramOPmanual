@@ -197,6 +197,103 @@ code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Infor
             <section class="normal" id="section-">
 <div id="datasets" class="section level1">
 <h1><span class="header-section-number">Chapter 4</span> Datasets</h1>
+<p>This section details the RAM-OP datasets. The information presented here is of most use if you decide not to use the RAM-OP data entry and data checking software. You might, for example, decide to enter survey data using spreadsheet software such as Microsoft Excel. If you do this and want to use the RAM-OP data analysis software then you will need to export the data as a comma-separated-value (CSV) file with the same variable names, variable types and lengths, and using the same codes as shown in the tables in this section. For the main RAM-OP survey dataset these are the same variable names, variable types, variable lengths, codes, and in the same order as shown on the standard RAM-OP questionnaire.</p>
+<p>There are <strong>two</strong> RAM-OP datasets:</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>The main RAM-OP survey dataset</strong> :
+This is the data collected by the survey questionnaire. The dataset definition for the main RAM-OP dataset is shown in Figure <a href="datasets.html#fig:dataset01">4.1</a>.</p></li>
+<li><p><strong>The PSU dataset</strong> :
+This a short and narrow file with one record per PSU and just two variables:</p></li>
+</ol>
+<table>
+<colgroup>
+<col width="11%" />
+<col width="88%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>psu</strong></td>
+<td>The PSU identifier. This <strong>must</strong> use the same coding system used to identify
+PSUs that is used in the main RAM-OP dataset.</td>
+</tr>
+<tr class="even">
+<td><strong>pop</strong></td>
+<td>The population of the PSU.</td>
+</tr>
+</tbody>
+</table>
+<p>The PSU dataset is used during data-analysis to weight data by PSU population.</p>
+<p>If you do not know population sizes (as might be the case in emergencies) then you can collect this data:</p>
+<ul>
+<li><p>When you visit the PSU (i.e. from community leaders or health centres).</p></li>
+<li><p>When you visit the PSU as a doorway count or roof count.</p></li>
+<li><p>Using recent satellite imagery as a roof count.</p></li>
+</ul>
+<p>Relative population sizes can be used. If no better data is available then it is reasonable to use a simple semi-quantitative assessment such as:</p>
+<table>
+<colgroup>
+<col width="18%" />
+<col width="21%" />
+<col width="36%" />
+<col width="23%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Type of place</strong></th>
+<th align="center"><strong>Population range</strong>*</th>
+<th>Features</th>
+<th align="center">Record population as …</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Hamlet</td>
+<td align="center">&lt; 1,000</td>
+<td>Very small local market or no market</td>
+<td align="center">1</td>
+</tr>
+<tr class="even">
+<td>Village</td>
+<td align="center">1,000 – 4,000</td>
+<td>Market and small shops serving the
+village and the surrounding hamlets</td>
+<td align="center">2</td>
+</tr>
+<tr class="odd">
+<td>Town</td>
+<td align="center"><blockquote>
+<p>4,000</p>
+</blockquote></td>
+<td>Large market, many shops (some
+specialised), guest houses, bus
+station, government offices</td>
+<td align="center">4</td>
+</tr>
+</tbody>
+</table>
+<p>*These ranges may need to be adjusted to match local circumstances.</p>
+<p>The PSU dataset must be in comma-separated-value (CSV) format (see Figure <a href="datasets.html#fig:dataset02">4.2</a>) for use with the RAM-OP data analysis software.</p>
+<div class="figure" style="text-align: center"><span id="fig:dataset01"></span>
+<img src="figures/dataset01.png" alt="Main RAM-OP dataset definition" width="800pt" />
+<p class="caption">
+Figure 4.1: Main RAM-OP dataset definition
+</p>
+</div>
+<p>The RAM-OP data analysis requires that the main RAM-OP survey dataset is supplied in either an <strong>EpiInfo v6.xx</strong> or <strong>EpiData (REC)</strong> format or in a comma-separated-value (CSV) format file The RAM-OP data analysis requires that the PSU dataset is supplied in a comma-separated-value (.CSV) format file. Figure <a href="datasets.html#fig:dataset02">4.2</a> shows an example of a PSU dataset in comma-separate-value (CSV) format.</p>
+<div class="figure" style="text-align: center"><span id="fig:dataset02"></span>
+<img src="figures/dataset02.png" alt="An example comma-separated-value (CSV) format file (the example is for a RAM-OP PSU dataset)" width="800pt" />
+<p class="caption">
+Figure 4.2: An example comma-separated-value (CSV) format file (the example is for a RAM-OP PSU dataset)
+</p>
+</div>
+<p>Note that the first line of a CSV format file gives the names of the variables (e.g. these are <code>psu</code> and <code>pop</code> for the PSU dataset) separated by commas. Subsequent lines contain data with items separated by commas and with one record per line. CSV format files can be created using a plain text editor (e.g. <strong>Notepad</strong>) or with a spreadsheet application such as <strong>Microsoft Excel™</strong>. If you use a spreadsheet application then you will have to be careful:</p>
+<ul>
+<li><p>Variable names and data items must be separated by commas (not tab characters or semi-colon characters).</p></li>
+<li><p>Numbers with decimal places must use the full-stop character as the decimal separator. In some settings a spreadsheet application may want to use the comma character as the decimal separator.</p></li>
+<li><p>Avoid using accented characters in the names of and in the data entered into text variables. These characters can sometimes confuse the RAM-OP data analysis software. A CSV file should contain only plain text, number, and commas without formatting. Do <strong>not</strong> use a word processor application such as <strong>Microsoft Word™</strong> to create or edit a CSV file.</p></li>
+</ul>
+<p>If you have problems using a CSV file then you should check and edit the file using a plain text-editor such as <strong>Notepad</strong> or a dedicated CSV editor such as Ron’s Editor (<a href="http://www.ronsplace.eu/Products/RonsEditor" class="uri">http://www.ronsplace.eu/Products/RonsEditor</a>)</p>
+<p>Remember to backup your data before editing it.</p>
 
 </div>
             </section>

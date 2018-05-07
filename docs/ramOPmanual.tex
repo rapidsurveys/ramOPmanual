@@ -3551,6 +3551,177 @@ The questionnaire can be downloaded (in ODT and PDF format) from
 \hypertarget{datasets}{%
 \chapter{Datasets}\label{datasets}}
 
+This section details the RAM-OP datasets. The information presented here
+is of most use if you decide not to use the RAM-OP data entry and data
+checking software. You might, for example, decide to enter survey data
+using spreadsheet software such as Microsoft Excel. If you do this and
+want to use the RAM-OP data analysis software then you will need to
+export the data as a comma-separated-value (CSV) file with the same
+variable names, variable types and lengths, and using the same codes as
+shown in the tables in this section. For the main RAM-OP survey dataset
+these are the same variable names, variable types, variable lengths,
+codes, and in the same order as shown on the standard RAM-OP
+questionnaire.
+
+There are \textbf{two} RAM-OP datasets:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{The main RAM-OP survey dataset} : This is the data collected
+  by the survey questionnaire. The dataset definition for the main
+  RAM-OP dataset is shown in Figure \ref{fig:dataset01}.
+\item
+  \textbf{The PSU dataset} : This a short and narrow file with one
+  record per PSU and just two variables:
+\end{enumerate}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+\begin{minipage}[t]{0.11\columnwidth}\raggedright
+\textbf{psu}\strut
+\end{minipage} & \begin{minipage}[t]{0.83\columnwidth}\raggedright
+The PSU identifier. This \textbf{must} use the same coding system used
+to identify PSUs that is used in the main RAM-OP dataset.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.11\columnwidth}\raggedright
+\textbf{pop}\strut
+\end{minipage} & \begin{minipage}[t]{0.83\columnwidth}\raggedright
+The population of the PSU.\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+The PSU dataset is used during data-analysis to weight data by PSU
+population.
+
+If you do not know population sizes (as might be the case in
+emergencies) then you can collect this data:
+
+\begin{itemize}
+\item
+  When you visit the PSU (i.e.~from community leaders or health
+  centres).
+\item
+  When you visit the PSU as a doorway count or roof count.
+\item
+  Using recent satellite imagery as a roof count.
+\end{itemize}
+
+Relative population sizes can be used. If no better data is available
+then it is reasonable to use a simple semi-quantitative assessment such
+as:
+
+\begin{longtable}[]{@{}lclc@{}}
+\toprule
+\begin{minipage}[b]{0.16\columnwidth}\raggedright
+\textbf{Type of place}\strut
+\end{minipage} & \begin{minipage}[b]{0.19\columnwidth}\centering
+\textbf{Population range}*\strut
+\end{minipage} & \begin{minipage}[b]{0.32\columnwidth}\raggedright
+Features\strut
+\end{minipage} & \begin{minipage}[b]{0.21\columnwidth}\centering
+Record population as \ldots{}\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.16\columnwidth}\raggedright
+Hamlet\strut
+\end{minipage} & \begin{minipage}[t]{0.19\columnwidth}\centering
+\textless{} 1,000\strut
+\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright
+Very small local market or no market\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\centering
+1\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.16\columnwidth}\raggedright
+Village\strut
+\end{minipage} & \begin{minipage}[t]{0.19\columnwidth}\centering
+1,000 -- 4,000\strut
+\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright
+Market and small shops serving the village and the surrounding
+hamlets\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\centering
+2\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.24\columnwidth}\raggedright
+Town\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\centering
+\begin{quote}
+4,000
+\end{quote}\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright
+Large market, many shops (some specialised), guest houses, bus station,
+government offices\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\centering
+4\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+*These ranges may need to be adjusted to match local circumstances.
+
+The PSU dataset must be in comma-separated-value (CSV) format (see
+Figure \ref{fig:dataset02}) for use with the RAM-OP data analysis
+software.
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=800pt]{figures/dataset01} 
+
+}
+
+\caption{Main RAM-OP dataset definition}\label{fig:dataset01}
+\end{figure}
+
+The RAM-OP data analysis requires that the main RAM-OP survey dataset is
+supplied in either an \textbf{EpiInfo v6.xx} or \textbf{EpiData (REC)}
+format or in a comma-separated-value (CSV) format file The RAM-OP data
+analysis requires that the PSU dataset is supplied in a
+comma-separated-value (.CSV) format file. Figure \ref{fig:dataset02}
+shows an example of a PSU dataset in comma-separate-value (CSV) format.
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=800pt]{figures/dataset02} 
+
+}
+
+\caption{An example comma-separated-value (CSV) format file (the example is for a RAM-OP PSU dataset)}\label{fig:dataset02}
+\end{figure}
+
+Note that the first line of a CSV format file gives the names of the
+variables (e.g.~these are \texttt{psu} and \texttt{pop} for the PSU
+dataset) separated by commas. Subsequent lines contain data with items
+separated by commas and with one record per line. CSV format files can
+be created using a plain text editor (e.g. \textbf{Notepad}) or with a
+spreadsheet application such as \textbf{Microsoft Excel™}. If you use a
+spreadsheet application then you will have to be careful:
+
+\begin{itemize}
+\item
+  Variable names and data items must be separated by commas (not tab
+  characters or semi-colon characters).
+\item
+  Numbers with decimal places must use the full-stop character as the
+  decimal separator. In some settings a spreadsheet application may want
+  to use the comma character as the decimal separator.
+\item
+  Avoid using accented characters in the names of and in the data
+  entered into text variables. These characters can sometimes confuse
+  the RAM-OP data analysis software. A CSV file should contain only
+  plain text, number, and commas without formatting. Do \textbf{not} use
+  a word processor application such as \textbf{Microsoft Word™} to
+  create or edit a CSV file.
+\end{itemize}
+
+If you have problems using a CSV file then you should check and edit the
+file using a plain text-editor such as \textbf{Notepad} or a dedicated
+CSV editor such as Ron's Editor
+(\url{http://www.ronsplace.eu/Products/RonsEditor})
+
+Remember to backup your data before editing it.
+
 \hypertarget{practical}{%
 \chapter{Practical Fieldwork}\label{practical}}
 
