@@ -43,7 +43,7 @@ The demography and situation indicators are used to describe the survey sample a
 
 
 +-----+------------------------------------+------------------------------+---------------+
-| d1  | Who is answering these questions?  | 1 = Subject                  | [__]          |
+| d1  | Who is answering these questions?  | 1 = Subject                  | [_]           |
 |     |                                    |                              |               |
 |     |                                    | 2 = Family carer             |               |
 |     |                                    |                              |               |
@@ -51,11 +51,11 @@ The demography and situation indicators are used to describe the survey sample a
 |     |                                    |                              |               |
 |     |                                    | 4 = Other                    |               |
 +-----+------------------------------------+------------------------------+---------------+
-| d2  | How old are you (age in years)?    | 888 = DK / REFUSED           | [__][__][__]  |
+| d2  | How old are you (age in years)?    | 888 = DK / REFUSED           | [_][_][_]     |
 +-----+------------------------------------+------------------------------+---------------+
-| d3  | Sex                                | 1 = Male; 2 = Female         | [__]          |
+| d3  | Sex                                | 1 = Male; 2 = Female         | [_]           |
 +-----+------------------------------------+------------------------------+---------------+
-| d4  | Marital status                     | 1 = Single (never married)   | [__]          |
+| d4  | Marital status                     | 1 = Single (never married)   | [_]           |
 |     |                                    |                              |               |
 |     |                                    | 2 = Married                  |               |
 |     |                                    |                              |               |
@@ -67,7 +67,7 @@ The demography and situation indicators are used to describe the survey sample a
 |     |                                    |                              |               |
 |     |                                    | 6 = Other                    |               |
 +-----+------------------------------------+------------------------------+---------------+
-| d5  | Do you live alone?                 | 1= Yes; 2 = No               | [__]          |
+| d5  | Do you live alone?                 | 1= Yes; 2 = No               | [_]           |
 +-----+------------------------------------+------------------------------+---------------+
 
 Each of the questions yields a separate indicator:
