@@ -44,14 +44,16 @@ These sampling procedures provide *implicit stratification* and tend to spread t
 
 The use of implicit stratification improves the efficiency of a two-stage cluster sample and allows RAM-OP to use relatively small sample sizes compared to other methods, such as SMART surveys. The use of modern computer-intensive data analysis techniques also allows RAM-OP to make better use of the available sample than is done in other methods.
 
+\newpage
+
 ## RAM-OP survey sample size
 
 The following shorthand symbols will be used when describing sample designs:
 
 \begin{align*}
-m &= \text{Number of primary sampling units (PSUs).} \\
-n &= \text{Size of the sample of individuals or households from a PSU.} \\
-n &= \text{May also mean the overall survey sample size (this meaning will be made clear in the text).} \\
+m &= \text{Number of primary sampling units (PSUs).} \\[2pt]
+n &= \text{Size of the sample of individuals or households from a PSU.} \\[2pt]
+n &= \text{May also mean the overall survey sample size (this meaning will be made clear in the text).} \\[2pt]
 N &= \text{Population}
 \end{align*}
 
@@ -67,7 +69,7 @@ the communities selected for inclusion in the first stage sample.
 
 The overall sample size from $m = 16$ communities and $n = 12$ eligible subjects is about:
 
-$$ \text{overall sample size} ~ \approx ~ m ~ \times ~ n ~ \approx ~ 16 ~ \times ~ 12 ~ \approx ~ 192 $$
+$$\text{overall sample size} ~ \approx ~ m ~ \times ~ n ~ \approx ~ 16 ~ \times ~ 12 ~ \approx ~ 192$$
 
 It is not recommended that fewer than $m = 16$ communities are sampled.
 
@@ -82,6 +84,8 @@ knitr::include_graphics("figures/popPyramid1.png")
 ```
 
 If the average community population is $N = 300$ then there will be fewer than 15 people aged 60 years and older in about half of the selected communities. This is because about half of the selected communities are likely to have a population below the average population.
+
+\newpage
 
 ## Eligibility
 
@@ -100,6 +104,8 @@ knitr::include_graphics("figures/popPyramid2.png")
 It is common in such setting for there to be a local definition of older people. This will usually be “persons
 aged 50 years or older” or “persons aged 55 years or older”.
 
+\newpage
+
 ## Age distribution, eligibility criteria, and sample design
 
 The age distribution of the population and the survey eligibility criteria will affect the sample design in terms of the number of communities that you will need to sample ($m$) and the number of older persons ($n$) that can be sampled from each community.
@@ -108,7 +114,7 @@ The overall sample size for a RAM-OP sample should be at least $n = 192$ usually
 
 You can calculate the number of older people that you would expect to be living in a community of average size using the following formula:
 
-$$ n_{\text{aged 60+ in an average village}} ~ = ~ \text{average village population}_{\text{all ages}} ~ \times ~ \frac{\text{percentage of population}_{\text{aged 60+}}}{100} $$
+$$n_{\text{aged 60+ in an average village}} ~ = ~ \text{average village population}_{\text{all ages}} ~ \times ~ \frac{\text{percentage of population}_{\text{aged 60+}}}{100}$$
 
 If this is below about 20 people then you should consider how you will collect the required overall sample size. Three approaches may be used:
 
@@ -120,6 +126,8 @@ If this is below about 20 people then you should consider how you will collect t
 
 If the proportion of older people is not very small and / or communities are large then you should have no problems achieving the overall sample size.
 
+\newpage
+
 ## Practical sampling
 
 ### The first stage sample - list-based sampling
@@ -130,7 +138,7 @@ Below is a worked example of how a RAM-OP first stage, list-based sample can be 
 
 **Step 1:** Calculate the *sampling interval* by dividing the total villages in the survey area (67 villages) with the number of villages to be drawn from the sample (16 villages).
 
-$$ \text{Sampling Interval} ~ = ~ \left \lfloor ~ \frac{N_{villages}}{N_{sample}} ~ \right \rfloor ~ = ~ \left \lfloor ~ \frac{67}{16} ~ \right \rfloor ~ \approx ~ \left \lfloor ~ 4.19 ~ \right \rfloor ~ \approx ~ 4 $$
+$$\text{Sampling Interval} ~ = ~ \left \lfloor ~ \frac{N_{\text{villages}}}{N_{\text{sample}}} ~ \right \rfloor ~ = ~ \left \lfloor ~ \frac{67}{16} ~ \right \rfloor ~ \approx ~ \left \lfloor ~ 4.19 ~ \right \rfloor ~ \approx ~ 4$$
 
 The *sampling interval* needs to be a whole number. Remember to **always** *round down* when calculating the *sampling interval* to the nearest whole number.
 
@@ -142,12 +150,9 @@ A random number can be selected through simple lottery (i.e., draw from a lot of
 
 **Step 3:** Using the *random starting point* and the *sampling interval*, select the sampling villages from a list of all villages organised/sorted by a **non-overalapping** spatial factor such as district or sub-district.
 
-
 ```{r sample4, echo = FALSE, fig.cap = "Selection of sampling villages using lists", fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/listSample2.png")
 ```
-
-This procedure will sometimes select more than 16 communities.In this example, seventeen villages (i.e. at positions 2, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50, 54, 58, 62, and 66 in the list) will be selected.When this happens you should sample **all** of the selected communities.
 
 ### The first stage sample - map-based sampling
 
@@ -186,7 +191,6 @@ knitr::include_graphics("figures/mapSample5.png")
 ```
 **Note:** In this example twenty-one (21) blocks have been selected. It can be difficult to achieve exactly the number of blocks that you need when using this type of sample. It is best to select more rather than fewer blocks than you need
 Here we would take our sample as $n = 10$ individuals from $m = 21$ blocks (overall $n = 210$).
-
 
 ### The second stage (within-community) sample
 
@@ -299,7 +303,6 @@ Segments should be either ribbons or clusters but should **never** contain both 
 
 A dwelling can only belong to one segment. Segments should **not** overlap.
 
-
 ### Sample dwellings
 
 **All** segments should be sampled.
@@ -321,7 +324,6 @@ Remember that different types of segment are sampled in different ways:
 * Dwellings in **ribbon segments** are sampled using a method called **systematic sampling**. This involves sampling houses at regular intervals along the ribbon.
 
 We will look at each of these sampling methods in turn.
-
 
 ### Random walk sampling
 
