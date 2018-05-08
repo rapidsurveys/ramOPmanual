@@ -392,6 +392,7 @@ Indicators of disability across six different domains are derived from this ques
 |          |                                                  | 3 = Cannot do at all         |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
 
+\newpage
 
 Individual disability indicators are reported for each domain (i.e. vision, hearing, mobility, remembering, self-care, and communication) of disability in the Washington Group’s short set of question designed to identify people with a disability in a census or survey format:
 
