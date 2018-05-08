@@ -719,7 +719,9 @@ knitr::include_graphics("figures/indicators20.png")
 
 This indicator is derived from the Community Screening Instrument for Dementia (CSID) developed by the 10/66 Dementia Research Group. This is a simple, validated, and widely used indicator of probable dementia:
 
-Prince M, et al, “A brief dementia screener suitable for use by non-specialists in resource poor settings - The cross-cultural derivation and validation of the brief Community Screening Instrument for Dementia”, *International Journal of Geriatric Psychiatry*, 26(9), 2011, pp. 899–907
+* Prince M, et al, “A brief dementia screener suitable for use by non-specialists in resource poor settings - The cross-cultural derivation and validation of the brief Community Screening Instrument for Dementia”, *International Journal of Geriatric Psychiatry*, 26(9), 2011, pp. 899–907
+
+\newpage
 
 ### Health and health-seeking behaviour
 
