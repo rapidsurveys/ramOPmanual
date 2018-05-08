@@ -479,7 +479,7 @@ The seventh question of this module, which is not part of the Katz Index of ADL,
 |          | bathing and dressing?                            |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
 
-t is not possible to know if the help available completely meets a subject's needs, but we can identify the proportion of subjects needing help with one or more activities of daily living who also report not having someone to help them:
+It is not possible to know if the help available completely meets a subject's needs, but we can identify the proportion of subjects needing help with one or more activities of daily living who also report not having someone to help them:
 
 ```{r indicators17, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/indicators17.png")
