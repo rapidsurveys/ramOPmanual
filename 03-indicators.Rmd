@@ -396,13 +396,13 @@ Indicators are calculated following:
 
 * WHO / UNICEF, *Core Questions on Drinking-water and Sanitation for Household Surveys*, Geneva, WHO / UNICEF, 2006
 
-\newpage
-
 Indicators relating to water, sanitation, and hygiene (WASH) are calculated as:
 
 ```{r indicators24, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/indicators24.png")
 ```
+
+\newpage
 
 ### Anthropometry and screening coverage
 
@@ -411,9 +411,6 @@ Indicators relating to anthropometry and screening coverage are derived from thi
 ```{r questionnaire11, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/questionnaire11.png")
 ```
-
-\newpage
-
 And are calculated as:
 
 ```{r indicators25, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
@@ -436,7 +433,7 @@ The PROBIT estimator is described in Box 1.
 
 MUAC-based case definitions for acute malnutrition are used:
 
-+==========+=======================+
++:--------:+:----------------------+
 |	**GAM**	 | MUAC < 210 mm         |
 +----------+-----------------------+
 |	**MAM**	 | 185 mm ≤ MUAC < 210mm |
@@ -457,19 +454,23 @@ $$\text{prevalence} = \frac{\text{number of respondents with MUAC < 210 mm}}{\te
   
 The estimate of GAM prevalence made from the RAM-OP survey data is made using a PROBIT estimator. The PROBIT function is also known as the *inverse cumulative distribution* function. This function converts parameters of the distribution of an indicator (e.g. the mean and standard deviation of a *normally* distributed variable) into cumulative percentiles. This means that it is possible to use the normal PROBIT function with estimates of the mean and standard deviation of indicator values in a survey sample to predict (or estimate) the proportion of the population falling below a given threshold. For example, for data with a mean MUAC of 256 mm and a standard deviation of 28 mm the output of the normal PROBIT function for a threshold of 210 mm is 0.0502 meaning that 5.02% of the population are *predicted* (or *estimated*) to fall below the 210 mm threshold.
 
-<br/>
+&nbsp;
 
 Both the classic and the PROBIT methods can be thought of as estimating area:
 
-<br/>
+&nbsp;
   
 ![](figures/indicators26.png)
 
-<br/>
+&nbsp;
 
 The principal advantage of the PROBIT approach is that the required sample size is usually smaller than that required to estimate prevalence with a given precision using the classic method.
 
+&nbsp;
+
 The PROBIT method assumes that MUAC is a normally distributed variable. If this is not the case then the distribution of MUAC is transformed towards normality.
+
+&nbsp;
 
 The prevalence of SAM is estimated in a similar way to GAM. The prevalence of MAM is estimated as the difference between the GAM and SAM prevalence estimates:
   
@@ -486,6 +487,8 @@ An indicator of visual impairment is derived from this questionnaire component:
 knitr::include_graphics("figures/questionnaire12.png")
 ```
 
+\newpage
+
 And is calculated as:
 
 ```{r indicators27, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
@@ -497,6 +500,8 @@ The “illiterate E” or “tumbling E” (the preferred term) is a validated a
 * Taylor HR, “Applying new design principles to the construction of an illiterate E chart”, *American Journal of Optometry & Physiological Optics*, 55:348, 1978 
 
 * Kaiser PK, “Prospective Evaluation of Visual Acuity Assessment: A Comparison of Snellen Versus ETDRS Charts in Clinical Practice (An AOS Thesis)”, *Transactions of the American Ophthalmological Society*, 107: 311–324, 2009
+
+\newpage
 
 The size of the “E” used:
 
@@ -512,9 +517,12 @@ After demonstrating to the respondent what the test is about (i.e. the subject s
 
 **Note** : If the person is unable to correctly answer at least three times out of four, they have a visual impairment. A simple visual acuity test such as the 'tumbling E' test also does not indicate anything about an underlying disease such as glaucoma or the need for reading spectacles (presbyopia). These conditions are common in people aged 60 years or older. Subjects failing the visual acuity test should be counselled to visit an ophthalmologist for a detailed eye examination.
 
+\newpage
+
 ```{r indicators29, echo = FALSE, fig.cap = "Equipment used to measure visual acuity", fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/indicators29.png")
 ```
+\newpage
 
 ### Miscellaneous indicators
 
@@ -542,6 +550,8 @@ Data for a small group of miscellaneous indicators are also collected and report
 +----------+--------------------------------------------------+------------------------------+---------------+
 | a8       | Do you have problems chewing food?               | 1 = Yes; 2 = No              | [__]          |
 +----------+--------------------------------------------------+------------------------------+---------------+
+
+\newpage
 
 and are calculated as:
 
@@ -574,6 +584,8 @@ The principal advantages of using a bootstrap estimator are:
 * The method allows estimation of the sampling distribution of almost any statistic using only simple computational methods.
 
 The standard RAM-OP data analysis software is described in the section [**Standard RAM-OP software**](#software).
+
+\newpage
 
 ```{r indicators31, echo = FALSE, fig.cap = "The blocked weighted bootstrap used by the standard RAM-OP software", fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/bbw.png")

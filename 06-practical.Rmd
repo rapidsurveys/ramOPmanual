@@ -102,52 +102,45 @@ At the end of training each enumerator should be able to:
 * Complete the questionnaire neatly and without making mistakes (including the correct numbering of PSU, households and individual subjects).
 * Advise the subject or their family in case there is a need for referral, such as to a health facility.
 
+\newpage
+
 A typical first RAM-OP training course will last for five days:
 
-+------------+----------------------------------------------------------------------+
-| **Day 1**  | Presentation of your organisation (mission, code of conduct, etc.)   |
-|            |                                                                      |
-|            | Objectives of the survey                                             |
-|            |                                                                      |
-|            | How are we going to do it?                                           |
-|            |                                                                      |
-|            | Questionnaire : First reading and explanations                       |
-|            |                                                                      |
-|            | Recap                                                                |
-+------------+----------------------------------------------------------------------+
-| **Day 2**  | Field procedures                                                     |
-|            |                                                                      |
-|            | Job descriptions                                                     |
-|            |                                                                      |
-|            | Measurements: MUAC, oedema, visual acuity (practice on each other)   |
-|            |                                                                      |
-|            | Questionnaire : Role-playing                                         |
-|            |                                                                      |
-|            | Lessons learned                                                      |
-|            |                                                                      |
-|            | Recap                                                                |
-+------------+----------------------------------------------------------------------+
-| **Day 3**  | Measurements: MUAC, oedema, visual acuity (practice on ten older     |
-|            | people)                                                              |
-|            |                                                                      |
-|            | Testing the questionnaire with ten older people                      |
-|            |                                                                      |
-|            | Lessons learned                                                      |
-|            |                                                                      |
-|            | Recap                                                                |
-+------------+----------------------------------------------------------------------+
-| **Day 4**  | Questionnaire : Role-playing                                         |
-|            |                                                                      |
-|            | Field procedures : Recap and group work                              |
-|            |                                                                      |
-|            | Recap                                                                |
-+------------+----------------------------------------------------------------------+
-| **Day 5**  | Field test : Practical field procedures, etc. in one community       |
-|            |                                                                      |
-|            | Lessons learned from field test                                      |
-|            |                                                                      |
-|            | Recap                                                                |
-+------------+----------------------------------------------------------------------+
+**Day 1**
+
+* Presentation of your organisation (mission, code of conduct, etc.)
+* Objectives of the survey
+* How are we going to do it?
+* Questionnaire : First reading and explanations
+* Recap                                        
+
+
+**Day 2**
+* Field procedures                                                    
+* Job descriptions
+* Measurements: MUAC, oedema, visual acuity (practice on each other)
+* Questionnaire : Role-playing
+* Lessons learned
+* Recap 
+
+
+**Day 3**
+* Measurements: MUAC, oedema, visual acuity (practice on ten older people)
+* Testing the questionnaire with ten older people
+* Lessons learned
+* Recap
+
+
+**Day 4**
+* Questionnaire : Role-playing
+* Field procedures : Recap and group work
+* Recap
+
+
+**Day 5**
+* Field test : Practical field procedures, etc. in one community
+* Lessons learned from field test
+* Recap
 
 Additional notes:
 
@@ -226,70 +219,78 @@ Some of the questions are of an intimate nature. Be careful not to administer th
 
 Some older women may object to having their MUAC taken by a man (or vice versa). This is why it is advisable that the team has both male and female members. This not always possible, but older people are often  more free from prejudices than the younger members of their community. It is rare for an older  woman to refuse to expose her arms or feet before a male enumerator, and also rare that an older man objects to being measured by a female enumerator.
 
+\newpage
+
 ## Survey planning
 Here is a typical timetable of survey activities:
 
-+:----------------------:+:--------------------------------------------------------------------:+
-| **When?**              | **What?**                                                            |
-+========================+======================================================================+
-| **Several weeks in     | * Identify survey area                                               |
-| advance**              | * Recruit local partner                                              |
-|                        | * Obtain ethical clearance                                           |
-|                        | * Obtain technical approval from relevant bodies                     |
-|                        | * Obtain permissions and letters from appropriate authorities        |
-|                        | * Start translation of questionnaire                                 |
-|                        | * Obtain maps / lists as required                                    |
-|                        | * Obtain map(s) of the survey area                                   |
-+------------------------+----------------------------------------------------------------------+
-| **One month in         | * Advertise staff positions                                          |
-| advance**              | * Recruit and contract supervisors                                   |
-|                        | * Define first stage sample from list / map                          |
-|                        | * Make (draft) survey travel plans                                   |
-|                        | * Obtain permissions for travel                                      |
-|                        | * Book training venue                                                |
-|                        | * Arrange staff accommodation (if required)                          |
-|                        | * Continue translation of questionnaire                              |
-|                        | * Begin sourcing equipment                                           |
-|                        | * Identify potential suppliers and contractors                       |
-+------------------------+----------------------------------------------------------------------+
-| **One week before the  | * Recruit enumerators                                                |
-| training**             | * Purchase equipment                                                 |
-|                        | * Book vehicles and drivers                                          |
-|                        | * Review and print / copy training manual                            |
-|                        | * Print translated questionnaire for the training                    |
-|                        | * Print “daily program” forms                                        |
-|                        | * Finalise survey travel plans                                       |
-|                        | * Disseminate travel plans to local authorities (with survey         |
-|                        | facilitator)                                                         |
-|                        | * Arrange logistics for the training                                 |
-+------------------------+----------------------------------------------------------------------+
-| **During the           | * Arrange for ten older people to participate in training.           |
-| training**             | * Revise the questionnaire with the trainees.                        |
-|                        | * Print revised version of questionnaire for the field test          |
-|                        | (c. 50 copies)                                                       |
-|                        | * Arrange the logistics for the field test (vehicles, drivers,       |
-|                        | equipment)                                                           |
-|                        | * Review logistics arrangements with the trainees                    |
-+------------------------+----------------------------------------------------------------------+
-| **At the end of the    | * Provide each trainee with a certificate of attendance              |
-| training**             | * Pay the training incentives                                        |
-|                        | * Review and amend questionnaire from the feedback of the field test |
-|                        | * Print survey questionnaires (c. 250 copies)                        |
-|                        | * Recruit enumerators and data entry staff                           |
-+------------------------+----------------------------------------------------------------------+
-| **During the survey**  | * Train the data entry clerk (day one) using the results of the      |
-|                        | field test                                                           |
-|                        | * Manage survey activities (see below)                               |
-|                        | * Data entry and cleaning                                            |
-+------------------------+----------------------------------------------------------------------+
-| **At the end of the    | * Complete data entry                                                |
-| survey**               | * Provide all staff with certificates of participation               |
-|                        | * Pay incentives                                                     |
-|                        | * Thank the local authorities                                        |
-|                        | * Party for all staff                                                |
-|                        | * Data analysis and reporting                                        |
-|                        | * Disseminate results                                                |
-+------------------------+----------------------------------------------------------------------+
+**Several weeks in advance**
+* Identify survey area
+* Recruit local partner
+* Obtain ethical clearance
+* Obtain technical approval from relevant bodies
+* Obtain permissions and letters from appropriate authorities
+* Start translation of questionnaire
+* Obtain maps / lists as required
+* Obtain map(s) of the survey area
+
+
+**One month in advance**
+* Advertise staff positions
+* Recruit and contract supervisors
+* Define first stage sample from list / map
+* Make (draft) survey travel plans
+* Obtain permissions for travel
+* Book training venue
+* Arrange staff accommodation (if required)
+* Continue translation of questionnaire
+* Begin sourcing equipment
+* Identify potential suppliers and contractors
+
+
+**One week before the training**
+* Recruit enumerators
+* Purchase equipment
+* Book vehicles and drivers
+* Review and print / copy training manual
+* Print translated questionnaire for the training
+* Print “daily program” forms
+* Finalise survey travel plans
+* Disseminate travel plans to local authorities (with survey facilitator)
+* Arrange logistics for the training
+
+
+| **During the           | * Arrange for ten older people to participate in    |
+| training**             | training.                                           |
+|                        | * Revise the questionnaire with the trainees.       |
+|                        | * Print revised version of questionnaire for the    |
+|                        | field test (c. 50 copies)                           |
+|                        | * Arrange the logistics for the field test          |
+|                        | (vehicles, drivers, equipment)                      |
+|                        | * Review logistics arrangements with the trainees   |
++------------------------+-----------------------------------------------------+
+| **At the end of the    | * Provide each trainee with a certificate of        |
+| training**             | attendance                                          |
+|                        | * Pay the training incentives                       |
+|                        | * Review and amend questionnaire from the feedback  |
+|                        | of the field test                                   |
+|                        | * Print survey questionnaires (c. 250 copies)       |
+|                        | * Recruit enumerators and data entry staff          |
++------------------------+-----------------------------------------------------+
+| **During the survey**  | * Train the data entry clerk (day one) using the    |
+|                        | results of the field test                           |
+|                        | * Manage survey activities (see below)              |
+|                        | * Data entry and cleaning                           |
++------------------------+-----------------------------------------------------+
+| **At the end of the    | * Complete data entry                               |
+| survey**               | * Provide all staff with certificates of            |
+|                        | participation                                       |
+|                        | * Pay incentives                                    |
+|                        | * Thank the local authorities                       |
+|                        | * Party for all staff                               |
+|                        | * Data analysis and reporting                       |
+|                        | * Disseminate results                               |
++------------------------+-----------------------------------------------------+
 
 ## Daily survey activities
 

@@ -30,14 +30,19 @@ If you do not know population sizes (as might be the case in emergencies) then y
 Relative population sizes can be used. If no better data is available then it is reasonable to use a simple semi-quantitative assessment such as:
 
 +:------------------:+:---------------------:+:--------------------------------------:+:------------------------:+
-| **Type of place**  | **Population range*** | Features                               | Record population as ... |
-+====================+:=====================:+========================================+:========================:+
-| Hamlet             | < 1,000               | Very small local market or no market   | 1                        |
+| **Type of place**  | **Population range*** | **Features**                           | **Record population      |
+|                    |                       |                                        | as ...**                 |
++:===================+:=====================:+:=======================================+:========================:+
+| Hamlet             | $<$ 1,000             | Very small local market or no market   | 1                        |
++--------------------+-----------------------+----------------------------------------+--------------------------+
+|                    |                       |                                        |                          |
 +--------------------+-----------------------+----------------------------------------+--------------------------+
 | Village            | 1,000 – 4,000         | Market and small shops serving the     | 2                        |
 |                    |                       | village and the surrounding hamlets    |                          |
 +--------------------+-----------------------+----------------------------------------+--------------------------+
-| Town               | > 4,000               | Large market, many shops (some         | 4                        | 
+|                    |                       |                                        |                          |
++--------------------+-----------------------+----------------------------------------+--------------------------+
+| Town               | $>$ 4,000             | Large market, many shops (some         | 4                        | 
 |                    |                       | specialised), guest houses, bus        |                          |
 |                    |                       | station, government offices            |                          |
 +--------------------+-----------------------+----------------------------------------+--------------------------+
@@ -45,6 +50,8 @@ Relative population sizes can be used. If no better data is available then it is
 *These ranges may need to be adjusted to match local circumstances.
 
 The PSU dataset must be in comma-separated-value (CSV) format (see Figure \@ref(fig:dataset02)) for use with the RAM-OP data analysis software.
+
+\newpage
 
 ```{r dataset01, echo = FALSE, fig.cap = "Main RAM-OP dataset definition", fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/dataset01.png")
