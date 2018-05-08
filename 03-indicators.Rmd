@@ -192,37 +192,9 @@ Note that the vitamin B complex indicator requires that at least one food from e
 
 An indicator of severe food insecurity (hunger) is derived from this questionnaire component:
 
-+:----------------------------------------------------------------------------------------------------------:+
-| **Hunger – Ration - Relief**                                                                               |
-+------------------------------------------------------------------------------------------------------------+
-
-+----------+--------------------------------------------------+------------------------------+---------------+
-| f3       | In the past four weeks, how often was there ever | 0 = Never                    | [__]          |
-|          | no food to eat of any kind in your home because  |                              |               |
-|          | of lack of resources to get food?                | 1 = Rarely (1-2x)            |               |
-|          |                                                  |                              |               |
-|          |                                                  | 2 = Sometimes (3-10x)        |               |
-|          |                                                  |                              |               |
-|          |                                                  | 3 = Often (> 10x))           |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| f4       | In the past four weeks, how often did you go to  | 0 = Never                    | [__]          |
-|          | sleep at night hungry because there was not      |                              |               |
-|          | enough food?                                     | 1 = Rarely (1-2x)            |               |
-|          |                                                  |                              |               |
-|          |                                                  | 2 = Sometimes (3-10x)        |               |
-|          |                                                  |                              |               |
-|          |                                                  | 3 = Often (> 10x))           |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| f5       | In the past four weeks, how often did you go a   | 0 = Never                    | [__]          |
-|          | whole day and night without eating anything at   |                              |               |
-|          | all because there was not enough food?           | 1 = Rarely (1-2x)            |               |
-|          |                                                  |                              |               |
-|          |                                                  | 2 = Sometimes (3-10x)        |               |
-|          |                                                  |                              |               |
-|          |                                                  | 3 = Often (> 10x))           |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-
-\newpage
+```{r questionnaire03, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/questionnaire03.png")
+```
 
 and is calculated as:
 
@@ -230,71 +202,21 @@ and is calculated as:
 knitr::include_graphics("figures/indicators15.png")
 ```
 
+\newpage
+
 This indicator is the *Household Hunger Scale (HHS)* and is a simple, well-validated, and widely used indicator of severe food insecurity:
 
 * Ballard T, Coates J, Swindale A, Deitchler M, *Household Hunger Scale: Indicator Definition and Measurement Guide*, Washington DC, FANTA-2 Bridge, FHI 360, 2011
 
 * Ruel MT, Ballard TJ, Deitchler M, *Measuring and Tracking the Access Dimension of Food Security: Available Indicators and Recommendations for Future Investments*, Global Nutrition Report 2014: Technical Note 6, Washington DC, International Food Policy Research Institute, 2014
 
-\newpage
-
 ### Disability
 
 Indicators of disability across six different domains are derived from this questionnaire component:
 
-+:----------------------------------------------------------------------------------------------------------:+
-| **Disability (Washington Group)**                                                                          |
-+------------------------------------------------------------------------------------------------------------+
-
-+----------+--------------------------------------------------+------------------------------+---------------+
-| wg1      | Do you have difficulty seeing, even if wearing   | 0 = No difficulty            | [__]          |
-|          | glasses?                                         |                              |               |
-|          |                                                  | 1 = Some difficulty          |               |
-|          |                                                  |                              |               |
-|          |                                                  | 2 = A lot of difficulty      |               |
-|          |                                                  |                              |               |
-|          |                                                  | 3 = Cannot do at all         |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| wg2      | Do you have difficulty hearing, even if using a  | 0 = No difficulty            | [__]          |
-|          | hearing aid?                                     |                              |               |
-|          |                                                  | 1 = Some difficulty          |               |
-|          |                                                  |                              |               |
-|          |                                                  | 2 = A lot of difficulty      |               |
-|          |                                                  |                              |               |
-|          |                                                  | 3 = Cannot do at all         |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| wg3      | Do you have difficulty walking or climbing steps?| 0 = No difficulty            | [__]          |
-|          |                                                  |                              |               |
-|          |                                                  | 1 = Some difficulty          |               |
-|          |                                                  |                              |               |
-|          |                                                  | 2 = A lot of difficulty      |               |
-|          |                                                  |                              |               |
-|          |                                                  | 3 = Cannot do at all         |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| wg4      | Do you have difficulty remembering or            | 0 = No difficulty            | [__]          |     
-|          | concentrating?                                   |                              |               |
-|          |                                                  | 1 = Some difficulty          |               |
-|          |                                                  |                              |               |
-|          |                                                  | 2 = A lot of difficulty      |               |
-|          |                                                  |                              |               |
-|          |                                                  | 3 = Cannot do at all         |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| wg5      | Do you have difficulty with self-care such as    | 0 = No difficulty            | [__]          |
-|          | washing all over or dressing?                    |                              |               |
-|          |                                                  | 1 = Some difficulty          |               |
-|          |                                                  |                              |               |
-|          |                                                  | 2 = A lot of difficulty      |               |
-|          |                                                  |                              |               |
-|          |                                                  | 3 = Cannot do at all         |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| wg6      | Using your usual (customary) language, do you    | 0 = No difficulty            | [__]          |
-|          | have difficulty communicating, for example       |                              |               |
-|          | understanding or being understood?               | 1 = Some difficulty          |               |
-|          |                                                  |                              |               |
-|          |                                                  | 2 = A lot of difficulty      |               |
-|          |                                                  |                              |               |
-|          |                                                  | 3 = Cannot do at all         |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
+```{r questionnaire04, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/questionnaire04.png")
+```
 
 \newpage
 
@@ -330,34 +252,9 @@ Overall disability prevalence indicators are calculated as:
 
 Indicators of how well the subject copes with activities of daily living are derived from this questionnaire component:
 
-+:----------------------------------------------------------------------------------------------------------:+
-| **Activities of Daily Living**                                                                             |
-+------------------------------------------------------------------------------------------------------------+
-
-+----------+--------------------------------------------------+------------------------------+---------------+
-| a1       | Do you need help with bathing more than one part | 1 = Yes; 2 = No              | [__]          |
-|          | of your body or getting in or out of the tub or  |                              |               |
-|          | shower?                                          |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| a2       | Do you need help getting dressed partially or    | 1 = Yes; 2 = No              | [__]          |
-|          | completely (not including tying of shoes)?       |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| a3       | Do you need help going to the toilet or cleaning | 1 = Yes; 2 = No              | [__]          |
-|          | yourself after using the toilet or do you use a  |                              |               |
-|          | commode or bed-pan?                              |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| a4       | Do you need someone (i.e. not a walking aid) to  | 1 = Yes; 2 = No              | [__]          |
-|          | help you move from a bed to a chair?             |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| a5       | Are you partially or totally incontinent of bowel| 1 = Yes; 2  = No             | [__]          |
-|          | or bladder?                                      |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| a6       | Do you need partial or total help with eating?   | 1 = Yes; 2 = No              | [__]          |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| a7       | Is someone taking care of you or helping you with| 1 = Yes; 2 = No              | [__]          |
-|          | everyday activities such as shopping, cooking,   |                              |               |
-|          | bathing and dressing?                            |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
+```{r questionnaire05, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/questionnaire05.png")
+```
 
 Individual *independence* indicators are reported for each dimension (i.e. bathing, dressing, toilet, mobility, continence, and eating) of daily living activities.
 
@@ -370,6 +267,8 @@ A composite indicator of the degree of *independence* (i.e. how well the subject
 * Katz S, *Assessing self-maintenance: Activities of daily living, mobility and instrumental activities of daily living*, JAGS, 31(12), 1983, pp. 721-726
 
 The Katz Index of ADL ranges between zero (complete dependence) and six (independence).
+
+\newpage
 
 The seventh question of this module, which is not part of the Katz Index of ADL, is reported separately and indicates whether the subject has someone to help them with activities of daily living:
 
@@ -391,6 +290,8 @@ knitr::include_graphics("figures/indicators17.png")
 
 This is an indicator of unmet need.
 
+\newpage
+
 Indicators of how well the subject can cope with activities of daily living and probable unmet need are calculated as:
 
 ```{r indicators18, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
@@ -400,101 +301,15 @@ knitr::include_graphics("figures/indicators18.png")
 ### Mental health and well-being
 Indicators of mental health and well being are derived from this questionnaire component:
 
-+:----------------------------------------------------------------------------------------------------------:+
-| **Mental Health & Wellbeing**                                                                             |
-+------------------------------------------------------------------------------------------------------------+
-
-+----------+--------------------------------------------------+------------------------------+---------------+
-| k6a      | About how often during the past four weeks did   | 1 = All of the time          | [__]          |
-|          | you feel nervous – all of the time, most of the  |                              |               |
-|          | time, some of the time, a little of the time, or | 2 = Most of the time         |               |
-|          | none of the time?                                |                              |               |
-|          |                                                  | 3 = Some of the time         |               |
-|          |                                                  |                              |               |
-|          |                                                  | 4 = A little                 |               |
-|          |                                                  |                              |               |
-|          |                                                  | 5 = None                     |               |
-|          |                                                  |                              |               |
-|          |                                                  | 6 = Don't know               |               |
-|          |                                                  |                              |               |
-|          |                                                  | 7 = Refused                  |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| k6b      | During the past four weeks, about how often did  | 1 = All of the time          | [__]          |
-|          | you feel hopeless – all of the time, most of the |                              |               |
-|          | time, some of the time, a little of the time, or | 2 = Most of the time         |               |
-|          | none of the time?                                |                              |               |
-|          |                                                  | 3 = Some of the time         |               |
-|          |                                                  |                              |               |
-|          |                                                  | 4 = A little                 |               |
-|          |                                                  |                              |               |
-|          |                                                  | 5 = None                     |               |
-|          |                                                  |                              |               |
-|          |                                                  | 6 = Don't know               |               |
-|          |                                                  |                              |               |
-|          |                                                  | 7 = Refused                  |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| k6c      | During the past four weeks, about how often did  | 1 = All of the time          | [__]          |
-|          | you feel restless or fidgety – all of the time,  |                              |               |
-|          | most of the time, some of the time, a little of  | 2 = Most of the time         |               |
-|          | the time, or none of the time?                   |                              |               |
-|          |                                                  | 3 = Some of the time         |               |
-|          |                                                  |                              |               |
-|          |                                                  | 4 = A little                 |               |
-|          |                                                  |                              |               |
-|          |                                                  | 5 = None                     |               |
-|          |                                                  |                              |               |
-|          |                                                  | 6 = Don't know               |               |
-|          |                                                  |                              |               |
-|          |                                                  | 7 = Refused                  |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| k6d      | During the past four weeks, about how often did  | 1 = All of the time          | [__]          |
-|          | you feel so depressed that nothing could cheer   |                              |               |
-|          | you up – all of the time, most of the time, some | 2 = Most of the time         |               |
-|          | of the time, a little of the time, or none of the|                              |               |
-|          | time?                                            | 3 = Some of the time         |               |
-|          |                                                  |                              |               |
-|          |                                                  | 4 = A little                 |               |
-|          |                                                  |                              |               |
-|          |                                                  | 6 = Don't know               |               |
-|          |                                                  |                              |               |
-|          |                                                  | 7 = Refused                  |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| k6e      | During the past four weeks, about how often did  | 1 = All of the time          | [__]          |
-|          | you feel that everything was an effort – all of  |                              |               |
-|          | the time, most of the time, some of the time, a  | 2 = Most of the time         |               |
-|          | little of the time, or none of the time?         |                              |               |
-|          |                                                  | 3 = Some of the time         |               |
-|          |                                                  |                              |               |
-|          |                                                  | 4 = A little                 |               |
-|          |                                                  |                              |               |
-|          |                                                  | 5 = None                     |               |
-|          |                                                  |                              |               |
-|          |                                                  | 6 = Don't know               |               |
-|          |                                                  |                              |               |
-|          |                                                  | 7 = Refused                  |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| k6f      | During the past four weeks, about how often did  | 1 = All of the time          | [__]          |
-|          | you feel worthless – all of the time, most of the|                              |               |
-|          | time, some of the time, a little of the time, or | 2 = Most of the time         |               |
-|          | none of the time?                                |                              |               |  
-|          |                                                  | 3 = Some of the time         |               |
-|          |                                                  |                              |               |
-|          |                                                  | 5 = None                     |               |
-|          |                                                  |                              |               |
-|          |                                                  | 4 = A little                 |               |
-|          |                                                  |                              |               |
-|          |                                                  | 6 = Don't know               |               |
-|          |                                                  |                              |               |
-|          |                                                  | 7 = Refused                  |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
+```{r questionnaire06, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/questionnaire06.png")
+```
 
 A score is calculated. This is the *Kessler K6 Psychological Distress Scale*. The score ranges from zero (indicating no psychological distress) to twenty-four (indicating severe psychological distress). A score of thirteen or more indicates serious psychological distress. The Kessler K6 Psychological Distress Scale is a widely recommended, widely used, accurate, reliable, and simple measure of psychological distress:
 
 * Kessler RC, Andrews G, Colpe LJ, Hiripi E, Mroczek, DK, Normand SLT, et al, “Short screening scales to monitor population prevalences and trends in non-specific psychological distress”, *Psychological Medicine*, 32(6), 2002, pp. 959–976
 
 * Kessler RC, Barker PR, Colpe LJ, Epstein JF, Gfroerer JC, Hiripi E, “Screening for Serious Mental Illness in the General Population”, *Archives of General Psychiatry*, 60(2), 2003, pp. 184-189
-
-\newpage
 
 Indicators of mental health and well-being are calculated as:
 
@@ -508,110 +323,9 @@ knitr::include_graphics("figures/indicators19.png")
 
 An indicator of probable dementia is derived from this questionnaire component:
 
-+:----------------------------------------------------------------------------------------------------------:+
-| **Dementia Screen**                                                                                        |
-+------------------------------------------------------------------------------------------------------------+
-
-+----------+-------------------------------------------------------------------------------------------------+
-| ds0      | This section can only be completed if the subject is answering for themselves.                  |
-|          |                                                                                                 |
-|          | If the respondent is not answering for themselves then record '8' as the answer for all         |
-|          | questions below and continue with the interview. Write the reason why the subject is not        |
-|          | answering for themselves in the OBSERVATIONS section at the end of the questionnaire.           |
-|          |                                                                                                 |
-|          |                                                                                                 |
-|          | Say :                                                                                           |
-|          |                                                                                                 |
-|          |   I am going to tell you three words.                                                           |
-|          |                                                                                                 |
-|          |   I would like you to repeat them after me.                                                     |
-|          |                                                                                                 |
-|          |   * “CHILD”                                                                                     |
-|          |                                                                                                 |
-|          |   * “HOUSE”                                                                                     |
-|          |                                                                                                 |
-|          |   * “ROAD”                                                                                      |
-|          |                                                                                                 |
-|          |   Repeat the three words, up to a maximum of six (6) times, or until the person has             |
-|          |   remembered them all correctly.                                                                |
-|          |                                                                                                 |
-|          |                                                                                                 |
-|          | Say :                                                                                           |
-|          |                                                                                                 |
-|          |   Try to remember these words. I will ask about them later.                                     |
-+----------+-------------------------------------------------------------------------------------------------+
-
-+----------+--------------------------------------------------+------------------------------+---------------+
-| ds1      | Point to your nose and ask :                     | 1 = Correct                  | [__]          |
-|          |                                                  |                              |               |
-|          |   What do we call this?                          | 2 = Incorrect                |               |
-|          |                                                  |                              |               |
-|          |                                                  | 8 = Not applicable           |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-
-+----------+--------------------------------------------------+------------------------------+---------------+
-| ds2      | What do you do with a hammer?                    | 1 = Correct                  | [__]          |
-|          |                                                  |                              |               |
-|          |   Accept answers such as :                       | 2 = Incorrect                |               |
-|          |                                                  |                              |               |
-|          |   * Drive a nail into something                  | 8 = Not applicable           |               |
-|          |   * Straighten metal                             |                              |               |
-|          |   * Hit a wedge or something else                |                              |               |
-|          |   * Use with a chisel                            |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-
-+----------+--------------------------------------------------+------------------------------+---------------+
-| ds3      | What day of the week is it?                      | 1 = Correct                  | [__]          |
-|          |                                                  |                              |               |
-|          |                                                  | 2 = Incorrect                |               |
-|          |                                                  |                              |               |
-|          |                                                  | 8 = Not applicable           |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-
-+----------+--------------------------------------------------+------------------------------+---------------+
-| ds4      | What is the season?                              | 1 = Correct                  | [__]          |
-|          |                                                  |                              |               |
-|          |                                                  | 2 = Incorrect                |               |
-|          |                                                  |                              |               |
-|          |                                                  | 8 = Not applicable           |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-
-+----------+--------------------------------------------------+------------------------------+---------------+
-| ds5      | Say:                                             | 1 = Correct                  | [__]          |
-|          |   Please point first to the window and then      |                              |               |
-|          |   to the door.                                   | 2 = Incorrect                |               |
-|          |                                                  |                              |               |
-|          |                                                  | 8 = Not applicable           |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-
-+----------+-------------------------------------------------------------------------------------------------+
-| ds6      | Do you remember the three words I asked you to                                                  |
-|          | remember a few minutes ago?                                                                     |
-+----------+-------------------------------------------------------------------------------------------------+
-
-+----------+--------------------------------------------------+------------------------------+---------------+
-| ds6a     | CHILD                                            | 1 = Correct                  | [__]          |
-|          |                                                  |                              |               |
-|          |                                                  | 2 = Incorrect                |               |
-|          |                                                  |                              |               |
-|          |                                                  | 8 = Not applicable           |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-
-+----------+--------------------------------------------------+------------------------------+---------------+
-| ds6b     | HOUSE                                            | 1 = Correct                  | [__]          |
-|          |                                                  |                              |               |
-|          |                                                  | 2 = Incorrect                |               |
-|          |                                                  |                              |               |
-|          |                                                  | 8 = Not applicable           |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-
-+----------+--------------------------------------------------+------------------------------+---------------+
-| ds6c     | ROAD                                             | 1 = Correct                  |               |
-|          |                                                  |                              |               |
-|          |                                                  | 2 = Incorrect                |               |
-|          |                                                  |                              |               |
-|          |                                                  | 8 = Not applicable           |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
+```{r questionnaire07, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/questionnaire07.png")
+```
 
 \newpage
 
@@ -631,64 +345,11 @@ This indicator is derived from the Community Screening Instrument for Dementia (
 
 Indicators of health and health-seeking behaviour for chronic and acute conditions are derived from this questionnaire component:
 
-+:----------------------------------------------------------------------------------------------------------:+
-| **Health Seeking & Healthcare**                                                                            |
-+------------------------------------------------------------------------------------------------------------+
+```{r questionnaire08, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/questionnaire08.png")
+```
 
-+----------+--------------------------------------------------+------------------------------+---------------+
-| h1       | Do you suffer from a long term disease that      | 1 = Yes; 2 = No              | [__]          |
-|          | requires you to take regular medication?         |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| ??       | If ***NO*** jump to question `h4` (below)        |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| h2       | Do you take drugs regularly for this?            | 1 = Yes; 2 = No              | [__]          |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| ??       | If ***YES*** jump to question h4                 |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| h3       | Why not?                                         | 1 = No drugs available       | [__]          |
-|          |                                                  |                              |               |
-|          |      Prompt for the main reason                  | 2 = Too expensive / no money |               |
-|          |                                                  |                              |               |
-|          |      Record main reason only                     | 3 = Too old to look for care |               |
-|          |                                                  |                              |               |
-|          |                                                  | 4 = Use traditional medicine |               |
-|          |                                                  |                              |               |
-|          |                                                  | 5 = Drugs don't help         |               |
-|          |                                                  |                              |               |
-|          |                                                  | 6 = No-one to help me        |               |
-|          |                                                  |                              |               |
-|          |                                                  | 7 = No need                  |               |
-|          |                                                  |                              |               |
-|          |                                                  | 8 = Other                    |               |
-|          |                                                  |                              |               |
-|          |                                                  | 9 = No reason given          |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| h4       | Have you been ill in the past two weeks?         |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| ??       | If ***NO*** jump to question `m1` (below)        |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| h5       | Did you go to the pharmacy, dispensary, health   | 1 = Yes; 2 = No              | [__]          |
-|          | centre, health post, clinic, or hospital?        |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| ??       | If ***YES*** then jump to question `m1` (below)  |                              |               |
-| h6       | Why not?                                         | 1 = No drugs available       | [__]          |
-|          |                                                  |                              |               |
-|          |      Prompt for the main reason                  | 2 = Too expensive / no money |               |
-|          |                                                  |                              |               |
-|          |      Record main reason only                     | 3 = Too old to look for care |               |
-|          |                                                  |                              |               |
-|          |                                                  | 4 = Use traditional medicine |               |
-|          |                                                  |                              |               |
-|          |                                                  | 5 = Drugs don't help         |               |
-|          |                                                  |                              |               |
-|          |                                                  | 6 = No-one to help me        |               |
-|          |                                                  |                              |               |
-|          |                                                  | 7 = No need                  |               |
-|          |                                                  |                              |               |
-|          |                                                  | 8 = Other                    |               |
-|          |                                                  |                              |               |
-|          |                                                  | 9 = No reason given          |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
+\newpage
 
 Indicators of health and health-seeking behaviour for chronic conditions are calculated as:
 
@@ -696,7 +357,7 @@ Indicators of health and health-seeking behaviour for chronic conditions are cal
 knitr::include_graphics("figures/indicators21.png")
 ```
 
-&nbsp;
+\newpage
 
 Indicators of health and health-seeking behaviour for acute conditions are calculated as:
 
@@ -708,45 +369,9 @@ knitr::include_graphics("figures/indicators22.png")
 
 Indicators related to sources of income are derived from this questionnaire component:
 
-+:----------------------------------------------------------------------------------------------------------:+
-| **Income**                                                                                                 |
-+------------------------------------------------------------------------------------------------------------+
-
-+----------+--------------------------------------------------+------------------------------+---------------+
-| m1       | Do you have a personal source of income or money?| 1 = Yes; 2 = No              | |__|          |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| ??       | Continue to question m2 even if the subject      |                              |               |
-|          | reports having no personal income...             |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| m2       | Where does your income or money come from?       |                              |               |
-|          | (prompt “Anything else?”)                        |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| m2a      | Agriculture, livestock, or fishing               | 1 = Yes; 2 = No              | [__]          |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| m2b      | Wages or salary                                  | 1 = Yes; 2 = No              | [__]          |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| m2c      | Sale of charcoal, bricks, firewood, poles, etc.  | 1 = Yes; 2 = No              | [__]          |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| m2d      | Trading (e.g. market, shop)                      | 1 = Yes; 2 = No              | [__]          |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| m2e      | Private pension, investments, interest, rents,   | 1 = Yes; 2 = No              | [__]          |
-|          | etc.                                             |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| m2f      | Spending savings                                 |                              |               |
-|          | Sale of household goods, personal goods, or      | 1 = Yes; 2 = No              | [__]          |
-|          | jewellery                                        |                              |               |
-|          | Sale of livestock, land, or other assets         |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| m2g      | Aid, gifts, charity (e.g. from church, mosque,   | 1 = Yes; 2 = No              | [__]          |
-|          | temple), begging, borrowing, or sale of food aid |                              |               |
-|          | or relief items                                  |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| m2h      | Cash transfer (NGO, UNO, government)             | 1 = Yes; 2 = No              | [__]          |
-|          | State pension, social security, benefits, welfare|                              |               |
-|          | program                                          |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| m2i      | Other                                            | 1 = Yes; 2 = No              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
+```{r questionnaire09, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/questionnaire09.png")
+```
 
 and are calculated as:
 
@@ -756,123 +381,22 @@ knitr::include_graphics("figures/indicators23.png")
 
 The grouped income sources (i.e. `m2a`, `m2b`, etc.) and individual income sources may vary between settings. The questionnaire component shown above has proved suitable for use in Ethiopia, South Sudan, and Tanzania.
 
+\newpage
+
 ### Water, sanitation, and hygiene
 Indicators relating to water, sanitation, and hygiene (WASH) are derived from this questionnaire component:
 
-+:----------------------------------------------------------------------------------------------------------:+
-| **Water, Sanitation, Hygiene**                                                                             |
-+------------------------------------------------------------------------------------------------------------+
+```{r questionnaire10, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/questionnaire10.png")
+```
 
-+----------+-------------------------------------------------------------------------------------------------+
-| w1       | What is your main source of drinking water?                                                     |
-+----------+-------------------------------------------------------------------------------------------------+
-
-+----------+--------------------------------------------------+------------------------------+---------------+
-|          | Piped water into dwelling                        |                              | [__]          |
-|          |                                                  |                              |               |
-|          | Piped water into compound                        |                              |               |
-|          |                                                  |                              |               |
-|          | Public tap / Standpipe                           |                              |               |
-|          |                                                  |                              |               |
-|          | Tube-well / Borehole                             | 1                            |               |     
-|          |                                                  |                              |               |
-|          | Protected dug well                               |                              |               |
-|          |                                                  |                              |               |
-|          | Protected spring                                 |                              |               |
-|          |                                                  |                              |               |
-|          | Rainwater collection system                      |                              |               |
-|          |                                                  |                              |               |
-|          | Bottled water / sachet water                     |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-|          | Unprotected dug well                             |                              |               |
-|          |                                                  |                              |               |
-|          | Unprotected spring                               |                              |               |
-|          |                                                  |                              |               |
-|          | Cart with small tank or drum                     |                              |               |
-|          |                                                  |                              |               |
-|          | Tanker-truck                                     | 2                            |               |
-|          |                                                  |                              |               |
-|          | River, stream, dam, lake, pond, or puddle        |                              |               |
-|          |                                                  |                              |               |
-|          | Canal or irrigation channel                      |                              |               |
-|          |                                                  |                              |               |
-|          | Other                                            |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-
-+----------+--------------------------------------------------+------------------------------+---------------+
-| w2       | What do you usually do to the water to make it   |                              |               |
-|          | safer to drink?                                  |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-
-+----------+--------------------------------------------------+------------------------------+---------------+
-|          | Boil                                             |                              | [__]          |
-|          |                                                  |                              |               |
-|          | Add bleach / chlorine tablet                     |                              |               |
-|          |                                                  | 1                            |               |
-|          | Use a water filter (gravel / sand / ceramic)     |                              |               |
-|          |                                                  |                              |               |
-|          | Solar disinfection                               |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-|          | Strain it through a cloth only                   |                              |               |
-|          |                                                  |                              |               |
-|          | Let it stand and settle only                     |                              |               |
-|          |                                                  |                              |               |
-|          | Nothing                                          | 2                            |               |
-|          |                                                  |                              |               |
-|          | Other                                            |                              |               |
-|          |                                                  |                              |               |
-|          | Don't know                                       |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-
-+----------+--------------------------------------------------+------------------------------+---------------+
-| w3       | What kind of toilet facility do members of your  |                              |               |
-|          | household usually use?                           |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-
-+----------+--------------------------------------------------+------------------------------+---------------+
-|          | Flush or pour flush to:                          |                              | [__]          |
-|          |                                                  |                              |               |
-|          |   Piped sewer system                             |                              |               |
-|          |                                                  |                              |               |
-|          |   Septic tank                                    |                              |               |
-|          |                                                  |                              |               |
-|          |   Pit latrine                                    |                              |               |
-|          |                                                  | 1                            |               |
-|          |   Don't know                                     |                              |               |
-|          |                                                  |                              |               |
-|          | VIP latrine                                      |                              |               |
-|          |                                                  |                              |               |
-|          | Pit latrine with slab                            |                              |               |
-|          |                                                  |                              |               |
-|          | Composting toilet	                              |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-|          | Flush or pour flush to:                          |                              |               |
-|          |                                                  |                              |               |
-|          |   Elsewhere (anywhere not specified above)       |                              |               |
-|          |                                                  |                              |               |
-|          | Pit latrine without slab                         |                              |               |
-|          |                                                  |                              |               |
-|          | Bucket                                           | 2                            |               |
-|          |                                                  |                              |               |
-|          | Hanging latrine                                  |                              |               |
-|          |                                                  |                              |               |
-|          | Bush or field                                    |                              |               |
-|          |                                                  |                              |               |
-|          | No facilities                                    |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-
-+----------+--------------------------------------------------+------------------------------+---------------+
-| w4       | Do you share this toilet facility with other     |                              | [__]          |
-|          | households?                                      | 1 = Yes                      |               |
-|          |                                                  |                              |               |
-|          |                                                  | 2 = No                       |               |
-|          |                                                  |                              |               |
-|          |                                                  | 3 = NA (no facility)         |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
+\newpage
 
 Indicators are calculated following:
 
 * WHO / UNICEF, *Core Questions on Drinking-water and Sanitation for Household Surveys*, Geneva, WHO / UNICEF, 2006
+
+\newpage
 
 Indicators relating to water, sanitation, and hygiene (WASH) are calculated as:
 
@@ -884,22 +408,11 @@ knitr::include_graphics("figures/indicators24.png")
 
 Indicators relating to anthropometry and screening coverage are derived from this questionnaire component:
 
-+:----------------------------------------------------------------------------------------------------------:+
-| **Anthropometry / Screening Coverage**                                                                     |
-+------------------------------------------------------------------------------------------------------------+
+```{r questionnaire11, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/questionnaire11.png")
+```
 
-+----------+--------------------------------------------------+------------------------------+---------------+
-| as1      | MUAC in mm                                       | 777 = Too large              | [__][__][__]  |
-|          |                                                  | 888 = Refused                |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| as2      | Has someone measured your arm like this in the   | 1 = Yes; 2 = No              | [__]          |
-|          | previous month?                                  |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| as3      | Bilateral pitting oedema                         | 1 = Yes; 2 = No              | [__]          |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| as4      | Has someone examined your feet like this in the  | 1 = Yes; 2 = No              | [__]          |
-|          | previous month?                                  |                              |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
+\newpage
 
 And are calculated as:
 
@@ -915,21 +428,27 @@ The prevalence of GAM, MAM, and SAM are estimated using a PROBIT estimator. This
 
 * World Health Organisation, *Physical Status: The use and interpretation of anthropometry. Report of a WHO expert committee*, WHO Technical Report Series 854, WHO, Geneva, 1995
 
-Dale NM, Myatt M, Prudhon C, Briend, A, “Assessment of the PROBIT approach for estimating the prevalence of global, moderate and severe acute malnutrition from population surveys”, *Public Health Nutrition*, 1–6. doi:10.1017/S1368980012003345, 2012
+* Dale NM, Myatt M, Prudhon C, Briend, A, “Assessment of the PROBIT approach for estimating the prevalence of global, moderate and severe acute malnutrition from population surveys”, *Public Health Nutrition*, 1–6. doi:10.1017/S1368980012003345, 2012
 
-Blanton CJ, Bilukha, OO, “The PROBIT approach in estimating the prevalence of wasting: revisiting bias and precision”, *Emerging Themes in Epidemiology*, 10(1), 2013, p. 8
+* Blanton CJ, Bilukha, OO, “The PROBIT approach in estimating the prevalence of wasting: revisiting bias and precision”, *Emerging Themes in Epidemiology*, 10(1), 2013, p. 8
 
 The PROBIT estimator is described in Box 1.
 
 MUAC-based case definitions for acute malnutrition are used:
 
-	**GAM**	:	MUAC < 210 mm  
-	**MAM**	:	185 mm ≤ MUAC < 210mm  
-	**SAM**	:	MUAC < 185mm  
++----------+-----------------------+
+|	**GAM**	 | MUAC < 210 mm         |
++----------+-----------------------+
+|	**MAM**	 | 185 mm ≤ MUAC < 210mm |
++----------+-----------------------+
+|	**SAM**	 | MUAC < 185mm          |
++----------+-----------------------+
 
 These are standard case definitions for acute malnutrition in adults and recommended by HelpAge International for use in older people in humanitarian contexts.
 
 **Note** : MUAC in adults should be measured on the non-dominant arm. This is usually the left arm. The importance of high levels of accuracy and precision at the individual level is of lesser importance in survey work compared to case-finding or diagnosis in clinical contexts, for example. This means that a simple rule such as “Always measure MUAC on the left arm” may be used.
+
+\newpage
 
 ```{block2, type = "rmdexercise"}
 An estimate of GAM prevalence can be made using a classic estimator:
@@ -957,67 +476,15 @@ The prevalence of SAM is estimated in a similar way to GAM. The prevalence of MA
 $$\widehat{MAM prevalence} = \widehat{GAM prevalence} - \widehat{SAM prevalence}$$
 ```
 
+\newpage
 
 ### Visual impairment
 
 An indicator of visual impairment is derived from this questionnaire component:
 
-+:----------------------------------------------------------------------------------------------------------:+
-| **Visual Acuity**                                                                                          |
-+------------------------------------------------------------------------------------------------------------+
-
-+----------+-------------------------------------------------------------------------------------------------+
-| va1      | Do you normally wear glasses?                                                                   |
-|          |                                                                                                 |
-|          | *If the person wears glasses, ask if they are more comfortable wearing their glasses to look at |
-|          | your chart at 2 meters. Let the person decide.*                                                 |
-|          |                                                                                                 |
-|          | *Demonstrate (close to the person) how to do the 'tumbling E' test:*                            |
-|          |                                                                                                 |
-|          | * Show the direction the E is pointing.                                                         |
-|          | * Ask the person if they understand. REPEAT if needed.                                          |
-|          |                                                                                                 |
-|          | Test with E at 2 meters:                                                                        |
-|          |                                                                                                 |
-|          | * Use the string to measure 2 meters from the person.                                           |
-|          | * Hold the card at eye level and 2 meters away from the person.                                 |
-|          | * Turn the card in four different directions. Hide the card in your back before turning it      |
-|          | each time.                                                                                      |
-+----------+-------------------------------------------------------------------------------------------------+
-
-+----------+--------------------------------------------------+------------------------------+---------------+
-| va2a     | First time                                       | 1 = Correct                  | [__]          |
-|          |                                                  |                              |               |
-|          |                                                  | 2 = Incorrect                |               |
-|          |                                                  |                              |               |
-|          |                                                  | 3 = Refused                  |               |
-|          |                                                  |                              |               |
-|          |                                                  | 4 = Blind                    |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| va2b     | Second time                                      | 1 = Correct                  | [__]          |
-|          |                                                  |                              |               |
-|          |                                                  | 2 = Incorrect                |               |
-|          |                                                  |                              |               |
-|          |                                                  | 3 = Refused                  |               |
-|          |                                                  |                              |               |
-|          |                                                  | 4 = Blind                    |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| va2c     | Third time                                       | 1 = Correct                  | [__]          |
-|          |                                                  |                              |               |
-|          |                                                  | 2 = Incorrect                |               |
-|          |                                                  |                              |               |
-|          |                                                  | 3 = Refused                  |               |
-|          |                                                  |                              |               |
-|          |                                                  | 4 = Blind                    |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
-| va2d     | Fourth time                                      | 1 = Correct                  | [__]          |
-|          |                                                  |                              |               |
-|          |                                                  | 2 = Incorrect                |               |
-|          |                                                  |                              |               |
-|          |                                                  | 3 = Refused                  |               |
-|          |                                                  |                              |               |
-|          |                                                  | 4 = Blind                    |               |
-+----------+--------------------------------------------------+------------------------------+---------------+
+```{r questionnaire12, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
+knitr::include_graphics("figures/questionnaire12.png")
+```
 
 And is calculated as:
 
