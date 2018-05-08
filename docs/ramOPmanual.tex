@@ -1759,12 +1759,12 @@ Indicators are calculated following:
   for Household Surveys}, Geneva, WHO / UNICEF, 2006
 \end{itemize}
 
-\newpage
-
 Indicators relating to water, sanitation, and hygiene (WASH) are
 calculated as:
 
 \begin{center}\includegraphics{figures/indicators24} \end{center}
+
+\newpage
 
 \hypertarget{anthropometry-and-screening-coverage}{%
 \subsection{Anthropometry and screening
@@ -1774,8 +1774,6 @@ Indicators relating to anthropometry and screening coverage are derived
 from this questionnaire component:
 
 \begin{center}\includegraphics{figures/questionnaire11} \end{center}
-
-\newpage
 
 And are calculated as:
 
@@ -1817,12 +1815,25 @@ The PROBIT estimator is described in Box 1.
 
 MUAC-based case definitions for acute malnutrition are used:
 
-+==========+=======================+ \textbar{} \textbf{GAM} \textbar{}
-MUAC \textless{} 210 mm \textbar{} +----------+-----------------------+
-\textbar{} \textbf{MAM} \textbar{} 185 mm ≤ MUAC \textless{} 210mm
-\textbar{} +----------+-----------------------+ \textbar{} \textbf{SAM}
-\textbar{} MUAC \textless{} 185mm \textbar{}
-+----------+-----------------------+
+\begin{longtable}[]{@{}cl@{}}
+\toprule
+\begin{minipage}[t]{0.48\columnwidth}\centering
+\textbf{GAM}\strut
+\end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright
+MUAC \textless{} 210 mm\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.48\columnwidth}\centering
+\textbf{MAM}\strut
+\end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright
+185 mm ≤ MUAC \textless{} 210mm\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.48\columnwidth}\centering
+\textbf{SAM}\strut
+\end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright
+MUAC \textless{} 185mm\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
 
 These are standard case definitions for acute malnutrition in adults and
 recommended by HelpAge International for use in older people in
@@ -1856,18 +1867,28 @@ example, for data with a mean MUAC of 256 mm and a standard deviation of
 is 0.0502 meaning that 5.02\% of the population are \emph{predicted} (or
 \emph{estimated}) to fall below the 210 mm threshold.
 
+~
+
 Both the classic and the PROBIT methods can be thought of as estimating
 area:
 
+~
+
 \includegraphics{figures/indicators26.png}
+
+~
 
 The principal advantage of the PROBIT approach is that the required
 sample size is usually smaller than that required to estimate prevalence
 with a given precision using the classic method.
 
+~
+
 The PROBIT method assumes that MUAC is a normally distributed variable.
 If this is not the case then the distribution of MUAC is transformed
 towards normality.
+
+~
 
 The prevalence of SAM is estimated in a similar way to GAM. The
 prevalence of MAM is estimated as the difference between the GAM and SAM
@@ -1885,6 +1906,8 @@ An indicator of visual impairment is derived from this questionnaire
 component:
 
 \begin{center}\includegraphics{figures/questionnaire12} \end{center}
+
+\newpage
 
 And is calculated as:
 
@@ -1904,6 +1927,8 @@ validated and widely used method for measuring visual acuity:
   Thesis)'', \emph{Transactions of the American Ophthalmological
   Society}, 107: 311--324, 2009
 \end{itemize}
+
+\newpage
 
 The size of the ``E'' used:
 
@@ -1935,6 +1960,8 @@ aged 60 years or older. Subjects failing the visual acuity test should
 be counselled to visit an ophthalmologist for a detailed eye
 examination.
 
+\newpage
+
 \begin{figure}[H]
 
 {\centering \includegraphics{figures/indicators29} 
@@ -1942,7 +1969,7 @@ examination.
 }
 
 \caption{Equipment used to measure visual acuity}\label{fig:indicators29}
-\end{figure}
+\end{figure}\newpage
 
 \hypertarget{miscellaneous-indicators}{%
 \subsection{Miscellaneous indicators}\label{miscellaneous-indicators}}
@@ -2005,6 +2032,8 @@ Do you have problems chewing food?\strut
 \end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
+
+\newpage
 
 and are calculated as:
 
@@ -2096,6 +2125,8 @@ The principal advantages of using a bootstrap estimator are:
 
 The standard RAM-OP data analysis software is described in the section
 \protect\hyperlink{software}{\textbf{Standard RAM-OP software}}.
+
+\newpage
 
 \begin{figure}[H]
 
@@ -2240,20 +2271,29 @@ as:
 \end{minipage} & \begin{minipage}[b]{0.19\columnwidth}\centering
 \textbf{Population range}*\strut
 \end{minipage} & \begin{minipage}[b]{0.32\columnwidth}\raggedright
-Features\strut
+\textbf{Features}\strut
 \end{minipage} & \begin{minipage}[b]{0.21\columnwidth}\centering
-Record population as \ldots{}\strut
+\textbf{Record population as \ldots{}}\strut
 \end{minipage}\tabularnewline
 \midrule
 \endhead
 \begin{minipage}[t]{0.16\columnwidth}\raggedright
 Hamlet\strut
 \end{minipage} & \begin{minipage}[t]{0.19\columnwidth}\centering
-\textless{} 1,000\strut
+\(<\) 1,000\strut
 \end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright
 Very small local market or no market\strut
 \end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\centering
 1\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.16\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.19\columnwidth}\centering
+\strut
+\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\centering
+\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.16\columnwidth}\raggedright
 Village\strut
@@ -2265,16 +2305,23 @@ hamlets\strut
 \end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\centering
 2\strut
 \end{minipage}\tabularnewline
-\begin{minipage}[t]{0.24\columnwidth}\raggedright
+\begin{minipage}[t]{0.16\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.19\columnwidth}\centering
+\strut
+\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\centering
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.16\columnwidth}\raggedright
 Town\strut
-\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\centering
-\begin{quote}
-4,000
-\end{quote}\strut
-\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright
+\end{minipage} & \begin{minipage}[t]{0.19\columnwidth}\centering
+\(>\) 4,000\strut
+\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright
 Large market, many shops (some specialised), guest houses, bus station,
 government offices\strut
-\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\centering
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\centering
 4\strut
 \end{minipage}\tabularnewline
 \bottomrule
@@ -2285,6 +2332,8 @@ government offices\strut
 The PSU dataset must be in comma-separated-value (CSV) format (see
 Figure \ref{fig:dataset02}) for use with the RAM-OP data analysis
 software.
+
+\newpage
 
 \begin{figure}[H]
 
@@ -2628,69 +2677,39 @@ At the end of training each enumerator should be able to:
   referral, such as to a health facility.
 \end{itemize}
 
+\newpage
+
 A typical first RAM-OP training course will last for five days:
 
-\begin{longtable}[]{@{}ll@{}}
-\toprule
-\begin{minipage}[t]{0.48\columnwidth}\raggedright
-\textbf{Day 1}\strut
-\end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright
-Presentation of your organisation (mission, code of conduct, etc.)
+\textbf{Day 1}
 
-Objectives of the survey
+\begin{itemize}
+\tightlist
+\item
+  Presentation of your organisation (mission, code of conduct, etc.)
+\item
+  Objectives of the survey\\
+\item
+  How are we going to do it?\\
+\item
+  Questionnaire : First reading and explanations
+\item
+  Recap
+\end{itemize}
 
-How are we going to do it?
+\textbf{Day 2} * Field procedures\\
+* Job descriptions * Measurements: MUAC, oedema, visual acuity (practice
+on each other) * Questionnaire : Role-playing * Lessons learned * Recap
 
-Questionnaire : First reading and explanations
+\textbf{Day 3} * Measurements: MUAC, oedema, visual acuity (practice on
+ten older people) * Testing the questionnaire with ten older people *
+Lessons learned * Recap
 
-Recap\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.48\columnwidth}\raggedright
-\textbf{Day 2}\strut
-\end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright
-Field procedures
+\textbf{Day 4} * Questionnaire : Role-playing * Field procedures : Recap
+and group work * Recap
 
-Job descriptions
-
-Measurements: MUAC, oedema, visual acuity (practice on each other)
-
-Questionnaire : Role-playing
-
-Lessons learned
-
-Recap\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.48\columnwidth}\raggedright
-\textbf{Day 3}\strut
-\end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright
-Measurements: MUAC, oedema, visual acuity (practice on ten older people)
-
-Testing the questionnaire with ten older people
-
-Lessons learned
-
-Recap\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.48\columnwidth}\raggedright
-\textbf{Day 4}\strut
-\end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright
-Questionnaire : Role-playing
-
-Field procedures : Recap and group work
-
-Recap\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.48\columnwidth}\raggedright
-\textbf{Day 5}\strut
-\end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright
-Field test : Practical field procedures, etc. in one community
-
-Lessons learned from field test
-
-Recap\strut
-\end{minipage}\tabularnewline
-\bottomrule
-\end{longtable}
+\textbf{Day 5} * Field test : Practical field procedures, etc. in one
+community * Lessons learned from field test * Recap
 
 Additional notes:
 
@@ -2882,115 +2901,51 @@ It is rare for an older woman to refuse to expose her arms or feet
 before a male enumerator, and also rare that an older man objects to
 being measured by a female enumerator.
 
+\newpage
+
 \hypertarget{survey-planning}{%
 \section{Survey planning}\label{survey-planning}}
 
 Here is a typical timetable of survey activities:
 
+\textbf{Several weeks in advance} * Identify survey area * Recruit local
+partner * Obtain ethical clearance * Obtain technical approval from
+relevant bodies * Obtain permissions and letters from appropriate
+authorities * Start translation of questionnaire * Obtain maps / lists
+as required * Obtain map(s) of the survey area
+
+\textbf{One month in advance} * Advertise staff positions * Recruit and
+contract supervisors * Define first stage sample from list / map * Make
+(draft) survey travel plans * Obtain permissions for travel * Book
+training venue * Arrange staff accommodation (if required) * Continue
+translation of questionnaire * Begin sourcing equipment * Identify
+potential suppliers and contractors
+
+\textbf{One week before the training} * Recruit enumerators * Purchase
+equipment * Book vehicles and drivers * Review and print / copy training
+manual * Print translated questionnaire for the training * Print ``daily
+program'' forms * Finalise survey travel plans * Disseminate travel
+plans to local authorities (with survey facilitator) * Arrange logistics
+for the training
+
+**During the \textbar{} * Arrange for ten older people to participate in
+\textbar{}\\
+training** \textbar{} training. \textbar{}\\
+\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\textbar{}
+* Revise the questionnaire with the trainees. \textbar{}\\
+\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\textbar{}
+* Print revised version of questionnaire for the \textbar{}\\
+\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\textbar{}
+field test (c. 50 copies) \textbar{}\\
+\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\textbar{}
+* Arrange the logistics for the field test \textbar{}\\
+\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\textbar{}
+(vehicles, drivers, equipment) \textbar{}\\
+\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\textbar{}
+* Review logistics arrangements with the trainees \textbar{}
+
 \begin{longtable}[]{@{}ll@{}}
 \toprule
-\begin{minipage}[b]{0.25\columnwidth}\raggedright
-\textbf{When?}\strut
-\end{minipage} & \begin{minipage}[b]{0.70\columnwidth}\raggedright
-\textbf{What?}\strut
-\end{minipage}\tabularnewline
-\midrule
-\endhead
-\begin{minipage}[t]{0.48\columnwidth}\raggedright
-\textbf{Several weeks in advance}\strut
-\end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright
-\begin{itemize}
-\tightlist
-\item
-  Identify survey area
-\item
-  Recruit local partner
-\item
-  Obtain ethical clearance
-\item
-  Obtain technical approval from relevant bodies
-\item
-  Obtain permissions and letters from appropriate authorities
-\item
-  Start translation of questionnaire
-\item
-  Obtain maps / lists as required
-\item
-  Obtain map(s) of the survey area
-\end{itemize}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.48\columnwidth}\raggedright
-\textbf{One month in advance}\strut
-\end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright
-\begin{itemize}
-\tightlist
-\item
-  Advertise staff positions
-\item
-  Recruit and contract supervisors
-\item
-  Define first stage sample from list / map
-\item
-  Make (draft) survey travel plans
-\item
-  Obtain permissions for travel
-\item
-  Book training venue
-\item
-  Arrange staff accommodation (if required)
-\item
-  Continue translation of questionnaire
-\item
-  Begin sourcing equipment
-\item
-  Identify potential suppliers and contractors
-\end{itemize}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.48\columnwidth}\raggedright
-\textbf{One week before the training}\strut
-\end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright
-\begin{itemize}
-\tightlist
-\item
-  Recruit enumerators
-\item
-  Purchase equipment
-\item
-  Book vehicles and drivers
-\item
-  Review and print / copy training manual
-\item
-  Print translated questionnaire for the training
-\item
-  Print ``daily program'' forms
-\item
-  Finalise survey travel plans
-\item
-  Disseminate travel plans to local authorities (with survey
-  facilitator)
-\item
-  Arrange logistics for the training
-\end{itemize}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.48\columnwidth}\raggedright
-\textbf{During the training}\strut
-\end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright
-\begin{itemize}
-\tightlist
-\item
-  Arrange for ten older people to participate in training.
-\item
-  Revise the questionnaire with the trainees.
-\item
-  Print revised version of questionnaire for the field test (c. 50
-  copies)
-\item
-  Arrange the logistics for the field test (vehicles, drivers,
-  equipment)
-\item
-  Review logistics arrangements with the trainees
-\end{itemize}\strut
-\end{minipage}\tabularnewline
 \begin{minipage}[t]{0.48\columnwidth}\raggedright
 \textbf{At the end of the training}\strut
 \end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright
