@@ -172,6 +172,16 @@
   {\end{includegraphics}
   \end{tcolorbox}}
   
+\newenvironment{rmdbox}
+  {\begin{tcolorbox}[width=\textwidth, 
+                     colback = {white}, 
+                     title = {\textbf{Exercise}}, 
+                     colbacktitle = lightgray,
+                     coltitle = black]
+  \begin{includegraphics}[scale = 1]{pencil.png}}
+  {\end{includegraphics}
+  \end{tcolorbox}}
+  
 \newenvironment{rmdinfo}
   {\begin{tcolorbox}[width=\textwidth, 
                      colback = {white}, 
@@ -1848,7 +1858,7 @@ measure MUAC on the left arm'' may be used.
 
 \newpage
 
-\BeginKnitrBlock{rmdexercise}
+\BeginKnitrBlock{rmdbox}
 An estimate of GAM prevalence can be made using a classic estimator:
 
 \[\text{prevalence} = \frac{\text{number of respondents with MUAC < 210 mm}}{\text{total number of respondents}}\]
@@ -1895,7 +1905,7 @@ prevalence of MAM is estimated as the difference between the GAM and SAM
 prevalence estimates:
 
 \[\widehat{MAM prevalence} = \widehat{GAM prevalence} - \widehat{SAM prevalence}\]
-\EndKnitrBlock{rmdexercise}
+\EndKnitrBlock{rmdbox}
 
 \newpage
 
@@ -1977,13 +1987,7 @@ examination.
 Data for a small group of miscellaneous indicators are also collected
 and reported. These are derived from these questions:
 
-\begin{longtable}[]{@{}c@{}}
-\toprule
-\begin{minipage}[t]{0.97\columnwidth}\centering
-\textbf{Hunger -- Ration - Relief}\strut
-\end{minipage}\tabularnewline
-\bottomrule
-\end{longtable}
+\textbf{Hunger -- Ration - Relief}
 
 \begin{longtable}[]{@{}llll@{}}
 \toprule
@@ -2011,13 +2015,9 @@ clothes, or plastic sheet in the previous four weeks?\strut
 \bottomrule
 \end{longtable}
 
-\begin{longtable}[]{@{}c@{}}
-\toprule
-\begin{minipage}[t]{0.97\columnwidth}\centering
-\textbf{Activities of Daily Living}\strut
-\end{minipage}\tabularnewline
-\bottomrule
-\end{longtable}
+~
+
+\textbf{Activities of Daily Living}
 
 \begin{longtable}[]{@{}llll@{}}
 \toprule
@@ -2688,28 +2688,71 @@ A typical first RAM-OP training course will last for five days:
 \item
   Presentation of your organisation (mission, code of conduct, etc.)
 \item
-  Objectives of the survey\\
+  Objectives of the survey
 \item
-  How are we going to do it?\\
+  How are we going to do it?
 \item
   Questionnaire : First reading and explanations
 \item
   Recap
 \end{itemize}
 
-\textbf{Day 2} * Field procedures\\
-* Job descriptions * Measurements: MUAC, oedema, visual acuity (practice
-on each other) * Questionnaire : Role-playing * Lessons learned * Recap
+\textbf{Day 2}
 
-\textbf{Day 3} * Measurements: MUAC, oedema, visual acuity (practice on
-ten older people) * Testing the questionnaire with ten older people *
-Lessons learned * Recap
+\begin{itemize}
+\tightlist
+\item
+  Field procedures
+\item
+  Job descriptions
+\item
+  Measurements: MUAC, oedema, visual acuity (practice on each other)
+\item
+  Questionnaire : Role-playing
+\item
+  Lessons learned
+\item
+  Recap
+\end{itemize}
 
-\textbf{Day 4} * Questionnaire : Role-playing * Field procedures : Recap
-and group work * Recap
+\textbf{Day 3}
 
-\textbf{Day 5} * Field test : Practical field procedures, etc. in one
-community * Lessons learned from field test * Recap
+\begin{itemize}
+\tightlist
+\item
+  Measurements: MUAC, oedema, visual acuity (practice on ten older
+  people)
+\item
+  Testing the questionnaire with ten older people
+\item
+  Lessons learned
+\item
+  Recap
+\end{itemize}
+
+\textbf{Day 4}
+
+\begin{itemize}
+\tightlist
+\item
+  Questionnaire : Role-playing
+\item
+  Field procedures : Recap and group work
+\item
+  Recap
+\end{itemize}
+
+\textbf{Day 5}
+
+\begin{itemize}
+\tightlist
+\item
+  Field test : Practical field procedures, etc. in one community
+\item
+  Lessons learned from field test
+\item
+  Recap
+\end{itemize}
 
 Additional notes:
 
@@ -2908,47 +2951,99 @@ being measured by a female enumerator.
 
 Here is a typical timetable of survey activities:
 
-\textbf{Several weeks in advance} * Identify survey area * Recruit local
-partner * Obtain ethical clearance * Obtain technical approval from
-relevant bodies * Obtain permissions and letters from appropriate
-authorities * Start translation of questionnaire * Obtain maps / lists
-as required * Obtain map(s) of the survey area
+\textbf{Several weeks in advance}
 
-\textbf{One month in advance} * Advertise staff positions * Recruit and
-contract supervisors * Define first stage sample from list / map * Make
-(draft) survey travel plans * Obtain permissions for travel * Book
-training venue * Arrange staff accommodation (if required) * Continue
-translation of questionnaire * Begin sourcing equipment * Identify
-potential suppliers and contractors
+\begin{itemize}
+\tightlist
+\item
+  Identify survey area
+\item
+  Recruit local partner
+\item
+  Obtain ethical clearance
+\item
+  Obtain technical approval from relevant bodies
+\item
+  Obtain permissions and letters from appropriate authorities
+\item
+  Start translation of questionnaire
+\item
+  Obtain maps / lists as required
+\item
+  Obtain map(s) of the survey area
+\end{itemize}
 
-\textbf{One week before the training} * Recruit enumerators * Purchase
-equipment * Book vehicles and drivers * Review and print / copy training
-manual * Print translated questionnaire for the training * Print ``daily
-program'' forms * Finalise survey travel plans * Disseminate travel
-plans to local authorities (with survey facilitator) * Arrange logistics
-for the training
+\textbf{One month in advance}
 
-**During the \textbar{} * Arrange for ten older people to participate in
-\textbar{}\\
-training** \textbar{} training. \textbar{}\\
-\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\textbar{}
-* Revise the questionnaire with the trainees. \textbar{}\\
-\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\textbar{}
-* Print revised version of questionnaire for the \textbar{}\\
-\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\textbar{}
-field test (c. 50 copies) \textbar{}\\
-\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\textbar{}
-* Arrange the logistics for the field test \textbar{}\\
-\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\textbar{}
-(vehicles, drivers, equipment) \textbar{}\\
-\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\hspace*{0.333em}\textbar{}
-* Review logistics arrangements with the trainees \textbar{}
+\begin{itemize}
+\tightlist
+\item
+  Advertise staff positions
+\item
+  Recruit and contract supervisors
+\item
+  Define first stage sample from list / map
+\item
+  Make (draft) survey travel plans
+\item
+  Obtain permissions for travel
+\item
+  Book training venue
+\item
+  Arrange staff accommodation (if required)
+\item
+  Continue translation of questionnaire
+\item
+  Begin sourcing equipment
+\item
+  Identify potential suppliers and contractors
+\end{itemize}
 
-\begin{longtable}[]{@{}ll@{}}
-\toprule
-\begin{minipage}[t]{0.48\columnwidth}\raggedright
-\textbf{At the end of the training}\strut
-\end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright
+\textbf{One week before the training}
+
+\begin{itemize}
+\tightlist
+\item
+  Recruit enumerators
+\item
+  Purchase equipment
+\item
+  Book vehicles and drivers
+\item
+  Review and print / copy training manual
+\item
+  Print translated questionnaire for the training
+\item
+  Print ``daily program'' forms
+\item
+  Finalise survey travel plans
+\item
+  Disseminate travel plans to local authorities (with survey
+  facilitator)
+\item
+  Arrange logistics for the training
+\end{itemize}
+
+\textbf{During the training}
+
+\begin{itemize}
+\tightlist
+\item
+  Arrange for ten older people to participate in training
+\item
+  Revise the questionnaire with the trainees
+\item
+  Print revised version of questionnaire for the field test (c. 50
+  copies)
+\item
+  Arrange the logistics for the field test (vehicles, drivers,
+  equipment)
+\item
+  Review logistics arrangements with the trainees
+\end{itemize}
+
+\textbf{At the end of the trainin}
+
 \begin{itemize}
 \tightlist
 \item
@@ -2961,11 +3056,10 @@ field test (c. 50 copies) \textbar{}\\
   Print survey questionnaires (c. 250 copies)
 \item
   Recruit enumerators and data entry staff
-\end{itemize}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.48\columnwidth}\raggedright
-\textbf{During the survey}\strut
-\end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright
+\end{itemize}
+
+\textbf{During the survey}
+
 \begin{itemize}
 \tightlist
 \item
@@ -2975,11 +3069,10 @@ field test (c. 50 copies) \textbar{}\\
   Manage survey activities (see below)
 \item
   Data entry and cleaning
-\end{itemize}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.48\columnwidth}\raggedright
-\textbf{At the end of the survey}\strut
-\end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright
+\end{itemize}
+
+\textbf{At the end of the survey}
+
 \begin{itemize}
 \tightlist
 \item
@@ -2996,28 +3089,15 @@ field test (c. 50 copies) \textbar{}\\
   Data analysis and reporting
 \item
   Disseminate results
-\end{itemize}\strut
-\end{minipage}\tabularnewline
-\bottomrule
-\end{longtable}
+\end{itemize}
 
 \hypertarget{daily-survey-activities}{%
 \section{Daily survey activities}\label{daily-survey-activities}}
 
 Here is a list of typical survey activities:
 
-\begin{longtable}[]{@{}ll@{}}
-\toprule
-\begin{minipage}[b]{0.25\columnwidth}\raggedright
-\textbf{When?}\strut
-\end{minipage} & \begin{minipage}[b]{0.70\columnwidth}\raggedright
-\textbf{What?}\strut
-\end{minipage}\tabularnewline
-\midrule
-\endhead
-\begin{minipage}[t]{0.48\columnwidth}\raggedright
-\textbf{Morning}\strut
-\end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright
+\textbf{Morning}
+
 \begin{itemize}
 \tightlist
 \item
@@ -3031,11 +3111,10 @@ Here is a list of typical survey activities:
   Provide water and snacks (or food allowance)
 \item
   Provide forms, questionnaires, maps (as required)
-\end{itemize}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.48\columnwidth}\raggedright
-\textbf{Evening}\strut
-\end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright
+\end{itemize}
+
+\textbf{Evening}
+
 \begin{itemize}
 \tightlist
 \item
@@ -3055,10 +3134,7 @@ Here is a list of typical survey activities:
 \item
   Check that there are enough forms, questionnaires, maps for the next
   day
-\end{itemize}\strut
-\end{minipage}\tabularnewline
-\bottomrule
-\end{longtable}
+\end{itemize}
 
 \hypertarget{software}{%
 \chapter{RAM-OP Software}\label{software}}
@@ -3272,6 +3348,8 @@ editor window of the \textbf{RAnalyticFlow} window.
 Once you have opened the workflow you need to initialise it (i.e.~load
 libraries, useful analysis function, and initialise the workspace for a
 new analysis):
+
+\newpage
 
 \begin{center}\includegraphics{figures/runWorkflowRAF} \end{center}
 
