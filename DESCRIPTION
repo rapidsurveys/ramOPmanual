@@ -1,0 +1,11 @@
+Package: ramOPmanual
+Title: Rapid Assessment Method for Older People (RAM-OP): The Manual
+Version: 0.1.0.9000
+Authors@R: c(
+    person("Pascale", "Fritsch", role = "aut"),
+    person("Ernest", "Guevarra", email = "ernest@guevarra.io", role = c("aut", "cre")),
+    person("Katja", "Siling", role = "aut"),
+    person("Mark", "Myatt", email = "mark@brixtonhealth.com", role = "aut"))
+Depends: R (>= 3.0.1)
+Imports:
+    bookdown
