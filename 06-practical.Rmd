@@ -116,7 +116,8 @@ A typical first RAM-OP training course will last for five days:
 
 
 **Day 2**
-* Field procedures                                                    
+
+* Field procedures
 * Job descriptions
 * Measurements: MUAC, oedema, visual acuity (practice on each other)
 * Questionnaire : Role-playing
@@ -125,6 +126,7 @@ A typical first RAM-OP training course will last for five days:
 
 
 **Day 3**
+
 * Measurements: MUAC, oedema, visual acuity (practice on ten older people)
 * Testing the questionnaire with ten older people
 * Lessons learned
@@ -132,12 +134,14 @@ A typical first RAM-OP training course will last for five days:
 
 
 **Day 4**
+
 * Questionnaire : Role-playing
 * Field procedures : Recap and group work
 * Recap
 
 
 **Day 5**
+
 * Field test : Practical field procedures, etc. in one community
 * Lessons learned from field test
 * Recap
@@ -225,6 +229,7 @@ Some older women may object to having their MUAC taken by a man (or vice versa).
 Here is a typical timetable of survey activities:
 
 **Several weeks in advance**
+
 * Identify survey area
 * Recruit local partner
 * Obtain ethical clearance
@@ -236,6 +241,7 @@ Here is a typical timetable of survey activities:
 
 
 **One month in advance**
+
 * Advertise staff positions
 * Recruit and contract supervisors
 * Define first stage sample from list / map
@@ -249,6 +255,7 @@ Here is a typical timetable of survey activities:
 
 
 **One week before the training**
+
 * Recruit enumerators
 * Purchase equipment
 * Book vehicles and drivers
@@ -260,62 +267,62 @@ Here is a typical timetable of survey activities:
 * Arrange logistics for the training
 
 
-| **During the           | * Arrange for ten older people to participate in    |
-| training**             | training.                                           |
-|                        | * Revise the questionnaire with the trainees.       |
-|                        | * Print revised version of questionnaire for the    |
-|                        | field test (c. 50 copies)                           |
-|                        | * Arrange the logistics for the field test          |
-|                        | (vehicles, drivers, equipment)                      |
-|                        | * Review logistics arrangements with the trainees   |
-+------------------------+-----------------------------------------------------+
-| **At the end of the    | * Provide each trainee with a certificate of        |
-| training**             | attendance                                          |
-|                        | * Pay the training incentives                       |
-|                        | * Review and amend questionnaire from the feedback  |
-|                        | of the field test                                   |
-|                        | * Print survey questionnaires (c. 250 copies)       |
-|                        | * Recruit enumerators and data entry staff          |
-+------------------------+-----------------------------------------------------+
-| **During the survey**  | * Train the data entry clerk (day one) using the    |
-|                        | results of the field test                           |
-|                        | * Manage survey activities (see below)              |
-|                        | * Data entry and cleaning                           |
-+------------------------+-----------------------------------------------------+
-| **At the end of the    | * Complete data entry                               |
-| survey**               | * Provide all staff with certificates of            |
-|                        | participation                                       |
-|                        | * Pay incentives                                    |
-|                        | * Thank the local authorities                       |
-|                        | * Party for all staff                               |
-|                        | * Data analysis and reporting                       |
-|                        | * Disseminate results                               |
-+------------------------+-----------------------------------------------------+
+**During the training**
+
+* Arrange for ten older people to participate in training
+* Revise the questionnaire with the trainees
+* Print revised version of questionnaire for the field test (c. 50 copies)
+* Arrange the logistics for the field test (vehicles, drivers, equipment)
+* Review logistics arrangements with the trainees
+
+
+**At the end of the trainin**
+
+* Provide each trainee with a certificate of attendance
+* Pay the training incentives
+* Review and amend questionnaire from the feedback of the field test
+* Print survey questionnaires (c. 250 copies)
+* Recruit enumerators and data entry staff
+
+
+**During the survey**
+
+* Train the data entry clerk (day one) using the results of the field test
+* Manage survey activities (see below)
+* Data entry and cleaning
+
+
+**At the end of the survey**
+
+* Complete data entry
+* Provide all staff with certificates of participation
+* Pay incentives
+* Thank the local authorities
+* Party for all staff
+* Data analysis and reporting
+* Disseminate results
+
 
 ## Daily survey activities
 
 Here is a list of typical survey activities:
 
-+:----------------------:+:--------------------------------------------------------------------:+
-| **When?**              | **What?**                                                            |
-+========================+======================================================================+
-| **Morning**            | * Brief the teams on the day's objectives                            |
-|                        | * Provide feedback on the previous day (success and failures,        |
-|                        | correction of mistakes made in field procedures or data collection). |
-|                        | * Discuss problems with supervisors                                  |
-|                        | * Provide water and snacks (or food allowance)                       |
-|                        | * Provide forms, questionnaires, maps (as required)                  |
-+------------------------+----------------------------------------------------------------------+
-| **Evening**            | * Check the data entry with the data-entry staff                     |
-|                        | * Identify problematic questionnaires                                |
-|                        | * Identify common data collection problems                           |
-|                        | * Plan the next day's programme with the facilitator and the         |
-|                        | supervisors                                                          |
-|                        | * Discuss the problems met during the day and their resolution       |
-|                        | (particularly mistakes that they have observed in the field          |
-|                        | procedures or in the data collection).                               |
-|                        | * Prepare the day programme forms for the next day                   |
-|                        | * Check that there are enough forms, questionnaires, maps for the    |
-|                        | next day                                                             |
-+------------------------+----------------------------------------------------------------------+
+**Morning**
+
+* Brief the teams on the day's objectives
+* Provide feedback on the previous day (success and failures, correction of mistakes made in field procedures or data collection).
+* Discuss problems with supervisors
+* Provide water and snacks (or food allowance)
+* Provide forms, questionnaires, maps (as required)
+
+
+**Evening**
+
+* Check the data entry with the data-entry staff
+* Identify problematic questionnaires
+* Identify common data collection problems
+* Plan the next day's programme with the facilitator and the supervisors
+* Discuss the problems met during the day and their resolution (particularly mistakes that they have observed in the field procedures or in the data collection).
+* Prepare the day programme forms for the next day
+* Check that there are enough forms, questionnaires, maps for the next day
 

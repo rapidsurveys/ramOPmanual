@@ -49,7 +49,6 @@ work of analysing your data. You can get the R installation program from: [http:
 
 The Package Installer function can be called in R using the following command:
 
-
 ```{r software, eval = FALSE}
 install.packages(c("rJava", "JavaGD", "codetools", 
                    "foreign", "car", "ggplot2", "data.table"), 
@@ -68,11 +67,9 @@ In addition you will also need a copy of the **RAnalyticFlow** workflow and supp
 
 You may need to extract the file from the ZIP archive before use if this is not done automatically.
 
-
-```{r raf1, echo = FALSE, fig.align = "center", fig.retina = 1}
+```{r raf1, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/dirStructureRAF.png")
 ```
-
 
 Before starting to analyse your data you should create a project directory or project folder. This is just a normal folder or directory that can be created using your usual file manager (e.g. Windows ExplorerTM in WindowsTM or the FinderTM in Macintosh OS-XTM). The project directory or project folder should contain:
 
@@ -90,7 +87,7 @@ RAnalyticFlow.
 Note: The `testSVY.rec` and `testPSU.csv` files are example data files and are distributed with the **RAnalyticFlow** workflow. You can use these files to practice analysing data using **RAnalyticFlow**, and as examples of RAM-OP survey data and PSU files.
 
 
-```{r raf2, echo = FALSE, fig.align = "center", fig.retina = 1}
+```{r raf2, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/openProjectRAF.png")
 ```
 
@@ -106,7 +103,7 @@ Before you start work you will need to create a project for your survey:
 4. Click the **OK** button
 
 
-```{r raf3, echo = FALSE, fig.align = "center", fig.retina = 1}
+```{r raf3, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/openWorkflowRAF.png")
 ```
 
@@ -115,7 +112,9 @@ Double click the item named **ramOP.rflow** shown in the file manager pane of th
 
 Once you have opened the workflow you need to initialise it (i.e. load libraries, useful analysis function, and initialise the workspace for a new analysis):
 
-```{r raf4, echo = FALSE, fig.align = "center", fig.retina = 1}
+\newpage
+
+```{r raf4, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/runWorkflowRAF.png")
 ```
 
@@ -130,13 +129,13 @@ appropriate **Survey Data** node and select the survey data file.
 
 When the analysis is complete your project directory or project folder should contain eight new files:
 
-```{r raf5, echo = FALSE, fig.align = "center", fig.retina = 1}
+```{r raf5, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/workflowResults01.png")
 ```
 
 The files ending in `.png` are graphics files. The names of these files are intended to be informative. For example:
 
-```{r raf6, echo = FALSE, fig.align = "center", fig.retina = 1}
+```{r raf6, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/workflowResults02.png")
 ```
 
@@ -146,7 +145,7 @@ There may also be a file ending in `.afp`. This is a project information file us
 
 The file ending in `.report.csv` is the survey report file. This file can be opened, formatted and edited in a spreadsheet program such as **Microsoft Excel** or **OpenOffice Calc**:
 
-```{r raf7, echo = FALSE, fig.align = "center", fig.retina = 1}
+```{r raf7, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/reportFile.png")
 ```
 

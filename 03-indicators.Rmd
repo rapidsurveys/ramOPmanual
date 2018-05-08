@@ -447,7 +447,7 @@ These are standard case definitions for acute malnutrition in adults and recomme
 
 \newpage
 
-```{block2, type = "rmdexercise"}
+```{block2, type = "rmdbox"}
 An estimate of GAM prevalence can be made using a classic estimator:
 
 $$\text{prevalence} = \frac{\text{number of respondents with MUAC < 210 mm}}{\text{total number of respondents}}$$
@@ -528,9 +528,7 @@ knitr::include_graphics("figures/indicators29.png")
 
 Data for a small group of miscellaneous indicators are also collected and reported. These are derived from these questions:
 
-+:----------------------------------------------------------------------------------------------------------:+
-| **Hunger – Ration - Relief**                                                                               |
-+------------------------------------------------------------------------------------------------------------+
+**Hunger – Ration - Relief**
 
 +----------+--------------------------------------------------+------------------------------+---------------+
 | f6       | Are you or anyone in your household receiving a  | 1 = Yes; 2 = No              | [__]          |
@@ -543,9 +541,9 @@ Data for a small group of miscellaneous indicators are also collected and report
 |          | weeks?                                           |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
 
-+:----------------------------------------------------------------------------------------------------------:+
-| **Activities of Daily Living**                                                                             |
-+------------------------------------------------------------------------------------------------------------+
+&nbsp;
+
+**Activities of Daily Living**
 
 +----------+--------------------------------------------------+------------------------------+---------------+
 | a8       | Do you have problems chewing food?               | 1 = Yes; 2 = No              | [__]          |
