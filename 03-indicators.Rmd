@@ -246,6 +246,8 @@ Indicators of consumption of vitamin A rich foods from animal sources, plant sou
 knitr::include_graphics("figures/indicators10.png")
 ```
 
+\newpage
+
 #### Iron rich foods
 
 An indicator of consumption of iron rich foods from any / all sources is calculated as:
@@ -316,6 +318,8 @@ An indicator of severe food insecurity (hunger) is derived from this questionnai
 |          |                                                  | 3 = Often (> 10x))           |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
 
+\newpage
+
 and is calculated as:
 
 ```{r indicators15, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
@@ -328,11 +332,11 @@ This indicator is the *Household Hunger Scale (HHS)* and is a simple, well-valid
 
 * Ruel MT, Ballard TJ, Deitchler M, *Measuring and Tracking the Access Dimension of Food Security: Available Indicators and Recommendations for Future Investments*, Global Nutrition Report 2014: Technical Note 6, Washington DC, International Food Policy Research Institute, 2014
 
+\newpage
 
 ### Disability
 
 Indicators of disability across six different domains are derived from this questionnaire component:
-
 
 +:----------------------------------------------------------------------------------------------------------:+
 | **Disability (Washington Group)**                                                                          |
