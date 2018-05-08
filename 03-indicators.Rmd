@@ -404,7 +404,7 @@ Indicators relating to water, sanitation, and hygiene (WASH) are calculated as:
 knitr::include_graphics("figures/indicators24.png")
 ```
 
-### Anthropometry and screening coverage**                                                                   
+### Anthropometry and screening coverage
 
 Indicators relating to anthropometry and screening coverage are derived from this questionnaire component:
 
@@ -436,7 +436,7 @@ The PROBIT estimator is described in Box 1.
 
 MUAC-based case definitions for acute malnutrition are used:
 
-+----------+-----------------------+
++==========+=======================+
 |	**GAM**	 | MUAC < 210 mm         |
 +----------+-----------------------+
 |	**MAM**	 | 185 mm ≤ MUAC < 210mm |
