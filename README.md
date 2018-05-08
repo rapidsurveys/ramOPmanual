@@ -1,5 +1,7 @@
 # Rapid Assessment Method for Older People (RAM-OP): The Manual
 
+[![Travis-CI Build Status](https://travis-ci.org/validmeasures/ramOPmanual.svg?branch=master)](https://travis-ci.org/validmeasures/ramOPmanual)
+
 [HelpAge International](http://www.helpage.org), [VALID
 International](http://www.validinternational.org), and [Brixton
 Health](http://www.brixtonhealth.com), with financial assistance from
