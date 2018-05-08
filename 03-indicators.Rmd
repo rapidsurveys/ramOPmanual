@@ -590,13 +590,15 @@ A score is calculated. This is the *Kessler K6 Psychological Distress Scale*. Th
 
 * Kessler RC, Barker PR, Colpe LJ, Epstein JF, Gfroerer JC, Hiripi E, “Screening for Serious Mental Illness in the General Population”, *Archives of General Psychiatry*, 60(2), 2003, pp. 184-189
 
-Indicators of mental health and well-being are calculated as:
-
 \newpage
+
+Indicators of mental health and well-being are calculated as:
 
 ```{r indicators19, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/indicators19.png")
 ```
+
+\newpage
 
 ### Dementia
 
@@ -606,48 +608,54 @@ An indicator of probable dementia is derived from this questionnaire component:
 | **Dementia Screen**                                                                                        |
 +------------------------------------------------------------------------------------------------------------+
 
-+------------------------------------------------------------------------------------------------------------+
++----------+-------------------------------------------------------------------------------------------------+
 | ds0      | This section can only be completed if the subject is answering for themselves.                  |
 |          |                                                                                                 |
 |          | If the respondent is not answering for themselves then record '8' as the answer for all         |
 |          | questions below and continue with the interview. Write the reason why the subject is not        |
 |          | answering for themselves in the OBSERVATIONS section at the end of the questionnaire.           |
 |          |                                                                                                 |
-|          |      Say :                                                                                      |
 |          |                                                                                                 |
-|          |           I am going to tell you three words.                                                   |
+|          | Say :                                                                                           |
 |          |                                                                                                 |
-|          |           I would like you to repeat them after me.                                             |
+|          |   I am going to tell you three words.                                                           |
 |          |                                                                                                 |
-|          |                “CHILD”                                                                          |
+|          |   I would like you to repeat them after me.                                                     |
 |          |                                                                                                 |
-|          |                “HOUSE”                                                                          |
+|          |   * “CHILD”                                                                                     |
 |          |                                                                                                 |
-|          |                “ROAD”                                                                           |
+|          |   * “HOUSE”                                                                                     |
 |          |                                                                                                 |
-|          |      Repeat the three words, up to a maximum of six (6) times, or until the person has          |
-|          |      remembered them all correctly.                                                             |
+|          |   * “ROAD”                                                                                      |
 |          |                                                                                                 |
-|          |      Say :                                                                                      |
+|          |   Repeat the three words, up to a maximum of six (6) times, or until the person has             |
+|          |   remembered them all correctly.                                                                |
 |          |                                                                                                 |
-|          |           Try to remember these words. I will ask about them later.                             |
-+------------------------------------------------------------------------------------------------------------+
+|          |                                                                                                 |
+|          | Say :                                                                                           |
+|          |                                                                                                 |
+|          |   Try to remember these words. I will ask about them later.                                     |
++----------+-------------------------------------------------------------------------------------------------+
 
 +----------+--------------------------------------------------+------------------------------+---------------+
 | ds1      | Point to your nose and ask :                     | 1 = Correct                  | [__]          |
 |          |                                                  |                              |               |
-|          |      What do we call this?                       | 2 = Incorrect                |               |
+|          |   What do we call this?                          | 2 = Incorrect                |               |
 |          |                                                  |                              |               |
 |          |                                                  | 8 = Not applicable           |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
-| ds2      | What do you do with a hammer?                    | 1 = Correct                  | [__]          |      
+
++----------+--------------------------------------------------+------------------------------+---------------+
+| ds2      | What do you do with a hammer?                    | 1 = Correct                  | [__]          |
 |          |                                                  |                              |               |
-|          |      Accept answers such as :                    | 2 = Incorrect                |               |
+|          |   Accept answers such as :                       | 2 = Incorrect                |               |
 |          |                                                  |                              |               |
-|          |          * Drive a nail into something           | 8 = Not applicable           |               |
-|          |          * Straighten metal                      |                              |               |
-|          |          * Hit a wedge or something else         |                              |               |
-|          |          * Use with a chisel                     |                              |               |
+|          |   * Drive a nail into something                  | 8 = Not applicable           |               |
+|          |   * Straighten metal                             |                              |               |
+|          |   * Hit a wedge or something else                |                              |               |
+|          |   * Use with a chisel                            |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+
 +----------+--------------------------------------------------+------------------------------+---------------+
 | ds3      | What day of the week is it?                      | 1 = Correct                  | [__]          |
 |          |                                                  |                              |               |
@@ -655,20 +663,28 @@ An indicator of probable dementia is derived from this questionnaire component:
 |          |                                                  |                              |               |
 |          |                                                  | 8 = Not applicable           |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
+
++----------+--------------------------------------------------+------------------------------+---------------+
 | ds4      | What is the season?                              | 1 = Correct                  | [__]          |
 |          |                                                  |                              |               |
 |          |                                                  | 2 = Incorrect                |               |
 |          |                                                  |                              |               |
 |          |                                                  | 8 = Not applicable           |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
+
++----------+--------------------------------------------------+------------------------------+---------------+
 | ds5      | Say:                                             | 1 = Correct                  | [__]          |
-|          |      Please point first to the window and then   |                              |               |
-|          |      to the door.                                | 2 = Incorrect                |               |
+|          |   Please point first to the window and then      |                              |               |
+|          |   to the door.                                   | 2 = Incorrect                |               |
 |          |                                                  |                              |               |
 |          |                                                  | 8 = Not applicable           |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
+
++----------+--------------------------------------------------+------------------------------+---------------+
 | ds6      | Do you remember the three words I asked you to   |                              |               |
 |          | remember a few minutes ago?                      |                              |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+
 +----------+--------------------------------------------------+------------------------------+---------------+
 | ds6a     | CHILD                                            | 1 = Correct                  | [__]          |
 |          |                                                  |                              |               |
@@ -676,11 +692,15 @@ An indicator of probable dementia is derived from this questionnaire component:
 |          |                                                  |                              |               |
 |          |                                                  | 8 = Not applicable           |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
+
++----------+--------------------------------------------------+------------------------------+---------------+
 | ds6b     | HOUSE                                            | 1 = Correct                  | [__]          |
 |          |                                                  |                              |               |
 |          |                                                  | 2 = Incorrect                |               |
 |          |                                                  |                              |               |
 |          |                                                  | 8 = Not applicable           |               |
++----------+--------------------------------------------------+------------------------------+---------------+
+
 +----------+--------------------------------------------------+------------------------------+---------------+
 | ds6c     | ROAD                                             | 1 = Correct                  |               |
 |          |                                                  |                              |               |
@@ -688,6 +708,8 @@ An indicator of probable dementia is derived from this questionnaire component:
 |          |                                                  |                              |               |
 |          |                                                  | 8 = Not applicable           |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
+
+\newpage
 
 The indicator of *probable* dementia is calculated as:
 
