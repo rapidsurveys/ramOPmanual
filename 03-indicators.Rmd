@@ -592,6 +592,8 @@ A score is calculated. This is the *Kessler K6 Psychological Distress Scale*. Th
 
 Indicators of mental health and well-being are calculated as:
 
+\newpage
+
 ```{r indicators19, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/indicators19.png")
 ```
