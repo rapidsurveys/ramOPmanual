@@ -160,6 +160,8 @@ Food-intake indicators are derived from this questionnaire component. This data 
 |          | (hot sauce, soy sauce, ketchup)?                 |                              |               |
 +----------+--------------------------------------------------+------------------------------+---------------+
 
+\newpage
+
 There are three related sets of diet-related indicators:
 
 * meal frequency
@@ -167,8 +169,6 @@ There are three related sets of diet-related indicators:
 * indicators of nutrient consumption.
 
 The indicator hierarchy is:
-
-\newpage
 
 ```{r indicators04, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/indicators04.png")
