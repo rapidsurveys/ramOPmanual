@@ -34,24 +34,6 @@ that you are free to copy and adapt these tools:
 * data entry and data checking software (available in English and French)
 * data analysis software
 
-### Installing
-
-This package is currently in active development in preparation for submission to
-the CRAN repository. The development version of `oldr` can be installed in R
-via the following commands:
-
-```R
-# Install devtools
-# install.packages("devtools")
-devtools::install_github("validmeaures/oldr")
-```
-
-## Built with
-
-* [EpiData](http://www.epidata.dk) for data entry of *pen and paper interviews (PAPI)*
-* [Open Data Kit](https://opendatakit.org) for data collection using electronic mobile devices
-* [R](https://www.r-project.org) and [RAnalyticFlow](http://r.analyticflow.com) for data analysis 
-
 
 ## Authors
 
@@ -60,8 +42,4 @@ devtools::install_github("validmeaures/oldr")
 * Katja Siling
 * Mark Myatt
 
-
-## License
-
-This project is licensed under the GNU Affero General Public License v3.0 - see the [LICENSE](https://github.com/validemeasures/oldr/blob/master/LICENSE) file for details
 
