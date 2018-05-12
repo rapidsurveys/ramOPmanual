@@ -21,25 +21,3 @@ and well-tested indicators and question sets.
 
 * Data analysis performed using modern computer-intensive methods to allow estimates 
 of indicator levels to be made with useful precision using a small sample size.
-
-
-## Getting started
-
-The following tools are currently available under the General Public Licence / Free Documentation License 
-(see [LICENSE](https://github.com/validmeasures/oldr/blob/master/LICENSE)), meaning 
-that you are free to copy and adapt these tools:
-
-* an English language manual / guidebook
-* a questionnaire (available in English and French)
-* data entry and data checking software (available in English and French)
-* data analysis software
-
-
-## Authors
-
-* Pascale Fritsch
-* Ernest Guevarra
-* Katja Siling
-* Mark Myatt
-
-
