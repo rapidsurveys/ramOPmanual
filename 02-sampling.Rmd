@@ -16,7 +16,7 @@ The first stage sample is a systematic spatial sample. Two methods can be used a
 
 * **List-based method:** Communities to be sampled are selected systematically from a complete list of communities in the survey area. This list of communities is sorted by one or more non-overlapping spatial factors such as district and subdistricts within districts:
 
-```{r sample1, echo = FALSE, fig.cap = "Communities listing by district and sub-district", fig.align = "center", fig.pos = "H", fig.retina = 1}
+```{r sample1, echo = FALSE, fig.cap = "Communities listing by district and sub-district", out.width = "80%", fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/listSample1.png")
 ```
 
@@ -50,12 +50,16 @@ The use of implicit stratification improves the efficiency of a two-stage cluste
 
 The following shorthand symbols will be used when describing sample designs:
 
-\begin{align*}
-m &= \text{Number of primary sampling units (PSUs).} \\[2pt]
-n &= \text{Size of the sample of individuals or households from a PSU.} \\[2pt]
-n &= \text{May also mean the overall survey sample size (this meaning will be made clear in the text).} \\[2pt]
-N &= \text{Population}
-\end{align*}
+&nbsp;
+
+$$\begin{aligned}
+m & ~ = ~ \text{Number of primary sampling units (PSUs).} \\[5pt]
+n & ~ = ~ \text{Size of the sample of individuals or households from a PSU.} \\[5pt]
+n & ~ = ~ \text{May also mean the overall survey sample size (this meaning will be made clear in the text).} \\[5pt]
+N & ~ = ~ \text{Population}
+\end{aligned}$$
+
+&nbsp;
 
 The overall sample size for a RAM-OP survey is about $n = 192$ individual subjects. You should aim to collect
 an overall sample of at least $n = 192$ individuals. 
@@ -69,7 +73,11 @@ the communities selected for inclusion in the first stage sample.
 
 The overall sample size from $m = 16$ communities and $n = 12$ eligible subjects is about:
 
+&nbsp;
+
 $$\text{overall sample size} ~ \approx ~ m ~ \times ~ n ~ \approx ~ 16 ~ \times ~ 12 ~ \approx ~ 192$$
+
+&nbsp;
 
 It is not recommended that fewer than $m = 16$ communities are sampled.
 
@@ -79,7 +87,7 @@ Do not be tempted to increase the size of the within-community sample in order t
 
 Here, for example, is a *population pyramid* for a typical developing country:
 
-```{r sample2, echo = FALSE, fig.cap = "Population pyramid for a typical developing country", fig.align = "center", fig.pos = "H", fig.retina = 1}
+```{r sample2, echo = FALSE, fig.cap = "Population pyramid for a typical developing country", out.width = "90%", fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/popPyramid1.png")
 ```
 
@@ -110,7 +118,11 @@ The overall sample size for a RAM-OP sample should be at least $n = 192$ usually
 
 You can calculate the number of older people that you would expect to be living in a community of average size using the following formula:
 
+&nbsp;
+
 $$n_{\text{aged 60+ in an average village}} ~ = ~ \text{average village population}_{\text{all ages}} ~ \times ~ \frac{\text{percentage of population}_{\text{aged 60+}}}{100}$$
+
+&nbsp;
 
 If this is below about 20 people then you should consider how you will collect the required overall sample size. Three approaches may be used:
 
@@ -132,7 +144,11 @@ Below is a worked example of how a RAM-OP first stage, list-based sample can be 
 
 **Step 1:** Calculate the *sampling interval* by dividing the total villages in the survey area (67 villages) with the number of villages to be drawn from the sample (16 villages).
 
+&nbsp;
+
 $$\text{Sampling Interval} ~ = ~ \left \lfloor ~ \frac{N_{\text{villages}}}{N_{\text{sample}}} ~ \right \rfloor ~ = ~ \left \lfloor ~ \frac{67}{16} ~ \right \rfloor ~ \approx ~ \left \lfloor ~ 4.19 ~ \right \rfloor ~ \approx ~ 4$$
+
+&nbsp;
 
 The *sampling interval* needs to be a whole number. Remember to **always** *round down* when calculating the *sampling interval* to the nearest whole number.
 
