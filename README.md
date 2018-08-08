@@ -1,4 +1,4 @@
-# Rapid Assessment Method for Older People (RAM-OP): The Manual <img src="man/figures/op_neg.png" align="right" />
+# Rapid Assessment Method for Older People (RAM-OP): The Manual <img src="figures/op_neg.png" align="right" />
 
 [![Travis-CI Build Status](https://travis-ci.org/rapidsurveys/ramOPmanual.svg?branch=master)](https://travis-ci.org/rapidsurveys/ramOPmanual)
 
