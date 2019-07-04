@@ -1,4 +1,24 @@
-.caption {
+.rmdcaution, .rmdimportant, .rmdnote, .rmdtip, .rmdwarning {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: #f5f5f5 5px center/3em no-repeat;
+}
+.rmdcaution {
+  background-image: url("../images/caution.png");
+}
+.rmdimportant {
+  background-image: url("../images/important.png");
+}
+.rmdnote {
+  background-image: url("../images/note.png");
+}
+.rmdtip {
+  background-image: url("../images/tip.png");
+}
+.rmdwarning {
+  background-image: url("../images/warning.png");
+}
+p.caption {
   color: #777;
   margin-top: 10px;
 }
@@ -12,119 +32,35 @@ pre {
 pre code {
   white-space: inherit;
 }
-.rmdremind {
-  padding: 1em 1em 1em 4em;
-  margin-bottom: 10px;
-  background: #add8e6;
-  background: rgba(204,229,255,0.6);
-  border-radius: 15px;
-  position:relative;
+p.flushright {
+  text-align: right;
 }
-.rmdremind:before {
-    content: "\f0f3";
-    font-family: FontAwesome;
-    left:10px;
-    position:absolute;
-    top:0px;
-    font-size: 45px;
+blockquote > p:last-child {
+  text-align: right;
 }
-.rmdnote {
-  padding: 1em 1em 1em 4em;
-  margin-bottom: 10px;
-  background: #add8e6;
-  background: rgba(204,229,255,0.6);
-  border-radius: 15px;
-  position:relative;
+blockquote > p:first-child {
+  text-align: inherit;
 }
-.rmdnote:before {
-    content: "\f040";
-    font-family: FontAwesome;
-    left:10px;
-    position:absolute;
-    top:0px;
-    font-size: 45px;
+.header-section-number {
+  padding-right: .2em;
+  font-weight: 500;
 }
-.rmdexercise {
-  padding: 1em 1em 1em 4em;
-  margin-bottom: 10px;
-  background: #add8e6;
-  background: #ffffff;
-  border: 5px solid;
-  border-radius: 15px;
-  border-color: #add8e6;
-  position:relative;
+.level1 .header-section-number {
+  display: inline-block;
+  border-bottom: 3px solid;
 }
-.rmdexercise:before {
-    content: "\f15c";
-    font-family: FontAwesome;
-    left:10px;
-    position:absolute;
-    top:0px;
-    font-size: 45px;
+.level1 h1 {
+  border-bottom: 1px solid;
 }
-.rmdinfo {
-  padding: 1em 1em 1em 4em;
-  margin-bottom: 10px;
-  background: #98fb98;
-  background: rgba(152,251,152,0.6);
-  border-radius: 15px;
-  position:relative;
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
 }
-.rmdinfo:before {
-    content: "\f129";
-    font-family: FontAwesome;
-    left:10px;
-    position:absolute;
-    top:0px;
-    font-size: 45px;
+h1.title {
+  font-weight: 700;
 }
-.rmdwarning {
-  padding: 1em 1em 1em 4em;
-  margin-bottom: 10px;
-  background: #ffff00;
-  background: rgba(255,255,0,0.6);
-  border-radius: 15px;
-  position:relative;
+.smallcaps {
+  font-variant: small-caps;
 }
-.rmdwarning:before {
-    content: "\f071";
-    font-family: FontAwesome;
-    left:10px;
-    position:absolute;
-    top:0px;
-    font-size: 45px;
-}
-.rmddownload {
-  padding: 1em 1em 1em 4em;
-  margin-bottom: 10px;
-  background: #ffff00;
-  background: rgba(204,229,255,0.6);
-  border-radius: 15px;
-  position:relative;
-}
-.rmddownload:before {
-    content: "\f019";
-    font-family: FontAwesome;
-    left:10px;
-    position:absolute;
-    top:0px;
-    font-size: 30px;
-}
-.rmdbox {
-  padding: 1em 1em 1em 4em;
-  margin-bottom: 10px;
-  background: #add8e6;
-  background: #ffffff;
-  border: 5px solid;
-  border-radius: 15px;
-  border-color: #add8e6;
-  position:relative;
-}
-.rmdbox:before {
-    content: "\f15c";
-    font-family: FontAwesome;
-    left:10px;
-    position:absolute;
-    top:0px;
-    font-size: 45px;
+.book .book-body .page-wrapper .page-inner section.normal strong {
+  font-weight: 600;
 }
