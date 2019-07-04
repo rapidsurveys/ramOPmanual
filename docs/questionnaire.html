@@ -1,40 +1,40 @@
 <!DOCTYPE html>
-<html >
-
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
 
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Rapid Assessment Method for Older People (RAM-OP): The Manual</title>
-  <meta name="description" content="Rapid assessment method for older people (RAM-OP) manual">
-  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>3 The RAM-OP questionnaire | Rapid Assessment Method for Older People (RAM-OP): The Manual</title>
+  <meta name="description" content="Rapid assessment method for older people (RAM-OP) manual" />
+  <meta name="generator" content="bookdown 0.11 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Rapid Assessment Method for Older People (RAM-OP): The Manual" />
+  <meta property="og:title" content="3 The RAM-OP questionnaire | Rapid Assessment Method for Older People (RAM-OP): The Manual" />
   <meta property="og:type" content="book" />
-  <meta property="og:url" content="https://validmeasures.org/ramOPmanual" />
-  <meta property="og:image" content="https://validmeasures.org/ramOPmanualfigures/coverImage.jpg" />
+  <meta property="og:url" content="https://rapidsurveys.io/ramOPmanual" />
+  <meta property="og:image" content="https://rapidsurveys.io/ramOPmanualfigures/coverImage.jpg" />
   <meta property="og:description" content="Rapid assessment method for older people (RAM-OP) manual" />
-  <meta name="github-repo" content="validmeasures/ramOPmanual" />
+  <meta name="github-repo" content="rapidsurveys/ramOPmanual" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Rapid Assessment Method for Older People (RAM-OP): The Manual" />
+  <meta name="twitter:title" content="3 The RAM-OP questionnaire | Rapid Assessment Method for Older People (RAM-OP): The Manual" />
   
   <meta name="twitter:description" content="Rapid assessment method for older people (RAM-OP) manual" />
-  <meta name="twitter:image" content="https://validmeasures.org/ramOPmanualfigures/coverImage.jpg" />
+  <meta name="twitter:image" content="https://rapidsurveys.io/ramOPmanualfigures/coverImage.jpg" />
 
-<meta name="author" content="Pascale Fritsch, Ernest Guevarra, Katja Siling, Mark Myatt">
+<meta name="author" content="Pascale Fritsch, Ernest Guevarra, Katja Siling, Mark Myatt" />
 
 
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
 <link rel="prev" href="indicators.html">
 <link rel="next" href="datasets.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
@@ -49,20 +49,26 @@
 
 
 <style type="text/css">
-a.sourceLine { display: inline-block; min-height: 1.25em; }
+a.sourceLine { display: inline-block; line-height: 1.25; }
 a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
 @media print {
 code.sourceCode { white-space: pre-wrap; }
 a.sourceLine { text-indent: -1em; padding-left: 1em; }
 }
 pre.numberSource a.sourceLine
-  { position: relative; }
+  { position: relative; left: -4em; }
 pre.numberSource a.sourceLine::before
   { content: attr(data-line-number);
-    position: absolute; left: -5em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all;
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -70,38 +76,39 @@ pre.numberSource a.sourceLine::before
     color: #aaaaaa;
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-pre, code { background-color: #f8f8f8; }
+div.sourceCode
+  { background-color: #f8f8f8; }
 @media screen {
-a.sourceLine::before { text-decoration: underline; color: initial; }
+a.sourceLine::before { text-decoration: underline; }
 }
-code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code span.al { color: #ef2929; } /* Alert */
+code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #c4a000; } /* Attribute */
+code span.bn { color: #0000cf; } /* BaseN */
+code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4e9a06; } /* Char */
+code span.cn { color: #000000; } /* Constant */
+code span.co { color: #8f5902; font-style: italic; } /* Comment */
+code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
 code span.dt { color: #204a87; } /* DataType */
 code span.dv { color: #0000cf; } /* DecVal */
-code span.bn { color: #0000cf; } /* BaseN */
-code span.fl { color: #0000cf; } /* Float */
-code span.ch { color: #4e9a06; } /* Char */
-code span.st { color: #4e9a06; } /* String */
-code span.co { color: #8f5902; font-style: italic; } /* Comment */
-code span.ot { color: #8f5902; } /* Other */
-code span.al { color: #ef2929; } /* Alert */
-code span.fu { color: #000000; } /* Function */
 code span.er { color: #a40000; font-weight: bold; } /* Error */
-code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
-code span.cn { color: #000000; } /* Constant */
-code span.sc { color: #000000; } /* SpecialChar */
-code span.vs { color: #4e9a06; } /* VerbatimString */
-code span.ss { color: #4e9a06; } /* SpecialString */
-code span.im { } /* Import */
-code span.va { color: #000000; } /* Variable */
-code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
-code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
-code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
 code span.ex { } /* Extension */
-code span.at { color: #c4a000; } /* Attribute */
-code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
-code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
-code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.fl { color: #0000cf; } /* Float */
+code span.fu { color: #000000; } /* Function */
+code span.im { } /* Import */
 code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code span.ot { color: #8f5902; } /* Other */
+code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code span.sc { color: #000000; } /* SpecialChar */
+code span.ss { color: #4e9a06; } /* SpecialString */
+code span.st { color: #4e9a06; } /* String */
+code span.va { color: #000000; } /* Variable */
+code span.vs { color: #4e9a06; } /* VerbatimString */
+code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -208,7 +215,7 @@ code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Infor
 
             <section class="normal" id="section-">
 <div id="questionnaire" class="section level1">
-<h1><span class="header-section-number">Chapter 3</span> The RAM-OP questionnaire</h1>
+<h1><span class="header-section-number">3</span> The RAM-OP questionnaire</h1>
 <p>Modules of the RAM-OP questionnaire are presented in the <a href="indicators.html#indicators"><strong>RAM-OP indicators</strong></a> section of this manual.
 The entire RAM-OP questionnaire is presented in the following pages. This questionnaire is composed of many tested and validated components. The order of the questions and the format of the questionnaire have been tested in several settings (Chad, Dadaab Camps, South Sudan, Ethiopia, and Tanzania) over a period of three years. It is strongly recommended that you do <strong>not</strong> change the questionnaire, other than translating it into a language other than English and necessary localisation (i.e. adapting the questions to meet the language, cultural, and other requirements of a specific target population in order to ensure that the words, names, terms, and concepts used are culturally appropriate and understandable to them), unless you are very sure of what you are doing. Modifying the questionnaire may have one or more of the following consequences:</p>
 <ul>
@@ -246,13 +253,13 @@ The entire RAM-OP questionnaire is presented in the following pages. This questi
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
-"github": false,
-"facebook": true,
-"twitter": true,
+"github": true,
+"facebook": false,
+"twitter": false,
 "google": false,
 "linkedin": false,
 "weibo": false,
-"instapper": false,
+"instapaper": false,
 "vk": false,
 "all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
 },
@@ -262,6 +269,10 @@ gitbook.start({
 "size": 2
 },
 "edit": {
+"link": null,
+"text": null
+},
+"history": {
 "link": null,
 "text": null
 },
@@ -279,7 +290,7 @@ gitbook.start({
     var script = document.createElement("script");
     script.type = "text/javascript";
     var src = "true";
-    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
     if (location.protocol !== "file:" && /^https?:/.test(src))
       src = src.replace(/^https?:/, '');
     script.src = src;

@@ -447,7 +447,7 @@ These are standard case definitions for acute malnutrition in adults and recomme
 
 \newpage
 
-```{block2, type = "rmdbox"}
+```{block2, type = "rmdnote"}
 An estimate of GAM prevalence can be made using a classic estimator:
 
 $$\text{prevalence} = \frac{\text{number of respondents with MUAC < 210 mm}}{\text{total number of respondents}}$$

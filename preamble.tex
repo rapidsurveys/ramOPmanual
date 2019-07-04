@@ -1,81 +1,90 @@
 \usepackage{booktabs}
 \usepackage{color}
-\usepackage{tcolorbox}
 \usepackage{float}
 \usepackage{setspace}
-
-\onehalfspacing
+\usepackage{longtable}
 
 \graphicspath{ {images/} }
 
-\newenvironment{rmdremind}
-  {\begin{tcolorbox}[width=\textwidth, 
-                     colback = {white}, 
-                     title = {\textbf{Remember}}, 
-                     colbacktitle = lightgray,
-                     coltitle = black]
-  \begin{includegraphics}[scale = 1]{remind.png}
-  \begin{itemize}}
-  {\end{itemize}
-  \end{includegraphics}
-  \end{tcolorbox}}
+\usepackage{framed,color}
+\definecolor{shadecolor}{RGB}{248,248,248}
 
+\renewcommand{\textfraction}{0.05}
+\renewcommand{\topfraction}{0.8}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\floatpagefraction}{0.75}
+
+\renewenvironment{quote}{\begin{VF}}{\end{VF}}
+\let\oldhref\href
+\renewcommand{\href}[2]{#2\footnote{\url{#1}}}
+
+\ifxetex
+  \usepackage{letltxmacro}
+  \setlength{\XeTeXLinkMargin}{1pt}
+  \LetLtxMacro\SavedIncludeGraphics\includegraphics
+  \def\includegraphics#1#{% #1 catches optional stuff (star/opt. arg.)
+    \IncludeGraphicsAux{#1}%
+  }%
+  \newcommand*{\IncludeGraphicsAux}[2]{%
+    \XeTeXLinkBox{%
+      \SavedIncludeGraphics#1{#2}%
+    }%
+  }%
+\fi
+
+\makeatletter
+\newenvironment{kframe}{%
+\medskip{}
+\setlength{\fboxsep}{.8em}
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\makeatletter
+\@ifundefined{Shaded}{
+}{\renewenvironment{Shaded}{\begin{kframe}}{\end{kframe}}}
+\makeatother
+
+\newenvironment{rmdblock}[1]
+  {
+  \begin{itemize}
+  \renewcommand{\labelitemi}{
+    \raisebox{-.7\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=3em,keepaspectratio}\includegraphics{images/#1}}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{kframe}
+  \item
+  }
+  {
+  \end{kframe}
+  \end{itemize}
+  }
 \newenvironment{rmdnote}
-  {\begin{tcolorbox}[width=\textwidth, 
-                     colback = {white}, 
-                     title = {\textbf{Note}}, 
-                     colbacktitle = lightgray,
-                     coltitle = black]
-  \begin{includegraphics}[scale = 1]{pencil.png}}
-  {\end{includegraphics}
-  \end{tcolorbox}}
-  
-\newenvironment{rmdexercise}
-  {\begin{tcolorbox}[width=\textwidth, 
-                     colback = {white}, 
-                     title = {\textbf{Exercise}}, 
-                     colbacktitle = lightgray,
-                     coltitle = black]
-  \begin{includegraphics}[scale = 1]{exercise.png}}
-  {\end{includegraphics}
-  \end{tcolorbox}}
-  
-\newenvironment{rmdbox}
-  {\begin{tcolorbox}[width=\textwidth, 
-                     colback = {white}, 
-                     title = {\textbf{Exercise}}, 
-                     colbacktitle = lightgray,
-                     coltitle = black]
-  \begin{includegraphics}[scale = 1]{pencil.png}}
-  {\end{includegraphics}
-  \end{tcolorbox}}
-  
-\newenvironment{rmdinfo}
-  {\begin{tcolorbox}[width=\textwidth, 
-                     colback = {white}, 
-                     title = {\textbf{Info}}, 
-                     colbacktitle = lightgray,
-                     coltitle = black]
-  \begin{includegraphics}[scale = 1]{info.png}}
-  {\end{includegraphics}
-  \end{tcolorbox}}  
-  
+  {\begin{rmdblock}{note}}
+  {\end{rmdblock}}
+\newenvironment{rmdcaution}
+  {\begin{rmdblock}{caution}}
+  {\end{rmdblock}}
+\newenvironment{rmdimportant}
+  {\begin{rmdblock}{important}}
+  {\end{rmdblock}}
+\newenvironment{rmdtip}
+  {\begin{rmdblock}{tip}}
+  {\end{rmdblock}}
 \newenvironment{rmdwarning}
-  {\begin{tcolorbox}[width=\textwidth, 
-                     colback = {white}, 
-                     title = {\textbf{Warning}}, 
-                     colbacktitle = lightgray,
-                     coltitle = black]
-  \begin{includegraphics}[scale = 1]{warning.png}}
-  {\end{includegraphics}
-  \end{tcolorbox}}
-
-\newenvironment{rmddownload}
-  {\begin{tcolorbox}[width=\textwidth, 
-                     colback = {white}, 
-                     title = {\textbf{Download}}, 
-                     colbacktitle = lightgray,
-                     coltitle = black]
-  \begin{includegraphics}[scale = 1]{download.png}}
-  {\end{includegraphics}
-  \end{tcolorbox}}
+  {\begin{rmdblock}{warning}}
+  {\end{rmdblock}}

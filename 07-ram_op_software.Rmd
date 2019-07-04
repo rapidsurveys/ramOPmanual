@@ -19,13 +19,13 @@ This manual covers analysing your data using the **RAnalyticFlow** workflow. An 
 To use the **RAnalyticFlow** workflow you must install:
 
 * **The *R Language for Data-Analysis and Graphics* (R)** : This is the *“engine”* which does all the
-work of analysing your data. You can get the R installation program from: [http://cran.r-project.org](http://cran.r-project.org). Following are links to download operating sofware-specific versions of R:
+work of analysing your data. You can get the R installation program from: [http://cran.r-project.org](http://cran.r-project.org). Following are links to download operating software-specific versions of R:
 
    * [Download R for Linux](https://cran.r-project.org/bin/linux/)
 
    * [Download R for (Mac) OS X](https://cran.r-project.org/bin/macosx/)
 
-   * [Download R for Windowx](https://cran.r-project.org/bin/windows/)
+   * [Download R for Windows](https://cran.r-project.org/bin/windows/)
 
 * **R packages** (libraries of functions needed to work with the **RAnalyticFlow** workflow) : You can install these from within **R** using the Package Installer function within R. The libraries needed are:
 
@@ -55,7 +55,7 @@ install.packages(c("rJava", "JavaGD", "codetools",
                    repos = "https://cloud.r-project.org/")
 ```
 
-The `repos` argument in the R command above specifies the CRAN mirror from which you to download the package/s you want to install. Here we specify the cloud-based mirror for CRAN provided by RStudio. If unspecified, the installiation process will prompt you to select a mirror from which to download packages from. If you already know the URL of the CRAN mirror you want to use, specify this in the `repos` argument. 
+The `repos` argument in the R command above specifies the CRAN mirror from which you to download the package/s you want to install. Here we specify the cloud-based mirror for CRAN provided by RStudio. If unspecified, the installation process will prompt you to select a mirror from which to download packages from. If you already know the URL of the CRAN mirror you want to use, specify this in the `repos` argument. 
 
 Note that **RAnalyticFlow** may require you to have **Java** installed. Check the instructions on the **RAnalyticFlow** [download page](http://r.analyticflow.com/en/download/) and on this [starter guide](http://download.ef-prime.com/ranalyticflow/3.1.5/readme.html).
 
@@ -98,7 +98,7 @@ Before you start work you will need to create a project for your survey:
 
 2. Give your project a useful (i.e. descriptive and memorable) name. This might be a name that describes the survey. For example, if the survey was done in the Kereinik locality of West Darfur in December 2015 you might use the name **WD.Kereinik.Dec2015.RAMOP**
 
-3. Give the location of your project directory or project folder. This is the directory or folder which contains your survey data file, your PSU file, the RAM-OP language file, and a copy of **RAMOP.rflow** (see previous page). The location of the project directory or project folder (labeled “Path” by the software) that **RAnalyticFlow** selects automatically will almost always be wrong. You need to specify this manually.
+3. Give the location of your project directory or project folder. This is the directory or folder which contains your survey data file, your PSU file, the RAM-OP language file, and a copy of **RAMOP.rflow** (see previous page). The location of the project directory or project folder (labelled “Path” by the software) that **RAnalyticFlow** selects automatically will almost always be wrong. You need to specify this manually.
 
 4. Click the **OK** button
 
@@ -120,7 +120,7 @@ knitr::include_graphics("figures/runWorkflowRAF.png")
 
 Once this is done, you should:
 
-1. Retrieve your survey data. This can be in EpiDat (REC) format or CSV format. Select and run the
+1. Retrieve your survey data. This can be in EpiData (REC) format or CSV format. Select and run the
 appropriate **Survey Data** node and select the survey data file.
 
 2. Retrieve the PSU date data. Select and run the **PSU Data** node and select your PSU file.

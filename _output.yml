@@ -3,6 +3,8 @@ bookdown::gitbook:
   css: style.css
   fig_caption: yes
   split_by: chapter
+  #includes:
+  #  in_header: google_analytics.html
   config:
     toc:
       collapse: section
@@ -11,6 +13,10 @@ bookdown::gitbook:
       after: |
         <li></li>
     download: ["pdf", "epub"]
+    sharing:
+      github: yes
+      facebook: no
+      twitter: no
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
@@ -18,4 +24,8 @@ bookdown::pdf_book:
   citation_package: natbib
   keep_tex: yes
   fig_caption: yes
-bookdown::epub_book: default
+  toc_depth: 3
+  toc_unnumbered: no
+  toc_appendix: yes
+bookdown::epub_book:
+  stylesheet: style.css

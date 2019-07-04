@@ -114,7 +114,7 @@ aged 50 years or older” or “persons aged 55 years or older”.
 
 The age distribution of the population and the survey eligibility criteria will affect the sample design in terms of the number of communities that you will need to sample ($m$) and the number of older persons ($n$) that can be sampled from each community.
 
-The overall sample size for a RAM-OP sample should be at least $n = 192$ usually collected as $n = 12$ eligible subjects sampled from $m = 16$ communities. If older people make up a very small proportion (i.e. much less than 5%) of the total population and / or the average population of communities is small then you will usually need to sample more than m = 16 communities in order to get about $n = 192$ older people in the overall sample. This is likely to occur when there are fewer than 20 to 25 older people in a community of average size.
+The overall sample size for a RAM-OP sample should be at least $n = 192$ usually collected as $n = 12$ eligible subjects sampled from $m = 16$ communities. If older people make up a very small proportion (i.e. much less than 5%) of the total population and / or the average population of communities is small then you will usually need to sample more than $m = 16$ communities in order to get about $n = 192$ older people in the overall sample. This is likely to occur when there are fewer than 20 to 25 older people in a community of average size.
 
 You can calculate the number of older people that you would expect to be living in a community of average size using the following formula:
 
@@ -164,7 +164,7 @@ RANDBETWEEN(1, 4)
 
 &nbsp;
 
-**Step 3:** Using the *random starting point* and the *sampling interval*, select the sampling villages from a list of all villages organised/sorted by a **non-overalapping** spatial factor such as district or sub-district.
+**Step 3:** Using the *random starting point* and the *sampling interval*, select the sampling villages from a list of all villages organised/sorted by a **non-overlapping** spatial factor such as district or sub-district.
 
 \newpage
 

@@ -3,3 +3,4 @@
 ^\.travis\.yml$
 ^netlify\.toml$
 ^appveyor\.yml$
+^LICENSE\.md$
