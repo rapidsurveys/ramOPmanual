@@ -1,8 +1,4 @@
-# Rapid Assessment Method for Older People (RAM-OP): The Manual <img src="figures/ramOP.png" width="200px" align="right" />
-
-[![Travis-CI Build Status](https://travis-ci.org/rapidsurveys/ramOPmanual.svg?branch=master)](https://travis-ci.org/rapidsurveys/ramOPmanual)
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/rapidsurveys/ramOPmanual?branch=master&svg=true)](https://ci.appveyor.com/project/rapidsurveys/ramOPmanual)
-[![DOI](https://zenodo.org/badge/125880132.svg)](https://zenodo.org/badge/latestdoi/125880132)
+# Rapid Assessment Method for Older People (RAM-OP): The Manual <img src="images/rapidsurveys.png" width="200px" align="right" />
 
 [HelpAge International](http://www.helpage.org), [VALID International](http://www.validinternational.org), and [Brixton Health](http://www.brixtonhealth.com), with financial assistance from the [Humanitarian Innovation Fund (HIF)](http://www.elrha.org/hif/home/), have developed a **Rapid Assessment Method for Older People (RAM-OP)** that provides accurate and reliable estimates of the needs of older people. The method uses simple procedures, in a short time frame (i.e. about two weeks including training, data collection, data entry, and data analysis), and at considerably lower cost than other methods. The **RAM-OP** method is based on the following principles:
 
