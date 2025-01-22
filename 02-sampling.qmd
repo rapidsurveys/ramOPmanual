@@ -205,7 +205,7 @@ List-based vs map-based sampling
 **Note:** In this example twenty-one (21) blocks have been selected. It can be difficult to achieve exactly the number of blocks that you need when using this type of sample. It is best to select more rather than fewer blocks than you need
 Here we would take our sample as $n = 10$ individuals from $m = 21$ blocks (overall $n = 210$).
 
-### The second stage (within-community) sample {#sec-second-stage-sample}
+### The second stage (within-community) sample {#sec-second-stage-within-community-sample}
 
 The second stage (within-community) sample uses a map-segment-sample approach:
 
