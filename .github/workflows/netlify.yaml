@@ -1,4 +1,4 @@
-name: Test book render
+name: test book render
 
 on:
   pull_request:
