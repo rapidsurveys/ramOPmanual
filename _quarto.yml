@@ -1,0 +1,46 @@
+project:
+  type: book
+  output-dir: _site
+
+book:
+  title: Rapid Assessment Method for Older People (RAM-OP)
+  subtitle: The Manual
+  author:
+    - Pascale Fritsch
+    - Ernest Guevarra
+    - Katja Siling
+    - Mark Myatt
+  date: last-modified
+  date-format: "DD MMMM YYYY"
+  chapters:
+    - index.qmd
+    - 02-sampling.qmd
+    - 03-indicators.qmd
+    - 04-questionnaire.qmd
+    - 05-datasets.qmd
+    - 06-practical.qmd
+    - 07-ram_op_software.qmd
+    - 08-conclusion.qmd
+    - 09-references.qmd
+  cover-image: figures/coverImage.jpg
+  search: true
+  repo-url: https://github.com/rapidsurveys/ramOPmanual/
+  repo-actions: [edit]
+  downloads: [pdf, epub]
+  #sharing: [mastodon, bluesky, linkedin]
+  google-analytics: 
+    tracking-id: "G-SE438KE5DS"
+    anonymize-ip: true
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    highlight-style: breeze
+  # pdf:
+  #   documentclass: scrreprt
+  #   highlight-style: breeze
+  # epub:
+  #   cover-image: figures/coverImage.jpg
+  #   highlight-style: breeze
