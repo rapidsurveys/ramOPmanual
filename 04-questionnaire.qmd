@@ -1,3 +1,7 @@
+---
+output-file: questionnaire.html
+---
+
 # The RAM-OP questionnaire {#questionnaire}
 
 Modules of the RAM-OP questionnaire are presented in the [**RAM-OP indicators**](#indicators) section of this manual. 

@@ -1,3 +1,7 @@
+---
+output-file: sampling.html
+---
+
 # Sampling {#sec-sampling}
 
 ## The RAM-OP sample {#sec-ram-op-sample}

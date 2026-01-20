@@ -1,3 +1,7 @@
+---
+output-file: indicators.html
+---
+
 # Indicators {#sec-indicators}
 
 ## The RAM-OP indicator set {#sec-ram-op-indicator-set}

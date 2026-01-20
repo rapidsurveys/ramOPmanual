@@ -6,6 +6,13 @@ book:
   title: Rapid Assessment Method for Older People (RAM-OP)
   subtitle: The Manual
   author:
+    name:
+      given: Pascale
+      family: Fritsch
+      literal: Pascale Fritsch
+    url: https://www.linkedin.com/in/pascale-fritsch-b5003a48/?originalSubdomain=uk
+    affiliations: 
+      # see schema below
     - Pascale Fritsch
     - Ernest Guevarra
     - Katja Siling
@@ -19,7 +26,7 @@ book:
     - 04-questionnaire.qmd
     - 05-datasets.qmd
     - 06-practical.qmd
-    - 07-ram_op_software.qmd
+    - 07-software.qmd
     - 08-conclusion.qmd
     - 09-references.qmd
   cover-image: figures/coverImage.jpg

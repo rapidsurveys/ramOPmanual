@@ -1,3 +1,7 @@
+---
+output-file: practical.html
+---
+
 # Practical Fieldwork {#practical}
 
 This section is intended to guide you through the different steps leading up to the fieldwork once the survey location has been identified, and gives some tips on how the fieldwork might be organised.

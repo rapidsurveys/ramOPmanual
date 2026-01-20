@@ -1,3 +1,7 @@
+---
+output-file: datasets.html
+---
+
 # Datasets {#datasets}
 
 This section details the RAM-OP datasets. The information presented here is of most use if you decide not to use the RAM-OP data entry and data checking software. You might, for example, decide to enter survey data using spreadsheet software such as Microsoft Excel. If you do this and want to use the RAM-OP data analysis software then you will need to export the data as a comma-separated-value (CSV) file with the same variable names, variable types and lengths, and using the same codes as shown in the tables in this section. For the main RAM-OP survey dataset these are the same variable names, variable types, variable lengths, codes, and in the same order as shown on the standard RAM-OP questionnaire.
