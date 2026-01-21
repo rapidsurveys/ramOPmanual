@@ -19,20 +19,13 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.1342015
 preferred-citation:
-  authors:
-    - family-names: Fritsch
-      given-names: Pascale
-    - family-names: Guevarra
-      given-names: Ernest
-    - family-names: Siling
-      given-names: Katja
-    - family-names: Myatt
-      given-names: Mark 
-  title: "Rapid Assessment Method for Older People (RAM-OP): A Manual"
   type: book
-  year: 2017
-  identifiers:
-    type: ISBN
-    value: 978-1-910743-20-1
-  publisher:
-    name: HelpAge International
+  title: "Rapid Assessment Method for Older People (RAM-OP): A Manual"
+  authors:
+  - name: Pascale Fritsch
+  - name: Ernest Guevarra
+  - name: Katja Siling
+  - name: Mark Myatt
+  year: "2017"
+  note: ISBN 978-1-910743-20-1
+  publisher: HelpAge International
