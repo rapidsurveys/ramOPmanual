@@ -24,16 +24,14 @@ jobs:
         with:
           tinytex: true
 
-      - name: Install Chromium
-        run: quarto install chromium
-
       - name: Install packages from renv.lock (with cache)
         if: ${{ !env.ACT }}  
         uses: r-lib/actions/setup-renv@v2
         with:
           cache-version: 2
 
-      - name: Install packages from renv.lock (local, no cache)
+           - name: Install Chromium
+        run: quarto install chromium - name: Install packages from renv.lock (local, no cache)
         if: ${{ env.ACT }}  
         run: |
           renv::restore()
