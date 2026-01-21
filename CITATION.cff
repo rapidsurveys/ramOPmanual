@@ -32,7 +32,7 @@ preferred-citation:
   type: book
   year: 2017
   identifiers:
-    type: ISBN
-    value: 978-1-910743-20-1
+    type: other
+    value: ISBN 978-1-910743-20-1
   publisher:
     name: HelpAge International
