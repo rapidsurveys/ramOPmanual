@@ -20,14 +20,14 @@ identifiers:
     value: 10.5281/zenodo.1342015
 preferred-citation:
   authors:
-  - family-names: Fritsch
-    given-names: Pascale
-  - family-names: Guevarra
-    given-names: Ernest
-  - family-names: Siling
-    given-names: Katja
-  - family-names: Myatt
-    given-names: Mark 
+    - family-names: Fritsch
+      given-names: Pascale
+    - family-names: Guevarra
+      given-names: Ernest
+    - family-names: Siling
+      given-names: Katja
+    - family-names: Myatt
+      given-names: Mark 
   title: "Rapid Assessment Method for Older People (RAM-OP): A Manual"
   type: book
   year: 2017

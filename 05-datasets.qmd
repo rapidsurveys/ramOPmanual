@@ -2,7 +2,7 @@
 output-file: datasets.html
 ---
 
-# Datasets {#sec-datasets}
+# Datasets {#sec-05}
 
 This section details the RAM-OP datasets.
 The information presented here is of most use if you decide not to use the RAM-OP data entry and data checking software.
@@ -18,7 +18,7 @@ There are **two** RAM-OP datasets:
 2.  **The PSU dataset** : This a short and narrow file with one record per PSU and just two variables:
 
 |  |  |
-|-----------------|-------------------------------------------------------|
+|--------------------|----------------------------------------------------|
 | **psu** | The PSU identifier. This **must** use the same coding system used to identify PSUs that is used in the main RAM-OP dataset. |
 | **pop** | The population of the PSU. |
 
@@ -36,7 +36,7 @@ Relative population sizes can be used.
 If no better data is available then it is reasonable to use a simple semi-quantitative assessment such as:
 
 | **Type of place** | **Population** **range** | **Features** | **Record** **population** **as ...** |
-|:-----------------|:----------------:|:------------------|:----------------:|
+|:----------------|:---------------:|:----------------|:---------------------:|
 | Hamlet | $<$ 1,000 | Very small local market or no market | 1 |
 |  |  |  |  |
 | Village | 1,000 – 4,000 | Market and small shops serving the village and the surrounding hamlets | 2 |
@@ -71,6 +71,6 @@ If you use a spreadsheet application then you will have to be careful:
     A CSV file should contain only plain text, number, and commas without formatting.
     Do **not** use a word processor application such as **Microsoft Word™** to create or edit a CSV file.
 
-If you have problems using a CSV file then you should check and edit the file using a plain text-editor such as **Notepad** or a dedicated CSV editor such as Ron's Editor (http://www.ronsplace.eu/Products/RonsEditor)
+If you have problems using a CSV file then you should check and edit the file using a plain text-editor such as **Notepad** or a dedicated CSV editor such as [Ron's Editor](http://www.ronsplace.eu/Products/RonsEditor).
 
 Remember to backup your data before editing it.

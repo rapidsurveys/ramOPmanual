@@ -2,9 +2,9 @@
 output-file: sampling.html
 ---
 
-# Sampling {#sec-sampling}
+# Sampling {#sec-02}
 
-## The RAM-OP sample {#sec-ram-op-sample}
+## The RAM-OP sample {#sec-02-01}
 
 RAM-OP uses a two-stage sample:
 
@@ -14,7 +14,7 @@ A sampled community is also called a primary sampling unit (PSU).
 **Second stage sample:** Domestic dwellings are sampled from within the communities selected in the first stage sample.
 All eligible individuals in the sampled dwelling are included in the sample.
 
-### The first-stage sample {#sec-first-stage-sample}
+### The first-stage sample {#sec-02-01-01}
 
 The first stage sample is a systematic spatial sample.
 Two methods can be used and both methods take the sample from all parts of the survey area:
@@ -31,12 +31,12 @@ Population estimates are required only for the selected communities.
 These are used during data analysis in order to weight results by population size.
 If this information is not available before the survey, it can be collected during the survey.
 
-### The second stage sample {#sec-second-stage-sample}
+### The second stage sample {#sec-02-01-02}
 
 The second stage within-community sample uses a method called map-segment-sample.
 This method takes the within-community sample from all parts of a sampled community.
 
-## Implicit stratification {#sec-implicit-stratification}
+## Implicit stratification {#sec-02-02}
 
 Both the first and second stage samples use a form of spatial stratification:
 
@@ -56,7 +56,7 @@ The use of modern computer-intensive data analysis techniques also allows RAM-OP
 
 \newpage
 
-## RAM-OP survey sample size {#sec-ram-op-sample-size}
+## RAM-OP survey sample size {#sec-02-03}
 
 The following shorthand symbols will be used when describing sample designs:
 
@@ -105,7 +105,7 @@ Here, for example, is a *population pyramid* for a typical developing country:
 If the average community population is $N = 300$ then there will be fewer than 15 people aged 60 years and older in about half of the selected communities.
 This is because about half of the selected communities are likely to have a population below the average population.
 
-## Eligibility {#sec-eligibility}
+## Eligibility {#sec-02-04}
 
 Older people are usual defined as persons aged 60 years and older (UN definition).
 This means your sample will usually be restricted to people aged 60 years and older.
@@ -124,7 +124,7 @@ For example:
 It is common in such setting for there to be a local definition of older people.
 This will usually be **"persons aged 50 years or older"** or **"persons aged 55 years or older"**.
 
-## Age distribution, eligibility criteria, and sample design {#sec-age-distribution}
+## Age distribution, eligibility criteria, and sample design {#sec-02-05}
 
 The age distribution of the population and the survey eligibility criteria will affect the sample design in terms of the number of communities that you will need to sample ($m$) and the number of older persons ($n$) that can be sampled from each community.
 
@@ -157,9 +157,9 @@ Three approaches may be used:
 
 If the proportion of older people is not very small and / or communities are large then you should have no problems achieving the overall sample size.
 
-## Practical sampling {#sec-practical-sampling}
+## Practical sampling {#sec-02-06}
 
-### The first stage sample - list-based sampling {#sec-first-stage-list-based}
+### The first stage sample - list-based sampling {#sec-02-06-01}
 
 The first stage sample can be drawn from a list of all communities.
 The list-based sample is a simple systematic sample taken from a complete list of communities in the survey area sorted by one or more non- overlapping spatial factors (such as administrative units or electoral wards) in the survey area.
@@ -200,7 +200,7 @@ RANDBETWEEN(1, 4)
 
 \newpage
 
-### The first stage sample - map-based sampling {#sec-first-stage-map-based}
+### The first stage sample - map-based sampling {#sec-02-06-02}
 
 An alternative approach to list-based sampling is to use map-based sampling.
 The map-based (CSAS) sample selects communities from the centre of squares of a grid drawn over a map.
@@ -248,7 +248,7 @@ List-based vs map-based sampling
 It can be difficult to achieve exactly the number of blocks that you need when using this type of sample.
 It is best to select more rather than fewer blocks than you need Here we would take our sample as $n = 10$ individuals from $m = 21$ blocks (overall $n = 210$).
 
-### The second stage (within-community) sample {#sec-second-stage-within-community-sample}
+### The second stage (within-community) sample {#sec-02-06-03}
 
 The second stage (within-community) sample uses a map-segment-sample approach:
 
@@ -272,7 +272,7 @@ Here is an example of a cluster of dwellings:
 
 **Note:** If a small community is selected that is likely to have fewer than the required number of eligible persons then **all** eligible persons in that community are sampled by moving door-to-door.
 
-### Mapping the community - single and multiple clusters {#sec-mapping-community-clusters}
+### Mapping the community - single and multiple clusters {#sec-02-06-04}
 
 Some communities consist of a single cluster of dwellings:
 
@@ -284,7 +284,7 @@ or a set of clusters of dwellings:
 
 For communities (or parts of communities) structured in this way we use a sampling method called the **random walk**.
 
-### Mapping the community - ribbon communities {#sec-mapping-ribbon}
+### Mapping the community - ribbon communities {#sec-02-06-05}
 
 Ribbon communities have dwellings arranged in a line:
 
@@ -296,7 +296,7 @@ or in several lines:
 
 For communities (or parts of communities) structured in this way we use a sampling method called **systematic sampling**.
 
-### Mapping the community - mixed communities {#sec-mapping-mixed}
+### Mapping the community - mixed communities {#sec-02-06-06}
 
 Some communities are a mixture of clusters and ribbons:
 
@@ -307,7 +307,7 @@ For mixed communities we use a mixture of the **random walk** method (in the clu
 **Segmentation** involves dividing a community into several parts and taking part of the within-community sample from each **segment**.
 With simple communities, segmentation is not required and we take a single sample from the entire community using the appropriate sampling method.
 
-### Segmentation {#sec-segmentation}
+### Segmentation {#sec-02-06-07}
 
 For more complicated communities we divide the community into several parts or segments, such as a community made up of several clusters:
 
@@ -342,7 +342,7 @@ This is because clusters and ribbons are sampled in different ways.
 A dwelling can only belong to one segment.
 Segments should **not** overlap.
 
-### Sample dwellings {#sec-sample-dwellings}
+### Sample dwellings {#sec-02-06-08}
 
 **All** segments should be sampled.
 
@@ -364,7 +364,7 @@ Remember that different types of segment are sampled in different ways:
 
 We will look at each of these sampling methods in turn.
 
-### Random walk sampling {#sec-random-walk-sampling}
+### Random walk sampling {#sec-02-06-09}
 
 The **random walk** method is used to sample dwellings in **cluster segments**.
 Sampling proceeds as follows:
@@ -400,7 +400,7 @@ The random walk method is illustrated in @fig-sample22.
 
 ![Random walk sampling in a cluster](figures/stage2sample8.png){#fig-sample22 fig-alt="Random walk sampling in a cluster segment" fig-align="center" width="70%"}
 
-### Systematic sampling {#sec-systematic-sampling}
+### Systematic sampling {#sec-02-06-10}
 
 The **systematic sampling** method is used to sample houses in **ribbon segments**.
 
@@ -437,7 +437,7 @@ The systematic sampling method is illustrated in @fig-sample23.
 
 ![Systematic sampling in a ribbon segment](figures/stage2sample9.png){#fig-sample23 fig-alt="Systematic sampling in a ribbon segment" fig-align="center" width="70%"}
 
-### Sampling in urban settings {#sec-sampling-urban}
+### Sampling in urban settings {#sec-02-06-11}
 
 In urban areas the first stage sample is taken by replacing sub-districts with "sections" and communities with city blocks.
 Examples of sections may be administrative districts/sub-districts or electoral wards.
