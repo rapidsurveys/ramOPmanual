@@ -30,8 +30,7 @@ jobs:
         with:
           cache-version: 2
 
-           - name: Install Chromium
-        run: quarto install chromium - name: Install packages from renv.lock (local, no cache)
+      - name: Install packages from renv.lock (local, no cache)
         if: ${{ env.ACT }}  
         run: |
           renv::restore()
