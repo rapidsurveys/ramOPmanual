@@ -4,12 +4,58 @@ project:
 
 book:
   title: Rapid Assessment Method for Older People (RAM-OP)
-  subtitle: The Manual
+  subtitle: A Manual
   author:
-    - Pascale Fritsch
-    - Ernest Guevarra
-    - Katja Siling
-    - Mark Myatt
+    - name:
+        given: Pascale
+        family: Fritsch
+        literal: Pascale Fritsch
+      url: https://www.linkedin.com/in/pascale-fritsch-b5003a48/?originalSubdomain=uk
+      affiliations: 
+        name: HelpAge International
+        address: string
+        city: London
+        country: United Kingdom
+        postal-code: SE1 6QR 
+        url: https://www.helpage.org/
+    - name:
+        given: Ernest
+        family: Guevarra
+        literal: Ernest Guevarra
+      url: https://ernest.guevarra.io
+      email: ernest@guevarra.io
+      orcid: 0000-0002-4887-4415
+      attributes:
+        corresponding: true
+      affiliations:
+        - name: University of Oxford
+          department: Nuffield Department of Medicine
+          group: Centre for Tropical Medicine and Global Health
+          address: Peter Medawar Building for Pathogen Research, South Parks Road
+          city: Oxford
+          country: United Kingdom
+          postal-code: OX1 3SY
+          url: https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm
+    - name:
+        given: Katja
+        family: Siling
+        literal: Katja Siling
+      url: https://www.linkedin.com/in/katja-siling/
+      orcid: https://orcid.org/0000-0002-2253-7496
+      affiliations:
+        - name: European Centre for Disease Prevention and Control
+          city: Stockholm
+          country: Sweden
+          url: https://www.ecdc.europa.eu/en
+    - name:
+        given: Mark
+        family: Myatt
+        literal: Mark Myatt
+      orcid: 0000-0003-1119-1474
+      affiliations:
+        - name: Brixton Health
+          country: United Kingdom
+          url: http://www.brixtonhealth.com
   date: last-modified
   date-format: "DD MMMM YYYY"
   chapters:
@@ -19,7 +65,7 @@ book:
     - 04-questionnaire.qmd
     - 05-datasets.qmd
     - 06-practical.qmd
-    - 07-ram_op_software.qmd
+    - 07-software.qmd
     - 08-conclusion.qmd
     - 09-references.qmd
   cover-image: figures/coverImage.jpg
@@ -36,11 +82,24 @@ bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
-    highlight-style: breeze
-  # pdf:
-  #   documentclass: scrreprt
-  #   highlight-style: breeze
-  # epub:
-  #   cover-image: figures/coverImage.jpg
-  #   highlight-style: breeze
+    theme: simplex
+    highlight-style: breeze-light
+  pdf:
+    cover-image: figures/coverImage.jpg
+    documentclass: scrbook
+    papersize: a4
+    toc: true
+    toc-depth: 3
+    highlight-style: breeze-light
+    include-in-header: 
+      text: |
+        \usepackage{imakeidx}
+        \makeindex[intoc=true, columns=2, columnseprule=true]
+    include-after-body: 
+      text: |
+        \printindex
+  epub:
+    cover-image: figures/coverImage.jpg
+    toc: true
+    toc-depth: 3
+    highlight-style: breeze-light

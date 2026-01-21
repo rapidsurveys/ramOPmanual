@@ -8,7 +8,7 @@ on:
 jobs:
   test-book-render:
     runs-on: ubuntu-latest
-    container: rocker/tidyverse:4.4.2
+    container: rocker/tidyverse:4.5.2
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
@@ -30,7 +30,8 @@ jobs:
         with:
           cache-version: 2
 
-      - name: Install packages from renv.lock (local, no cache)
+           - name: Install Chromium
+        run: quarto install chromium - name: Install packages from renv.lock (local, no cache)
         if: ${{ env.ACT }}  
         run: |
           renv::restore()

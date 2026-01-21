@@ -1,3 +1,7 @@
+---
+output-file: indicators.html
+---
+
 # Indicators {#sec-indicators}
 
 ## The RAM-OP indicator set {#sec-ram-op-indicator-set}
@@ -6,18 +10,18 @@ RAM-OP surveys collect and report on data for a broad range of indicators releva
 
 These indicators cover the following dimensions:
 
-* Demography and situation
-* Food intake
-* Severe food insecurity
-* Disability
-* Activities of daily living
-* Mental health and well-being
-* Dementia
-* Health and health-seeking behaviour
-* Sources of income
-* Water, sanitation, and hygiene
-* Anthropometry and screening coverage
-* Visual impairment
+-   Demography and situation
+-   Food intake
+-   Severe food insecurity
+-   Disability
+-   Activities of daily living
+-   Mental health and well-being
+-   Dementia
+-   Health and health-seeking behaviour
+-   Sources of income
+-   Water, sanitation, and hygiene
+-   Anthropometry and screening coverage
+-   Visual impairment
 
 Data for a small group of miscellaneous indicators are also collected and reported.
 
@@ -41,19 +45,19 @@ flowchart TD
 
 A non-standard symbol is used to show **recode operations**. A recode operation shows changes that are made to data so that it can be used to derive indicators without having to show many decision nodes in the flowchart. They are also used to specify what should be done with missing or out-of-range values. For example:
 
-![Example recode operation flowchart](figures/indicators02.png){#fig-indicators02 fig-alt="Example recode operations flowchart" fig-align="center"}
+![Example recode operation flowchart](figures/indicators02.png){#fig-indicators02 fig-alt="Example recode operations flowchart" fig-align="center" width="70%"}
 
 ### Demography and situation {#sec-demography-situation}
 
 The demography and situation indicators are used to describe the survey sample and are derived from this questionnaire component:
 
-![Demography and situation questionnaire module](figures/questionnaire01.png){#fig-questionnaire01 fig-alt="Demography and situation questionnaire module" fig-align="center"}
+![Demography and situation questionnaire module](figures/questionnaire01.png){#fig-questionnaire01 fig-alt="Demography and situation questionnaire module" fig-align="center" width="70%"}
 
 \newpage
 
 Each of the questions yields a separate indicator:
 
-![Demography and situation indicators](figures/indicators03.png){#fig-indicators03 fig-alt="Demography and situation indicators" fig-align="center"}
+![Demography and situation indicators](figures/indicators03.png){#fig-indicators03 fig-alt="Demography and situation indicators" fig-align="center" width="70%"}
 
 ### Food intake {#sec-food-intake}
 
@@ -61,21 +65,21 @@ Food-intake indicators are derived from this questionnaire component. This data 
 
 \newpage
 
-![Food intake questionnaire module](figures/questionnaire02.png){#fig-questionnaire02 fig-alt="Food intake questionnaire module" fig-align="center"}
+![Food intake questionnaire module](figures/questionnaire02.png){#fig-questionnaire02 fig-alt="Food intake questionnaire module" fig-align="center" width="70%"}
 
 \newpage
 
 There are three related sets of diet-related indicators:
 
-* meal frequency
-* food groups consumed / dietary diversity
-* indicators of nutrient consumption.
+-   meal frequency
+-   food groups consumed / dietary diversity
+-   indicators of nutrient consumption.
 
 The indicator hierarchy is:
 
-![Diet-relalted indicators hierarchy](figures/indicators04.png){#fig-indicators04 fig-alt="Diet-related indicators hierarchy" fig-align="center"}
+![Diet-relalted indicators hierarchy](figures/indicators04.png){#fig-indicators04 fig-alt="Diet-related indicators hierarchy" fig-align="center" width="70%"}
 
-The data on the number of meals taken in the previous twenty-four hours forms a *meal frequency score*. 
+The data on the number of meals taken in the previous twenty-four hours forms a *meal frequency score*.
 
 Food intake data from each subject is combined into a *dietary diversity score*. The dietary diversity score is a crude measure of food security. The dietary diversity score ranges between zero (i.e. no food groups) and eleven (i.e. eleven food groups). Higher values of the dietary diversity sore are associated with better food security.
 
@@ -93,7 +97,7 @@ The data on the types of food consumed in the previous twenty-four hours are ana
 
 The meal frequency score indicator is the answer given to the first food intake question:
 
-![First food intake question](figures/indicators05.png){#fig-indicators05 fig-alt="First food intake question" fig-align="center"}
+![First food intake question](figures/indicators05.png){#fig-indicators05 fig-alt="First food intake question" fig-align="center" width="70%"}
 
 Meal frequency is a crude measure of food security.
 
@@ -103,7 +107,7 @@ Higher values of meal frequency are associated with better food security.
 
 Questions relating to the consumption of individual food items / food types are combined to create food groups and the number of food groups consumed are counted to create a dietary diversity score:
 
-![Workflow for creating food groups](figures/indicators06.png){#fig-indicators06 fig-alt="Workflow for creating food groups" fig-align="center"}
+![Workflow for creating food groups](figures/indicators06.png){#fig-indicators06 fig-alt="Workflow for creating food groups" fig-align="center" width="70%"}
 
 The consumption of the eleven individual food groups and the dietary diversity score are reported separately.
 
@@ -115,11 +119,11 @@ The dietary diversity score is a crude measure of food security. The dietary div
 
 Questions and combinations of questions relating to the consumption of individual food items and food types can be used to determine whether the reported diet is likely to be provide sufficient nutrients of various types:
 
-![Workflow for creating nutrients uptake indicators](figures/indicators07.png){#fig-indicators07 fig-alt="Workflow for nutrients uptake indicators" fig-align="center"}
+![Workflow for creating nutrients uptake indicators](figures/indicators07.png){#fig-indicators07 fig-alt="Workflow for nutrients uptake indicators" fig-align="center" width="70%"}
 
-Each indicator is formed using logical “or” operations (i.e. the indicator is true if **any** of the constituent foods are consumed). For example, the indicator for the consumption of iron rich foods:
+Each indicator is formed using logical "or" operations (i.e. the indicator is true if **any** of the constituent foods are consumed). For example, the indicator for the consumption of iron rich foods:
 
-![Recoding for iron rich foods](figures/indicators08.png){#fig-indicators08 fig-alt="Recoding for iron rich foods" fig-align="center"}
+![Recoding for iron rich foods](figures/indicators08.png){#fig-indicators08 fig-alt="Recoding for iron rich foods" fig-align="center" width="70%"}
 
 requires the consumption of one or more of green leafy vegetables, organ meats, meat, or fish and shellfish. Consumption of **any** of these foods is sufficient to indicate that the survey subject consumes iron rich food.
 
@@ -127,13 +131,13 @@ requires the consumption of one or more of green leafy vegetables, organ meats, 
 
 Indicators of consumption of protein rich foods from animal sources, plant source, and any / all sources are calculated as:
 
-![Recoding for protein-rich foods](figures/indicators09.png){#fig-indicators09 fig-alt="Recoding for protein-rich foods" fig-align="center"}
+![Recoding for protein-rich foods](figures/indicators09.png){#fig-indicators09 fig-alt="Recoding for protein-rich foods" fig-align="center" width="70%"}
 
 #### Vitamin A rich foods
 
 Indicators of consumption of vitamin A rich foods from animal sources, plant source, and any / all sources are calculated as:
 
-![Recoding for vitamin A-rich foods](figures/indicators10.png){#fig-indicators10 fig-alt="Recoding for vitamin A-rich foods" fig-align="center"}
+![Recoding for vitamin A-rich foods](figures/indicators10.png){#fig-indicators10 fig-alt="Recoding for vitamin A-rich foods" fig-align="center" width="70%"}
 
 \newpage
 
@@ -141,19 +145,19 @@ Indicators of consumption of vitamin A rich foods from animal sources, plant sou
 
 An indicator of consumption of iron rich foods from any / all sources is calculated as:
 
-![Recoding of iron-rich foods from any source](figures/indicators11.png){#fig-indicators11 fig-alt="Recoding of iron-rich foods from any source" fig-align="center"}
+![Recoding of iron-rich foods from any source](figures/indicators11.png){#fig-indicators11 fig-alt="Recoding of iron-rich foods from any source" fig-align="center" width="70%"}
 
 #### Calcium rich foods
 
 An indicator of consumption of calcium rich foods from any / all sources is calculated as:
 
-![Recoding of calcium-rich foods](figures/indicators12.png){#fig-indicators12 fig-alt="Recoding of caclcium-rich foods" fig-align="center"}
+![Recoding of calcium-rich foods](figures/indicators12.png){#fig-indicators12 fig-alt="Recoding of caclcium-rich foods" fig-align="center" width="70%"}
 
 #### Zinc rich foods
 
 An indicator of consumption of zinc rich foods from any / all sources is calculated as:
 
-![Recoding of zinc-rich foods](figures/indicators13.png){#fig-indicators13 fig-alt="Recoding of zinc-rich foods" fig-align="center"}
+![Recoding of zinc-rich foods](figures/indicators13.png){#fig-indicators13 fig-alt="Recoding of zinc-rich foods" fig-align="center" width="70%"}
 
 \newpage
 
@@ -161,7 +165,7 @@ An indicator of consumption of zinc rich foods from any / all sources is calcula
 
 Indicators of consumption of vitamin B rich foods from any / all sources are calculated as:
 
-![Recoding of vitamin B-rich foods](figures/indicators14.png){#fig-indicators14 fig-alt="Recoding if vitamin B-rich foods" fig-align="center"}
+![Recoding of vitamin B-rich foods](figures/indicators14.png){#fig-indicators14 fig-alt="Recoding if vitamin B-rich foods" fig-align="center" width="70%"}
 
 Note that the vitamin B complex indicator requires that at least one food from each of the B1, B2, B3, B6, and B12 rich food combinations is consumed.
 
@@ -169,11 +173,11 @@ Note that the vitamin B complex indicator requires that at least one food from e
 
 An indicator of severe food insecurity (hunger) is derived from this questionnaire component:
 
-![Severe food insecurity questionnaire module](figures/questionnaire03.png){#fig-questionnaire03 fig-alt="Severe food insecurity questionnaire module" fig-align="center"}
+![Severe food insecurity questionnaire module](figures/questionnaire03.png){#fig-questionnaire03 fig-alt="Severe food insecurity questionnaire module" fig-align="center" width="70%"}
 
 and is calculated as:
 
-![Recoding of severe food indsecurity indicator](figures/indicators15.png){#fig-indicators15 fig-alt="Recoding of severe food insecurity indicator" fig-align="center"}
+![Recoding of severe food indsecurity indicator](figures/indicators15.png){#fig-indicators15 fig-alt="Recoding of severe food insecurity indicator" fig-align="center" width="70%"}
 
 \newpage
 
@@ -187,7 +191,7 @@ This indicator is the *Household Hunger Scale (HHS)* and is a simple, well-valid
 
 Indicators of disability across six different domains are derived from this questionnaire component:
 
-![Disability questionnaire module](figures/questionnaire04.png){#fig-questionnaire04 fig-alt="Disability questionnaire module" fig-align="center"}
+![Disability questionnaire module](figures/questionnaire04.png){#fig-questionnaire04 fig-alt="Disability questionnaire module" fig-align="center" width="70%"}
 
 \newpage
 
@@ -197,29 +201,23 @@ Overall disability prevalence indicators are also reported.
 
 Indicators of disability in each domain are calculated as:
 
-![Recoding of disability indicators](figures/indicators16.png){#fig-indicators16 fig-alt="Recoding of disability indicators" fig-align="center"}
+![Recoding of disability indicators](figures/indicators16.png){#fig-indicators16 fig-alt="Recoding of disability indicators" fig-align="center" width="70%"}
 
 Overall disability prevalence indicators are calculated as:
 
-+----------+------------------------------------------------+
-| `P0` = 1 | if no domain has `D1` = 1,                     |
-|          | else = 0 (no disability in any domain)         |
-+----------+------------------------------------------------+
-| `P1` = 1 | if at least one domain has `D1` = 1, else = 0  |
-+----------+------------------------------------------------+
-| `P2` = 1 | if at least one domain has `D2` = 1, else = 0  |
-+----------+------------------------------------------------+
-| `P3` = 1 | if at least one domain has `D3` = 1, else = 0  |
-+----------+------------------------------------------------+
-| `PM` = 1 | if at more than one domain has `D1` = 1,       |
-|          | else = 0 (M stands for “Multiple”)             |
-+----------+------------------------------------------------+
+|  |  |
+|-----------------------|------------------------------------------------|
+| `P0` = 1 | if no domain has `D1` = 1, else = 0 (no disability in any domain) |
+| `P1` = 1 | if at least one domain has `D1` = 1, else = 0 |
+| `P2` = 1 | if at least one domain has `D2` = 1, else = 0 |
+| `P3` = 1 | if at least one domain has `D3` = 1, else = 0 |
+| `PM` = 1 | if at more than one domain has `D1` = 1, else = 0 (M stands for "Multiple") |
 
 ### Activities of daily living
 
 Indicators of how well the subject copes with activities of daily living are derived from this questionnaire component:
 
-![Activities of daily living questionnaire module](figures/questionnaire05.png){#fig-questionnaire05 fig-alt="Activities of daily living questionnaire module" fig-align="center"}
+![Activities of daily living questionnaire module](figures/questionnaire05.png){#fig-questionnaire05 fig-alt="Activities of daily living questionnaire module" fig-align="center" width="70%"}
 
 Individual *independence* indicators are reported for each dimension (i.e. bathing, dressing, toilet, mobility, continence, and eating) of daily living activities.
 
@@ -237,14 +235,11 @@ The Katz Index of ADL ranges between zero (complete dependence) and six (indepen
 
 The seventh question of this module, which is not part of the Katz Index of ADL, is reported separately and indicates whether the subject has someone to help them with activities of daily living:
 
-
 **Activities of Daily Living**
 
-+----+--------------------------------------------------+----------+----------+
-| a7 | Is someone taking care of you or helping you with| 1 = Yes; | [__]     |
-|    | everyday activities such as shopping, cooking,   | 2 = No   |          |
-|    | bathing and dressing?                            |          |          |
-+----+--------------------------------------------------+----------+----------+
+|  |  |  |  |
+|------------------|--------------------|------------------|------------------|
+| a7 | Is someone taking care of you or helping you with everyday activities such as shopping, cooking, bathing and dressing? | 1 = Yes; 2 = No | \[\_\_\] |
 
 It is not possible to know if the help available completely meets a subject's needs, but we can identify the proportion of subjects needing help with one or more activities of daily living who also report not having someone to help them:
 
@@ -256,19 +251,19 @@ This is an indicator of unmet need.
 
 Indicators of how well the subject can cope with activities of daily living and probable unmet need are calculated as:
 
-![Recode for unmet need indicator](figures/indicators18.png){#fig-indicators18 fig-alt="Recode for unmet need indicator" fig-align="center"}
+![Recode for unmet need indicator](figures/indicators18.png){#fig-indicators18 fig-alt="Recode for unmet need indicator" fig-align="center" width="70%"}
 
 ### Mental health and well-being
 
 Indicators of mental health and well being are derived from this questionnaire component:
 
-![Mental health and well-being questionnaire module](figures/questionnaire06.png){#fig-quesetionnaire06 fig-alt="Mental health and well-being questionnaire module" fig-align="center"}
+![Mental health and well-being questionnaire module](figures/questionnaire06.png){#fig-quesetionnaire06 fig-alt="Mental health and well-being questionnaire module" fig-align="center" width="70%"}
 
 A score is calculated. This is the *Kessler K6 Psychological Distress Scale*. The score ranges from zero (indicating no psychological distress) to twenty-four (indicating severe psychological distress). A score of thirteen or more indicates serious psychological distress. The Kessler K6 Psychological Distress Scale is a widely recommended, widely used, accurate, reliable, and simple measure of psychological distress [@kessler_short_2002; @kessler_screening_2003].
 
-> Kessler RC, Andrews G, Colpe LJ, Hiripi E, Mroczek, DK, Normand SLT, et al, “Short screening scales to monitor population prevalences and trends in non-specific psychological distress”, *Psychological Medicine*, 32(6), 2002, pp. 959–976
+> Kessler RC, Andrews G, Colpe LJ, Hiripi E, Mroczek, DK, Normand SLT, et al, "Short screening scales to monitor population prevalences and trends in non-specific psychological distress", *Psychological Medicine*, 32(6), 2002, pp. 959–976
 
-> Kessler RC, Barker PR, Colpe LJ, Epstein JF, Gfroerer JC, Hiripi E, “Screening for Serious Mental Illness in the General Population”, *Archives of General Psychiatry*, 60(2), 2003, pp. 184-189
+> Kessler RC, Barker PR, Colpe LJ, Epstein JF, Gfroerer JC, Hiripi E, "Screening for Serious Mental Illness in the General Population", *Archives of General Psychiatry*, 60(2), 2003, pp. 184-189
 
 Indicators of mental health and well-being are calculated as:
 
@@ -280,17 +275,17 @@ Indicators of mental health and well-being are calculated as:
 
 An indicator of probable dementia is derived from this questionnaire component:
 
-![Dementia questionnaire module](figures/questionnaire07.png){#fig-questionnaire07 fig-alt="Dementia questionnaire module" fig-align="center"}
+![Dementia questionnaire module](figures/questionnaire07.png){#fig-questionnaire07 fig-alt="Dementia questionnaire module" fig-align="center" width="70%"}
 
 \newpage
 
 The indicator of *probable* dementia is calculated as:
 
-![Recode of probably dementia indicator](figures/indicators20.png){#fig-indicators20 fig-alt="Recode of probably dementia indicator" fig-align="center"}
+![Recode of probably dementia indicator](figures/indicators20.png){#fig-indicators20 fig-alt="Recode of probably dementia indicator" fig-align="center" width="70%"}
 
 This indicator is derived from the Community Screening Instrument for Dementia (CSID) developed by the 10/66 Dementia Research Group. This is a simple, validated, and widely used indicator of probable dementia [@prince_brief_2010].
 
-> Prince M, et al, “A brief dementia screener suitable for use by non-specialists in resource poor settings - The cross-cultural derivation and validation of the brief Community Screening Instrument for Dementia”, *International Journal of Geriatric Psychiatry*, 26(9), 2011, pp. 899–907
+> Prince M, et al, "A brief dementia screener suitable for use by non-specialists in resource poor settings - The cross-cultural derivation and validation of the brief Community Screening Instrument for Dementia", *International Journal of Geriatric Psychiatry*, 26(9), 2011, pp. 899–907
 
 \newpage
 
@@ -298,29 +293,29 @@ This indicator is derived from the Community Screening Instrument for Dementia (
 
 Indicators of health and health-seeking behaviour for chronic and acute conditions are derived from this questionnaire component:
 
-![Health and health-seeking behaviour questionnaire module](figures/questionnaire08.png){#fig-questionnaire08 fig-alt="Health and health-seeking behaviour questionnaire module" fig-align="center"}
+![Health and health-seeking behaviour questionnaire module](figures/questionnaire08.png){#fig-questionnaire08 fig-alt="Health and health-seeking behaviour questionnaire module" fig-align="center" width="70%"}
 
 \newpage
 
 Indicators of health and health-seeking behaviour for chronic conditions are calculated as:
 
-![Recode of health and health-seeking behaviour indicators for chronic conditions](figures/indicators21.png){#fig-indicators21 fig-alt="Recode of health and health-seeking behaviour indicators for chronic conditions" fig-align="center"}
+![Recode of health and health-seeking behaviour indicators for chronic conditions](figures/indicators21.png){#fig-indicators21 fig-alt="Recode of health and health-seeking behaviour indicators for chronic conditions" fig-align="center" width="70%"}
 
 \newpage
 
 Indicators of health and health-seeking behaviour for acute conditions are calculated as:
 
-![Recode of health and health-seeking behaviour indicators for acute conditions](figures/indicators22.png){#fig-indicators22 fig-alt="Recode of health and health-seeking behaviour indicators for acute conditions" fig-align="center"}
+![Recode of health and health-seeking behaviour indicators for acute conditions](figures/indicators22.png){#fig-indicators22 fig-alt="Recode of health and health-seeking behaviour indicators for acute conditions" fig-align="center" width="70%"}
 
 ### Sources of income {#sec-sources-income}
 
 Indicators related to sources of income are derived from this questionnaire component:
 
-![Sources of income questionnaire module](figures/questionnaire09.png){#fig-questionnaire09 fig-alt="Sources of income questionnaire module" fig-align="center"}
+![Sources of income questionnaire module](figures/questionnaire09.png){#fig-questionnaire09 fig-alt="Sources of income questionnaire module" fig-align="center" width="70%"}
 
 and are calculated as:
 
-![Recode of sources of income indicators](figures/indicators23.png){#fig-indicators23 fig-alt="Recode of sources of income indicators" fig-align="center"}
+![Recode of sources of income indicators](figures/indicators23.png){#fig-indicators23 fig-alt="Recode of sources of income indicators" fig-align="center" width="70%"}
 
 The grouped income sources (i.e. `m2a`, `m2b`, etc.) and individual income sources may vary between settings. The questionnaire component shown above has proved suitable for use in Ethiopia, South Sudan, and Tanzania.
 
@@ -330,7 +325,7 @@ The grouped income sources (i.e. `m2a`, `m2b`, etc.) and individual income sourc
 
 Indicators relating to water, sanitation, and hygiene (WASH) are derived from this questionnaire component:
 
-![Water, sanitation, and hygiene questionnaire module](figures/questionnaire10.png){#fig-questionnaire10 fig-alt="Water, sanitation, and hygiene questionnaire module" fig-align="center"}
+![Water, sanitation, and hygiene questionnaire module](figures/questionnaire10.png){#fig-questionnaire10 fig-alt="Water, sanitation, and hygiene questionnaire module" fig-align="center" width="70%"}
 
 \newpage
 
@@ -340,7 +335,7 @@ Indicators are calculated following @world_health_organization_core_2006.
 
 Indicators relating to water, sanitation, and hygiene (WASH) are calculated as:
 
-![Recode of water, sanitation, and hygiene indicators](figures/indicators24.png){#fig-indicators24 fig-alt="Recode of water, sanitation, and hygiene indicators" fig-align="center"}
+![Recode of water, sanitation, and hygiene indicators](figures/indicators24.png){#fig-indicators24 fig-alt="Recode of water, sanitation, and hygiene indicators" fig-align="center" width="70%"}
 
 \newpage
 
@@ -348,72 +343,68 @@ Indicators relating to water, sanitation, and hygiene (WASH) are calculated as:
 
 Indicators relating to anthropometry and screening coverage are derived from this questionnaire component:
 
-![Anthropometry and screening questionnaire module](figures/questionnaire11.png){#fig-questionnaire11 fig-alt="Anthropometry and screening questionnaire module" fig-align="center"}
+![Anthropometry and screening questionnaire module](figures/questionnaire11.png){#fig-questionnaire11 fig-alt="Anthropometry and screening questionnaire module" fig-align="center" width="70%"}
 
 And are calculated as:
 
-![Recode of anthropometry and screening indicators](figures/indicators25.png){#fig-indicators25 fig-alt="Recode of anthropometry and screening indicators" fig-align="center"}
+![Recode of anthropometry and screening indicators](figures/indicators25.png){#fig-indicators25 fig-alt="Recode of anthropometry and screening indicators" fig-align="center" width="70%"}
 
 Raw MUAC data (i.e. not MUAC class) is collected, entered, and analysed. This requires that an adult MUAC tape (i.e. capable of measuring MUAC to 450 mm) is used.
 
-The presence of bilateral oedema is assessed by pressing with your thumbs **both** feet of the older person for three seconds and checking whether this creates a lasting depression or “pit” on both feet. Bilateral pitting oedema in older people may not be “nutritional” oedema (as is almost always the case with children). Older people with bilateral pitting oedema should be advised to consult a doctor.
+The presence of bilateral oedema is assessed by pressing with your thumbs **both** feet of the older person for three seconds and checking whether this creates a lasting depression or "pit" on both feet. Bilateral pitting oedema in older people may not be "nutritional" oedema (as is almost always the case with children). Older people with bilateral pitting oedema should be advised to consult a doctor.
 
 The prevalence of GAM, MAM, and SAM are estimated using a PROBIT estimator. This type of estimator provides better precision than a classic estimator at small sample sizes [@world_health_organization_physical_1995; @dale_assessment_2012; @blanton_probit_2013].
 
 > World Health Organisation, *Physical Status: The use and interpretation of anthropometry. Report of a WHO expert committee*, WHO Technical Report Series 854, WHO, Geneva, 1995
 
-> Dale NM, Myatt M, Prudhon C, Briend, A, “Assessment of the PROBIT approach for estimating the prevalence of global, moderate and severe acute malnutrition from population surveys”, *Public Health Nutrition*, 1–6. doi:10.1017/S1368980012003345, 2012
+> Dale NM, Myatt M, Prudhon C, Briend, A, "Assessment of the PROBIT approach for estimating the prevalence of global, moderate and severe acute malnutrition from population surveys", *Public Health Nutrition*, 1–6. doi:10.1017/S1368980012003345, 2012
 
-> Blanton CJ, Bilukha, OO, “The PROBIT approach in estimating the prevalence of wasting: revisiting bias and precision”, *Emerging Themes in Epidemiology*, 10(1), 2013, p. 8
+> Blanton CJ, Bilukha, OO, "The PROBIT approach in estimating the prevalence of wasting: revisiting bias and precision", *Emerging Themes in Epidemiology*, 10(1), 2013, p. 8
 
 The PROBIT estimator is described in Box 1.
 
 MUAC-based case definitions for acute malnutrition are used:
 
-+:--------:+:----------------------+
-|	**GAM**	 | MUAC < 210 mm         |
-+----------+-----------------------+
-|	**MAM**	 | 185 mm ≤ MUAC < 210mm |
-+----------+-----------------------+
-|	**SAM**	 | MUAC < 185mm          |
-+----------+-----------------------+
+|                                   |
+|-----------------------------------|
+| **GAM** \| MUAC \< 210 mm         |
+| **MAM** \| 185 mm ≤ MUAC \< 210mm |
+| **SAM** \| MUAC \< 185mm          |
 
 These are standard case definitions for acute malnutrition in adults and recommended by HelpAge International for use in older people in humanitarian contexts.
 
-**Note** : MUAC in adults should be measured on the non-dominant arm. This is usually the left arm. The importance of high levels of accuracy and precision at the individual level is of lesser importance in survey work compared to case-finding or diagnosis in clinical contexts, for example. This means that a simple rule such as “Always measure MUAC on the left arm” may be used.
+**Note** : MUAC in adults should be measured on the non-dominant arm. This is usually the left arm. The importance of high levels of accuracy and precision at the individual level is of lesser importance in survey work compared to case-finding or diagnosis in clinical contexts, for example. This means that a simple rule such as "Always measure MUAC on the left arm" may be used.
 
 \newpage
 
 ::: {.callout-note title="Using PROBIT"}
-
 An estimate of GAM prevalence can be made using a classic estimator:
 
 $$\text{prevalence} = \frac{\text{number of respondents with MUAC < 210 mm}}{\text{total number of respondents}}$$
-  
+
 The estimate of GAM prevalence made from the RAM-OP survey data is made using a PROBIT estimator. The PROBIT function is also known as the *inverse cumulative distribution* function. This function converts parameters of the distribution of an indicator (e.g. the mean and standard deviation of a *normally* distributed variable) into cumulative percentiles. This means that it is possible to use the normal PROBIT function with estimates of the mean and standard deviation of indicator values in a survey sample to predict (or estimate) the proportion of the population falling below a given threshold. For example, for data with a mean MUAC of 256 mm and a standard deviation of 28 mm the output of the normal PROBIT function for a threshold of 210 mm is 0.0502 meaning that 5.02% of the population are *predicted* (or *estimated*) to fall below the 210 mm threshold.
 
-&nbsp;
+ 
 
 Both the classic and the PROBIT methods can be thought of as estimating area:
 
-&nbsp;
-  
-![Area under the curve](figures/indicators26.png){#fig-auc fig-alt="Area under the curve" fig-align="center"}
+ 
 
-&nbsp;
+![Area under the curve](figures/indicators26.png){#fig-auc fig-alt="Area under the curve" fig-align="center" width="70%"}
+
+ 
 
 The principal advantage of the PROBIT approach is that the required sample size is usually smaller than that required to estimate prevalence with a given precision using the classic method.
 
-&nbsp;
+ 
 
 The PROBIT method assumes that MUAC is a normally distributed variable. If this is not the case then the distribution of MUAC is transformed towards normality.
 
-&nbsp;
+ 
 
 The prevalence of SAM is estimated in a similar way to GAM. The prevalence of MAM is estimated as the difference between the GAM and SAM prevalence estimates:
-  
-$$\widehat{MAM prevalence} = \widehat{GAM prevalence} - \widehat{SAM prevalence}$$
 
+$$\widehat{MAM prevalence} = \widehat{GAM prevalence} - \widehat{SAM prevalence}$$
 :::
 
 \newpage
@@ -422,41 +413,39 @@ $$\widehat{MAM prevalence} = \widehat{GAM prevalence} - \widehat{SAM prevalence}
 
 An indicator of visual impairment is derived from this questionnaire component:
 
-![Visual impairment questionnaire module](figures/questionnaire12.png){#fig-quesetionnaire12 fig-alt="Visual impairment questionnaire module" fig-align="center"}
+![Visual impairment questionnaire module](figures/questionnaire12.png){#fig-quesetionnaire12 fig-alt="Visual impairment questionnaire module" fig-align="center" width="70%"}
 
 \newpage
 
 And is calculated as:
 
-![Recode of visual impairment indicator](figures/indicators27.png){#fig-indicators27 fig-alt="Recode of visual impairment indicator" fig-align="center"}
+![Recode of visual impairment indicator](figures/indicators27.png){#fig-indicators27 fig-alt="Recode of visual impairment indicator" fig-align="center" width="70%"}
 
-The *“illiterate E”* or *“tumbling E”* (the preferred term) is a validated and widely used method for measuring visual acuity [@taylor_applying_1978; @kaiser_prospective_2009]
+The *"illiterate E"* or *"tumbling E"* (the preferred term) is a validated and widely used method for measuring visual acuity [@taylor_applying_1978; @kaiser_prospective_2009]
 
-> Taylor HR, “Applying new design principles to the construction of an illiterate E chart”, *American Journal of Optometry & Physiological Optics*, 55:348, 1978 
+> Taylor HR, "Applying new design principles to the construction of an illiterate E chart", *American Journal of Optometry & Physiological Optics*, 55:348, 1978
 
-> Kaiser PK, “Prospective Evaluation of Visual Acuity Assessment: A Comparison of Snellen Versus ETDRS Charts in Clinical Practice (An AOS Thesis)”, *Transactions of the American Ophthalmological Society*, 107: 311–324, 2009
+> Kaiser PK, "Prospective Evaluation of Visual Acuity Assessment: A Comparison of Snellen Versus ETDRS Charts in Clinical Practice (An AOS Thesis)", *Transactions of the American Ophthalmological Society*, 107: 311–324, 2009
 
 \newpage
 
-The size of the “E” used:
+The size of the "E" used:
 
-![The tumbling E](figures/indicators28.png){#fig-indicators28 fig-alt="The tumbling E" fig-align="center"}
+![The tumbling E](figures/indicators28.png){#fig-indicators28 fig-alt="The tumbling E" fig-align="center" width="70%"}
 
-as well as the distance used for the test (two metres) and the indicator calculation apply the WHO case definition of visual impairment (i.e. visual acuity < 6 / 18).
+as well as the distance used for the test (two metres) and the indicator calculation apply the WHO case definition of visual impairment (i.e. visual acuity \< 6 / 18).
 
 The tumbling E card should be laminated (i.e. plastic coated and have a two metre cord attached which helps to ensure that the visual acuity test is performed at the correct distance (see @fig-indicators29)).
 
-After demonstrating to the respondent what the test is about (i.e. the subject should indicate which direction the branches of the 'E' are pointing), the test is administered at a distance of two meters, turning the card in four different directions, and asking the person to indicate which direction the branches of the “E” is pointing. If the subject wears glasses, they are allowed to use them during the test if they want to.
+After demonstrating to the respondent what the test is about (i.e. the subject should indicate which direction the branches of the 'E' are pointing), the test is administered at a distance of two meters, turning the card in four different directions, and asking the person to indicate which direction the branches of the "E" is pointing. If the subject wears glasses, they are allowed to use them during the test if they want to.
 
-::: {.callout-note}
-
+::: callout-note
 If the person is unable to correctly answer at least three times out of four, they have a visual impairment. A simple visual acuity test such as the 'tumbling E' test also does not indicate anything about an underlying disease such as glaucoma or the need for reading spectacles (presbyopia). These conditions are common in people aged 60 years or older. Subjects failing the visual acuity test should be counselled to visit an ophthalmologist for a detailed eye examination.
-
 :::
 
 \newpage
 
-![Equipment used to measure visual acuity](figures/indicators29.png){#fig-indicators29 fig-alt="Equipment used to measure visual acuity" fig-align="center"}
+![Equipment used to measure visual acuity](figures/indicators29.png){#fig-indicators29 fig-alt="Equipment used to measure visual acuity" fig-align="center" width="70%"}
 
 \newpage
 
@@ -466,30 +455,24 @@ Data for a small group of miscellaneous indicators are also collected and report
 
 **Hunger – Ration - Relief**
 
-+-----+-------------------------------------------------+----------+-------+
-| f6  | Are you or anyone in your household receiving a | 1 = Yes; | [__]  |
-|     | food ration on a regular basis?                 | 2 = No   |       |
-+-----+-------------------------------------------------+----------+-------+
-| f7  | Have you or another member of your household    | 1 = Yes  | [__]  |
-|     | received non-food relief items such as soap,    | 2 = No   |       |
-|     | bucket, water container, bedding, mosquito net, |          |       |
-|     | clothes, or plastic sheet in the previous four  |          |       |
-|     | weeks?                                          |          |       |
-+----------+--------------------------------------------+----------+-------+
+|  |  |  |  |
+|------------------|------------------|--------------------|------------------|
+| f6 | Are you or anyone in your household receiving a food ration on a regular basis? | 1 = Yes; 2 = No | \[\_\_\] |
+| f7 \| Have you or another member of your household \| received non-food relief items such as soap, \| bucket, water container, bedding, mosquito net, \| clothes, or plastic sheet in the previous four \| weeks? | 1 = Yes 2 = No | \[\_\_\] |  |
 
-&nbsp;
+ 
 
 **Activities of Daily Living**
 
-+-----+------------------------------------+-----------------+-------------+
-| a8  | Do you have problems chewing food? | 1 = Yes; 2 = No | [__]        |
-+-----+------------------------------------+-----------------+-------------+
+|     |                                    |                 |          |
+|-----|------------------------------------|-----------------|----------|
+| a8  | Do you have problems chewing food? | 1 = Yes; 2 = No | \[\_\_\] |
 
 \newpage
 
 and are calculated as:
 
-![Recode for miscellaneous indicators](figures/indicators30.png){#fig-indicators30 fig-alt="Recode for miscellaneous indicators" fig-align="center"}
+![Recode for miscellaneous indicators](figures/indicators30.png){#fig-indicators30 fig-alt="Recode for miscellaneous indicators" fig-align="center" width="70%"}
 
 ## A note on data management and data analysis {#sec-data-management-analysis}
 
@@ -497,26 +480,26 @@ This section has described how RAM-OP data is used to create a broad set of indi
 
 It is important to note that data analysis procedures need to account for the sample design. All major statistical analysis software can do this (details vary). There are two things to note:
 
-* The RAM-OP sample is a two-stage sample. Subjects are sampled from a small number of primary sampling units (PSUs).
-* The RAM-OP sample is **not** prior weighted. This means that you will need to provide per-PSU sampling weights. These are usually the populations of the PSU.
+-   The RAM-OP sample is a two-stage sample. Subjects are sampled from a small number of primary sampling units (PSUs).
+-   The RAM-OP sample is **not** prior weighted. This means that you will need to provide per-PSU sampling weights. These are usually the populations of the PSU.
 
 You will need to specify this sample design to your statistical analysis software. If you fail to do this then your analysis may produce estimates that place undue weight to observations from smaller communities with confidence intervals with lower than nominal coverage (i.e. they will be too narrow).
 
 The standard RAM-OP software uses *blocked weighted bootstrap* estimation approach:
 
-* **Blocked** : The block corresponds to the PSU or cluster.
-* **Weighted** : The RAM-OP sampling procedure does not use population proportional sampling to weight the sample prior to data collection as is done with SMART type surveys. This means that a posterior weighting procedure is required. The standard RAM-OP software uses a “roulette wheel” algorithm to weight (i.e. by population) the selection probability of PSUs in bootstrap replicates.
+-   **Blocked** : The block corresponds to the PSU or cluster.
+-   **Weighted** : The RAM-OP sampling procedure does not use population proportional sampling to weight the sample prior to data collection as is done with SMART type surveys. This means that a posterior weighting procedure is required. The standard RAM-OP software uses a "roulette wheel" algorithm to weight (i.e. by population) the selection probability of PSUs in bootstrap replicates.
 
-A total of `m'` PSUs are sampled *with-replacement* from the survey dataset where `m'` is the number of PSUs in the survey sample. Individual records within each PSU are then sampled *with-replacement*. A total of n' records are sampled *with-replacement* from each of the selected PSUs where `n'` is the number of individual records in a selected PSU. The resulting collection of records replicates the original survey in terms of both sample design and sample size. A large number of replicate surveys are taken (the standard RAM-OP software uses $r = 399$ replicate surveys but this can be changed). The required statistic (e.g. the mean of an indicator value) is applied to each replicate survey. The reported estimate consists of the 50th (point estimate), 2.5th (lower 95% confidence limit), and the 97.5th (upper 95% confidence limit) percentiles of the distribution of the statistic observed across all replicate surveys. The blocked weighted bootstrap procedure is outlined in Figure \@ref(fig:indicators31).
+A total of `m` PSUs are sampled *with-replacement* from the survey dataset where `m` is the number of PSUs in the survey sample. Individual records within each PSU are then sampled *with-replacement*. A total of n' records are sampled *with-replacement* from each of the selected PSUs where `n` is the number of individual records in a selected PSU. The resulting collection of records replicates the original survey in terms of both sample design and sample size. A large number of replicate surveys are taken (the standard RAM-OP software uses $r = 399$ replicate surveys but this can be changed). The required statistic (e.g. the mean of an indicator value) is applied to each replicate survey. The reported estimate consists of the 50th (point estimate), 2.5th (lower 95% confidence limit), and the 97.5th (upper 95% confidence limit) percentiles of the distribution of the statistic observed across all replicate surveys. The blocked weighted bootstrap procedure is outlined in @fig-indicators31.
 
 The principal advantages of using a bootstrap estimator are:
 
-* Bootstrap estimators work well with small sample sizes.
-* The method is *non-parametric* and uses empirical rather than theoretical distributions. There are no assumptions of things like normality to worry about.
-* The method allows estimation of the sampling distribution of almost any statistic using only simple computational methods.
+-   Bootstrap estimators work well with small sample sizes.
+-   The method is *non-parametric* and uses empirical rather than theoretical distributions. There are no assumptions of things like normality to worry about.
+-   The method allows estimation of the sampling distribution of almost any statistic using only simple computational methods.
 
 The standard RAM-OP data analysis software is described in the section [**Standard RAM-OP software**](#sec-software).
 
 \newpage
 
-![The blocked weighted bootstrap used by the standard RAM-OP software](figures/bbw.png){#fig-indicators31 fig-alt="The blocked weighted bootstrap used by the standard RAM-OP software" fig-align="center"}
+![The blocked weighted bootstrap used by the standard RAM-OP software](figures/bbw.png){#fig-indicators31 fig-alt="The blocked weighted bootstrap used by the standard RAM-OP software" fig-align="center" width="70%"}
