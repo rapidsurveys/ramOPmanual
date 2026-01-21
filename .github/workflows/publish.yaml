@@ -20,8 +20,11 @@ jobs:
       - name: Install tinytex
         run: quarto install tinytex
 
-      - name: Install Chromium
-        run: quarto install chromium
+      - name: Install Chrome
+        run: |
+          curl -LO https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+          apt-get install -y ./google-chrome-stable_current_amd64.deb
+          rm google-chrome-stable_current_amd64.deb
 
       - name: Install R
         uses: r-lib/actions/setup-r@v2
