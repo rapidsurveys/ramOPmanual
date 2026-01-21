@@ -58,6 +58,7 @@ book:
           url: http://www.brixtonhealth.com
   date: last-modified
   date-format: "DD MMMM YYYY"
+  doi: 10.5281/zenodo.1342015
   chapters:
     - index.qmd
     - 02-sampling.qmd
