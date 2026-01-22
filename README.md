@@ -1,4 +1,4 @@
-# Rapid Assessment Method for Older People (RAM-OP): A Manual <img src="figures/ramOP.png" width="200px" align="right"/><img src="images/rapidsurveys.png" width="200px" align="right"/><img src="https://podcasts.ox.ac.uk/sites/default/files/image-mirror/unpacking-fundamentals-global-health-towards-new-generation-leadership.png" width="200px" align="right"/>
+# Rapid Assessment Method for Older People (RAM-OP): A Manual <img src="figures/ramOP.png" width="100px" align="right"/><img src="images/rapidsurveys.png" width="100px" align="right"/><img src="https://podcasts.ox.ac.uk/sites/default/files/image-mirror/unpacking-fundamentals-global-health-towards-new-generation-leadership.png" width="100px" align="right"/>
 
 <!-- badges: start -->
 
