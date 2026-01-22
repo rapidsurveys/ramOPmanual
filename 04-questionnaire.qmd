@@ -45,6 +45,41 @@ Download questionnaire [ODT](questionnaire/qesRAMOP.odt){.external target="_blan
 
 ::: -->
 
+\newpage
+
+![Page 1 of the RAM-OP questionnaire](figures/qesRAMOP_1.png){#fig-questionnaire-p1 fig-alt="Page 1 of the RAM-OP questionnaire" fig-align="center" width="70%"}
+
+\newpage
+
+![Page 2 of the RAM-OP questionnaire](figures/qesRAMOP_2.png){#fig-questionnaire-p2 fig-alt="Page 2 of the RAM-OP questionnaire" fig-align="center" width="70%"}
+
+\newpage
+
+![Page 3 of the RAM-OP questionnaire](figures/qesRAMOP_3.png){#fig-questionnaire-p3 fig-alt="Page 3 of the RAM-OP questionnaire" fig-align="center" width="70%"}
+
+\newpage
+
+![Page 4 of the RAM-OP questionnaire](figures/qesRAMOP_4.png){#fig-questionnaire-p4 fig-alt="Page 4 of the RAM-OP questionnaire" fig-align="center" width="70%"}
+
+\newpage
+
+![Page 5 of the RAM-OP questionnaire](figures/qesRAMOP_5.png){#fig-questionnaire-p5 fig-alt="Page 5 of the RAM-OP questionnaire" fig-align="center" width="70%"}
+
+\newpage
+
+![Page 6 of the RAM-OP questionnaire](figures/qesRAMOP_6.png){#fig-questionnaire-p6 fig-alt="Page 6 of the RAM-OP questionnaire" fig-align="center" width="70%"}
+
+\newpage
+
+![Page 7 of the RAM-OP questionnaire](figures/qesRAMOP_7.png){#fig-questionnaire-p7 fig-alt="Page 7 of the RAM-OP questionnaire" fig-align="center" width="70%"}
+
+\newpage
+
+![Page 8 of the RAM-OP questionnaire](figures/qesRAMOP_8.png){#fig-questionnaire-p8 fig-alt="Page 8 of the RAM-OP questionnaire" fig-align="center" width="70%"}
+
+\newpage
+
+
 ### Digital data collection {#sec-04-01-01}
 
 Paper-based questionnaires remain an important tool for primary data collection. The RAM-OP questionnaire presented in Section 19 (or page…) is printed out and then administered by the trained enumerators to the sampled older people. This paper-based approach is still the recommended approach for the RAM-OP survey. 
@@ -57,13 +92,20 @@ Since this system is in active development, we recommend that it be used by thos
 
 In the meantime, we provide a beta version of the RAM-OP questionnaire converted into [XLSForm](https://xlsform.org/en/), a format that is accepted and interpretable by the ODK system. This version of the questionnaire has been designed in such a way that it will produce datasets that link seamlessly with the current RAM-OP data analysis package. This can be downloaded [here](questionnaire/ramOP-ODK.zip).
 
-Clicking on the link above will provide you with a zipped folder named ramOP-ODK. Inside this folder are the following: 
+::: {.callout-note}
 
-    a. `ramOP.xlsx` - XLSForm format of the RAM-OP questionnaire for uploading onto an ODK server. 
+Clicking on the link above will provide you with a zipped folder named `ramOP-ODK`. Inside this folder are the following: 
 
-    b. `form_logo.png` - HelpAge logo that is uploaded together with the form which will make the logo show up on the mobile device when the RAM-OP form is opened 
+a. `ramOP.xlsx` - XLSForm format of the RAM-OP questionnaire for uploading onto an ODK server. 
 
-Following is a flowchart that shows the different pathways that can be considered when deciding how to proceed with data collection whether using paper-based survey forms or ODK. 
+b. `form_logo.png` - HelpAge logo that is uploaded together with the form which will make the logo show up on the mobile device when the RAM-OP form is opened
+
+:::
+
+
+Following is a flowchart that shows the different pathways that can be considered when deciding how to proceed with data collection whether using paper-based survey forms or ODK.
+
+![Digital data collection flowchart](figures/dataCollectionFlowchart.png){#fig-data-collection-flowchart fig-alt="Digital data collection flowchart" fig-align="center" width="70%"}
 
 For further guidance and technical information on how to implement an ODK-based data collection system for RAM-OP, see the following [website](https://getodk.org/).
 
@@ -86,22 +128,24 @@ The team should then explore the boundaries of the community and perform
 mapping and segmentation as required.
 
 Eligible subjects are usually people aged 60 years and older (this may differ in
-some settings). We accept respondents’ statement of their own age, and we do
+some settings).
+We accept respondents’ statement of their own age, and we do
 not challenge them if they appear younger or older than the age they declare.
 We usually do not ask for a proof of age. However, it might be useful to have
 compiled a list of events related to the past hundred years of the country’s history,
 as some older people do not remember their age, but remember living at the time
-of some remarkable events (independence, elections, wars, etc). Women often
-remember the age at which they had their children
+of some remarkable events (independence, elections, wars, etc).
+Women often remember the age at which they had their children
 
 **All** eligible older people present in, and belonging to, the sampled household
 are interviewed and measured, even if the required quota of respondents has
-been reached. Older people visiting the household should only be included
-if they are residing there for more than two weeks. Persons such as maids,
-houseboys, watchmen, and carers should be treated as part of the household
-(i.e. should be interviewed) if the sampled dwelling or compound is their main
-place of residence. Older people should be interviewed in their houses. It is not
-good practice to have the older people in the community gathered in one place.
+been reached.
+Older people visiting the household should only be included
+if they are residing there for more than two weeks.
+Persons such as maids, houseboys, watchmen, and carers should be treated as part of the household (i.e. should be interviewed) if the sampled dwelling or compound is their main
+place of residence.
+Older people should be interviewed in their houses.
+It is not good practice to have the older people in the community gathered in one place.
 
 When entering older people’s houses, enumerators should always be polite,
 respectful, and careful not to intrude on people’s privacy.
@@ -114,12 +158,12 @@ questionnaire.
 Some of the questions are of an intimate nature. Be careful not to administer
 the questionnaire in a space where everybody present can hear the answers.
 This may embarrass the respondent or cause the respondent to answer wrongly.
-This is important as a ‘wrong answer’ will tend to hide need and
-will bias the survey results.
+This is important as a ‘wrong answer’ will tend to hide need and will bias the survey results.
 
 Some older women may object to having their MUAC taken by a man (or vice
-versa). This is why it is advisable that the team has both male and female
-members. This not always possible, but older people are often more free from
-prejudices than the younger members of their community. It is rare for an older
-woman to refuse to expose her arms or feet before a male enumerator, and also
-rare that an older man objects to being measured by a female enumerator.
+versa).
+This is why it is advisable that the team has both male and female
+members.
+This not always possible, but older people are often more free from
+prejudices than the younger members of their community. 
+It is rare for an older woman to refuse to expose her arms or feet before a male enumerator, and also rare that an older man objects to being measured by a female enumerator.
