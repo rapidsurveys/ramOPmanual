@@ -1,4 +1,4 @@
-# Rapid Assessment Method for Older People (RAM-OP): A Manual <img src="images/rapidsurveys.png" width="200px" align="right"/><img src="figures/ramOP.png" height="200px" align="right"/>
+# Rapid Assessment Method for Older People (RAM-OP): A Manual <img src="figures/ramOP.png" height="200px" align="right"/>
 
 <!-- badges: start -->
 
@@ -113,4 +113,4 @@ If you would like to contribute to the development of this book, please see our 
 This project is released with a [Contributor Code of Conduct](https://github.com/rapidsurveys/ramOPmanual/blob/main/.github/CODE_OF_CONDUCT.md).
 By participating in this project you agree to abide by its terms.
 
-<img src="https://oxford-ihtm.io/images/ihealth_base_pos_sm.png" height="100px" align="right"/><img src="https://podcasts.ox.ac.uk/sites/default/files/image-mirror/unpacking-fundamentals-global-health-towards-new-generation-leadership.png" width="100px" align="right"/>
+<img src="https://podcasts.ox.ac.uk/sites/default/files/image-mirror/unpacking-fundamentals-global-health-towards-new-generation-leadership.png" width="100px" align="right"/><img src="https://oxford-ihtm.io/images/ihealth_base_pos_sm.png" height="100px" align="right"/><img src="images/rapidsurveys.png" width="100px" align="right"/>
