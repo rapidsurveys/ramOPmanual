@@ -17,7 +17,7 @@ jobs:
       - name: Install system dependencies
         run: |
           apt-get update && apt-get install -y --no-install-recommends \
-          libxt6 libglpk-dev gh curl jq
+          libxt6 libglpk-dev gh curl jq libpoppler-cpp-dev
 
       - name: Install Chrome
         run: |
