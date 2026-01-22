@@ -39,10 +39,87 @@ The questionnaire can be downloaded (in ODT and PDF format) from the Brixton Hea
 
 The questionnaire can also be downloaded directly from the book's website.
 
-::: {.column-margin}
+<!-- ::: {.column-margin}
 
 Download questionnaire [ODT](questionnaire/qesRAMOP.odt){.external target="_blank"} | [PDF](questionnaire/qesRAMOP.pdf){.external target="_blank"}
 
-:::
+::: -->
 
-## Digital data colleciton
+### Digital data collection {#sec-04-01-01}
+
+Paper-based questionnaires remain an important tool for primary data collection. The RAM-OP questionnaire presented in Section 19 (or page…) is printed out and then administered by the trained enumerators to the sampled older people. This paper-based approach is still the recommended approach for the RAM-OP survey. 
+
+However, it is also possible to administer the RAM-OP questionnaire through an electronic data encoding system using mobile devices. Instead of printing the questionnaire on paper, it is instead encoded onto a mobile client which is then used by enumerators as they conduct the survey in the field. There are currently multiple options available for electronic mobile data collection. If you would like to use any of these options for data collection, you will need to convert the RAM-OP questionnaire presented in Section 19 into a format that fits the specifications of the mobile data collection system that you have chosen or are planning to use. Take note, however, that once you choose to use an electronic mobile data collection system you are effectively breaking the links between data entry, data checking and data analysis that is already inherent in the existing RAM-OP data collection and data analysis package. The data entry and data checking system included in the RAM-OP package will not be useful for the new system that you will put in place and instead will be superseded by the data entry performed by the enumerators on the mobile clients and any data checking that your electronic mobile data collection system is able to perform. It is important to note that not all electronic mobile data collection systems are created equal and each one has varying functionalities including the ability to do basic data checking similar to those that have been built in to the current RAM-OP package. It would therefore be crucial to review and understand if and how data checking is implemented by your chosen mobile data collection system and to activate these functionalities. Finally, in order to still be able to use the data analysis package that is provided in the RAM-OP package, you will need to design your electronic questionnaire in such a way that it keeps the the names of the variables as used in the RAM-OP questionnaire (Section 19). Any change in the names of variables will break the link between the dataset and the data analysis package provided in the RAM-OP package. At best, you will have to modify the software to accommodate your changes. Worst case is that you will have to recreate the data analysis yourself to fit the changes you have made. 
+
+Given these considerations and based on preliminary review of available mobile data collection systems, we have been developing a version of the RAM-OP questionnaire using the [Open Data Kit (ODK)](https://getodk.org/) system. This system has the data encoding and data checking functionalities that closely approximate that of the current RAM-OP package whilst having other capabilities that allow for efficient data collection using mobile clients. This alternative data collection system for RAM-OP is in active development and we hope to be able to field test this system very soon. 
+
+Since this system is in active development, we recommend that it be used by those who already use ODK for their data collection and are familiar with how the system works. Once we have field tested this system, we’ll put together a specific RAM-OP package specific for a system based on mobile data collection. 
+
+In the meantime, we provide a beta version of the RAM-OP questionnaire converted into [XLSForm](https://xlsform.org/en/), a format that is accepted and interpretable by the ODK system. This version of the questionnaire has been designed in such a way that it will produce datasets that link seamlessly with the current RAM-OP data analysis package. This can be downloaded [here](questionnaire/ramOP-ODK.zip).
+
+Clicking on the link above will provide you with a zipped folder named ramOP-ODK. Inside this folder are the following: 
+
+    a. `ramOP.xlsx` - XLSForm format of the RAM-OP questionnaire for uploading onto an ODK server. 
+
+    b. `form_logo.png` - HelpAge logo that is uploaded together with the form which will make the logo show up on the mobile device when the RAM-OP form is opened 
+
+Following is a flowchart that shows the different pathways that can be considered when deciding how to proceed with data collection whether using paper-based survey forms or ODK. 
+
+For further guidance and technical information on how to implement an ODK-based data collection system for RAM-OP, see the following [website](https://getodk.org/).
+
+### Data collection {#sec-04-01-02}
+
+Each team should be able to survey at least one PSU per day.
+
+No community mobilisation is necessary but community officials should be
+informed of your arrival in advance.
+
+Avoid sampling at special or busy times, such as holy days and market days.
+
+When arriving in the community, teams should introduce themselves to
+community leaders and explain how the survey will be conducted.
+
+The supervisor should collect and record information about the total population
+of the PSUs.
+
+The team should then explore the boundaries of the community and perform
+mapping and segmentation as required.
+
+Eligible subjects are usually people aged 60 years and older (this may differ in
+some settings). We accept respondents’ statement of their own age, and we do
+not challenge them if they appear younger or older than the age they declare.
+We usually do not ask for a proof of age. However, it might be useful to have
+compiled a list of events related to the past hundred years of the country’s history,
+as some older people do not remember their age, but remember living at the time
+of some remarkable events (independence, elections, wars, etc). Women often
+remember the age at which they had their children
+
+**All** eligible older people present in, and belonging to, the sampled household
+are interviewed and measured, even if the required quota of respondents has
+been reached. Older people visiting the household should only be included
+if they are residing there for more than two weeks. Persons such as maids,
+houseboys, watchmen, and carers should be treated as part of the household
+(i.e. should be interviewed) if the sampled dwelling or compound is their main
+place of residence. Older people should be interviewed in their houses. It is not
+good practice to have the older people in the community gathered in one place.
+
+When entering older people’s houses, enumerators should always be polite,
+respectful, and careful not to intrude on people’s privacy.
+
+Older people should not be intimidated into answering the questionnaire or being
+measured. They always have a right to refuse to answer some or all of the
+questions and to refuse measurements. Refusals should be noted on the
+questionnaire.
+
+Some of the questions are of an intimate nature. Be careful not to administer
+the questionnaire in a space where everybody present can hear the answers.
+This may embarrass the respondent or cause the respondent to answer wrongly.
+This is important as a ‘wrong answer’ will tend to hide need and
+will bias the survey results.
+
+Some older women may object to having their MUAC taken by a man (or vice
+versa). This is why it is advisable that the team has both male and female
+members. This not always possible, but older people are often more free from
+prejudices than the younger members of their community. It is rare for an older
+woman to refuse to expose her arms or feet before a male enumerator, and also
+rare that an older man objects to being measured by a female enumerator.
