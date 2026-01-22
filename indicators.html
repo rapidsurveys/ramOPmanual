@@ -1,0 +1,1606 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>2&nbsp; Indicators – Rapid Assessment Method for Older People (RAM-OP)</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./questionnaire.html" rel="next">
+<link href="./sampling.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dcd6dad1d9027e0fc018a6aab5a8b21b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-6b9bb122842f54d682f45c92523a3e3f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-SE438KE5DS"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-SE438KE5DS', { 'anonymize_ip': true});
+</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./indicators.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Indicators</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Rapid Assessment Method for Older People (RAM-OP)</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/rapidsurveys/ramOPmanual/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Rapid-Assessment-Method-for-Older-People--RAM-OP-.pdf">
+              <i class="bi bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Rapid-Assessment-Method-for-Older-People--RAM-OP-.epub">
+              <i class="bi bi-journal pe-1"></i>
+            Download ePub
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sampling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Sampling</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./indicators.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Indicators</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./questionnaire.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">The RAM-OP questionnaire</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./datasets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Datasets</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./practical.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Practical Fieldwork</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./software.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">RAM-OP Software</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./conclusion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Conclusion</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">References</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#sec-03-01" id="toc-sec-03-01" class="nav-link active" data-scroll-target="#sec-03-01"><span class="header-section-number">2.1</span> The RAM-OP indicator set</a></li>
+  <li><a href="#sec-03-02" id="toc-sec-03-02" class="nav-link" data-scroll-target="#sec-03-02"><span class="header-section-number">2.2</span> Demography and situation</a></li>
+  <li><a href="#sec-03-03" id="toc-sec-03-03" class="nav-link" data-scroll-target="#sec-03-03"><span class="header-section-number">2.3</span> Food intake</a></li>
+  <li><a href="#sec-03-04" id="toc-sec-03-04" class="nav-link" data-scroll-target="#sec-03-04"><span class="header-section-number">2.4</span> Meal frequency</a></li>
+  <li><a href="#sec-03-05" id="toc-sec-03-05" class="nav-link" data-scroll-target="#sec-03-05"><span class="header-section-number">2.5</span> Food groups and dietary diversity</a></li>
+  <li><a href="#sec-03-06" id="toc-sec-03-06" class="nav-link" data-scroll-target="#sec-03-06"><span class="header-section-number">2.6</span> Indicators of nutrient consumption</a>
+  <ul class="collapse">
+  <li><a href="#sec-03-06-01" id="toc-sec-03-06-01" class="nav-link" data-scroll-target="#sec-03-06-01"><span class="header-section-number">2.6.1</span> Protein rich foods</a></li>
+  <li><a href="#sec-03-06-02" id="toc-sec-03-06-02" class="nav-link" data-scroll-target="#sec-03-06-02"><span class="header-section-number">2.6.2</span> Vitamin A rich foods</a></li>
+  <li><a href="#sec-03-06-03" id="toc-sec-03-06-03" class="nav-link" data-scroll-target="#sec-03-06-03"><span class="header-section-number">2.6.3</span> Iron rich foods</a></li>
+  <li><a href="#sec-03-06-04" id="toc-sec-03-06-04" class="nav-link" data-scroll-target="#sec-03-06-04"><span class="header-section-number">2.6.4</span> Calcium rich foods</a></li>
+  <li><a href="#sec-03-06-05" id="toc-sec-03-06-05" class="nav-link" data-scroll-target="#sec-03-06-05"><span class="header-section-number">2.6.5</span> Zinc rich foods</a></li>
+  <li><a href="#sec-03-06-06" id="toc-sec-03-06-06" class="nav-link" data-scroll-target="#sec-03-06-06"><span class="header-section-number">2.6.6</span> Vitamin B rich foods</a></li>
+  </ul></li>
+  <li><a href="#sec-03-07" id="toc-sec-03-07" class="nav-link" data-scroll-target="#sec-03-07"><span class="header-section-number">2.7</span> Severe food insecurity</a></li>
+  <li><a href="#sec-03-08" id="toc-sec-03-08" class="nav-link" data-scroll-target="#sec-03-08"><span class="header-section-number">2.8</span> Disability</a></li>
+  <li><a href="#sec-03-09" id="toc-sec-03-09" class="nav-link" data-scroll-target="#sec-03-09"><span class="header-section-number">2.9</span> Activities of daily living</a></li>
+  <li><a href="#sec-03-10" id="toc-sec-03-10" class="nav-link" data-scroll-target="#sec-03-10"><span class="header-section-number">2.10</span> Mental health and well-being</a></li>
+  <li><a href="#sec-03-11" id="toc-sec-03-11" class="nav-link" data-scroll-target="#sec-03-11"><span class="header-section-number">2.11</span> Dementia</a></li>
+  <li><a href="#sec-03-12" id="toc-sec-03-12" class="nav-link" data-scroll-target="#sec-03-12"><span class="header-section-number">2.12</span> Health and health-seeking behaviour</a></li>
+  <li><a href="#sec-03-13" id="toc-sec-03-13" class="nav-link" data-scroll-target="#sec-03-13"><span class="header-section-number">2.13</span> Sources of income</a></li>
+  <li><a href="#sec-03-14" id="toc-sec-03-14" class="nav-link" data-scroll-target="#sec-03-14"><span class="header-section-number">2.14</span> Water, sanitation, and hygiene</a></li>
+  <li><a href="#sec-03-15" id="toc-sec-03-15" class="nav-link" data-scroll-target="#sec-03-15"><span class="header-section-number">2.15</span> Anthropometry and screening coverage</a></li>
+  <li><a href="#sec-03-16" id="toc-sec-03-16" class="nav-link" data-scroll-target="#sec-03-16"><span class="header-section-number">2.16</span> Visual impairment</a></li>
+  <li><a href="#sec-03-17" id="toc-sec-03-17" class="nav-link" data-scroll-target="#sec-03-17"><span class="header-section-number">2.17</span> Miscellaneous indicators</a></li>
+  <li><a href="#sec-03-18" id="toc-sec-03-18" class="nav-link" data-scroll-target="#sec-03-18"><span class="header-section-number">2.18</span> A note on data management and data analysis</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/rapidsurveys/ramOPmanual/edit/main/03-indicators.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="sec-03" class="quarto-section-identifier"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Indicators</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="sec-03-01" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="sec-03-01"><span class="header-section-number">2.1</span> The RAM-OP indicator set</h2>
+<p>RAM-OP surveys collect and report on data for a broad range of indicators relevant to older people.</p>
+<p>These indicators cover the following dimensions:</p>
+<ul>
+<li>Demography and situation</li>
+<li>Food intake</li>
+<li>Severe food insecurity</li>
+<li>Disability</li>
+<li>Activities of daily living</li>
+<li>Mental health and well-being</li>
+<li>Dementia</li>
+<li>Health and health-seeking behaviour</li>
+<li>Sources of income</li>
+<li>Water, sanitation, and hygiene</li>
+<li>Anthropometry and screening coverage</li>
+<li>Visual impairment</li>
+</ul>
+<p>Data for a small group of miscellaneous indicators are also collected and reported.</p>
+<p>The RAM-OP indicator set has been designed on a modular basis. Each module is a set of indicators relating to a single dimension from the list given above and is collected using a dedicated set of questions and measurements. This means that the RAM-OP questionnaire also consists of a set of modules.</p>
+<p>Whenever possible, RAM-OP uses standard and validated indicators and question sets.</p>
+<p>Indicators are described below, showing the questionnaire components that are used to collect and record the data required, and flowcharts of the process used to derive indicators from the collected data. Standard symbols are used. For example:</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-indicators01" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-indicators01">flowchart TD
+  A[**sum = a1 + a2**&lt;br/&gt;&lt;br/&gt;*Assign a value or perform a calculation*]
+  B{**h1 = 0?**&lt;br/&gt;&lt;br/&gt;*Make a decision Yes/No*}
+
+  A --&gt; B
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.1: Standard symbols used
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>A non-standard symbol is used to show <strong>recode operations</strong>. A recode operation shows changes that are made to data so that it can be used to derive indicators without having to show many decision nodes in the flowchart. They are also used to specify what should be done with missing or out-of-range values. For example:</p>
+<div id="fig-indicators02" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Example recode operations flowchart" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators02.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Example recode operations flowchart">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.2: Example recode operation flowchart
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="sec-03-02" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="sec-03-02"><span class="header-section-number">2.2</span> Demography and situation</h2>
+<p>The demography and situation indicators are used to describe the survey sample and are derived from this questionnaire component:</p>
+<div id="fig-questionnaire01" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Demography and situation questionnaire module" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-questionnaire01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/questionnaire01.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Demography and situation questionnaire module">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-questionnaire01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.3: Demography and situation questionnaire module
+</figcaption>
+</figure>
+</div>
+<p>Each of the questions yields a separate indicator:</p>
+<div id="fig-indicators03" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Demography and situation indicators" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators03.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Demography and situation indicators">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.4: Demography and situation indicators
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="sec-03-03" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="sec-03-03"><span class="header-section-number">2.3</span> Food intake</h2>
+<p>Food-intake indicators are derived from this questionnaire component. This data can be queried to yield a large number of useful indicators.</p>
+<div id="fig-questionnaire02" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Food intake questionnaire module" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-questionnaire02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/questionnaire02.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Food intake questionnaire module">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-questionnaire02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.5: Food intake questionnaire module
+</figcaption>
+</figure>
+</div>
+<p>There are three related sets of diet-related indicators:</p>
+<ul>
+<li>meal frequency</li>
+<li>food groups consumed / dietary diversity</li>
+<li>indicators of nutrient consumption.</li>
+</ul>
+<p>The indicator hierarchy is:</p>
+<div id="fig-indicators04" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Diet-related indicators hierarchy" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators04-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators04.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Diet-related indicators hierarchy">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators04-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.6: Diet-relalted indicators hierarchy
+</figcaption>
+</figure>
+</div>
+<p>The data on the number of meals taken in the previous twenty-four hours forms a <em>meal frequency score</em>.</p>
+<p>Food intake data from each subject is combined into a <em>dietary diversity score</em>. The dietary diversity score is a crude measure of food security. The dietary diversity score ranges between zero (i.e.&nbsp;no food groups) and eleven (i.e.&nbsp;eleven food groups). Higher values of the dietary diversity sore are associated with better food security.</p>
+<p>The meal frequency score and the dietary diversity score follow <span class="citation" data-cites="swindale_household_2006 kennedy_guidelines_2010">(<a href="references.html#ref-swindale_household_2006" role="doc-biblioref">Swindale and Bilinsky 2006</a>; <a href="references.html#ref-kennedy_guidelines_2010" role="doc-biblioref">Kennedy, Ballard, and Dop 2010</a>)</span>:</p>
+<blockquote class="blockquote">
+<p>Swindale A, Bilinsky P, <em>Household Dietary Diversity Score (HDDS) for measurement of household food access: Indicator guide</em>.,Washington DC, Food and Nutrition Technical Assistance (FANTA) Project, 2006</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Kennedy G, Ballard T, Dop MC, <em>Guidelines for Measuring Household and Individual Dietary Diversity</em>, Rome, Food and Agricultural Organization, 2010</p>
+</blockquote>
+<p>The data on the types of food consumed in the previous twenty-four hours are analysed in order to determine the diet’s content of specific micronutrients that are important for older people. This also follows <span class="citation" data-cites="swindale_household_2006">Swindale and Bilinsky (<a href="references.html#ref-swindale_household_2006" role="doc-biblioref">2006</a>)</span> and <span class="citation" data-cites="kennedy_guidelines_2010">Kennedy, Ballard, and Dop (<a href="references.html#ref-kennedy_guidelines_2010" role="doc-biblioref">2010</a>)</span>, and <span class="citation" data-cites="world_health_organization_management_2000">World Health Organization (<a href="references.html#ref-world_health_organization_management_2000" role="doc-biblioref">2000</a>)</span>:</p>
+<blockquote class="blockquote">
+<p>World Health Organisation, <em>The management of nutrition in major emergencies</em>, Geneva, WHO, 2000</p>
+</blockquote>
+</section>
+<section id="sec-03-04" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="sec-03-04"><span class="header-section-number">2.4</span> Meal frequency</h2>
+<p>The meal frequency score indicator is the answer given to the first food intake question:</p>
+<div id="fig-indicators05" class="quarto-float quarto-figure quarto-figure-center anchored" alt="First food intake question" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators05-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators05.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="First food intake question">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators05-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.7: First food intake question
+</figcaption>
+</figure>
+</div>
+<p>Meal frequency is a crude measure of food security.</p>
+<p>Higher values of meal frequency are associated with better food security.</p>
+</section>
+<section id="sec-03-05" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="sec-03-05"><span class="header-section-number">2.5</span> Food groups and dietary diversity</h2>
+<p>Questions relating to the consumption of individual food items / food types are combined to create food groups and the number of food groups consumed are counted to create a dietary diversity score:</p>
+<div id="fig-indicators06" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Workflow for creating food groups" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators06-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators06.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Workflow for creating food groups">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators06-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.8: Workflow for creating food groups
+</figcaption>
+</figure>
+</div>
+<p>The consumption of the eleven individual food groups and the dietary diversity score are reported separately.</p>
+<p>The dietary diversity score is a crude measure of food security. The dietary diversity score ranges between zero (no food groups) and eleven (eleven food groups). Higher values of the dietary diversity score are associated with better food security.</p>
+</section>
+<section id="sec-03-06" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="sec-03-06"><span class="header-section-number">2.6</span> Indicators of nutrient consumption</h2>
+<p><strong>Overview</strong></p>
+<p>Questions and combinations of questions relating to the consumption of individual food items and food types can be used to determine whether the reported diet is likely to be provide sufficient nutrients of various types:</p>
+<div id="fig-indicators07" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Workflow for nutrients uptake indicators" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators07-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators07.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Workflow for nutrients uptake indicators">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators07-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.9: Workflow for creating nutrients uptake indicators
+</figcaption>
+</figure>
+</div>
+<p>Each indicator is formed using logical “or” operations (i.e.&nbsp;the indicator is true if <strong>any</strong> of the constituent foods are consumed). For example, the indicator for the consumption of iron rich foods:</p>
+<div id="fig-indicators08" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Recoding for iron rich foods" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators08-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators08.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Recoding for iron rich foods">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators08-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.10: Recoding for iron rich foods
+</figcaption>
+</figure>
+</div>
+<p>requires the consumption of one or more of green leafy vegetables, organ meats, meat, or fish and shellfish. Consumption of <strong>any</strong> of these foods is sufficient to indicate that the survey subject consumes iron rich food.</p>
+<section id="sec-03-06-01" class="level3" data-number="2.6.1">
+<h3 data-number="2.6.1" class="anchored" data-anchor-id="sec-03-06-01"><span class="header-section-number">2.6.1</span> Protein rich foods</h3>
+<p>Indicators of consumption of protein rich foods from animal sources, plant source, and any / all sources are calculated as:</p>
+<div id="fig-indicators09" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Recoding for protein-rich foods" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators09-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators09.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Recoding for protein-rich foods">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators09-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.11: Recoding for protein-rich foods
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="sec-03-06-02" class="level3" data-number="2.6.2">
+<h3 data-number="2.6.2" class="anchored" data-anchor-id="sec-03-06-02"><span class="header-section-number">2.6.2</span> Vitamin A rich foods</h3>
+<p>Indicators of consumption of vitamin A rich foods from animal sources, plant source, and any / all sources are calculated as:</p>
+<div id="fig-indicators10" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Recoding for vitamin A-rich foods" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators10-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators10.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Recoding for vitamin A-rich foods">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators10-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.12: Recoding for vitamin A-rich foods
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="sec-03-06-03" class="level3" data-number="2.6.3">
+<h3 data-number="2.6.3" class="anchored" data-anchor-id="sec-03-06-03"><span class="header-section-number">2.6.3</span> Iron rich foods</h3>
+<p>An indicator of consumption of iron rich foods from any / all sources is calculated as:</p>
+<div id="fig-indicators11" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Recoding of iron-rich foods from any source" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators11-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators11.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Recoding of iron-rich foods from any source">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators11-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.13: Recoding of iron-rich foods from any source
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="sec-03-06-04" class="level3" data-number="2.6.4">
+<h3 data-number="2.6.4" class="anchored" data-anchor-id="sec-03-06-04"><span class="header-section-number">2.6.4</span> Calcium rich foods</h3>
+<p>An indicator of consumption of calcium rich foods from any / all sources is calculated as:</p>
+<div id="fig-indicators12" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Recoding of caclcium-rich foods" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators12-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators12.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Recoding of caclcium-rich foods">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators12-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.14: Recoding of calcium-rich foods
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="sec-03-06-05" class="level3" data-number="2.6.5">
+<h3 data-number="2.6.5" class="anchored" data-anchor-id="sec-03-06-05"><span class="header-section-number">2.6.5</span> Zinc rich foods</h3>
+<p>An indicator of consumption of zinc rich foods from any / all sources is calculated as:</p>
+<div id="fig-indicators13" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Recoding of zinc-rich foods" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators13-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators13.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Recoding of zinc-rich foods">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators13-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.15: Recoding of zinc-rich foods
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="sec-03-06-06" class="level3" data-number="2.6.6">
+<h3 data-number="2.6.6" class="anchored" data-anchor-id="sec-03-06-06"><span class="header-section-number">2.6.6</span> Vitamin B rich foods</h3>
+<p>Indicators of consumption of vitamin B rich foods from any / all sources are calculated as:</p>
+<div id="fig-indicators14" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Recoding if vitamin B-rich foods" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators14-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators14.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Recoding if vitamin B-rich foods">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators14-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.16: Recoding of vitamin B-rich foods
+</figcaption>
+</figure>
+</div>
+<p>Note that the vitamin B complex indicator requires that at least one food from each of the B1, B2, B3, B6, and B12 rich food combinations is consumed.</p>
+</section>
+</section>
+<section id="sec-03-07" class="level2" data-number="2.7">
+<h2 data-number="2.7" class="anchored" data-anchor-id="sec-03-07"><span class="header-section-number">2.7</span> Severe food insecurity</h2>
+<p>An indicator of severe food insecurity (hunger) is derived from this questionnaire component:</p>
+<div id="fig-questionnaire03" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Severe food insecurity questionnaire module" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-questionnaire03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/questionnaire03.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Severe food insecurity questionnaire module">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-questionnaire03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.17: Severe food insecurity questionnaire module
+</figcaption>
+</figure>
+</div>
+<p>and is calculated as:</p>
+<div id="fig-indicators15" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Recoding of severe food insecurity indicator" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators15-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators15.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Recoding of severe food insecurity indicator">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators15-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.18: Recoding of severe food indsecurity indicator
+</figcaption>
+</figure>
+</div>
+<p>This indicator is the <em>Household Hunger Scale (HHS)</em> and is a simple, well-validated, and widely used indicator of severe food insecurity <span class="citation" data-cites="ballard_household_2011 ruel_measuring_2014">(<a href="references.html#ref-ballard_household_2011" role="doc-biblioref">Ballard et al. 2011</a>; <a href="references.html#ref-ruel_measuring_2014" role="doc-biblioref">Ruel, Ballard, and Deitchler 2014</a>)</span>:</p>
+<blockquote class="blockquote">
+<p>Ballard T, Coates J, Swindale A, Deitchler M, <em>Household Hunger Scale: Indicator Definition and Measurement Guide</em>, Washington DC, FANTA-2 Bridge, FHI 360, 2011</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Ruel MT, Ballard TJ, Deitchler M, <em>Measuring and Tracking the Access Dimension of Food Security: Available Indicators and Recommendations for Future Investments</em>, Global Nutrition Report 2014: Technical Note 6, Washington DC, International Food Policy Research Institute, 2014</p>
+</blockquote>
+</section>
+<section id="sec-03-08" class="level2" data-number="2.8">
+<h2 data-number="2.8" class="anchored" data-anchor-id="sec-03-08"><span class="header-section-number">2.8</span> Disability</h2>
+<p>Indicators of disability across six different domains are derived from this questionnaire component:</p>
+<div id="fig-questionnaire04" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Disability questionnaire module" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-questionnaire04-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/questionnaire04.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Disability questionnaire module">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-questionnaire04-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.19: Disability questionnaire module
+</figcaption>
+</figure>
+</div>
+<p>Individual disability indicators are reported for each domain (i.e.&nbsp;vision, hearing, mobility, remembering, self-care, and communication) of disability in the Washington Group’s short set of question designed to identify people with a disability in a census or survey format <span class="citation" data-cites="washington_group_on_disability_statistics_washington_2022">(<a href="references.html#ref-washington_group_on_disability_statistics_washington_2022" role="doc-biblioref">Washington Group on Disability Statistics 2022</a>)</span>.</p>
+<p>Overall disability prevalence indicators are also reported.</p>
+<p>Indicators of disability in each domain are calculated as:</p>
+<div id="fig-indicators16" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Recoding of disability indicators" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators16-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators16.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Recoding of disability indicators">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators16-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.20: Recoding of disability indicators
+</figcaption>
+</figure>
+</div>
+<p>Overall disability prevalence indicators are calculated as:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 66%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><code>P0</code> = 1</td>
+<td>if no domain has <code>D1</code> = 1, else = 0 (no disability in any domain)</td>
+</tr>
+<tr class="even">
+<td><code>P1</code> = 1</td>
+<td>if at least one domain has <code>D1</code> = 1, else = 0</td>
+</tr>
+<tr class="odd">
+<td><code>P2</code> = 1</td>
+<td>if at least one domain has <code>D2</code> = 1, else = 0</td>
+</tr>
+<tr class="even">
+<td><code>P3</code> = 1</td>
+<td>if at least one domain has <code>D3</code> = 1, else = 0</td>
+</tr>
+<tr class="odd">
+<td><code>PM</code> = 1</td>
+<td>if at more than one domain has <code>D1</code> = 1, else = 0 (M stands for “Multiple”)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="sec-03-09" class="level2" data-number="2.9">
+<h2 data-number="2.9" class="anchored" data-anchor-id="sec-03-09"><span class="header-section-number">2.9</span> Activities of daily living</h2>
+<p>Indicators of how well the subject copes with activities of daily living are derived from this questionnaire component:</p>
+<div id="fig-questionnaire05" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Activities of daily living questionnaire module" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-questionnaire05-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/questionnaire05.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Activities of daily living questionnaire module">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-questionnaire05-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.21: Activities of daily living questionnaire module
+</figcaption>
+</figure>
+</div>
+<p>Individual <em>independence</em> indicators are reported for each dimension (i.e.&nbsp;bathing, dressing, toilet, mobility, continence, and eating) of daily living activities.</p>
+<p>A composite indicator of the degree of <em>independence</em> (i.e.&nbsp;how well the subject can cope with activities of daily living) is also reported. This indicator is the <em>Katz Index of Independence in Activities of Daily Living</em> (or the <em>Katz Index of ADL</em> for short) and is a simple, well-validated, and widely used indicator of how well the subject can cope with activities of daily living <span class="citation" data-cites="katz_studies_1963 katz_progress_1970 katz_assessing_2015">(<a href="references.html#ref-katz_studies_1963" role="doc-biblioref">S. Katz et al. 1963</a>; <a href="references.html#ref-katz_progress_1970" role="doc-biblioref">Sidney Katz et al. 1970</a>; <a href="references.html#ref-katz_assessing_2015" role="doc-biblioref">Sidney Katz 2015</a>)</span>.</p>
+<blockquote class="blockquote">
+<p>Katz S, Ford AB, Moskowitz RW, Jackson BA, Jaffe MW, <em>Studies of illness in the aged. The Index of ADL: A standardized measure of biological and psychosocial function</em>, JAMA, 185(12), 1963, pp.&nbsp;914-9</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Katz S, Down TD, Cash HR, Grotz, RC, <em>Progress in the development of the index of ADL</em>, The Gerontologist, 10(1), 1970, pp.&nbsp;20-30</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Katz S, <em>Assessing self-maintenance: Activities of daily living, mobility and instrumental activities of daily living</em>, JAGS, 31(12), 1983, pp.&nbsp;721-726</p>
+</blockquote>
+<p>The Katz Index of ADL ranges between zero (complete dependence) and six (independence).</p>
+<p>The seventh question of this module, which is not part of the Katz Index of ADL, is reported separately and indicates whether the subject has someone to help them with activities of daily living:</p>
+<p><strong>Activities of Daily Living</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 24%">
+<col style="width: 26%">
+<col style="width: 24%">
+<col style="width: 24%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>a7</td>
+<td>Is someone taking care of you or helping you with everyday activities such as shopping, cooking, bathing and dressing?</td>
+<td>1 = Yes; 2 = No</td>
+<td>[__]</td>
+</tr>
+</tbody>
+</table>
+<p>It is not possible to know if the help available completely meets a subject’s needs, but we can identify the proportion of subjects needing help with one or more activities of daily living who also report not having someone to help them:</p>
+<div id="fig-indicators17" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Conceptual representation of indicator on unmet need" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators17-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators17.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Conceptual representation of indicator on unmet need">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators17-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.22: Conceptual representation of indicator on unmet need
+</figcaption>
+</figure>
+</div>
+<p>This is an indicator of unmet need.</p>
+<p>Indicators of how well the subject can cope with activities of daily living and probable unmet need are calculated as:</p>
+<div id="fig-indicators18" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Recode for unmet need indicator" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators18-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators18.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Recode for unmet need indicator">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators18-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.23: Recode for unmet need indicator
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="sec-03-10" class="level2" data-number="2.10">
+<h2 data-number="2.10" class="anchored" data-anchor-id="sec-03-10"><span class="header-section-number">2.10</span> Mental health and well-being</h2>
+<p>Indicators of mental health and well being are derived from this questionnaire component:</p>
+<div id="fig-quesetionnaire06" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Mental health and well-being questionnaire module" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-quesetionnaire06-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/questionnaire06.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Mental health and well-being questionnaire module">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-quesetionnaire06-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.24: Mental health and well-being questionnaire module
+</figcaption>
+</figure>
+</div>
+<p>A score is calculated. This is the <em>Kessler K6 Psychological Distress Scale</em>. The score ranges from zero (indicating no psychological distress) to twenty-four (indicating severe psychological distress). A score of thirteen or more indicates serious psychological distress. The Kessler K6 Psychological Distress Scale is a widely recommended, widely used, accurate, reliable, and simple measure of psychological distress <span class="citation" data-cites="kessler_short_2002 kessler_screening_2003">(<a href="references.html#ref-kessler_short_2002" role="doc-biblioref">R. C. Kessler et al. 2002</a>; <a href="references.html#ref-kessler_screening_2003" role="doc-biblioref">Ronald C. Kessler et al. 2003</a>)</span>.</p>
+<blockquote class="blockquote">
+<p>Kessler RC, Andrews G, Colpe LJ, Hiripi E, Mroczek, DK, Normand SLT, et al, “Short screening scales to monitor population prevalences and trends in non-specific psychological distress”, <em>Psychological Medicine</em>, 32(6), 2002, pp.&nbsp;959–976</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Kessler RC, Barker PR, Colpe LJ, Epstein JF, Gfroerer JC, Hiripi E, “Screening for Serious Mental Illness in the General Population”, <em>Archives of General Psychiatry</em>, 60(2), 2003, pp.&nbsp;184-189</p>
+</blockquote>
+<p>Indicators of mental health and well-being are calculated as:</p>
+<div id="fig-indicators19" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Recode of mental health and well-being indicators" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators19-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators19.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Recode of mental health and well-being indicators">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators19-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.25: Recode of mental health and well-being indicators
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="sec-03-11" class="level2" data-number="2.11">
+<h2 data-number="2.11" class="anchored" data-anchor-id="sec-03-11"><span class="header-section-number">2.11</span> Dementia</h2>
+<p>An indicator of probable dementia is derived from this questionnaire component:</p>
+<div id="fig-questionnaire07" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Dementia questionnaire module" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-questionnaire07-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/questionnaire07.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Dementia questionnaire module">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-questionnaire07-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.26: Dementia questionnaire module
+</figcaption>
+</figure>
+</div>
+<p>The indicator of <em>probable</em> dementia is calculated as:</p>
+<div id="fig-indicators20" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Recode of probably dementia indicator" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators20-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators20.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Recode of probably dementia indicator">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators20-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.27: Recode of probably dementia indicator
+</figcaption>
+</figure>
+</div>
+<p>This indicator is derived from the Community Screening Instrument for Dementia (CSID) developed by the 10/66 Dementia Research Group. This is a simple, validated, and widely used indicator of probable dementia <span class="citation" data-cites="prince_brief_2010">(<a href="references.html#ref-prince_brief_2010" role="doc-biblioref">Prince et al. 2010</a>)</span>.</p>
+<blockquote class="blockquote">
+<p>Prince M, et al, “A brief dementia screener suitable for use by non-specialists in resource poor settings - The cross-cultural derivation and validation of the brief Community Screening Instrument for Dementia”, <em>International Journal of Geriatric Psychiatry</em>, 26(9), 2011, pp.&nbsp;899–907</p>
+</blockquote>
+</section>
+<section id="sec-03-12" class="level2" data-number="2.12">
+<h2 data-number="2.12" class="anchored" data-anchor-id="sec-03-12"><span class="header-section-number">2.12</span> Health and health-seeking behaviour</h2>
+<p>Indicators of health and health-seeking behaviour for chronic and acute conditions are derived from this questionnaire component:</p>
+<div id="fig-questionnaire08" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Health and health-seeking behaviour questionnaire module" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-questionnaire08-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/questionnaire08.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Health and health-seeking behaviour questionnaire module">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-questionnaire08-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.28: Health and health-seeking behaviour questionnaire module
+</figcaption>
+</figure>
+</div>
+<p>Indicators of health and health-seeking behaviour for chronic conditions are calculated as:</p>
+<div id="fig-indicators21" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Recode of health and health-seeking behaviour indicators for chronic conditions" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators21-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators21.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Recode of health and health-seeking behaviour indicators for chronic conditions">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators21-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.29: Recode of health and health-seeking behaviour indicators for chronic conditions
+</figcaption>
+</figure>
+</div>
+<p>Indicators of health and health-seeking behaviour for acute conditions are calculated as:</p>
+<div id="fig-indicators22" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Recode of health and health-seeking behaviour indicators for acute conditions" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators22-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators22.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Recode of health and health-seeking behaviour indicators for acute conditions">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators22-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.30: Recode of health and health-seeking behaviour indicators for acute conditions
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="sec-03-13" class="level2" data-number="2.13">
+<h2 data-number="2.13" class="anchored" data-anchor-id="sec-03-13"><span class="header-section-number">2.13</span> Sources of income</h2>
+<p>Indicators related to sources of income are derived from this questionnaire component:</p>
+<div id="fig-questionnaire09" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Sources of income questionnaire module" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-questionnaire09-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/questionnaire09.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Sources of income questionnaire module">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-questionnaire09-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.31: Sources of income questionnaire module
+</figcaption>
+</figure>
+</div>
+<p>and are calculated as:</p>
+<div id="fig-indicators23" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Recode of sources of income indicators" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators23-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators23.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Recode of sources of income indicators">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators23-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.32: Recode of sources of income indicators
+</figcaption>
+</figure>
+</div>
+<p>The grouped income sources (i.e.&nbsp;<code>m2a</code>, <code>m2b</code>, etc.) and individual income sources may vary between settings. The questionnaire component shown above has proved suitable for use in Ethiopia, South Sudan, and Tanzania.</p>
+</section>
+<section id="sec-03-14" class="level2" data-number="2.14">
+<h2 data-number="2.14" class="anchored" data-anchor-id="sec-03-14"><span class="header-section-number">2.14</span> Water, sanitation, and hygiene</h2>
+<p>Indicators relating to water, sanitation, and hygiene (WASH) are derived from this questionnaire component:</p>
+<div id="fig-questionnaire10" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Water, sanitation, and hygiene questionnaire module" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-questionnaire10-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/questionnaire10.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Water, sanitation, and hygiene questionnaire module">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-questionnaire10-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.33: Water, sanitation, and hygiene questionnaire module
+</figcaption>
+</figure>
+</div>
+<p>Indicators are calculated following <span class="citation" data-cites="world_health_organization_core_2006">World Health Organization (<a href="references.html#ref-world_health_organization_core_2006" role="doc-biblioref">2006</a>)</span>.</p>
+<blockquote class="blockquote">
+<p>WHO / UNICEF, <em>Core Questions on Drinking-water and Sanitation for Household Surveys</em>, Geneva, WHO / UNICEF, 2006</p>
+</blockquote>
+<p>Indicators relating to water, sanitation, and hygiene (WASH) are calculated as:</p>
+<div id="fig-indicators24" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Recode of water, sanitation, and hygiene indicators" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators24-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators24.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Recode of water, sanitation, and hygiene indicators">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators24-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.34: Recode of water, sanitation, and hygiene indicators
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="sec-03-15" class="level2" data-number="2.15">
+<h2 data-number="2.15" class="anchored" data-anchor-id="sec-03-15"><span class="header-section-number">2.15</span> Anthropometry and screening coverage</h2>
+<p>Indicators relating to anthropometry and screening coverage are derived from this questionnaire component:</p>
+<div id="fig-questionnaire11" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Anthropometry and screening questionnaire module" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-questionnaire11-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/questionnaire11.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Anthropometry and screening questionnaire module">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-questionnaire11-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.35: Anthropometry and screening questionnaire module
+</figcaption>
+</figure>
+</div>
+<p>And are calculated as:</p>
+<div id="fig-indicators25" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Recode of anthropometry and screening indicators" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators25-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators25.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Recode of anthropometry and screening indicators">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators25-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.36: Recode of anthropometry and screening indicators
+</figcaption>
+</figure>
+</div>
+<p>Raw MUAC data (i.e.&nbsp;not MUAC class) is collected, entered, and analysed. This requires that an adult MUAC tape (i.e.&nbsp;capable of measuring MUAC to 450 mm) is used.</p>
+<p>The presence of bilateral oedema is assessed by pressing with your thumbs <strong>both</strong> feet of the older person for three seconds and checking whether this creates a lasting depression or “pit” on both feet. Bilateral pitting oedema in older people may not be “nutritional” oedema (as is almost always the case with children). Older people with bilateral pitting oedema should be advised to consult a doctor.</p>
+<p>The prevalence of GAM, MAM, and SAM are estimated using a PROBIT estimator. This type of estimator provides better precision than a classic estimator at small sample sizes <span class="citation" data-cites="world_health_organization_physical_1995 dale_assessment_2012 blanton_probit_2013">(<a href="references.html#ref-world_health_organization_physical_1995" role="doc-biblioref">World Health Organization 1995</a>; <a href="references.html#ref-dale_assessment_2012" role="doc-biblioref">Dale et al. 2012</a>; <a href="references.html#ref-blanton_probit_2013" role="doc-biblioref">Blanton and Bilukha 2013</a>)</span>.</p>
+<blockquote class="blockquote">
+<p>World Health Organisation, <em>Physical Status: The use and interpretation of anthropometry. Report of a WHO expert committee</em>, WHO Technical Report Series 854, WHO, Geneva, 1995</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Dale NM, Myatt M, Prudhon C, Briend, A, “Assessment of the PROBIT approach for estimating the prevalence of global, moderate and severe acute malnutrition from population surveys”, <em>Public Health Nutrition</em>, 1–6. doi:10.1017/S1368980012003345, 2012</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Blanton CJ, Bilukha, OO, “The PROBIT approach in estimating the prevalence of wasting: revisiting bias and precision”, <em>Emerging Themes in Epidemiology</em>, 10(1), 2013, p.&nbsp;8</p>
+</blockquote>
+<p>The PROBIT estimator is described in Box 1.</p>
+<p>MUAC-based case definitions for acute malnutrition are used:</p>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td><strong>GAM</strong> | MUAC &lt; 210 mm</td>
+</tr>
+<tr class="even">
+<td><strong>MAM</strong> | 185 mm ≤ MUAC &lt; 210mm</td>
+</tr>
+<tr class="odd">
+<td><strong>SAM</strong> | MUAC &lt; 185mm</td>
+</tr>
+</tbody>
+</table>
+<p>These are standard case definitions for acute malnutrition in adults and recommended by HelpAge International for use in older people in humanitarian contexts.</p>
+<p><strong>Note</strong> : MUAC in adults should be measured on the non-dominant arm. This is usually the left arm. The importance of high levels of accuracy and precision at the individual level is of lesser importance in survey work compared to case-finding or diagnosis in clinical contexts, for example. This means that a simple rule such as “Always measure MUAC on the left arm” may be used.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Using PROBIT">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Using PROBIT
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>An estimate of GAM prevalence can be made using a classic estimator:</p>
+<p><span class="math display">\[\text{prevalence} = \frac{\text{number of respondents with MUAC &lt; 210 mm}}{\text{total number of respondents}}\]</span></p>
+<p>The estimate of GAM prevalence made from the RAM-OP survey data is made using a PROBIT estimator. The PROBIT function is also known as the <em>inverse cumulative distribution</em> function. This function converts parameters of the distribution of an indicator (e.g.&nbsp;the mean and standard deviation of a <em>normally</em> distributed variable) into cumulative percentiles. This means that it is possible to use the normal PROBIT function with estimates of the mean and standard deviation of indicator values in a survey sample to predict (or estimate) the proportion of the population falling below a given threshold. For example, for data with a mean MUAC of 256 mm and a standard deviation of 28 mm the output of the normal PROBIT function for a threshold of 210 mm is 0.0502 meaning that 5.02% of the population are <em>predicted</em> (or <em>estimated</em>) to fall below the 210 mm threshold.</p>
+<p>&nbsp;</p>
+<p>Both the classic and the PROBIT methods can be thought of as estimating area:</p>
+<p>&nbsp;</p>
+<div id="fig-auc" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Area under the curve" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-auc-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators26.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Area under the curve">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-auc-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.37: Area under the curve
+</figcaption>
+</figure>
+</div>
+<p>&nbsp;</p>
+<p>The principal advantage of the PROBIT approach is that the required sample size is usually smaller than that required to estimate prevalence with a given precision using the classic method.</p>
+<p>&nbsp;</p>
+<p>The PROBIT method assumes that MUAC is a normally distributed variable. If this is not the case then the distribution of MUAC is transformed towards normality.</p>
+<p>&nbsp;</p>
+<p>The prevalence of SAM is estimated in a similar way to GAM. The prevalence of MAM is estimated as the difference between the GAM and SAM prevalence estimates:</p>
+<p><span class="math display">\[\widehat{MAM prevalence} = \widehat{GAM prevalence} - \widehat{SAM prevalence}\]</span></p>
+</div>
+</div>
+</section>
+<section id="sec-03-16" class="level2" data-number="2.16">
+<h2 data-number="2.16" class="anchored" data-anchor-id="sec-03-16"><span class="header-section-number">2.16</span> Visual impairment</h2>
+<p>An indicator of visual impairment is derived from this questionnaire component:</p>
+<div id="fig-quesetionnaire12" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Visual impairment questionnaire module" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-quesetionnaire12-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/questionnaire12.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Visual impairment questionnaire module">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-quesetionnaire12-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.38: Visual impairment questionnaire module
+</figcaption>
+</figure>
+</div>
+<p>And is calculated as:</p>
+<div id="fig-indicators27" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Recode of visual impairment indicator" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators27-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators27.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Recode of visual impairment indicator">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators27-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.39: Recode of visual impairment indicator
+</figcaption>
+</figure>
+</div>
+<p>The <em>“illiterate E”</em> or <em>“tumbling E”</em> (the preferred term) is a validated and widely used method for measuring visual acuity <span class="citation" data-cites="taylor_applying_1978 kaiser_prospective_2009">(<a href="references.html#ref-taylor_applying_1978" role="doc-biblioref">TAYLOR 1978</a>; <a href="references.html#ref-kaiser_prospective_2009" role="doc-biblioref">Kaiser 2009</a>)</span></p>
+<blockquote class="blockquote">
+<p>Taylor HR, “Applying new design principles to the construction of an illiterate E chart”, <em>American Journal of Optometry &amp; Physiological Optics</em>, 55:348, 1978</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Kaiser PK, “Prospective Evaluation of Visual Acuity Assessment: A Comparison of Snellen Versus ETDRS Charts in Clinical Practice (An AOS Thesis)”, <em>Transactions of the American Ophthalmological Society</em>, 107: 311–324, 2009</p>
+</blockquote>
+<p>The size of the “E” used:</p>
+<div id="fig-indicators28" class="quarto-float quarto-figure quarto-figure-center anchored" alt="The tumbling E" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators28-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators28.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="The tumbling E">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators28-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.40: The tumbling E
+</figcaption>
+</figure>
+</div>
+<p>as well as the distance used for the test (two metres) and the indicator calculation apply the WHO case definition of visual impairment (i.e.&nbsp;visual acuity &lt; 6 / 18).</p>
+<p>The tumbling E card should be laminated (i.e.&nbsp;plastic coated and have a two metre cord attached which helps to ensure that the visual acuity test is performed at the correct distance (see <a href="#fig-indicators29" class="quarto-xref">Figure&nbsp;<span>2.41</span></a>)).</p>
+<p>After demonstrating to the respondent what the test is about (i.e.&nbsp;the subject should indicate which direction the branches of the ‘E’ are pointing), the test is administered at a distance of two meters, turning the card in four different directions, and asking the person to indicate which direction the branches of the “E” is pointing. If the subject wears glasses, they are allowed to use them during the test if they want to.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If the person is unable to correctly answer at least three times out of four, they have a visual impairment. A simple visual acuity test such as the ‘tumbling E’ test also does not indicate anything about an underlying disease such as glaucoma or the need for reading spectacles (presbyopia). These conditions are common in people aged 60 years or older. Subjects failing the visual acuity test should be counselled to visit an ophthalmologist for a detailed eye examination.</p>
+</div>
+</div>
+<div id="fig-indicators29" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Equipment used to measure visual acuity" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators29-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators29.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Equipment used to measure visual acuity">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators29-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.41: Equipment used to measure visual acuity
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="sec-03-17" class="level2" data-number="2.17">
+<h2 data-number="2.17" class="anchored" data-anchor-id="sec-03-17"><span class="header-section-number">2.17</span> Miscellaneous indicators</h2>
+<p>Data for a small group of miscellaneous indicators are also collected and reported. These are derived from these questions:</p>
+<p><strong>Hunger – Ration - Relief</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 24%">
+<col style="width: 24%">
+<col style="width: 26%">
+<col style="width: 24%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>f6</td>
+<td>Are you or anyone in your household receiving a food ration on a regular basis?</td>
+<td>1 = Yes; 2 = No</td>
+<td>[__]</td>
+</tr>
+<tr class="even">
+<td>f7 | Have you or another member of your household | received non-food relief items such as soap, | bucket, water container, bedding, mosquito net, | clothes, or plastic sheet in the previous four | weeks?</td>
+<td>1 = Yes 2 = No</td>
+<td>[__]</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p><strong>Activities of Daily Living</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 52%">
+<col style="width: 25%">
+<col style="width: 14%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>a8</td>
+<td>Do you have problems chewing food?</td>
+<td>1 = Yes; 2 = No</td>
+<td>[__]</td>
+</tr>
+</tbody>
+</table>
+<p>and are calculated as:</p>
+<div id="fig-indicators30" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Recode for miscellaneous indicators" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators30-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/indicators30.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Recode for miscellaneous indicators">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators30-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.42: Recode for miscellaneous indicators
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="sec-03-18" class="level2" data-number="2.18">
+<h2 data-number="2.18" class="anchored" data-anchor-id="sec-03-18"><span class="header-section-number">2.18</span> A note on data management and data analysis</h2>
+<p>This section has described how RAM-OP data is used to create a broad set of indicators. If you do not want to use the standard RAM-OP software to do this then you can use this information to create data entry systems and data management scripts for your favoured database or statistical analysis software. See the sections on <a href="datasets.html"><strong>RAM-OP datasets</strong></a> and <a href="questionnaire.html"><strong>RAM-OP questionnaire</strong></a> for more compact information on variable names and codes that you may find helpful.</p>
+<p>It is important to note that data analysis procedures need to account for the sample design. All major statistical analysis software can do this (details vary). There are two things to note:</p>
+<ul>
+<li>The RAM-OP sample is a two-stage sample. Subjects are sampled from a small number of primary sampling units (PSUs).</li>
+<li>The RAM-OP sample is <strong>not</strong> prior weighted. This means that you will need to provide per-PSU sampling weights. These are usually the populations of the PSU.</li>
+</ul>
+<p>You will need to specify this sample design to your statistical analysis software. If you fail to do this then your analysis may produce estimates that place undue weight to observations from smaller communities with confidence intervals with lower than nominal coverage (i.e.&nbsp;they will be too narrow).</p>
+<p>The standard RAM-OP software uses <em>blocked weighted bootstrap</em> estimation approach:</p>
+<ul>
+<li><strong>Blocked</strong> : The block corresponds to the PSU or cluster.</li>
+<li><strong>Weighted</strong> : The RAM-OP sampling procedure does not use population proportional sampling to weight the sample prior to data collection as is done with SMART type surveys. This means that a posterior weighting procedure is required. The standard RAM-OP software uses a “roulette wheel” algorithm to weight (i.e.&nbsp;by population) the selection probability of PSUs in bootstrap replicates.</li>
+</ul>
+<p>A total of <code>m</code> PSUs are sampled <em>with-replacement</em> from the survey dataset where <code>m</code> is the number of PSUs in the survey sample. Individual records within each PSU are then sampled <em>with-replacement</em>. A total of n’ records are sampled <em>with-replacement</em> from each of the selected PSUs where <code>n</code> is the number of individual records in a selected PSU. The resulting collection of records replicates the original survey in terms of both sample design and sample size. A large number of replicate surveys are taken (the standard RAM-OP software uses <span class="math inline">\(r = 399\)</span> replicate surveys but this can be changed). The required statistic (e.g.&nbsp;the mean of an indicator value) is applied to each replicate survey. The reported estimate consists of the 50th (point estimate), 2.5th (lower 95% confidence limit), and the 97.5th (upper 95% confidence limit) percentiles of the distribution of the statistic observed across all replicate surveys. The blocked weighted bootstrap procedure is outlined in <a href="#fig-indicators31" class="quarto-xref">Figure&nbsp;<span>2.43</span></a>.</p>
+<p>The principal advantages of using a bootstrap estimator are:</p>
+<ul>
+<li>Bootstrap estimators work well with small sample sizes.</li>
+<li>The method is <em>non-parametric</em> and uses empirical rather than theoretical distributions. There are no assumptions of things like normality to worry about.</li>
+<li>The method allows estimation of the sampling distribution of almost any statistic using only simple computational methods.</li>
+</ul>
+<p>The standard RAM-OP data analysis software is described in the section <a href="software.html"><strong>Standard RAM-OP software</strong></a>.</p>
+<div id="fig-indicators31" class="quarto-float quarto-figure quarto-figure-center anchored" alt="The blocked weighted bootstrap used by the standard RAM-OP software" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-indicators31-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/bbw.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="The blocked weighted bootstrap used by the standard RAM-OP software">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-indicators31-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.43: The blocked weighted bootstrap used by the standard RAM-OP software
+</figcaption>
+</figure>
+</div>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-ballard_household_2011" class="csl-entry" role="listitem">
+Ballard, Terri, Jennifer Coates, Anne Swindale, and Megan Deitchler. 2011. <em>Household Hunger Scale: Indicator Definition and Measurement Guide</em>. Washington, <span>DC</span>: <span>FHI</span> 360/<span>FANTA</span>.
+</div>
+<div id="ref-blanton_probit_2013" class="csl-entry" role="listitem">
+Blanton, Curtis J, and Oleg O Bilukha. 2013. <span>“The <span>PROBIT</span> Approach in Estimating the Prevalence of Wasting: Revisiting Bias and Precision.”</span> <em>Emerging Themes in Epidemiology</em> 10 (1): 8–8. <a href="https://doi.org/10.1186/1742-7622-10-8">https://doi.org/10.1186/1742-7622-10-8</a>.
+</div>
+<div id="ref-dale_assessment_2012" class="csl-entry" role="listitem">
+Dale, Nancy M, Mark Myatt, Claudine Prudhon, and André Briend. 2012. <span>“Assessment of the <span>PROBIT</span> Approach for Estimating the Prevalence of Global, Moderate and Severe Acute Malnutrition from Population Surveys.”</span> <em>Public Health Nutrition</em> 16 (5): 858–63. <a href="https://doi.org/10.1017/s1368980012003345">https://doi.org/10.1017/s1368980012003345</a>.
+</div>
+<div id="ref-kaiser_prospective_2009" class="csl-entry" role="listitem">
+Kaiser, Peter K. 2009. <span>“<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2814576">Prospective Evaluation of Visual Acuity Assessment: A Comparison of Snellen Versus <span>ETDRS</span> Charts in Clinical Practice (an <span>AOS</span> Thesis).</a>”</span> <em>Transactions of the American Ophthalmological Society</em> 107: 311–24.
+</div>
+<div id="ref-katz_studies_1963" class="csl-entry" role="listitem">
+Katz, S, AB FORD, R W MOSKOWITZ, B A JACKSON, and M W JAFFE. 1963. <span>“Studies of Illness in the Aged - the Index of Adl - a Standardized Measure of Biological and Psychosocial Function.”</span> <em><span>JAMA</span>: The Journal of the American Medical Association</em> 185 (12): 914–19. <a href="https://doi.org/10.1001/jama.1963.03060120024016">https://doi.org/10.1001/jama.1963.03060120024016</a>.
+</div>
+<div id="ref-katz_assessing_2015" class="csl-entry" role="listitem">
+Katz, Sidney. 2015. <span>“Assessing Self-Maintenance: Activities of Daily Living, Mobility, and Instrumental Activities of Daily Living.”</span> <em>Journal of the American Geriatrics Society</em> 31 (12): 721–27. <a href="https://doi.org/10.1111/j.1532-5415.1983.tb03391.x">https://doi.org/10.1111/j.1532-5415.1983.tb03391.x</a>.
+</div>
+<div id="ref-katz_progress_1970" class="csl-entry" role="listitem">
+Katz, Sidney, Thomas D Downs, Helen R Cash, and Robert C Grotz. 1970. <span>“Progress in Development of the Index of <span>ADL</span>.”</span> <em>The Gerontologist</em> 10 (1): 20–30. <a href="https://doi.org/10.1093/geront/10.1_part_1.20">https://doi.org/10.1093/geront/10.1_part_1.20</a>.
+</div>
+<div id="ref-kennedy_guidelines_2010" class="csl-entry" role="listitem">
+Kennedy, Gina, Terri Ballard, and MarieClaude Dop. 2010. <em>Guidelines for Measuring Household and Individual Dietary Diversity</em>. Rome: <span>FAO</span>.
+</div>
+<div id="ref-kessler_short_2002" class="csl-entry" role="listitem">
+Kessler, R C, G Andrews, L J Colpe, E Hiripi, D K Mroczek, S L T NORMAND, E E Walters, and A M Zaslavsky. 2002. <span>“Short Screening Scales to Monitor Population Prevalences and Trends in Non-Specific Psychological Distress.”</span> <em>Psychological Medicine</em> 32 (6): 959–76. <a href="https://doi.org/10.1017/s0033291702006074">https://doi.org/10.1017/s0033291702006074</a>.
+</div>
+<div id="ref-kessler_screening_2003" class="csl-entry" role="listitem">
+Kessler, Ronald C., Peggy R. Barker, Lisa J. Colpe, Joan F. Epstein, Joseph C. Gfroerer, Eva Hiripi, Mary J. Howes, et al. 2003. <span>“Screening for Serious Mental Illness in the General Population.”</span> <em>Archives of General Psychiatry</em> 60 (2): 184–89. <a href="https://doi.org/10.1001/archpsyc.60.2.184">https://doi.org/10.1001/archpsyc.60.2.184</a>.
+</div>
+<div id="ref-prince_brief_2010" class="csl-entry" role="listitem">
+Prince, M, D Acosta, C P Ferri, M Guerra, Y Huang, K S Jacob, J J Llibre Rodriguez, et al. 2010. <span>“A Brief Dementia Screener Suitable for Use by Non-Specialists in Resource Poor Settings-the Cross-Cultural Derivation and Validation of the Brief Community Screening Instrument for Dementia.”</span> <em>International Journal of Geriatric Psychiatry</em> 26 (9): 899–907. <a href="https://doi.org/10.1002/gps.2622">https://doi.org/10.1002/gps.2622</a>.
+</div>
+<div id="ref-ruel_measuring_2014" class="csl-entry" role="listitem">
+Ruel, Marie, Terri Ballard, and Megan Deitchler. 2014. <span>“Measuring and Tracking the Access Dimension of Food Security: Available Indicators and Recommendations for Future Investments Technical Note 6.”</span> In <em>Global Nutrition Report 2014</em>. Washington, <span>DC</span>: International Food Policy Research Institute.
+</div>
+<div id="ref-swindale_household_2006" class="csl-entry" role="listitem">
+Swindale, Anne, and Paula Bilinsky. 2006. <em>Household Dietary Diversity Score (<span>HDDS</span>) for Measurement of Household Food Access: Indicator Guide (v.2)</em>. Washington, <span>DC</span>: <span>FHI</span> 360/<span>FANTA</span>.
+</div>
+<div id="ref-taylor_applying_1978" class="csl-entry" role="listitem">
+TAYLOR, HUGH R. 1978. <span>“Applying New Design Principles to the Construction of an Illiterate e Chart.”</span> <em>Optometry and Vision Science</em> 55 (5): 348–51. <a href="https://doi.org/10.1097/00006324-197805000-00008">https://doi.org/10.1097/00006324-197805000-00008</a>.
+</div>
+<div id="ref-washington_group_on_disability_statistics_washington_2022" class="csl-entry" role="listitem">
+Washington Group on Disability Statistics. 2022. <span>“The Washington Group Short Set on Functioning (<span>WG</span>-<span>SS</span>).”</span> <a href="https://www.washingtongroup-disability.com/fileadmin/uploads/wg/Washington_Group_Questionnaire__1_-_WG_Short_Set_on_Functioning__October_2022_.pdf">https://www.washingtongroup-disability.com/fileadmin/uploads/wg/Washington_Group_Questionnaire__1_-_WG_Short_Set_on_Functioning__October_2022_.pdf</a>.
+</div>
+<div id="ref-world_health_organization_physical_1995" class="csl-entry" role="listitem">
+World Health Organization. 1995. <em>Physical Status: The Use and Interpretation of Anthropometry. Report of a <span>WHO</span> Expert Committee</em>. <span>WHO</span> Technical Report Series 854. Geneva: World Health Organization.
+</div>
+<div id="ref-world_health_organization_management_2000" class="csl-entry" role="listitem">
+———. 2000. <em>The Management of Nutrition in Major Emergencies</em>. Geneva: World Health Organization.
+</div>
+<div id="ref-world_health_organization_core_2006" class="csl-entry" role="listitem">
+———. 2006. <em>Core Questions on Drinking-Water and Sanitation for Household Surveys</em>. Geneva: World Health Organization.
+</div>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./sampling.html" class="pagination-link" aria-label="Sampling">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Sampling</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./questionnaire.html" class="pagination-link" aria-label="The RAM-OP questionnaire">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">The RAM-OP questionnaire</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/rapidsurveys/ramOPmanual/edit/main/03-indicators.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>

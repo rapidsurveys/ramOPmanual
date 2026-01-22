@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>1&nbsp; Sampling – Rapid Assessment Method for Older People (RAM-OP)</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./indicators.html" rel="next">
+<link href="./index.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dcd6dad1d9027e0fc018a6aab5a8b21b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-6b9bb122842f54d682f45c92523a3e3f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-SE438KE5DS"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-SE438KE5DS', { 'anonymize_ip': true});
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sampling.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Sampling</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Rapid Assessment Method for Older People (RAM-OP)</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/rapidsurveys/ramOPmanual/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Rapid-Assessment-Method-for-Older-People--RAM-OP-.pdf">
+              <i class="bi bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Rapid-Assessment-Method-for-Older-People--RAM-OP-.epub">
+              <i class="bi bi-journal pe-1"></i>
+            Download ePub
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sampling.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Sampling</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./indicators.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Indicators</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./questionnaire.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">The RAM-OP questionnaire</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./datasets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Datasets</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./practical.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Practical Fieldwork</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./software.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">RAM-OP Software</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./conclusion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Conclusion</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">References</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#sec-02-01" id="toc-sec-02-01" class="nav-link active" data-scroll-target="#sec-02-01"><span class="header-section-number">1.1</span> The RAM-OP sample</a>
+  <ul class="collapse">
+  <li><a href="#sec-02-01-01" id="toc-sec-02-01-01" class="nav-link" data-scroll-target="#sec-02-01-01"><span class="header-section-number">1.1.1</span> The first-stage sample</a></li>
+  <li><a href="#sec-02-01-02" id="toc-sec-02-01-02" class="nav-link" data-scroll-target="#sec-02-01-02"><span class="header-section-number">1.1.2</span> The second stage sample</a></li>
+  </ul></li>
+  <li><a href="#sec-02-02" id="toc-sec-02-02" class="nav-link" data-scroll-target="#sec-02-02"><span class="header-section-number">1.2</span> Implicit stratification</a></li>
+  <li><a href="#sec-02-03" id="toc-sec-02-03" class="nav-link" data-scroll-target="#sec-02-03"><span class="header-section-number">1.3</span> RAM-OP survey sample size</a></li>
+  <li><a href="#sec-02-04" id="toc-sec-02-04" class="nav-link" data-scroll-target="#sec-02-04"><span class="header-section-number">1.4</span> Eligibility</a></li>
+  <li><a href="#sec-02-05" id="toc-sec-02-05" class="nav-link" data-scroll-target="#sec-02-05"><span class="header-section-number">1.5</span> Age distribution, eligibility criteria, and sample design</a></li>
+  <li><a href="#sec-02-06" id="toc-sec-02-06" class="nav-link" data-scroll-target="#sec-02-06"><span class="header-section-number">1.6</span> Practical sampling</a>
+  <ul class="collapse">
+  <li><a href="#sec-02-06-01" id="toc-sec-02-06-01" class="nav-link" data-scroll-target="#sec-02-06-01"><span class="header-section-number">1.6.1</span> The first stage sample - list-based sampling</a></li>
+  <li><a href="#sec-02-06-02" id="toc-sec-02-06-02" class="nav-link" data-scroll-target="#sec-02-06-02"><span class="header-section-number">1.6.2</span> The first stage sample - map-based sampling</a></li>
+  <li><a href="#sec-02-06-03" id="toc-sec-02-06-03" class="nav-link" data-scroll-target="#sec-02-06-03"><span class="header-section-number">1.6.3</span> The second stage (within-community) sample</a></li>
+  <li><a href="#sec-02-06-04" id="toc-sec-02-06-04" class="nav-link" data-scroll-target="#sec-02-06-04"><span class="header-section-number">1.6.4</span> Mapping the community - single and multiple clusters</a></li>
+  <li><a href="#sec-02-06-05" id="toc-sec-02-06-05" class="nav-link" data-scroll-target="#sec-02-06-05"><span class="header-section-number">1.6.5</span> Mapping the community - ribbon communities</a></li>
+  <li><a href="#sec-02-06-06" id="toc-sec-02-06-06" class="nav-link" data-scroll-target="#sec-02-06-06"><span class="header-section-number">1.6.6</span> Mapping the community - mixed communities</a></li>
+  <li><a href="#sec-02-06-07" id="toc-sec-02-06-07" class="nav-link" data-scroll-target="#sec-02-06-07"><span class="header-section-number">1.6.7</span> Segmentation</a></li>
+  <li><a href="#sec-02-06-08" id="toc-sec-02-06-08" class="nav-link" data-scroll-target="#sec-02-06-08"><span class="header-section-number">1.6.8</span> Sample dwellings</a></li>
+  <li><a href="#sec-02-06-09" id="toc-sec-02-06-09" class="nav-link" data-scroll-target="#sec-02-06-09"><span class="header-section-number">1.6.9</span> Random walk sampling</a></li>
+  <li><a href="#sec-02-06-10" id="toc-sec-02-06-10" class="nav-link" data-scroll-target="#sec-02-06-10"><span class="header-section-number">1.6.10</span> Systematic sampling</a></li>
+  <li><a href="#sec-02-06-11" id="toc-sec-02-06-11" class="nav-link" data-scroll-target="#sec-02-06-11"><span class="header-section-number">1.6.11</span> Sampling in urban settings</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/rapidsurveys/ramOPmanual/edit/main/02-sampling.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="sec-02" class="quarto-section-identifier"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Sampling</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="sec-02-01" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="sec-02-01"><span class="header-section-number">1.1</span> The RAM-OP sample</h2>
+<p>RAM-OP uses a two-stage sample:</p>
+<p><strong>First stage sample:</strong> A sample of communities (e.g.&nbsp;villages or city-blocks) in the survey area is taken. A sampled community is also called a primary sampling unit (PSU).</p>
+<p><strong>Second stage sample:</strong> Domestic dwellings are sampled from within the communities selected in the first stage sample. All eligible individuals in the sampled dwelling are included in the sample.</p>
+<section id="sec-02-01-01" class="level3" data-number="1.1.1">
+<h3 data-number="1.1.1" class="anchored" data-anchor-id="sec-02-01-01"><span class="header-section-number">1.1.1</span> The first-stage sample</h3>
+<p>The first stage sample is a systematic spatial sample. Two methods can be used and both methods take the sample from all parts of the survey area:</p>
+<ul>
+<li><strong>List-based method:</strong> Communities to be sampled are selected systematically from a complete list of communities in the survey area. This list of communities is sorted by one or more non-overlapping spatial factors such as district and subdistricts within districts:</li>
+</ul>
+<div id="fig-sample1" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-fig.alt="List of communities by district and sub-district">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sample1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/listSample1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%" data-fig.alt="List of communities by district and sub-district">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sample1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.1: Communities listing by district and sub-district
+</figcaption>
+</figure>
+</div>
+<ul>
+<li><strong>Map-based method:</strong> Communities to be sampled are selected from the centres of the squares of a grid drawn over a map. The map must be sufficiently well made and of sufficiently large scale to show the position of every community in the survey area. This type of sample is known as a centric systematic area sample and is often referred to as a CSAS sample.</li>
+</ul>
+<p><strong>Note:</strong> <em>Population proportional sampling</em> (PPS) is <strong>not</strong> used in RAM-OP surveys. Population estimates for all communities are <strong>not</strong> required for sampling purposes. Population estimates are required only for the selected communities. These are used during data analysis in order to weight results by population size. If this information is not available before the survey, it can be collected during the survey.</p>
+</section>
+<section id="sec-02-01-02" class="level3" data-number="1.1.2">
+<h3 data-number="1.1.2" class="anchored" data-anchor-id="sec-02-01-02"><span class="header-section-number">1.1.2</span> The second stage sample</h3>
+<p>The second stage within-community sample uses a method called map-segment-sample. This method takes the within-community sample from all parts of a sampled community.</p>
+</section>
+</section>
+<section id="sec-02-02" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="sec-02-02"><span class="header-section-number">1.2</span> Implicit stratification</h2>
+<p>Both the first and second stage samples use a form of spatial stratification:</p>
+<ul>
+<li><p>The list-based method’s first stage systematic spatial sample stratifies the sample by non-overlapping spatial factor such as districts and subdistricts within districts.</p></li>
+<li><p>The map-based (CSAS) method’s first stage sample stratifies the sample by grid square.</p></li>
+<li><p>The map-segment-sample second stage within-community sample stratifies the sample by parts of the community being sampled.</p></li>
+<li><p>The first and second stage samples also ensure that a reasonably even spatial sample is taken from the entire survey area and from each of the sampled communities.</p></li>
+</ul>
+<p>These sampling procedures provide <em>implicit stratification</em> and tend to spread the sample properly among important sub-groups of the population such as rural / urban / peri-urban populations, administrative areas, ethnic sub-populations, religious sub-populations, and socio-economic groups. This often improves the precision of estimates made from survey data.</p>
+<p>The use of implicit stratification improves the efficiency of a two-stage cluster sample and allows RAM-OP to use relatively small sample sizes compared to other methods, such as SMART surveys. The use of modern computer-intensive data analysis techniques also allows RAM-OP to make better use of the available sample than is done in other methods.</p>
+</section>
+<section id="sec-02-03" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="sec-02-03"><span class="header-section-number">1.3</span> RAM-OP survey sample size</h2>
+<p>The following shorthand symbols will be used when describing sample designs:</p>
+<p>&nbsp;</p>
+<p><span class="math display">\[\begin{aligned}
+m &amp; ~ = ~ \text{Number of primary sampling units (PSUs).} \\[5pt]
+n &amp; ~ = ~ \text{Size of the sample of individuals or households from a PSU.} \\[5pt]
+n &amp; ~ = ~ \text{May also mean the overall survey sample size (this meaning will be made clear in the text).} \\[5pt]
+N &amp; ~ = ~ \text{Population}
+\end{aligned}\]</span></p>
+<p>&nbsp;</p>
+<p>The overall sample size for a RAM-OP survey is about <span class="math inline">\(n = 192\)</span> individual subjects. You should aim to collect an overall sample of at least <span class="math inline">\(n = 192\)</span> individuals.</p>
+<p>The RAM-OP sample is collected in two stages:</p>
+<ul>
+<li><p>The first stage sample uses a sample size of about <span class="math inline">\(m = 16\)</span> communities (or PSUs).</p></li>
+<li><p>The second stage sample uses a sample size of about <span class="math inline">\(n = 12\)</span> eligible subjects sampled from each of the communities selected for inclusion in the first stage sample.</p></li>
+</ul>
+<p>The overall sample size from <span class="math inline">\(m = 16\)</span> communities and <span class="math inline">\(n = 12\)</span> eligible subjects is about:</p>
+<p>&nbsp;</p>
+<p><span class="math display">\[\text{overall sample size} ~ \approx ~ m ~ \times ~ n ~ \approx ~ 16 ~ \times ~ 12 ~ \approx ~ 192\]</span></p>
+<p>&nbsp;</p>
+<p>It is not recommended that fewer than <span class="math inline">\(m = 16\)</span> communities are sampled.</p>
+<p>Sampling fewer than <span class="math inline">\(m = 16\)</span> communities will tend to reduce the precision with which estimates can be made. If you have the resources to sample more than <span class="math inline">\(m = 16\)</span> communities then you should do so. A sample of <span class="math inline">\(m = 24\)</span> communities and <span class="math inline">\(n = 8\)</span> eligible subjects, for example, will tend to yield estimates with better precision than a sample with <span class="math inline">\(m = 16\)</span> communities and <span class="math inline">\(n = 12\)</span> eligible subjects.</p>
+<p>Do not be tempted to increase the size of the within-community sample in order to achieve an overall sample size of <span class="math inline">\(n = 192\)</span> from fewer than <span class="math inline">\(m = 16\)</span> communities. Doing so will tend to reduce the precision with which estimates are made. It may also be impossible to do this in many settings.</p>
+<p>Here, for example, is a <em>population pyramid</em> for a typical developing country:</p>
+<div id="fig-sample2" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Population pyramid for a typical developing country">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sample2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/popPyramid1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Population pyramid for a typical developing country">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sample2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.2: Population pyramid for a typical developing country
+</figcaption>
+</figure>
+</div>
+<p>If the average community population is <span class="math inline">\(N = 300\)</span> then there will be fewer than 15 people aged 60 years and older in about half of the selected communities. This is because about half of the selected communities are likely to have a population below the average population.</p>
+</section>
+<section id="sec-02-04" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="sec-02-04"><span class="header-section-number">1.4</span> Eligibility</h2>
+<p>Older people are usual defined as persons aged 60 years and older (UN definition). This means your sample will usually be restricted to people aged 60 years and older.</p>
+<p>In some settings different eligibility criteria may apply. This will likely be the case in settings with very high life-expectancies (usually middle and high income countries) or very low life-expectancies (usually low income countries and in emergencies).</p>
+<p>In a setting of very high life-expectancy you may want to restrict eligibility, to persons aged 65 years or older, for example. A local definition of older people is likely to be available.</p>
+<p>In a setting with very low life-expectancy, very few people are aged 60 years or older. For example:</p>
+<div id="fig-sample3" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Population pyramid for a setting with low life-expectancy">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sample3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/popPyramid2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Population pyramid for a setting with low life-expectancy">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sample3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.3: Population pyramid for a setting with low life-expectancy
+</figcaption>
+</figure>
+</div>
+<p>It is common in such setting for there to be a local definition of older people. This will usually be <strong>“persons aged 50 years or older”</strong> or <strong>“persons aged 55 years or older”</strong>.</p>
+</section>
+<section id="sec-02-05" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="sec-02-05"><span class="header-section-number">1.5</span> Age distribution, eligibility criteria, and sample design</h2>
+<p>The age distribution of the population and the survey eligibility criteria will affect the sample design in terms of the number of communities that you will need to sample (<span class="math inline">\(m\)</span>) and the number of older persons (<span class="math inline">\(n\)</span>) that can be sampled from each community.</p>
+<p>The overall sample size for a RAM-OP sample should be at least <span class="math inline">\(n = 192\)</span> usually collected as <span class="math inline">\(n = 12\)</span> eligible subjects sampled from <span class="math inline">\(m = 16\)</span> communities. If older people make up a very small proportion (i.e.&nbsp;much less than 5%) of the total population and / or the average population of communities is small then you will usually need to sample more than <span class="math inline">\(m = 16\)</span> communities in order to get about <span class="math inline">\(n = 192\)</span> older people in the overall sample. This is likely to occur when there are fewer than 20 to 25 older people in a community of average size.</p>
+<p>You can calculate the number of older people that you would expect to be living in a community of average size using the following formula:</p>
+<p>&nbsp;</p>
+<p><span class="math display">\[n_{\text{aged 60+ in an average village}} ~ = ~ \text{average village population}_{\text{all ages}} ~ \times ~ \frac{\text{percentage of population}_{\text{aged 60+}}}{100}\]</span></p>
+<p>&nbsp;</p>
+<p>If this is below about 20 people then you should consider how you will collect the required overall sample size. Three approaches may be used:</p>
+<ul>
+<li><p><strong>Relax the eligibility criteria:</strong> You may decide to define older people as “persons aged 50 years or older” or “persons aged 55 years or older”. This may double the size of the eligible population and make the sample easier to collect. This approach is only reasonable if life-expectancy is low.</p></li>
+<li><p><strong>Increase the number of communities that you plan to sample:</strong> You may choose to collect your sample as <span class="math inline">\(n = 7\)</span> eligible subjects sampled from <span class="math inline">\(m = 30\)</span> communities giving an expected overall sample size of <span class="math inline">\(n = 210\)</span>. This would be a very good sample. The disadvantage of this approach is that survey costs increase with the number of communities that are sampled, because a lot of survey time and vehicle costs are spent on travelling to and from the selected communities.</p></li>
+<li><p><strong>Take a “top-up” sample only when you need to:</strong> The basic procedure when a selected community is small and likely to contain fewer than <span class="math inline">\(n = 12\)</span> older people is to collect data on all older people in the selected community using a door-to-door census. If the within-community sample size is much smaller than the required one then a “top-up” sample is taken from the nearest neighbouring community using the map-segment-sample method (or a door-to-door census if this community is also small). The advantage of this approach is that travelling time and survey costs are better controlled.</p></li>
+</ul>
+<p>If the proportion of older people is not very small and / or communities are large then you should have no problems achieving the overall sample size.</p>
+</section>
+<section id="sec-02-06" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="sec-02-06"><span class="header-section-number">1.6</span> Practical sampling</h2>
+<section id="sec-02-06-01" class="level3" data-number="1.6.1">
+<h3 data-number="1.6.1" class="anchored" data-anchor-id="sec-02-06-01"><span class="header-section-number">1.6.1</span> The first stage sample - list-based sampling</h3>
+<p>The first stage sample can be drawn from a list of all communities. The list-based sample is a simple systematic sample taken from a complete list of communities in the survey area sorted by one or more non- overlapping spatial factors (such as administrative units or electoral wards) in the survey area. <em>Population proportional sampling</em> (PPS) is not used since this would concentrate the sample in the larger communities.</p>
+<p>Below is a worked example of how a RAM-OP first stage, list-based sample can be drawn from a survey area composed of 67 villages.</p>
+<p><strong>Step 1:</strong> Calculate the <em>sampling interval</em> by dividing the total villages in the survey area (67 villages) with the number of villages to be drawn from the sample (16 villages).</p>
+<p>&nbsp;</p>
+<p><span class="math display">\[\text{Sampling Interval} ~ = ~ \left \lfloor ~ \frac{N_{\text{villages}}}{N_{\text{sample}}} ~ \right \rfloor ~ = ~ \left \lfloor ~ \frac{67}{16} ~ \right \rfloor ~ \approx ~ \left \lfloor ~ 4.19 ~ \right \rfloor ~ \approx ~ 4\]</span></p>
+<p>&nbsp;</p>
+<p>The <em>sampling interval</em> needs to be a whole number. Remember to <strong>always</strong> <em>round down</em> when calculating the <em>sampling interval</em> to the nearest whole number.</p>
+<p><strong>Step 2:</strong> Choose a <em>random starting point</em> between 1 and <em>sampling interval</em>. In this example, this would be a random number <strong>between 1 and 4</strong>.</p>
+<p>A random number can be selected through simple lottery (i.e., draw from a lot of 4 numbered from 1 to 4). A standard spreadsheet software can also be used to draw the random number using the <code>RANDBETWEEN</code> function as follows:</p>
+<p>&nbsp;</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">RANDBETWEEN</span>(<span class="dv">1</span>, <span class="dv">4</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>&nbsp;</p>
+<p><strong>Step 3:</strong> Using the <em>random starting point</em> and the <em>sampling interval</em>, select the sampling villages from a list of all villages organised/sorted by a <strong>non-overlapping</strong> spatial factor such as district or sub-district.</p>
+<div id="fig-sample4" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Selection of sampling villages using lists">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sample4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/listSample2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Selection of sampling villages using lists">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sample4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.4: Selection of sampling villages using lists
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="sec-02-06-02" class="level3" data-number="1.6.2">
+<h3 data-number="1.6.2" class="anchored" data-anchor-id="sec-02-06-02"><span class="header-section-number">1.6.2</span> The first stage sample - map-based sampling</h3>
+<p>An alternative approach to list-based sampling is to use map-based sampling. The map-based (CSAS) sample selects communities from the centre of squares of a grid drawn over a map. The map must be sufficiently well made and of sufficiently large scale to show the position of <strong>all</strong> communities in the survey area.</p>
+<p>A square grid is drawn over the map. The size of the grid squares should be small enough so that the number of squares covering the survey area is the same as (or very similar to) the number of communities that you plan to sample. You may need to experiment with different grid sizes to achieve this. <a href="#fig-sample6" class="quarto-xref">Figure&nbsp;<span>1.6 (a)</span></a> shows an example map and grid with <span class="math inline">\(m = 16\)</span> grid squares.</p>
+<p>The sample is drawn by selecting the community that is located closest to the centre of each grid square:</p>
+<div id="fig-sample5" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Selection of sampling villages using maps">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sample5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/mapSample1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Selection of sampling villages using maps">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sample5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.5: Selection of sampling villages using maps
+</figcaption>
+</figure>
+</div>
+<p>If two or more villages are located the same distance from the centre of a grid square then a single village is picked at random, by tossing a coin for example.</p>
+<p><a href="#fig-sample7" class="quarto-xref">Figure&nbsp;<span>1.6 (b)</span></a> shows the sample selected by this process for the area shown in <a href="#fig-sample6" class="quarto-xref">Figure&nbsp;<span>1.6 (a)</span></a>.</p>
+<div id="fig-csas" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-csas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-csas" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-sample6" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Drawing a square grid over the map">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-sample6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/mapSample2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-ref-parent="fig-csas" alt="Drawing a square grid over the map">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-sample6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Drawing a square grid over the map
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-csas" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-sample7" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Drawing the first-stage CSAS sample">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-sample7-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/mapSample3.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-ref-parent="fig-csas" alt="Drawing the first-stage CSAS sample">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-sample7-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Drawing the first-stage CSAS sample
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-csas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.6: Map-based sampling
+</figcaption>
+</figure>
+</div>
+<p>Both the list-based and the map-based (CSAS) sampling methods spread the sample of communities evenly across the entire survey area. Each community has an equal chance of being included in the sample. Population proportional sampling (PPS) is not used since this would concentrate the sample in the larger communities.</p>
+<p>The same method can be used when sampling in urban contexts. <a href="#fig-sample8" class="quarto-xref">Figure&nbsp;<span>1.7 (a)</span></a> shows a sample drawn from a list of census enumeration areas sorted by administrative district. <a href="#fig-sample9" class="quarto-xref">Figure&nbsp;<span>1.7 (b)</span></a> shows a sample drawn using the map- based (CSAS) method. In both cases the primary sampling units (PSUs) are census enumeration areas.</p>
+<div id="fig-list-csas" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-list-csas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-list-csas" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-sample8" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Example of an urban sample (list-based)">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-sample8-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/mapSample4.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-ref-parent="fig-list-csas" alt="Example of an urban sample (list-based)">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-sample8-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Example of an urban sample (list-based)
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-list-csas" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-sample9" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Example of an urban sample (map-based)">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-sample9-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/mapSample5.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-ref-parent="fig-list-csas" alt="Example of an urban sample (map-based)">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-sample9-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Example of an urban sample (map-based)
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-list-csas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.7: List-based vs map-based sampling
+</figcaption>
+</figure>
+</div>
+<p><strong>Note:</strong> In this example twenty-one (21) blocks have been selected. It can be difficult to achieve exactly the number of blocks that you need when using this type of sample. It is best to select more rather than fewer blocks than you need Here we would take our sample as <span class="math inline">\(n = 10\)</span> individuals from <span class="math inline">\(m = 21\)</span> blocks (overall <span class="math inline">\(n = 210\)</span>).</p>
+</section>
+<section id="sec-02-06-03" class="level3" data-number="1.6.3">
+<h3 data-number="1.6.3" class="anchored" data-anchor-id="sec-02-06-03"><span class="header-section-number">1.6.3</span> The second stage (within-community) sample</h3>
+<p>The second stage (within-community) sample uses a map-segment-sample approach:</p>
+<p><strong>Map:</strong> Make a rough map of the community to be sampled. It is helpful to think of communities as being made of ribbons (i.e.&nbsp;lines of dwellings located along roads, tracks, or rivers) and clusters of dwellings.</p>
+<p>Here is an example of a ribbon of dwellings:</p>
+<div id="fig-sample10" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Example of a ribbon of dwellings">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sample10-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/stage2sample1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Example of a ribbon of dwellings">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sample10-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.8: Example of a ribbon of dwellings
+</figcaption>
+</figure>
+</div>
+<p>Here is an example of a cluster of dwellings:</p>
+<div id="fig-sample11" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Example of a cluster of dwellings">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sample11-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/stage2sample2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Example of a cluster of dwellings">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sample11-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.9: Example of a cluster of dwellings
+</figcaption>
+</figure>
+</div>
+<p><strong>Segment:</strong> Divide the community into ribbon and cluster segments defined by the physical layout of the community being sampled.</p>
+<p><strong>Sample:</strong> Ribbons and clusters are sampled in different ways:</p>
+<ul>
+<li><strong>Ribbons</strong> are sampled using <strong>systematic sampling</strong>.</li>
+<li><strong>Clusters</strong> are sampled using a <strong>random walk</strong> method.</li>
+</ul>
+<p><strong>Note:</strong> If a small community is selected that is likely to have fewer than the required number of eligible persons then <strong>all</strong> eligible persons in that community are sampled by moving door-to-door.</p>
+</section>
+<section id="sec-02-06-04" class="level3" data-number="1.6.4">
+<h3 data-number="1.6.4" class="anchored" data-anchor-id="sec-02-06-04"><span class="header-section-number">1.6.4</span> Mapping the community - single and multiple clusters</h3>
+<p>Some communities consist of a single cluster of dwellings:</p>
+<div id="fig-sample12" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Example of a cluster of dwellings">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sample12-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/stage2sample2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Example of a cluster of dwellings">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sample12-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.10: Example of a cluster of dwellings
+</figcaption>
+</figure>
+</div>
+<p>or a set of clusters of dwellings:</p>
+<div id="fig-sample13" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Example of a set of clusters of dwellings">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sample13-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/stage2sample3.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Example of a set of clusters of dwellings">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sample13-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.11: Example of a set of clusters of dwellings
+</figcaption>
+</figure>
+</div>
+<p>For communities (or parts of communities) structured in this way we use a sampling method called the <strong>random walk</strong>.</p>
+</section>
+<section id="sec-02-06-05" class="level3" data-number="1.6.5">
+<h3 data-number="1.6.5" class="anchored" data-anchor-id="sec-02-06-05"><span class="header-section-number">1.6.5</span> Mapping the community - ribbon communities</h3>
+<p>Ribbon communities have dwellings arranged in a line:</p>
+<div id="fig-sample14" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Dwellings arranged in a line">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sample14-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/stage2sample1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Dwellings arranged in a line">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sample14-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.12: Dwellings arranged in a line
+</figcaption>
+</figure>
+</div>
+<p>or in several lines:</p>
+<div id="fig-sample15" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Dwellings arranged in several lines">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sample15-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/stage2sample4.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Dwellings arranged in several lines">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sample15-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.13: Dwellings arranged in several lines
+</figcaption>
+</figure>
+</div>
+<p>For communities (or parts of communities) structured in this way we use a sampling method called <strong>systematic sampling</strong>.</p>
+</section>
+<section id="sec-02-06-06" class="level3" data-number="1.6.6">
+<h3 data-number="1.6.6" class="anchored" data-anchor-id="sec-02-06-06"><span class="header-section-number">1.6.6</span> Mapping the community - mixed communities</h3>
+<p>Some communities are a mixture of clusters and ribbons:</p>
+<div id="fig-sample16" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Mixture of clusters and ribbons">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sample16-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/stage2sample5.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Mixture of clusters and ribbons">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sample16-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.14: Mixture of clusters and ribbons
+</figcaption>
+</figure>
+</div>
+<p>For mixed communities we use a mixture of the <strong>random walk</strong> method (in the clusters) and <strong>systematic sampling</strong> (along the ribbons).</p>
+<p><strong>Segmentation</strong> involves dividing a community into several parts and taking part of the within-community sample from each <strong>segment</strong>. With simple communities, segmentation is not required and we take a single sample from the entire community using the appropriate sampling method.</p>
+</section>
+<section id="sec-02-06-07" class="level3" data-number="1.6.7">
+<h3 data-number="1.6.7" class="anchored" data-anchor-id="sec-02-06-07"><span class="header-section-number">1.6.7</span> Segmentation</h3>
+<p>For more complicated communities we divide the community into several parts or segments, such as a community made up of several clusters:</p>
+<div id="fig-sample17" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Example of a set of clusters of dwellings">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sample17-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/stage2sample3.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Example of a set of clusters of dwellings">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sample17-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.15: Example of a set of clusters of dwellings
+</figcaption>
+</figure>
+</div>
+<p>or a community made up of several ribbons:</p>
+<div id="fig-sample18" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Dwellings arranged in several lines">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sample18-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/stage2sample4.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Dwellings arranged in several lines">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sample18-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.16: Dwellings arranged in several lines
+</figcaption>
+</figure>
+</div>
+<p>or a mixed community:</p>
+<div id="fig-sample19" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Mixture of clusters and ribbons">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sample19-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/stage2sample5.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Mixture of clusters and ribbons">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sample19-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.17: Mixture of clusters and ribbons
+</figcaption>
+</figure>
+</div>
+<p>We take a small sample from each segment using the appropriate sampling method.</p>
+<p>For example, with a community made up of three segments:</p>
+<div id="fig-sample20" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Community made up of three segments">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sample20-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/stage2sample6.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Community made up of three segments">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sample20-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.18: Community made up of three segments
+</figcaption>
+</figure>
+</div>
+<p>we would take one third of the overall sample from each segment.</p>
+<p>If the within-community sample size is twelve eligible subjects. we would sample four eligible subjects from each segment (i.e.&nbsp;<span class="math inline">\(12 / 3 = 4\)</span>).</p>
+<p>Dividing the sample up in this way means that we will sample from every part of the community rather than just one part of the community.</p>
+<p>When taking the sample we use the random walk method to take part of the sample from clusters and the systematic sampling method to take part of the sample from ribbons.</p>
+<p>Segments should be either ribbons or clusters but should <strong>never</strong> contain both a ribbon and a cluster. This is because clusters and ribbons are sampled in different ways.</p>
+<p>A dwelling can only belong to one segment. Segments should <strong>not</strong> overlap.</p>
+</section>
+<section id="sec-02-06-08" class="level3" data-number="1.6.8">
+<h3 data-number="1.6.8" class="anchored" data-anchor-id="sec-02-06-08"><span class="header-section-number">1.6.8</span> Sample dwellings</h3>
+<p><strong>All</strong> segments should be sampled.</p>
+<p>If, for example, there are five segments in a community:</p>
+<div id="fig-sample21" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Community made up of five segments">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sample21-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/stage2sample7.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Community made up of five segments">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sample21-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.19: Community made up of five segments
+</figcaption>
+</figure>
+</div>
+<p>and the within-community sample size is twelve eligible subjects, then you would plan to sample two eligible subjects from each segment (i.e.&nbsp;<span class="math inline">\(12 / 5 = 2.4\)</span> <strong>rounded down</strong> to two) and, if necessary, return to the <strong>largest</strong> segment to complete the sample.</p>
+<p><strong>All</strong> segments should be sampled, even if this means that you take a larger sample than you expected to.</p>
+<p>Remember that different types of segment are sampled in different ways:</p>
+<ul>
+<li><p>Dwellings in <strong>cluster segments</strong> are sampled using a method called the <strong>random walk</strong>. This involves sampling houses by walking in random directions within the cluster.</p></li>
+<li><p>Dwellings in <strong>ribbon segments</strong> are sampled using a method called <strong>systematic sampling</strong>. This involves sampling houses at regular intervals along the ribbon.</p></li>
+</ul>
+<p>We will look at each of these sampling methods in turn.</p>
+</section>
+<section id="sec-02-06-09" class="level3" data-number="1.6.9">
+<h3 data-number="1.6.9" class="anchored" data-anchor-id="sec-02-06-09"><span class="header-section-number">1.6.9</span> Random walk sampling</h3>
+<p>The <strong>random walk</strong> method is used to sample dwellings in <strong>cluster segments</strong>. Sampling proceeds as follows:</p>
+<ol type="1">
+<li><p>Move to the approximate centre of the cluster.</p></li>
+<li><p>Select a <strong>random direction</strong> by spinning a bottle on the ground. The neck indicates the <strong>sampling direction</strong>. This is the direction you should walk in order to sample a dwelling. Walk in the sampling direction counting the dwellings that you pass. Sample the third <strong>dwelling</strong>. If there are no eligible persons in the selected dwelling then sample the <strong>nearest</strong> dwelling with an eligible person. Sample <strong>all</strong> eligible persons in the selected dwelling.</p></li>
+<li><p>Apply the survey questionnaire for <strong>all</strong> eligible persons in the selected dwelling.</p></li>
+<li><p>Select the next dwelling to sample by spinning a bottle and walking in the indicated direction. Count the dwellings you pass. Sample the <strong>third</strong> dwelling. If there are no eligible persons in the selected dwelling then sample the <strong>nearest</strong> dwelling with an eligible person. Sample all eligible persons in the selected dwelling. If you reach the edge of the cluster segment then return to the centre of the cluster and repeat step (2) above. Remember to keep count of the number of eligible persons sampled from the segment.</p></li>
+<li><p>Stop sampling in the segment when you have sampled the required number of eligible persons from the segment. Since you sample <strong>all</strong> eligible persons in a selected dwelling, you may sample a few more eligible persons than expected. This is OK. Always sample <strong>all</strong> eligible persons in a selected dwelling.</p></li>
+</ol>
+<p>If, when you have sampled all segments, you have not sampled twelve eligible persons, you should return to the <strong>largest</strong> segment to finish sampling using the appropriate sampling method.</p>
+<p>The random walk method is illustrated in <a href="#fig-sample22" class="quarto-xref">Figure&nbsp;<span>1.20</span></a>.</p>
+<div id="fig-sample22" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Random walk sampling in a cluster segment">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sample22-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/stage2sample8.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Random walk sampling in a cluster segment">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sample22-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.20: Random walk sampling in a cluster
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="sec-02-06-10" class="level3" data-number="1.6.10">
+<h3 data-number="1.6.10" class="anchored" data-anchor-id="sec-02-06-10"><span class="header-section-number">1.6.10</span> Systematic sampling</h3>
+<p>The <strong>systematic sampling</strong> method is used to sample houses in <strong>ribbon segments</strong>.</p>
+<p>Sampling proceeds as follows:</p>
+<ol type="1">
+<li><p>Move to one end of the ribbon segment.</p></li>
+<li><p>Walk to the other end of the segment counting the houses that you pass.</p></li>
+<li><p>Calculate the <strong>step size</strong> by dividing the number of dwellings in the segment by the required sample size for the segment. Use the <strong>whole number</strong> part of the result only. Do <strong>not</strong> round up.</p></li>
+<li><p>Pick a random number between one and the step size. This is your <strong>starting point</strong>. Select the first dwelling to sample by walking along the segment counting the dwellings that you pass and sample the dwelling indicated by the <strong>starting point</strong>. If there are no eligible persons in the selected dwelling then sample the <strong>nearest</strong> dwelling in any direction with an eligible person. Sample <strong>all</strong> eligible persons in the selected dwelling.</p></li>
+<li><p>Select the next dwelling to sample by walking along the segment. Count the dwellings that you pass. Sample the dwelling indicated by the <strong>step size</strong>. If there are no eligible persons in the selected dwelling then sample the <strong>nearest</strong> dwelling in any direction with an eligible person. Sample <strong>all</strong> eligible persons in the selected dwelling.</p></li>
+<li><p>Stop sampling in the segment when you reach the end of the ribbon segment. This may mean that you sample extra eligible persons. This is OK. Do <strong>not</strong> stop sampling from a ribbon until you reach the end of the ribbon.</p></li>
+</ol>
+<p>If, when you have sampled all segments, you have not sampled twelve eligible persons, you should return to the <strong>largest</strong> segment to finish sampling using the appropriate sampling method.</p>
+<p>The systematic sampling method is illustrated in <a href="#fig-sample23" class="quarto-xref">Figure&nbsp;<span>1.21</span></a>.</p>
+<div id="fig-sample23" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Systematic sampling in a ribbon segment">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sample23-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/stage2sample9.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Systematic sampling in a ribbon segment">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sample23-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.21: Systematic sampling in a ribbon segment
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="sec-02-06-11" class="level3" data-number="1.6.11">
+<h3 data-number="1.6.11" class="anchored" data-anchor-id="sec-02-06-11"><span class="header-section-number">1.6.11</span> Sampling in urban settings</h3>
+<p>In urban areas the first stage sample is taken by replacing sub-districts with “sections” and communities with city blocks. Examples of sections may be administrative districts/sub-districts or electoral wards.</p>
+<div id="fig-sample24" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Administrative divisions in an urban setting">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sample24-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/stage2sample10.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Administrative divisions in an urban setting">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sample24-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.22: Administrative divisions in an urban setting
+</figcaption>
+</figure>
+</div>
+<p>Census enumeration areas (EAs) are usually city blocks. Central statistics offices can usually provide lists of EAs by “section” and large-scale maps of EAs selected for sampling (See <a href="#fig-sample25" class="quarto-xref">Figure&nbsp;<span>1.23</span></a> and <a href="#fig-sample26" class="quarto-xref">Figure&nbsp;<span>1.24</span></a>). These maps make it easy to locate EAs and their boundaries. The sample of EAs can be decided using list-based or map-based (CSAS) sampling.</p>
+<p>In these settings, eligible persons may be sampled by moving from door-to-door. All dwellings in the selected block are sampled and all eligible persons in the selected dwellings are sampled. This means that all eligible persons in a selected block are sampled.</p>
+<p>If city blocks are large then a type of systematic sampling may be used. With this method a rough map of the streets in the block is made and the number of doorways on each street is counted and copied onto the rough street map (as shown in <a href="#fig-sample27" class="quarto-xref">Figure&nbsp;<span>1.25</span></a>). The total number of doorways on all streets is calculated. A step size is calculated by dividing the total number of doorways on all streets by the number of dwellings to be sampled. A systematic sample along a route around the block that includes all streets in the block is taken. Streets can be sampled in any order. If you find that you have sampled all streets but have not yet sampled the required number of eligible persons then you should return to the street with the largest number of houses to collect the remainder of the sample.</p>
+<p>The number of blocks to be sampled will depend on the expected number of eligible persons in each block. You should aim for an overall sample size of about <span class="math inline">\(n = 192\)</span>. You should not sample fewer than <span class="math inline">\(m = 16\)</span> blocks.</p>
+<div id="fig-sample25" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Enumeration area map for a city block in Freetown, Sierra Leone">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sample25-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/stage2sample11.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Enumeration area map for a city block in Freetown, Sierra Leone">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sample25-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.23: Enumeration area map for a city block in Freetown, Sierra Leon
+</figcaption>
+</figure>
+</div>
+<div id="fig-sample26" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Enumeration area map for a city block in Addis Ababa, Ethiopia">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sample26-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/stage2sample12.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Enumeration area map for a city block in Addis Ababa, Ethiopia">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sample26-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.24: Enumeration area map for a city block in Addis Ababa, Ethiopia
+</figcaption>
+</figure>
+</div>
+<div id="fig-sample27" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Systematic sampling in a city block">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sample27-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/stage2sample13.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Systematic sampling in a city block">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sample27-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.25: Systematic sampling in a city block
+</figcaption>
+</figure>
+</div>
+<p>When useful lists and maps are not available then satellite imagery available though free services such as <a href="http://earth.google.com">Google Earth</a> may be used.</p>
+<p>The quality (resolution) of the images available from these services is variable but is usually good enough to allow you to segment the town into small areas of approximately equal volume (approximately the same number of dwellings) in each:</p>
+<div id="fig-sample28" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Segmenting a town into smaller sampling areas">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sample28-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/stage2sample14.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Segmenting a town into smaller sampling areas">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sample28-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.26: Segmenting a town into smaller sampling areas
+</figcaption>
+</figure>
+</div>
+<p>When creating segments using maps or satellite images it is a good idea to use main roads, rivers, canals, railway lines, public parks, etc as boundaries. This simplifies the segmentation process and also simplifies fieldwork by making areas and their boundaries easier to locate and sample.</p>
+<p>The first stage sample can be list-based (such as where each area is numbered in a systematic north to south and east to west order and a systematic sample taken) or map-based (CSAS).</p>
+<p>Larger scale “maps” of blocks to be sampled can also me made using satellite imagery (see <a href="#fig-sample29" class="quarto-xref">Figure&nbsp;<span>1.27</span></a>).</p>
+<div id="fig-sample29" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="A large scale map of a city block made from satellite imagery">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sample29-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/stage2sample15.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="A large scale map of a city block made from satellite imagery">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sample29-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.27: A large scale map of a city block made from satellite imagery
+</figcaption>
+</figure>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link" aria-label="Introduction">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Introduction</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./indicators.html" class="pagination-link" aria-label="Indicators">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Indicators</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/rapidsurveys/ramOPmanual/edit/main/02-sampling.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>

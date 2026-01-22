@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>5&nbsp; Practical Fieldwork – Rapid Assessment Method for Older People (RAM-OP)</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./software.html" rel="next">
+<link href="./datasets.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dcd6dad1d9027e0fc018a6aab5a8b21b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-6b9bb122842f54d682f45c92523a3e3f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-SE438KE5DS"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-SE438KE5DS', { 'anonymize_ip': true});
+</script>
+
+
+</head>
+
+<body class="floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./practical.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Practical Fieldwork</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Rapid Assessment Method for Older People (RAM-OP)</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/rapidsurveys/ramOPmanual/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Rapid-Assessment-Method-for-Older-People--RAM-OP-.pdf">
+              <i class="bi bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Rapid-Assessment-Method-for-Older-People--RAM-OP-.epub">
+              <i class="bi bi-journal pe-1"></i>
+            Download ePub
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sampling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Sampling</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./indicators.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Indicators</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./questionnaire.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">The RAM-OP questionnaire</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./datasets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Datasets</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./practical.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Practical Fieldwork</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./software.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">RAM-OP Software</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./conclusion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Conclusion</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">References</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#sec-06-01" id="toc-sec-06-01" class="nav-link active" data-scroll-target="#sec-06-01"><span class="header-section-number">5.1</span> Authorisations and clearances</a></li>
+  <li><a href="#sec-06-02" id="toc-sec-06-02" class="nav-link" data-scroll-target="#sec-06-02"><span class="header-section-number">5.2</span> Working with a local partner</a></li>
+  <li><a href="#sec-06-03" id="toc-sec-06-03" class="nav-link" data-scroll-target="#sec-06-03"><span class="header-section-number">5.3</span> Translating the questionnaire</a></li>
+  <li><a href="#sec-06-04" id="toc-sec-06-04" class="nav-link" data-scroll-target="#sec-06-04"><span class="header-section-number">5.4</span> Supervisors, enumerators, and data entry staff</a></li>
+  <li><a href="#sec-06-05" id="toc-sec-06-05" class="nav-link" data-scroll-target="#sec-06-05"><span class="header-section-number">5.5</span> Training of enumerators</a></li>
+  <li><a href="#sec-06-06" id="toc-sec-06-06" class="nav-link" data-scroll-target="#sec-06-06"><span class="header-section-number">5.6</span> Survey logistics</a>
+  <ul class="collapse">
+  <li><a href="#sec-06-06-01" id="toc-sec-06-06-01" class="nav-link" data-scroll-target="#sec-06-06-01"><span class="header-section-number">5.6.1</span> Transportation</a></li>
+  <li><a href="#sec-06-06-02" id="toc-sec-06-06-02" class="nav-link" data-scroll-target="#sec-06-06-02"><span class="header-section-number">5.6.2</span> Tools and equipment</a></li>
+  </ul></li>
+  <li><a href="#sec-06-07" id="toc-sec-06-07" class="nav-link" data-scroll-target="#sec-06-07"><span class="header-section-number">5.7</span> Data collection</a></li>
+  <li><a href="#sec-06-08" id="toc-sec-06-08" class="nav-link" data-scroll-target="#sec-06-08"><span class="header-section-number">5.8</span> Survey planning</a></li>
+  <li><a href="#sec-06-09" id="toc-sec-06-09" class="nav-link" data-scroll-target="#sec-06-09"><span class="header-section-number">5.9</span> Daily survey activities</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/rapidsurveys/ramOPmanual/edit/main/06-practical.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="sec-06" class="quarto-section-identifier"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Practical Fieldwork</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>This section is intended to guide you through the different steps leading up to the fieldwork once the survey location has been identified, and gives some tips on how the fieldwork might be organised.</p>
+<section id="sec-06-01" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="sec-06-01"><span class="header-section-number">5.1</span> Authorisations and clearances</h2>
+<p>Before implementing the survey, you will need to get all the authorisations relevant to the country in which you plan to work. These could include:</p>
+<ul>
+<li><p><strong>Clearance from the national nutrition cluster</strong> or the equivalent structure co-ordinating national assessment activities. In humanitarian contexts, this might be the only clearance that you will need at the national level.</p></li>
+<li><p><strong>Ethical approval</strong> : This is obtained from the country’s national ethical committee (or equivalent). Some NGOs and UNOs also have ethical committees and you may also need to submit your survey plans to them for ethical approval. It may be necessary to work with both national and local ethical committees. The process of gaining ethical approval can take several months. It is important to note that RAM-OP surveys are needs assessments rather than experiments upon human subjects. This means that ethical clearance may not be required for RAM-OP surveys, or that it can be given by the chair of the appropriate ethical review committee without the need for a full meeting of the ethical review committee. It is a good idea to check this with the chair of the appropriate committees to see if permissions can be expedited. Getting ethical clearance is often very useful when applying for other permission as it shows that some technical quality assurance has been done.</p></li>
+<li><p><strong>Authorisation from the appropriate government departments</strong> at various levels (i.e.&nbsp;national, regional, and at the level where you are going to implement the survey). Authorisation of the authority managing the survey site should be sought. For example, a survey in a refugee camp will need the authorisation of UNHCR, the national administrative authority in charge of refugees and displaced persons, and the agency in charge of the camp management. In some settings you may also need to obtain authorisation from other government departments such as the Ministry of Health, the Department of Rural Affairs, or the Department of Social Affairs.</p></li>
+<li><p><strong>Authorisation from the administrative authorities at local level</strong> : Make sure that all levels of the local administration are informed about what you intend to do (i.e.&nbsp;what, where, and when). It is essential to meet with the local administrative and health authorities prior to the survey. This is done to avoid problems with permissions and to involve them in the implementation of the survey. Describe the survey and explain what might be expected from their staff. You might, for example, need some help in identifying the exact location and boundaries of villages and hamlets in rural areas, or blocks and sections of towns in urban areas. You might need translators or guides to travel with the enumerators, and you might need facilitators to introduce you to village executives. Make sure that you share the results of the survey with them once it is available.</p></li>
+<li><p><strong>Security clearance</strong> : Be aware of the potential security problems in the survey area. Inform all agencies with security responsibilities in the area about the dates and locations of the survey. The police or the army may have to be specifically informed. You may also need to negotiate access with non-state actors. Field staff should be provided with copies of official documents (in the local language) proving that they are authorised to carry out survey work in the specific area between specific dates. They will have to carry this document with them at all times during the fieldwork and present it on request to local authorities and study subjects. It can also be useful to give a copy of this and other official documents to village leaders on arrival at the survey location.</p></li>
+</ul>
+</section>
+<section id="sec-06-02" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="sec-06-02"><span class="header-section-number">5.2</span> Working with a local partner</h2>
+<p>It is often very useful to prepare and carry out the survey in collaboration with one or more local partners, such as a local NGO, the local health authority, or the camp management agency in a refugee camp.</p>
+<p>If feasible, you should recruit a representative of your local partner as a “survey facilitator” with responsibility for liaising with the national and local stakeholders.</p>
+<p>This person will support your survey preparation with the following:</p>
+<ul>
+<li><p>At national or regional level, support the endorsement of the survey objectives by the national authorities, and facilitation in obtaining the relevant authorisations and clearances.</p></li>
+<li><p>At local level, be the link between you and the local communities informing health staff and village leaders in the areas where the enumerators are going to sample households. This information should be disseminated before the survey starts and reiterated a day or two before teams travel to survey locations either by telephone or by personal visits.</p></li>
+<li><p>Provide you with a list of useful contacts (with telephone numbers) for each of the areas covered by the survey. This list should be shared with all program staff.</p></li>
+<li><p>Identify local guides or translators to support the teams in the field.</p></li>
+<li><p>In-depth knowledge of the survey area, useful for checking the location of the villages to be surveyed on a map.</p></li>
+<li><p>Information about travel and security constraints, travel distances and times, and assist in formulating the survey travel plan.</p></li>
+<li><p>Support with the survey logistics, such as renting vehicles, renting accommodation and training venues, where to purchase food and drinks, where to have forms and questionnaires printed / copied, etc.</p></li>
+<li><p>Help with the referral of malnourished or sick older people identified during the survey by liaising with community services, ambulance services, and relevant health facilities as needed.</p></li>
+</ul>
+<p>The local partner will also help you disseminate the results of the survey to the various stakeholders, and might be involved in response plans following the assessment.</p>
+</section>
+<section id="sec-06-03" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="sec-06-03"><span class="header-section-number">5.3</span> Translating the questionnaire</h2>
+<p>Precision and accuracy are improved by translating the questionnaire in the local language appropriate to the survey area before data is collected. This allows enumerators to ask questions using the same language and terminology in every interview.</p>
+<p>Thorough training of the enumerators in applying the questionnaire will also improve the precision and accuracy of your survey results.</p>
+<p>A translated questionnaire may also be a requirement for getting the ethical clearance for the survey.</p>
+<p>We advise you to use an iterative translation process and use:</p>
+<ul>
+<li><p><strong>Standard language if available</strong> : Most indicators used in RAM-OP have question sets available in different languages. You can check for these online. You may need to alter some language to account for local dialects and idioms but using standard language, when it is available, can save you a lot of time and effort</p></li>
+<li><p><strong>Knowledgeable lead translators</strong> : You need to use people who know the target language and culture but are also fluent in the starting language of the questionnaire.</p></li>
+<li><p><strong>Forward translation and back translation</strong> : The questionnaire is translated from English, for example, into the local language by one person or team (this is <em>forward translation</em>) and is then translated back into the original language by another person or team (this is <em>back translation</em>). The back translated questionnaire is then checked against the original questionnaire. Differences are then analysed and a new translation produced. You may need to go through this process several times until a satisfactory version of the translated questionnaire is reached.</p></li>
+<li><p><strong>Your survey staff</strong> to provide language and to pilot (i.e.&nbsp;test) questionnaire components as they are translated. Piloting can be done with community members and by role-playing between survey staff. Test interviews and group discussions usually help to improve the language used in the questionnaire.</p></li>
+<li><p><strong>Your intended survey population</strong> to help you make sure that the language you are using is simple and to the point. Test interviews and group discussions usually help to improve the language used in the questionnaire.</p></li>
+</ul>
+<p>Having enumerators translate the English language questionnaire (for example) each time they apply the questionnaire is <strong>not</strong> a good option and should be avoided.</p>
+</section>
+<section id="sec-06-04" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="sec-06-04"><span class="header-section-number">5.4</span> Supervisors, enumerators, and data entry staff</h2>
+<p>The more survey teams you recruit and use, the quicker the survey will be finished. However, the number of teams should be linked to your capacity for supervision. Also, having a large number of teams usually means that you will need a large number of vehicles and drivers. This can be hard to achieve and hard to manage.</p>
+<p>We recommend that you recruit three teams of two enumerators with one supervisor per team. The duties of supervisors and enumerators are:</p>
+<p><strong>Supervisors</strong> have to take all necessary actions to ensure the accuracy of the collected data, particularly:</p>
+<ul>
+<li>Checking equipment before departure and when leaving the survey site.</li>
+<li>Travelling with a team every day, to observe and correct the enumerators’ work.</li>
+<li>Introducing teams to local leaders.</li>
+<li>Ensuring households and subjects are selected properly, that the interviews are conducted with respect and thoroughness, and that measurements are taken and recorded accurately.</li>
+</ul>
+<p><strong>Enumerators</strong> are in charge of implementing the field procedures:</p>
+<ul>
+<li>Identifying the households to survey.</li>
+<li>Apply the questionnaires to older people.</li>
+<li>Measure MUAC, oedema, and visual acuity and complete questionnaires.</li>
+</ul>
+<p>If each team can complete a single PSU per day (this is the minimum you can expect from a team) then the survey may be completed in six days (i.e.&nbsp;three PSUs per day for five days plus one PSU on the last day). This will depend on context and on the teams’ expertise. It is often possible for a team to reach more than one location per day, such as in cities or camps where sectors and blocks are close to each other and travelling time is not high. You will often find that survey data can be collected in just four or five days.</p>
+<p>It is important not to rush data collection. It is also important to supervise the teams from day one in order to ensure they follow the proper sampling procedures and applying the questionnaires correctly.</p>
+<p>It is advisable to enlist more enumerators to be trained than the minimum number needed. This will ensure that you have sufficient enumerators should you find, during training, that some recruits cannot perform their duties well enough. It will also provide additional trained staff should you need to cover for absences, due to illness for example. Make sure that you enlist both male and female trainees.</p>
+<p>You will also need to recruit data entry staff. The workload for the data entry staff is usually between about thirty-six and seventy-two questionnaires per day.</p>
+</section>
+<section id="sec-06-05" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="sec-06-05"><span class="header-section-number">5.5</span> Training of enumerators</h2>
+<p>Training the enumerators is a crucial step to ensuring the quality of the data collection.</p>
+<p>At the end of training each enumerator should be able to:</p>
+<ul>
+<li>Explain the objectives of the survey.</li>
+<li>Sample households and older people in the survey area following the appropriate field procedures.</li>
+<li>Introduce themselves to older people in a polite and respectful manner.</li>
+<li>Apply the questionnaire smoothly and efficiently.</li>
+<li>Properly measure MUAC, check for bilateral pitting oedema, and properly measure visual acuity.</li>
+<li>Complete the questionnaire neatly and without making mistakes (including the correct numbering of PSU, households and individual subjects).</li>
+<li>Advise the subject or their family in case there is a need for referral, such as to a health facility.</li>
+</ul>
+<p>A typical first RAM-OP training course will last for five days:</p>
+<p><strong>Day 1</strong></p>
+<ul>
+<li>Presentation of your organisation (mission, code of conduct, etc.)</li>
+<li>Objectives of the survey</li>
+<li>How are we going to do it?</li>
+<li>Questionnaire : First reading and explanations</li>
+<li>Recap</li>
+</ul>
+<p><strong>Day 2</strong></p>
+<ul>
+<li>Field procedures</li>
+<li>Job descriptions</li>
+<li>Measurements: MUAC, oedema, visual acuity (practice on each other)</li>
+<li>Questionnaire : Role-playing</li>
+<li>Lessons learned</li>
+<li>Recap</li>
+</ul>
+<p><strong>Day 3</strong></p>
+<ul>
+<li>Measurements: MUAC, oedema, visual acuity (practice on ten older people)</li>
+<li>Testing the questionnaire with ten older people</li>
+<li>Lessons learned</li>
+<li>Recap</li>
+</ul>
+<p><strong>Day 4</strong></p>
+<ul>
+<li>Questionnaire : Role-playing</li>
+<li>Field procedures : Recap and group work</li>
+<li>Recap</li>
+</ul>
+<p><strong>Day 5</strong></p>
+<ul>
+<li>Field test : Practical field procedures, etc. in one community</li>
+<li>Lessons learned from field test</li>
+<li>Recap</li>
+</ul>
+<p>Additional notes:</p>
+<ul>
+<li><p><strong>Practising the questionnaire</strong> : This is very important. Each training day should contain some work on the questionnaire. Particular attention is paid to the content and function of each question set, the numbering system for the PSU, household, and subject, the meaning / intention of each question set, skip / jump patterns, coding, ranges, and checking for completeness and consistency. Extensive use should be made of role-playing (in pairs and in groups) and testing with eligible subjects. Care needs to be taken to ensure that <strong>all</strong> field staff have extensive practice in working with the questionnaire.</p></li>
+<li><p><strong>Practising measurements</strong> : This is very important. Most training days should contain some work on measurement. Care needs to be taken to ensure that <strong>all</strong> field staff have extensive practice in taking <strong>all</strong> measurements.</p></li>
+<li><p><strong>Standardisation of measurement</strong> : A formal standardisation exercise for MUAC measurement is <strong>not</strong> required. The format of such an exercise does, however, provide a useful framework for training enumerators to measure MUAC with acceptable accuracy and precision by:</p>
+<ul>
+<li><p>Comparisons of measurements made by different enumerators on the same person to explore accuracy (bias).</p></li>
+<li><p>Comparisons of measurements made by different enumerators on the same person with the measurements made by the training supervisor to explore accuracy (bias).</p></li>
+<li><p>Repeated measurements on the same persons by the same enumerator to explore repeatability (precision).</p></li>
+</ul></li>
+<li><p><strong>Ten older people</strong> : The survey facilitator should be able to mobilise ten older people (women and men) to participate in questionnaire and measurement exercises. Make sure to explain to these volunteers what is going to happen to them. The exercises will last a half day (maybe longer) and may be quite tiring for older persons. Make sure they are comfortably accommodated, organise their transport to and from the training venue (which should be easily accessible and so avoiding stairs), indoors or under shelter, with chairs or benches. Provide safe drinking water and possibly tea, coffee and snacks. It is also advisable to provide them with a small <em>ex gratia</em> payment.</p></li>
+<li><p><strong>The field test</strong> : This will put the trainees in to field conditions but without the stress of having to take a full sample. It is a “dummy run” of all survey activities. Divide the trainees into teams assigning a supervisor to each team. The test area should not be one of the areas to be sampled for the survey and can be close to the training venue.</p></li>
+</ul>
+<p>At the end of the training week, you should be able to select the best enumerators and divide them in to teams, balancing genders and personalities, as well as strengths and weaknesses.</p>
+</section>
+<section id="sec-06-06" class="level2" data-number="5.6">
+<h2 data-number="5.6" class="anchored" data-anchor-id="sec-06-06"><span class="header-section-number">5.6</span> Survey logistics</h2>
+<p>Thorough logistics preparation is essential to the smooth implementation of a survey. Transportation is particularly important.</p>
+<section id="sec-06-06-01" class="level3" data-number="5.6.1">
+<h3 data-number="5.6.1" class="anchored" data-anchor-id="sec-06-06-01"><span class="header-section-number">5.6.1</span> Transportation</h3>
+<p>Ideally you will need one car and driver per survey team. Depending on the area, you may be able to reduce this number and organise the survey travel plan so that vehicles can be pooled between the teams. You will need strong cars (ones adapted to the terrain) and reliable and safe drivers ready to work flexible hours.</p>
+<p>It is very useful to brief the teams and the drivers about the management of the cars:</p>
+<ul>
+<li>Who gives instructions to the drivers on a daily basis. One person per car should be in charge.</li>
+<li>Who is checking the car log book every morning and every evening.</li>
+<li>What to do in case of an accident.</li>
+</ul>
+<p>All staff should be given the contact telephone numbers of all the drivers</p>
+<p>Safety and security procedures should be followed thoroughly, such as use of seat belts, speed limits, prohibitions on “racing”, carrying of water, first aid kits, and spare wheels.</p>
+</section>
+<section id="sec-06-06-02" class="level3" data-number="5.6.2">
+<h3 data-number="5.6.2" class="anchored" data-anchor-id="sec-06-06-02"><span class="header-section-number">5.6.2</span> Tools and equipment</h3>
+<p>The equipment needed for a RAM-OP survey is minimal:</p>
+<ul>
+<li>MUAC tapes for adults (i.e.&nbsp;minimum 450 mm long, graduated in millimetres).</li>
+<li>A “tumbling E chart” to perform the visual acuity test.</li>
+<li>Pens, notebooks, clip-boards, etc.</li>
+<li>Questionnaires.</li>
+<li>Maps of the area showing PSU locations.</li>
+<li>PSU maps (if required).</li>
+<li>Official letters of authorisation to carry out the survey.</li>
+</ul>
+<p>Every morning during the survey, each team should receive a schedule of that day’s activities detailing the team’s objectives for the day giving PSU numbers, location, PSU maps, sample target sizes, local contact information, emergency contact list, etc.</p>
+</section>
+</section>
+<section id="sec-06-07" class="level2" data-number="5.7">
+<h2 data-number="5.7" class="anchored" data-anchor-id="sec-06-07"><span class="header-section-number">5.7</span> Data collection</h2>
+<p>Each team should be able to survey at least one PSU per day.</p>
+<p>No community mobilisation is necessary but community officials should be informed of your arrival in advance.</p>
+<p>Avoid sampling at special or busy times, such as holy days and market days.</p>
+<p>When arriving in the community, the teams should introduce themselves to community leaders and explain the conduct of the survey.</p>
+<p>The supervisor should collect and record information about the PSU’s total population.</p>
+<p>The team should then explore the boundaries of the community and perform mapping and segmentation as required.</p>
+<p>Eligible subjects are usually people aged 60 years and older (this may differ in some settings). We accept the respondents’ statement of their own age, and we do not challenge them if they appear younger or older than the age they declare. We usually do not ask for a proof of age. However, it might be useful to have compiled a list of events related to the past hundred years of the country’s history, as some older people do not remember their age, but remember living at the time of some remarkable events (independence, elections, wars, etc). Women often remember the age at which they had their children</p>
+<p><strong>All</strong> eligible older people present in and belonging to the sampled household are interviewed and measured, even if the required quota of respondents has been reached. Older people visiting the household should only be included if they are residing there for more than two weeks. Person such as maids, houseboys, watchmen, and carers should be treated as part of the household (i.e.&nbsp;should be interviewed) if the sampled dwelling / compound is their principal place of residence. Older people should be interviewed in their houses. It is not good practice to have the older people in the community gathered in one place.</p>
+<p>When entering older people’s houses, the enumerators should always be polite, respectful, and attentive not to intrude on people’s privacy.</p>
+<p>Older people should not be intimidated into answering the questionnaire or being measured. They always have a right to refuse to answer some or all of the questions and to refuse measurements. Refusals should be noted on the questionnaire.</p>
+<p>Some of the questions are of an intimate nature. Be careful not to administer the questionnaire in an open space where everybody present can hear the answers. This may embarrass the respondent or cause the respondent to answer wrongly. This is important as a “wrong answer” will tend to hide need and will bias the survey results.</p>
+<p>Some older women may object to having their MUAC taken by a man (or vice versa). This is why it is advisable that the team has both male and female members. This not always possible, but older people are often more free from prejudices than the younger members of their community. It is rare for an older woman to refuse to expose her arms or feet before a male enumerator, and also rare that an older man objects to being measured by a female enumerator.</p>
+</section>
+<section id="sec-06-08" class="level2" data-number="5.8">
+<h2 data-number="5.8" class="anchored" data-anchor-id="sec-06-08"><span class="header-section-number">5.8</span> Survey planning</h2>
+<p>Here is a typical timetable of survey activities:</p>
+<p><strong>Several weeks in advance</strong></p>
+<ul>
+<li>Identify survey area</li>
+<li>Recruit local partner</li>
+<li>Obtain ethical clearance</li>
+<li>Obtain technical approval from relevant bodies</li>
+<li>Obtain permissions and letters from appropriate authorities</li>
+<li>Start translation of questionnaire</li>
+<li>Obtain maps / lists as required</li>
+<li>Obtain map(s) of the survey area</li>
+</ul>
+<p><strong>One month in advance</strong></p>
+<ul>
+<li>Advertise staff positions</li>
+<li>Recruit and contract supervisors</li>
+<li>Define first stage sample from list / map</li>
+<li>Make (draft) survey travel plans</li>
+<li>Obtain permissions for travel</li>
+<li>Book training venue</li>
+<li>Arrange staff accommodation (if required)</li>
+<li>Continue translation of questionnaire</li>
+<li>Begin sourcing equipment</li>
+<li>Identify potential suppliers and contractors</li>
+</ul>
+<p><strong>One week before the training</strong></p>
+<ul>
+<li>Recruit enumerators</li>
+<li>Purchase equipment</li>
+<li>Book vehicles and drivers</li>
+<li>Review and print / copy training manual</li>
+<li>Print translated questionnaire for the training</li>
+<li>Print “daily program” forms</li>
+<li>Finalise survey travel plans</li>
+<li>Disseminate travel plans to local authorities (with survey facilitator)</li>
+<li>Arrange logistics for the training</li>
+</ul>
+<p><strong>During the training</strong></p>
+<ul>
+<li>Arrange for ten older people to participate in training</li>
+<li>Revise the questionnaire with the trainees</li>
+<li>Print revised version of questionnaire for the field test (c.&nbsp;50 copies)</li>
+<li>Arrange the logistics for the field test (vehicles, drivers, equipment)</li>
+<li>Review logistics arrangements with the trainees</li>
+</ul>
+<p><strong>At the end of the training</strong></p>
+<ul>
+<li>Provide each trainee with a certificate of attendance</li>
+<li>Pay the training incentives</li>
+<li>Review and amend questionnaire from the feedback of the field test</li>
+<li>Print survey questionnaires (c.&nbsp;250 copies)</li>
+<li>Recruit enumerators and data entry staff</li>
+</ul>
+<p><strong>During the survey</strong></p>
+<ul>
+<li>Train the data entry clerk (day one) using the results of the field test</li>
+<li>Manage survey activities (see below)</li>
+<li>Data entry and cleaning</li>
+</ul>
+<p><strong>At the end of the survey</strong></p>
+<ul>
+<li>Complete data entry</li>
+<li>Provide all staff with certificates of participation</li>
+<li>Pay incentives</li>
+<li>Thank the local authorities</li>
+<li>Party for all staff</li>
+<li>Data analysis and reporting</li>
+<li>Disseminate results</li>
+</ul>
+</section>
+<section id="sec-06-09" class="level2" data-number="5.9">
+<h2 data-number="5.9" class="anchored" data-anchor-id="sec-06-09"><span class="header-section-number">5.9</span> Daily survey activities</h2>
+<p>Here is a list of typical survey activities:</p>
+<p><strong>Morning</strong></p>
+<ul>
+<li>Brief the teams on the day’s objectives</li>
+<li>Provide feedback on the previous day (success and failures, correction of mistakes made in field procedures or data collection).</li>
+<li>Discuss problems with supervisors</li>
+<li>Provide water and snacks (or food allowance)</li>
+<li>Provide forms, questionnaires, maps (as required)</li>
+</ul>
+<p><strong>Evening</strong></p>
+<ul>
+<li>Check the data entry with the data-entry staff</li>
+<li>Identify problematic questionnaires</li>
+<li>Identify common data collection problems</li>
+<li>Plan the next day’s programme with the facilitator and the supervisors</li>
+<li>Discuss the problems met during the day and their resolution (particularly mistakes that they have observed in the field procedures or in the data collection).</li>
+<li>Prepare the day programme forms for the next day</li>
+<li>Check that there are enough forms, questionnaires, maps for the next day</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./datasets.html" class="pagination-link" aria-label="Datasets">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Datasets</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./software.html" class="pagination-link" aria-label="RAM-OP Software">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">RAM-OP Software</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/rapidsurveys/ramOPmanual/edit/main/06-practical.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
