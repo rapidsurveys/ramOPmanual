@@ -1,8 +1,8 @@
-# Rapid Assessment Method for Older People (RAM-OP): A Manual <img src="figures/ramOP.png" width="200px" align="right"/>
+# Rapid Assessment Method for Older People (RAM-OP): A Manual <img src="figures/ramOP.png" width="200px" align="right"/><img src="images/rapidsurveys.png" width="200px" align="right"/><img src="https://podcasts.ox.ac.uk/sites/default/files/image-mirror/unpacking-fundamentals-global-health-towards-new-generation-leadership.png" width="200px" align="right"/>
 
 <!-- badges: start -->
 
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) ![version](https://img.shields.io/badge/version-0.2.0-green) [![License for code](https://img.shields.io/badge/license_(for%20code)-GPL3.0-blue)](https://opensource.org/licenses/gpl-3.0.html) [![License for text](https://img.shields.io/badge/license_(for%20writing)-CC_BY_4.0-blue)](https://creativecommons.org/licenses/by/4.0/) [![test book render](https://github.com/rapidsurveys/ramOPmanual/actions/workflows/test-book-render.yaml/badge.svg)](https://github.com/rapidsurveys/ramOPmanual/actions/workflows/test-book-render.yaml) [![Quarto Publish](https://github.com/rapidsurveys/ramOPmanual/actions/workflows/publish.yaml/badge.svg)](https://github.com/rapidsurveys/ramOPmanual/actions/workflows/publish.yaml) [![DOI](https://zenodo.org/badge/1342015.svg)](https://doi.org/10.5281/zenodo.1342015)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) ![version](https://img.shields.io/badge/version-0.2.0-green) [![License for code](https://img.shields.io/badge/license_(for%20code)-GPL3.0-blue)](https://opensource.org/licenses/gpl-3.0.html) [![License for text](https://img.shields.io/badge/license_(for%20writing)-CC_BY_4.0-blue)](https://creativecommons.org/licenses/by/4.0/) [![test book render](https://github.com/rapidsurveys/ramOPmanual/actions/workflows/test-book-render.yaml/badge.svg?branch=dev)](https://github.com/rapidsurveys/ramOPmanual/actions/workflows/test-book-render.yaml) [![Quarto Publish](https://github.com/rapidsurveys/ramOPmanual/actions/workflows/publish.yaml/badge.svg)](https://github.com/rapidsurveys/ramOPmanual/actions/workflows/publish.yaml) [![DOI](https://zenodo.org/badge/125880132.svg)](https://doi.org/10.5281/zenodo.1342015)
 
 <!-- badges: end -->
 
@@ -15,6 +15,12 @@ The **RAM-OP** method is based on the following principles:
 -   Assessment of multiple dimensions of need in older people (including prevalence of global, moderate and severe acute malnutrition) using, whenever possible, standard and well-tested indicators and question sets.
 
 -   Data analysis performed using modern computer-intensive methods to allow estimates of indicator levels to be made with useful precision using a small sample size.
+
+This is an [R](https://www.r-project.org/)-based and [Quarto](https://quarto.org/)-powered repository containing source code for the online version of the [RAM-OP manual](https://www.helpage.org/silo/files/rapid-assessment-method-for-older-people-ramop-manual.pdf) published by [HelpAge International](http://www.helpage.org).
+
+This repository is initially meant to document and track the conversion of the original printed manual into an online version.
+However, since there are no plans by [HelpAge International](http://www.helpage.org) to continue to support the development and use of the method, this repository now aims to ensure that the previously released manual and related tools for RAM-OP continue to be available and accessible online to the general public.
+Furthermore, this repository is being used to continually update the manual to document ongoing development of the method and its related tooling under the [RapidSurveys](https://rapidsurveys.io) project supported under the [Oxford iHealth](https://oxford-ihtm.io) initiative of the [MSc in International Health and Tropical Medicine](https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm) of the [Nuffield Department of Medicine](http://www.ndm.ox.ac.uk/), [University of Oxford](https://www.ox.ac.uk).
 
 ## Reproducibility
 
@@ -67,17 +73,17 @@ This is only done once when the project is being initiated for the first time by
 
 To preview the book through a local server, issue the following command on Terminal:
 
-```bash
+``` bash
 quarto preview
 ```
 
 This will render and serve the online book through a local server on your computer and launch a browser to preview.
 
-To close the preview, type `CTRL + C` on terminal.
+To close the preview, type `CTRL + C` on Terminal.
 
 To render the book, issue the following command on Terminal:
 
-```bash
+``` bash
 quarto render
 ```
 
