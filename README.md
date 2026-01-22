@@ -1,4 +1,4 @@
-# Rapid Assessment Method for Older People (RAM-OP): The Manual <img src="figures/ramOP.png" width="200px" align="right"/>
+# Rapid Assessment Method for Older People (RAM-OP): A Manual <img src="figures/ramOP.png" width="200px" align="right"/>
 
 <!-- badges: start -->
 
@@ -62,6 +62,26 @@ renv::restore()
 to install R package dependencies.
 
 This is only done once when the project is being initiated for the first time by a user.
+
+### Rendering the book
+
+To preview the book through a local server, issue the following command on Terminal:
+
+```bash
+quarto preview
+```
+
+This will render and serve the online book through a local server on your computer and launch a browser to preview.
+
+To close the preview, type `CTRL + C` on terminal.
+
+To render the book, issue the following command on Terminal:
+
+```bash
+quarto render
+```
+
+This will render the book locally on your machine and store the online book files in a folder in your working directory named `_site`.
 
 ## License
 
