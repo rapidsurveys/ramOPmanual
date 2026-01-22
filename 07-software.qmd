@@ -10,7 +10,7 @@ aliases:
 
 A data entry system for RAM-OP data using EpiData has been developed.
 
-This software can be downloaded from http://www.brixtonhealth.com/enterRAMOP.zip.
+This software can be downloaded from the Brixton Health website [here](http://www.brixtonhealth.com/enterRAMOP.zip).
 
 This software runs on the Windows operating system.
 It does not need to be installed and can be run from a USB drive.
@@ -18,7 +18,7 @@ It does not need to be installed and can be run from a USB drive.
 The data entry system provides facilities for entering data, interactive checking of data as it is entered, batch checking of entered data, data summary, and data export.
 The system creates files that can be read by the standard RAM-OP data analysis software.
 
-Documentation of Epidata can be found here http://www.epidata.dk/index.htm.
+Documentation of Epidata can be found [here](http://www.epidata.dk/index.htm).
 
 ## Data analysis {#sec-07-02}
 
@@ -74,6 +74,8 @@ In addition you will also need a copy of the **RAnalyticFlow** workflow and supp
 These are available from [here](http://www.brixtonhealth.com/ramOP.rflow.zip).
 
 You may need to extract the file from the ZIP archive before use if this is not done automatically.
+
+
 
 ```{r raf1, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
 knitr::include_graphics("figures/dirStructureRAF.png")
