@@ -23,7 +23,7 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update && apt-get install -y --no-install-recommends \
-          libpoppler-cpp-dev libtesseract-dev libleptonica-dev
+          libpoppler-cpp-dev libtesseract-dev libleptonica-dev tesseract-ocr-eng
 
       - name: Install Chrome
         run: |

@@ -75,11 +75,7 @@ These are available from [here](http://www.brixtonhealth.com/ramOP.rflow.zip).
 
 You may need to extract the file from the ZIP archive before use if this is not done automatically.
 
-
-
-```{r raf1, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
-knitr::include_graphics("figures/dirStructureRAF.png")
-```
+![Directory structure of the software download](figures/dirStructureRAF.png){#fig-raf1 fig-alt="Directory structure of the software download" fig-align="center" width="70%"}
 
 Before starting to analyse your data you should create a project directory or project folder.
 This is just a normal folder or directory that can be created using your usual file manager (e.g. Windows ExplorerTM in WindowsTM or the FinderTM in Macintosh OS-XTM).
@@ -103,9 +99,7 @@ When you have created the project directory or project folder with the required 
 Note: The `testSVY.rec` and `testPSU.csv` files are example data files and are distributed with the **RAnalyticFlow** workflow.
 You can use these files to practice analysing data using **RAnalyticFlow**, and as examples of RAM-OP survey data and PSU files.
 
-```{r raf2, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
-knitr::include_graphics("figures/openProjectRAF.png")
-```
+![Creating a RAM-OP RAnalyticFlow project](figures/openProjectRAF.png){#fig-raf2 fig-alt="Creating a RAM-OP RAnalyticFow project" fig-align="center" width="70%"}
 
 Before you start work you will need to create a project for your survey:
 
@@ -122,9 +116,7 @@ Before you start work you will need to create a project for your survey:
 
 4.  Click the **OK** button
 
-```{r raf3, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
-knitr::include_graphics("figures/openWorkflowRAF.png")
-```
+![Opening a RAM-OP RAnalyticFlow workflow](figures/openWorkflowRAF.png){#fig-raf3 fig-alt="Opening a RAM-OP RAnalyticFlow workflow" fig-align="center" width="70%"}
 
 Double click the item named **ramOP.rflow** shown in the file manager pane of the **RAnalyticFlow** window.
 This will open the data-analysis workflow which will be shown in the workflow viewer / editor window of the **RAnalyticFlow** window.
@@ -133,9 +125,7 @@ Once you have opened the workflow you need to initialise it (i.e. load libraries
 
 \newpage
 
-```{r raf4, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
-knitr::include_graphics("figures/runWorkflowRAF.png")
-```
+![Running a RAM-OP RAnalyticFlow workflow](figures/runWorkflowRAF.png){#fig-raf4 fig-alt="Running a RAM-OP RAnalyticFlow workflow" fig-align="center" width="70%"}
 
 Once this is done, you should:
 
@@ -153,17 +143,13 @@ Once this is done, you should:
 
 When the analysis is complete your project directory or project folder should contain eight new files:
 
-```{r raf5, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
-knitr::include_graphics("figures/workflowResults01.png")
-```
+![RAnalyticFlow workflow outputs](figures/workflowResults01.png){#fig-raf5 fig-alt="RAnalyticFlow workflow outputs" fig-align="center" width="70%"}
 
 The files ending in `.png` are graphics files.
 The names of these files are intended to be informative.
 For example:
 
-```{r raf6, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
-knitr::include_graphics("figures/workflowResults02.png")
-```
+![Filename structure of RAnalyticFlow outputs](figures/workflowResults02.png){#fig-raf6 fig-alt="Filename structure of RAnalyticFlow outputs" fig-align="center" width="70%"}
 
 The file ending in `.report.csv` is the survey report file (see below).
 
@@ -173,9 +159,7 @@ This is a project information file used by **RAnalyticFlow** and can be ignored.
 The file ending in `.report.csv` is the survey report file.
 This file can be opened, formatted and edited in a spreadsheet program such as **Microsoft Excel** or **OpenOffice Calc**:
 
-```{r raf7, echo = FALSE, fig.align = "center", fig.pos = "H", fig.retina = 1}
-knitr::include_graphics("figures/reportFile.png")
-```
+![RAnalyticFlow workflow report output](figures/reportFile.png){#fig-raf7 fig-alt="RAnalyticFlow workflow report output" fig-align="center" width="70%"}
 
 In the illustration above, proportions have been formatted as percentages with one decimal place, means have been formatted as numbers with two decimal places, and column titles have been formatted as bold text.
 
