@@ -1,4 +1,4 @@
-# Rapid Assessment Method for Older People (RAM-OP): A Manual <img src="https://podcasts.ox.ac.uk/sites/default/files/image-mirror/unpacking-fundamentals-global-health-towards-new-generation-leadership.png" width="100px" align="right"/><img src="https://oxford-ihtm.io/images/ihealth_base_pos_sm.png" height="100px" align="right"/><img src="images/rapidsurveys.png" width="100px" align="right"/><img src="figures/ramOP.png" height="100px" align="right"/>
+# Rapid Assessment Method for Older People (RAM-OP): A Manual <img src="images/rapidsurveys.png" width="200px" align="right"/><img src="figures/ramOP.png" height="200px" align="right"/>
 
 <!-- badges: start -->
 
@@ -20,7 +20,7 @@ This is an [R](https://www.r-project.org/)-based and [Quarto](https://quarto.org
 
 This repository is initially meant to document and track the conversion of the original printed manual into an online version.
 However, since there are no plans by [HelpAge International](http://www.helpage.org) to continue to support the development and use of the method, this repository now aims to ensure that the previously released manual and related tools for RAM-OP continue to be available and accessible online to the general public.
-Furthermore, this repository is being used to continually update the manual to document ongoing development of the method and its related tooling under the [RapidSurveys](https://rapidsurveys.io) project supported under the [Oxford iHealth](https://oxford-ihtm.io) initiative of the [MSc in International Health and Tropical Medicine](https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm) of the [Nuffield Department of Medicine](http://www.ndm.ox.ac.uk/), [University of Oxford](https://www.ox.ac.uk).
+Furthermore, this repository is being used to continually update the manual and to document ongoing development of the method and its related tooling under the [RapidSurveys](https://rapidsurveys.io) project supported under the [Oxford iHealth](https://oxford-ihtm.io) initiative of the [MSc in International Health and Tropical Medicine](https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm) of the [Nuffield Department of Medicine](http://www.ndm.ox.ac.uk/), [University of Oxford](https://www.ox.ac.uk).
 
 ## Reproducibility
 
@@ -112,3 +112,5 @@ If you would like to contribute to the development of this book, please see our 
 
 This project is released with a [Contributor Code of Conduct](https://github.com/rapidsurveys/ramOPmanual/blob/main/.github/CODE_OF_CONDUCT.md).
 By participating in this project you agree to abide by its terms.
+
+<img src="https://oxford-ihtm.io/images/ihealth_base_pos_sm.png" height="100px" align="right"/><img src="https://podcasts.ox.ac.uk/sites/default/files/image-mirror/unpacking-fundamentals-global-health-towards-new-generation-leadership.png" width="100px" align="right"/>
