@@ -2,9 +2,11 @@
 output-file: questionnaire.html
 ---
 
-# The RAM-OP questionnaire {#sec-04}
+# Questionnaire {#sec-04}
 
-Modules of the RAM-OP questionnaire are presented in the [**RAM-OP indicators**](#sec-indicators) section of this manual.
+## The RAM-OP questionnaire {#sec-04-01}
+
+Modules of the RAM-OP questionnaire are presented in the [**RAM-OP indicators**](#sec-03) section of this manual.
 
 The entire RAM-OP questionnaire is presented in the following pages.
 This questionnaire is composed of many tested and validated components.
@@ -35,3 +37,12 @@ Leaving these as they are will be helpful if you intend to use the RAM-OP data-e
 
 The questionnaire can be downloaded (in ODT and PDF format) from the Brixton Health website [here](http://www.brixtonhealth.com/qesRAMOP.zip).
 
+The questionnaire can also be downloaded directly from the book's website.
+
+::: {.column-margin}
+
+Download questionnaire [ODT](questionnaire/qesRAMOP.odt){.external target="_blank"} | [PDF](questionnaire/qesRAMOP.pdf){.external target="_blank"}
+
+:::
+
+## Digital data colleciton
