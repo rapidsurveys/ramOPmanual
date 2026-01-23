@@ -1,5 +1,7 @@
 ---
 output-file: datasets.html
+aliases: 
+  - 05-datasets.html
 ---
 
 # Datasets {#sec-05}

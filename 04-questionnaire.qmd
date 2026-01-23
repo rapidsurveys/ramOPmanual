@@ -1,5 +1,7 @@
 ---
 output-file: questionnaire.html
+aliases: 
+  - 04-questionnaire.html
 ---
 
 # The RAM-OP Questionnaire {#sec-04}

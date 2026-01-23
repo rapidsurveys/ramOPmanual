@@ -1,5 +1,7 @@
 ---
 output-file: sampling.html
+aliases: 
+  - 02-sampling.html
 ---
 
 # Sampling {#sec-02}

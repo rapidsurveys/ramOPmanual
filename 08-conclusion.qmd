@@ -1,5 +1,7 @@
 ---
 output-file: conclusion.html
+aliases: 
+  - 08-conclusion.html
 ---
 
 # Conclusion {#sec-08}
