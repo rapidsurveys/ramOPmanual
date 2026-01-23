@@ -20,6 +20,11 @@ jobs:
       - name: Install tinytex
         run: quarto install tinytex
 
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update && apt-get install -y --no-install-recommends \
+          libpoppler-cpp-dev libtesseract-dev libleptonica-dev tesseract-ocr-eng
+
       - name: Install Chrome
         run: |
           curl -LO https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
