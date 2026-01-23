@@ -71,6 +71,6 @@ If you use a spreadsheet application then you will have to be careful:
     A CSV file should contain only plain text, number, and commas without formatting.
     Do **not** use a word processor application such as **Microsoft Word™** to create or edit a CSV file.
 
-If you have problems using a CSV file then you should check and edit the file using a plain text-editor such as **Notepad** or a dedicated CSV editor such as [Ron's Editor](http://www.ronsplace.eu/Products/RonsEditor).
+If you have problems using a CSV file then you should check and edit the file using a plain text-editor such as **Notepad** or a dedicated CSV editor such as [Ron's Editor](http://www.ronsplace.eu/Products/RonsEditor){.external target="_blank"}.
 
 Remember to backup your data before editing it.
