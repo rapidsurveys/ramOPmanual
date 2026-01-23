@@ -11,7 +11,7 @@ authors:
   - family-names: Myatt
     given-names: Mark
 title: "Rapid Assessment Method for Older People (RAM-OP): A Manual"
-version: 0.2.0
+version: 0.2.1
 date-released: 2026-01-21
 license: GPL-3.0
 repository-code: https://github.com/rapidsurveys/ramOPmanual
