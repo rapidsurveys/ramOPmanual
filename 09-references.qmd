@@ -1,5 +1,7 @@
 ---
 output-file: references.html
+aliases: 
+  - 09-references.html
 ---
 
 # References {#sec-09}

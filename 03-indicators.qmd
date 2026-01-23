@@ -1,5 +1,7 @@
 ---
 output-file: indicators.html
+aliases: 
+  - 03-indicators.html
 ---
 
 # Indicators {#sec-03}

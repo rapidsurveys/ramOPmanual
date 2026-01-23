@@ -18,7 +18,7 @@ It does not need to be installed and can be run from a USB drive.
 The data entry system provides facilities for entering data, interactive checking of data as it is entered, batch checking of entered data, data summary, and data export.
 The system creates files that can be read by the standard RAM-OP data analysis software.
 
-Documentation of Epidata can be found [here](http://www.epidata.dk/index.htm).
+Documentation of EpiData can be found [here](http://www.epidata.dk/index.htm).
 
 ## Data analysis {#sec-07-02}
 
@@ -52,7 +52,7 @@ To use the **RAnalyticFlow** workflow you must install:
 
 The Package Installer function can be called in R using the following command:
 
-```{r software, eval = FALSE}
+```R
 install.packages(c("rJava", "JavaGD", "codetools", 
                    "foreign", "car", "ggplot2", "data.table"), 
                    repos = "https://cloud.r-project.org/")

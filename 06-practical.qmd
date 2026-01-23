@@ -1,5 +1,7 @@
 ---
 output-file: practical.html
+aliases: 
+  - 06-practical.html
 ---
 
 # Practical Fieldwork {#sec-06}
