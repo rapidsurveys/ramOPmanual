@@ -23,7 +23,7 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update && sudo apt-get install -y --no-install-recommends \
-          libxt6 libglpk-dev gh curl jq \
+          libjpeg-dev libcurl4-openssl-dev libssl-dev \
           libpoppler-cpp-dev libtesseract-dev libleptonica-dev tesseract-ocr-eng
 
       - name: Install Chrome
