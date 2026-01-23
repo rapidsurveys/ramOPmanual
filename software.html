@@ -193,7 +193,7 @@ gtag('config', 'G-SE438KE5DS', { 'anonymize_ip': true});
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./questionnaire.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">The RAM-OP questionnaire</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">The RAM-OP Questionnaire</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -266,10 +266,10 @@ gtag('config', 'G-SE438KE5DS', { 'anonymize_ip': true});
 <section id="sec-07-01" class="level2" data-number="6.1">
 <h2 data-number="6.1" class="anchored" data-anchor-id="sec-07-01"><span class="header-section-number">6.1</span> Data entry</h2>
 <p>A data entry system for RAM-OP data using EpiData has been developed.</p>
-<p>This software can be downloaded from http://www.brixtonhealth.com/enterRAMOP.zip.</p>
+<p>This software can be downloaded from the Brixton Health website <a href="http://www.brixtonhealth.com/enterRAMOP.zip">here</a>.</p>
 <p>This software runs on the Windows operating system. It does not need to be installed and can be run from a USB drive.</p>
 <p>The data entry system provides facilities for entering data, interactive checking of data as it is entered, batch checking of entered data, data summary, and data export. The system creates files that can be read by the standard RAM-OP data analysis software.</p>
-<p>Documentation of Epidata can be found here http://www.epidata.dk/index.htm.</p>
+<p>Documentation of Epidata can be found <a href="http://www.epidata.dk/index.htm">here</a>.</p>
 </section>
 <section id="sec-07-02" class="level2" data-number="6.2">
 <h2 data-number="6.2" class="anchored" data-anchor-id="sec-07-02"><span class="header-section-number">6.2</span> Data analysis</h2>
@@ -333,14 +333,15 @@ gtag('config', 'G-SE438KE5DS', { 'anonymize_ip': true});
 <p>All of this software is open source and free to download, copy, and use. It will run on Windows, Mac OS X, and Linux (and other UNIX-like) operating systems. Your ICT department should be able to help you with installing this software.</p>
 <p>In addition you will also need a copy of the <strong>RAnalyticFlow</strong> workflow and supporting files. These are available from <a href="http://www.brixtonhealth.com/ramOP.rflow.zip">here</a>.</p>
 <p>You may need to extract the file from the ZIP archive before use if this is not done automatically.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/dirStructureRAF.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-fig-pos="H"></p>
+<div id="fig-raf1" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Directory structure of the software download">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-raf1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/dirStructureRAF.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Directory structure of the software download">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-raf1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6.1: Directory structure of the software download
+</figcaption>
 </figure>
-</div>
-</div>
 </div>
 <p>Before starting to analyse your data you should create a project directory or project folder. This is just a normal folder or directory that can be created using your usual file manager (e.g.&nbsp;Windows ExplorerTM in WindowsTM or the FinderTM in Macintosh OS-XTM). The project directory or project folder should contain:</p>
 <ol type="1">
@@ -351,14 +352,15 @@ gtag('config', 'G-SE438KE5DS', { 'anonymize_ip': true});
 </ol>
 <p>When you have created the project directory or project folder with the required files you can start RAnalyticFlow.</p>
 <p>Note: The <code>testSVY.rec</code> and <code>testPSU.csv</code> files are example data files and are distributed with the <strong>RAnalyticFlow</strong> workflow. You can use these files to practice analysing data using <strong>RAnalyticFlow</strong>, and as examples of RAM-OP survey data and PSU files.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/openProjectRAF.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-fig-pos="H"></p>
+<div id="fig-raf2" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Creating a RAM-OP RAnalyticFow project">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-raf2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/openProjectRAF.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Creating a RAM-OP RAnalyticFow project">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-raf2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6.2: Creating a RAM-OP RAnalyticFlow project
+</figcaption>
 </figure>
-</div>
-</div>
 </div>
 <p>Before you start work you will need to create a project for your survey:</p>
 <ol type="1">
@@ -367,26 +369,28 @@ gtag('config', 'G-SE438KE5DS', { 'anonymize_ip': true});
 <li><p>Give the location of your project directory or project folder. This is the directory or folder which contains your survey data file, your PSU file, the RAM-OP language file, and a copy of <strong>RAMOP.rflow</strong> (see previous page). The location of the project directory or project folder (labelled “Path” by the software) that <strong>RAnalyticFlow</strong> selects automatically will almost always be wrong. You need to specify this manually.</p></li>
 <li><p>Click the <strong>OK</strong> button</p></li>
 </ol>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/openWorkflowRAF.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-fig-pos="H"></p>
+<div id="fig-raf3" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Opening a RAM-OP RAnalyticFlow workflow">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-raf3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/openWorkflowRAF.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Opening a RAM-OP RAnalyticFlow workflow">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-raf3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6.3: Opening a RAM-OP RAnalyticFlow workflow
+</figcaption>
 </figure>
-</div>
-</div>
 </div>
 <p>Double click the item named <strong>ramOP.rflow</strong> shown in the file manager pane of the <strong>RAnalyticFlow</strong> window. This will open the data-analysis workflow which will be shown in the workflow viewer / editor window of the <strong>RAnalyticFlow</strong> window.</p>
 <p>Once you have opened the workflow you need to initialise it (i.e.&nbsp;load libraries, useful analysis function, and initialise the workspace for a new analysis):</p>
 <div style="page-break-after: always;"></div>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/runWorkflowRAF.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-fig-pos="H"></p>
+<div id="fig-raf4" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Running a RAM-OP RAnalyticFlow workflow">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-raf4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/runWorkflowRAF.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Running a RAM-OP RAnalyticFlow workflow">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-raf4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6.4: Running a RAM-OP RAnalyticFlow workflow
+</figcaption>
 </figure>
-</div>
-</div>
 </div>
 <p>Once this is done, you should:</p>
 <ol type="1">
@@ -395,36 +399,39 @@ gtag('config', 'G-SE438KE5DS', { 'anonymize_ip': true});
 <li><p>Produce the survey report and graphics. Select and run the <strong>Report</strong> node. This will take some time to complete because the analysis uses computer intensive techniques to make best use of the available data. The Report node/icon will have black lines around it has completed running the report.</p></li>
 </ol>
 <p>When the analysis is complete your project directory or project folder should contain eight new files:</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/workflowResults01.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-fig-pos="H"></p>
+<div id="fig-raf5" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="RAnalyticFlow workflow outputs">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-raf5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/workflowResults01.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="RAnalyticFlow workflow outputs">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-raf5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6.5: RAnalyticFlow workflow outputs
+</figcaption>
 </figure>
-</div>
-</div>
 </div>
 <p>The files ending in <code>.png</code> are graphics files. The names of these files are intended to be informative. For example:</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/workflowResults02.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-fig-pos="H"></p>
+<div id="fig-raf6" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Filename structure of RAnalyticFlow outputs">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-raf6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/workflowResults02.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Filename structure of RAnalyticFlow outputs">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-raf6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6.6: Filename structure of RAnalyticFlow outputs
+</figcaption>
 </figure>
-</div>
-</div>
 </div>
 <p>The file ending in <code>.report.csv</code> is the survey report file (see below).</p>
 <p>There may also be a file ending in <code>.afp</code>. This is a project information file used by <strong>RAnalyticFlow</strong> and can be ignored.</p>
 <p>The file ending in <code>.report.csv</code> is the survey report file. This file can be opened, formatted and edited in a spreadsheet program such as <strong>Microsoft Excel</strong> or <strong>OpenOffice Calc</strong>:</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/reportFile.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-fig-pos="H"></p>
+<div id="fig-raf7" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="RAnalyticFlow workflow report output">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-raf7-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/reportFile.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="RAnalyticFlow workflow report output">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-raf7-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6.7: RAnalyticFlow workflow report output
+</figcaption>
 </figure>
-</div>
-</div>
 </div>
 <p>In the illustration above, proportions have been formatted as percentages with one decimal place, means have been formatted as numbers with two decimal places, and column titles have been formatted as bold text.</p>
 <p>You can edit the labels as you see fit. If you plan to do several RAM-OP surveys then you may want to edit the language file (always called <code>ramOP.language.csv</code>). This file provides text that is used in reports and graphics. The purpose of this file is to make the data analysis software produce reports in any language. This file <strong>must</strong> be a comma-separated-value (CSV) file.</p>
