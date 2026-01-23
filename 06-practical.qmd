@@ -81,7 +81,9 @@ Thorough training of the enumerators in applying the questionnaire will also imp
 
 A translated questionnaire may also be a requirement for getting the ethical clearance for the survey.
 
-We advise you to use an iterative translation process and use:
+::: {.callout-tip}
+
+## We advise you to use an iterative translation process and use:
 
 -   **Standard language if available** : Most indicators used in RAM-OP have question sets available in different languages.
     You can check for these online.
@@ -101,7 +103,13 @@ We advise you to use an iterative translation process and use:
 -   **Your intended survey population** to help you make sure that the language you are using is simple and to the point.
     Test interviews and group discussions usually help to improve the language used in the questionnaire.
 
+:::
+
+::: {.callout-important}
+
 Having enumerators translate the English language questionnaire (for example) each time they apply the questionnaire is **not** a good option and should be avoided.
+
+:::
 
 ## Supervisors, enumerators, and data entry staff {#sec-06-04}
 
@@ -111,7 +119,10 @@ Also, having a large number of teams usually means that you will need a large nu
 This can be hard to achieve and hard to manage.
 
 We recommend that you recruit three teams of two enumerators with one supervisor per team.
-The duties of supervisors and enumerators are:
+
+::: {.callout-note}
+
+## The duties of supervisors and enumerators are:
 
 **Supervisors** have to take all necessary actions to ensure the accuracy of the collected data, particularly:
 
@@ -125,6 +136,8 @@ The duties of supervisors and enumerators are:
 -   Identifying the households to survey.
 -   Apply the questionnaires to older people.
 -   Measure MUAC, oedema, and visual acuity and complete questionnaires.
+
+:::
 
 If each team can complete a single PSU per day (this is the minimum you can expect from a team) then the survey may be completed in six days (i.e. three PSUs per day for five days plus one PSU on the last day).
 This will depend on context and on the teams' expertise.
@@ -158,7 +171,9 @@ At the end of training each enumerator should be able to:
 
 \newpage
 
-A typical first RAM-OP training course will last for five days:
+::: {.callout-note}
+
+## A typical first RAM-OP training course will last for five days:
 
 **Day 1**
 
@@ -196,7 +211,11 @@ A typical first RAM-OP training course will last for five days:
 -   Lessons learned from field test
 -   Recap
 
-Additional notes:
+:::
+
+::: {.callout-tip}
+
+## Additional notes:
 
 -   **Practising the questionnaire** : This is very important.
     Each training day should contain some work on the questionnaire.
@@ -228,6 +247,8 @@ Additional notes:
     It is a “dummy run” of all survey activities.
     Divide the trainees into teams assigning a supervisor to each team.
     The test area should not be one of the areas to be sampled for the survey and can be close to the training venue.
+
+:::
 
 At the end of the training week, you should be able to select the best enumerators and divide them in to teams, balancing genders and personalities, as well as strengths and weaknesses.
 
@@ -266,51 +287,7 @@ The equipment needed for a RAM-OP survey is minimal:
 
 Every morning during the survey, each team should receive a schedule of that day's activities detailing the team's objectives for the day giving PSU numbers, location, PSU maps, sample target sizes, local contact information, emergency contact list, etc.
 
-## Data collection {#sec-06-07}
-
-Each team should be able to survey at least one PSU per day.
-
-No community mobilisation is necessary but community officials should be informed of your arrival in advance.
-
-Avoid sampling at special or busy times, such as holy days and market days.
-
-When arriving in the community, the teams should introduce themselves to community leaders and explain the conduct of the survey.
-
-The supervisor should collect and record information about the PSU's total population.
-
-The team should then explore the boundaries of the community and perform mapping and segmentation as required.
-
-Eligible subjects are usually people aged 60 years and older (this may differ in some settings).
-We accept the respondents' statement of their own age, and we do not challenge them if they appear younger or older than the age they declare.
-We usually do not ask for a proof of age.
-However, it might be useful to have compiled a list of events related to the past hundred years of the country's history, as some older people do not remember their age, but remember living at the time of some remarkable events (independence, elections, wars, etc).
-Women often remember the age at which they had their children
-
-**All** eligible older people present in and belonging to the sampled household are interviewed and measured, even if the required quota of respondents has been reached.
-Older people visiting the household should only be included if they are residing there for more than two weeks.
-Person such as maids, houseboys, watchmen, and carers should be treated as part of the household (i.e. should be interviewed) if the sampled dwelling / compound is their principal place of residence.
-Older people should be interviewed in their houses.
-It is not good practice to have the older people in the community gathered in one place.
-
-When entering older people's houses, the enumerators should always be polite, respectful, and attentive not to intrude on people's privacy.
-
-Older people should not be intimidated into answering the questionnaire or being measured.
-They always have a right to refuse to answer some or all of the questions and to refuse measurements.
-Refusals should be noted on the questionnaire.
-
-Some of the questions are of an intimate nature.
-Be careful not to administer the questionnaire in an open space where everybody present can hear the answers.
-This may embarrass the respondent or cause the respondent to answer wrongly.
-This is important as a “wrong answer” will tend to hide need and will bias the survey results.
-
-Some older women may object to having their MUAC taken by a man (or vice versa).
-This is why it is advisable that the team has both male and female members.
-This not always possible, but older people are often more free from prejudices than the younger members of their community.
-It is rare for an older woman to refuse to expose her arms or feet before a male enumerator, and also rare that an older man objects to being measured by a female enumerator.
-
-\newpage
-
-## Survey planning {#sec-06-08}
+## Survey planning {#sec-06-07}
 
 Here is a typical timetable of survey activities:
 
@@ -382,7 +359,7 @@ Here is a typical timetable of survey activities:
 -   Data analysis and reporting
 -   Disseminate results
 
-## Daily survey activities {#sec-06-09}
+## Daily survey activities {#sec-06-08}
 
 Here is a list of typical survey activities:
 
