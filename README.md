@@ -113,4 +113,6 @@ If you would like to contribute to the development of this book, please see our 
 This project is released with a [Contributor Code of Conduct](https://github.com/rapidsurveys/ramOPmanual/blob/main/.github/CODE_OF_CONDUCT.md).
 By participating in this project you agree to abide by its terms.
 
+ 
+
 [![footer](images/rapidsurveys_footer.png)](https://rapidsurveys.io)
