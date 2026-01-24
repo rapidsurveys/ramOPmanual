@@ -69,7 +69,7 @@ book:
     - 07-software.qmd
     - 08-conclusion.qmd
     - 09-references.qmd
-  cover-image: figures/coverImage.jpg
+  cover-image: images/coverImage.jpg
   search: true
   repo-url: https://github.com/rapidsurveys/ramOPmanual/
   repo-actions: [edit]
@@ -86,7 +86,7 @@ format:
     theme: simplex
     highlight-style: breeze-light
   pdf:
-    cover-image: figures/coverImage.jpg
+    cover-image: images/coverImage.jpg
     documentclass: scrbook
     papersize: a4
     toc: true
@@ -100,7 +100,7 @@ format:
       text: |
         \printindex
   epub:
-    cover-image: figures/coverImage.jpg
+    cover-image: images/coverImage.jpg
     toc: true
     toc-depth: 3
     highlight-style: breeze-light

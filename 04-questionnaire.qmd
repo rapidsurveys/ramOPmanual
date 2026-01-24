@@ -49,35 +49,35 @@ Download questionnaire [ODT](questionnaire/qesRAMOP.odt){.external target="_blan
 
 \newpage
 
-![Page 1 of the RAM-OP questionnaire](figures/qesRAMOP_1.png){#fig-questionnaire-p1 fig-alt="Page 1 of the RAM-OP questionnaire" fig-align="center" width="70%"}
+![Page 1 of the RAM-OP questionnaire](images/qesRAMOP_1.png){#fig-questionnaire-p1 fig-alt="Page 1 of the RAM-OP questionnaire" fig-align="center" width="70%"}
 
 \newpage
 
-![Page 2 of the RAM-OP questionnaire](figures/qesRAMOP_2.png){#fig-questionnaire-p2 fig-alt="Page 2 of the RAM-OP questionnaire" fig-align="center" width="70%"}
+![Page 2 of the RAM-OP questionnaire](images/qesRAMOP_2.png){#fig-questionnaire-p2 fig-alt="Page 2 of the RAM-OP questionnaire" fig-align="center" width="70%"}
 
 \newpage
 
-![Page 3 of the RAM-OP questionnaire](figures/qesRAMOP_3.png){#fig-questionnaire-p3 fig-alt="Page 3 of the RAM-OP questionnaire" fig-align="center" width="70%"}
+![Page 3 of the RAM-OP questionnaire](images/qesRAMOP_3.png){#fig-questionnaire-p3 fig-alt="Page 3 of the RAM-OP questionnaire" fig-align="center" width="70%"}
 
 \newpage
 
-![Page 4 of the RAM-OP questionnaire](figures/qesRAMOP_4.png){#fig-questionnaire-p4 fig-alt="Page 4 of the RAM-OP questionnaire" fig-align="center" width="70%"}
+![Page 4 of the RAM-OP questionnaire](images/qesRAMOP_4.png){#fig-questionnaire-p4 fig-alt="Page 4 of the RAM-OP questionnaire" fig-align="center" width="70%"}
 
 \newpage
 
-![Page 5 of the RAM-OP questionnaire](figures/qesRAMOP_5.png){#fig-questionnaire-p5 fig-alt="Page 5 of the RAM-OP questionnaire" fig-align="center" width="70%"}
+![Page 5 of the RAM-OP questionnaire](images/qesRAMOP_5.png){#fig-questionnaire-p5 fig-alt="Page 5 of the RAM-OP questionnaire" fig-align="center" width="70%"}
 
 \newpage
 
-![Page 6 of the RAM-OP questionnaire](figures/qesRAMOP_6.png){#fig-questionnaire-p6 fig-alt="Page 6 of the RAM-OP questionnaire" fig-align="center" width="70%"}
+![Page 6 of the RAM-OP questionnaire](images/qesRAMOP_6.png){#fig-questionnaire-p6 fig-alt="Page 6 of the RAM-OP questionnaire" fig-align="center" width="70%"}
 
 \newpage
 
-![Page 7 of the RAM-OP questionnaire](figures/qesRAMOP_7.png){#fig-questionnaire-p7 fig-alt="Page 7 of the RAM-OP questionnaire" fig-align="center" width="70%"}
+![Page 7 of the RAM-OP questionnaire](images/qesRAMOP_7.png){#fig-questionnaire-p7 fig-alt="Page 7 of the RAM-OP questionnaire" fig-align="center" width="70%"}
 
 \newpage
 
-![Page 8 of the RAM-OP questionnaire](figures/qesRAMOP_8.png){#fig-questionnaire-p8 fig-alt="Page 8 of the RAM-OP questionnaire" fig-align="center" width="70%"}
+![Page 8 of the RAM-OP questionnaire](images/qesRAMOP_8.png){#fig-questionnaire-p8 fig-alt="Page 8 of the RAM-OP questionnaire" fig-align="center" width="70%"}
 
 \newpage
 
@@ -107,7 +107,7 @@ b. `form_logo.png` - HelpAge logo that is uploaded together with the form which 
 
 Following is a flowchart that shows the different pathways that can be considered when deciding how to proceed with data collection whether using paper-based survey forms or ODK.
 
-![Digital data collection flowchart](figures/dataCollectionFlowchart.png){#fig-data-collection-flowchart fig-alt="Digital data collection flowchart" fig-align="center" width="70%"}
+![Digital data collection flowchart](images/dataCollectionFlowchart.png){#fig-data-collection-flowchart fig-alt="Digital data collection flowchart" fig-align="center" width="70%"}
 
 For further guidance and technical information on how to implement an ODK-based data collection system for RAM-OP, see the following [website](https://getodk.org/).
 

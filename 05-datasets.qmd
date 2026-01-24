@@ -51,12 +51,12 @@ The PSU dataset must be in comma-separated-value (CSV) format (see @fig-dataset0
 
 \newpage
 
-![Main RAM-OP dataset definition](figures/dataset01.png){#fig-dataset01 fig-alt="Main RAM-OP dataset definition" fig-align="center" width="70%"}
+![Main RAM-OP dataset definition](images/dataset01.png){#fig-dataset01 fig-alt="Main RAM-OP dataset definition" fig-align="center" width="70%"}
 
 The RAM-OP data analysis requires that the main RAM-OP survey dataset is supplied in either an **EpiInfo v6.xx** or **EpiData (REC)** format or in a comma-separated-value (CSV) format file The RAM-OP data analysis requires that the PSU dataset is supplied in a comma-separated-value (.CSV) format file.
 @fig-dataset02 shows an example of a PSU dataset in comma-separate-value (CSV) format.
 
-![An example comma-separated-value (CSV) format file (the example is for a RAM-OP PSU dataset)](figures/dataset02.png){#fig-dataset02 fig-alt="An example comma-separated-value (CSV) format file (the example is for a RAM-OP PSU dataset)" fig-align="center" width="70%"}
+![An example comma-separated-value (CSV) format file (the example is for a RAM-OP PSU dataset)](images/dataset02.png){#fig-dataset02 fig-alt="An example comma-separated-value (CSV) format file (the example is for a RAM-OP PSU dataset)" fig-align="center" width="70%"}
 
 Note that the first line of a CSV format file gives the names of the variables (e.g. these are `psu` and `pop` for the PSU dataset) separated by commas.
 Subsequent lines contain data with items separated by commas and with one record per line.
