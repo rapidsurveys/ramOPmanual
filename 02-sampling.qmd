@@ -23,7 +23,7 @@ Two methods can be used and both methods take the sample from all parts of the s
 
 -   **List-based method:** Communities to be sampled are selected systematically from a complete list of communities in the survey area. This list of communities is sorted by one or more non-overlapping spatial factors such as district and subdistricts within districts:
 
-![Communities listing by district and sub-district](figures/listSample1.png){#fig-sample1 fig.alt="List of communities by district and sub-district" fig-align="center" width="50%"}
+![Communities listing by district and sub-district](images/listSample1.png){#fig-sample1 fig.alt="List of communities by district and sub-district" fig-align="center" width="50%"}
 
 -   **Map-based method:** Communities to be sampled are selected from the centres of the squares of a grid drawn over a map. The map must be sufficiently well made and of sufficiently large scale to show the position of every community in the survey area. This type of sample is known as a centric systematic area sample and is often referred to as a CSAS sample.
 
@@ -65,10 +65,10 @@ The following shorthand symbols will be used when describing sample designs:
  
 
 $$\begin{aligned}
-m & ~ = ~ \text{Number of primary sampling units (PSUs).} \\[5pt]
-n & ~ = ~ \text{Size of the sample of individuals or households from a PSU.} \\[5pt]
-n & ~ = ~ \text{May also mean the overall survey sample size (this meaning will be made clear in the text).} \\[5pt]
-N & ~ = ~ \text{Population}
+m & ~ = ~ \text{Number of primary sampling units (PSUs).} \\[1pt]
+n & ~ = ~ \text{Size of the sample of individuals or households from a PSU.} \\[1pt]
+n & ~ = ~ \text{May also mean the overall survey sample size.} \\[1pt]
+N & ~ = ~ \text{Population} \\[1pt]
 \end{aligned}$$
 
  
@@ -102,7 +102,7 @@ It may also be impossible to do this in many settings.
 
 Here, for example, is a *population pyramid* for a typical developing country:
 
-![Population pyramid for a typical developing country](figures/popPyramid1.png){#fig-sample2 fig-alt="Population pyramid for a typical developing country" fig-align="center" width="70%"}
+![Population pyramid for a typical developing country](images/popPyramid1.png){#fig-sample2 fig-alt="Population pyramid for a typical developing country" fig-align="center" width="70%"}
 
 If the average community population is $N = 300$ then there will be fewer than 15 people aged 60 years and older in about half of the selected communities.
 This is because about half of the selected communities are likely to have a population below the average population.
@@ -121,7 +121,7 @@ A local definition of older people is likely to be available.
 In a setting with very low life-expectancy, very few people are aged 60 years or older.
 For example:
 
-![Population pyramid for a setting with low life-expectancy](figures/popPyramid2.png){#fig-sample3 fig-alt="Population pyramid for a setting with low life-expectancy" fig-align="center" width="70%"}
+![Population pyramid for a setting with low life-expectancy](images/popPyramid2.png){#fig-sample3 fig-alt="Population pyramid for a setting with low life-expectancy" fig-align="center" width="70%"}
 
 It is common in such setting for there to be a local definition of older people.
 This will usually be **"persons aged 50 years or older"** or **"persons aged 55 years or older"**.
@@ -198,7 +198,7 @@ RANDBETWEEN(1, 4)
 
 \newpage
 
-![Selection of sampling villages using lists](figures/listSample2.png){#fig-sample4 fig-alt="Selection of sampling villages using lists" fig-align="center"}
+![Selection of sampling villages using lists](images/listSample2.png){#fig-sample4 fig-alt="Selection of sampling villages using lists" fig-align="center"}
 
 \newpage
 
@@ -215,16 +215,16 @@ You may need to experiment with different grid sizes to achieve this.
 
 The sample is drawn by selecting the community that is located closest to the centre of each grid square:
 
-![Selection of sampling villages using maps](figures/mapSample1.png){#fig-sample5 fig-alt="Selection of sampling villages using maps" fig-align="center" width="70%"}
+![Selection of sampling villages using maps](images/mapSample1.png){#fig-sample5 fig-alt="Selection of sampling villages using maps" fig-align="center" width="70%"}
 
 If two or more villages are located the same distance from the centre of a grid square then a single village is picked at random, by tossing a coin for example.
 
 @fig-sample7 shows the sample selected by this process for the area shown in @fig-sample6.
 
 ::: {#fig-csas layout-ncol="2"}
-![Drawing a square grid over the map](figures/mapSample2.png){#fig-sample6 fig-alt="Drawing a square grid over the map" fig-align="center"}
+![Drawing a square grid over the map](images/mapSample2.png){#fig-sample6 fig-alt="Drawing a square grid over the map" fig-align="center"}
 
-![Drawing the first-stage CSAS sample](figures/mapSample3.png){#fig-sample7 fig-alt="Drawing the first-stage CSAS sample" fig-align="center"}
+![Drawing the first-stage CSAS sample](images/mapSample3.png){#fig-sample7 fig-alt="Drawing the first-stage CSAS sample" fig-align="center"}
 
 Map-based sampling
 :::
@@ -239,9 +239,9 @@ The same method can be used when sampling in urban contexts.
 In both cases the primary sampling units (PSUs) are census enumeration areas.
 
 ::: {#fig-list-csas layout-ncol="2"}
-![Example of an urban sample (list-based)](figures/mapSample4.png){#fig-sample8 fig-alt="Example of an urban sample (list-based)" fig-align="center"}
+![Example of an urban sample (list-based)](images/mapSample4.png){#fig-sample8 fig-alt="Example of an urban sample (list-based)" fig-align="center"}
 
-![Example of an urban sample (map-based)](figures/mapSample5.png){#fig-sample9 fig-alt="Example of an urban sample (map-based)" fig-align="center"}
+![Example of an urban sample (map-based)](images/mapSample5.png){#fig-sample9 fig-alt="Example of an urban sample (map-based)" fig-align="center"}
 
 List-based vs map-based sampling
 :::
@@ -259,11 +259,11 @@ It is helpful to think of communities as being made of ribbons (i.e. lines of dw
 
 Here is an example of a ribbon of dwellings:
 
-![Example of a ribbon of dwellings](figures/stage2sample1.png){#fig-sample10 fig-alt="Example of a ribbon of dwellings" fig-align="center" width="70%"}
+![Example of a ribbon of dwellings](images/stage2sample1.png){#fig-sample10 fig-alt="Example of a ribbon of dwellings" fig-align="center" width="70%"}
 
 Here is an example of a cluster of dwellings:
 
-![Example of a cluster of dwellings](figures/stage2sample2.png){#fig-sample11 fig-alt="Example of a cluster of dwellings" fig-align="center" width="70%"}
+![Example of a cluster of dwellings](images/stage2sample2.png){#fig-sample11 fig-alt="Example of a cluster of dwellings" fig-align="center" width="70%"}
 
 **Segment:** Divide the community into ribbon and cluster segments defined by the physical layout of the community being sampled.
 
@@ -278,11 +278,11 @@ Here is an example of a cluster of dwellings:
 
 Some communities consist of a single cluster of dwellings:
 
-![Example of a cluster of dwellings](figures/stage2sample2.png){#fig-sample12 fig-alt="Example of a cluster of dwellings" fig-align="center" width="70%"}
+![Example of a cluster of dwellings](images/stage2sample2.png){#fig-sample12 fig-alt="Example of a cluster of dwellings" fig-align="center" width="70%"}
 
 or a set of clusters of dwellings:
 
-![Example of a set of clusters of dwellings](figures/stage2sample3.png){#fig-sample13 fig-alt="Example of a set of clusters of dwellings" fig-align="center" width="70%"}
+![Example of a set of clusters of dwellings](images/stage2sample3.png){#fig-sample13 fig-alt="Example of a set of clusters of dwellings" fig-align="center" width="70%"}
 
 For communities (or parts of communities) structured in this way we use a sampling method called the **random walk**.
 
@@ -290,11 +290,11 @@ For communities (or parts of communities) structured in this way we use a sampli
 
 Ribbon communities have dwellings arranged in a line:
 
-![Dwellings arranged in a line](figures/stage2sample1.png){#fig-sample14 fig-alt="Dwellings arranged in a line" fig-align="center" width="70%"}
+![Dwellings arranged in a line](images/stage2sample1.png){#fig-sample14 fig-alt="Dwellings arranged in a line" fig-align="center" width="70%"}
 
 or in several lines:
 
-![Dwellings arranged in several lines](figures/stage2sample4.png){#fig-sample15 fig-alt="Dwellings arranged in several lines" fig-align="center" width="70%"}
+![Dwellings arranged in several lines](images/stage2sample4.png){#fig-sample15 fig-alt="Dwellings arranged in several lines" fig-align="center" width="70%"}
 
 For communities (or parts of communities) structured in this way we use a sampling method called **systematic sampling**.
 
@@ -302,7 +302,7 @@ For communities (or parts of communities) structured in this way we use a sampli
 
 Some communities are a mixture of clusters and ribbons:
 
-![Mixture of clusters and ribbons](figures/stage2sample5.png){#fig-sample16 fig-alt="Mixture of clusters and ribbons" fig-align="center" width="70%"}
+![Mixture of clusters and ribbons](images/stage2sample5.png){#fig-sample16 fig-alt="Mixture of clusters and ribbons" fig-align="center" width="70%"}
 
 For mixed communities we use a mixture of the **random walk** method (in the clusters) and **systematic sampling** (along the ribbons).
 
@@ -313,21 +313,21 @@ With simple communities, segmentation is not required and we take a single sampl
 
 For more complicated communities we divide the community into several parts or segments, such as a community made up of several clusters:
 
-![Example of a set of clusters of dwellings](figures/stage2sample3.png){#fig-sample17 fig-alt="Example of a set of clusters of dwellings" fig-align="center" width="70%"}
+![Example of a set of clusters of dwellings](images/stage2sample3.png){#fig-sample17 fig-alt="Example of a set of clusters of dwellings" fig-align="center" width="70%"}
 
 or a community made up of several ribbons:
 
-![Dwellings arranged in several lines](figures/stage2sample4.png){#fig-sample18 fig-alt="Dwellings arranged in several lines" fig-align="center" width="70%"}
+![Dwellings arranged in several lines](images/stage2sample4.png){#fig-sample18 fig-alt="Dwellings arranged in several lines" fig-align="center" width="70%"}
 
 or a mixed community:
 
-![Mixture of clusters and ribbons](figures/stage2sample5.png){#fig-sample19 fig-alt="Mixture of clusters and ribbons" fig-align="center" width="70%"}
+![Mixture of clusters and ribbons](images/stage2sample5.png){#fig-sample19 fig-alt="Mixture of clusters and ribbons" fig-align="center" width="70%"}
 
 We take a small sample from each segment using the appropriate sampling method.
 
 For example, with a community made up of three segments:
 
-![Community made up of three segments](figures/stage2sample6.png){#fig-sample20 fig-alt="Community made up of three segments" fig-align="center" width="70%"}
+![Community made up of three segments](images/stage2sample6.png){#fig-sample20 fig-alt="Community made up of three segments" fig-align="center" width="70%"}
 
 we would take one third of the overall sample from each segment.
 
@@ -350,7 +350,7 @@ Segments should **not** overlap.
 
 If, for example, there are five segments in a community:
 
-![Community made up of five segments](figures/stage2sample7.png){#fig-sample21 fig-alt="Community made up of five segments" fig-align="center" width="70%"}
+![Community made up of five segments](images/stage2sample7.png){#fig-sample21 fig-alt="Community made up of five segments" fig-align="center" width="70%"}
 
 and the within-community sample size is twelve eligible subjects, then you would plan to sample two eligible subjects from each segment (i.e. $12 / 5 = 2.4$ **rounded down** to two) and, if necessary, return to the **largest** segment to complete the sample.
 
@@ -400,7 +400,7 @@ If, when you have sampled all segments, you have not sampled twelve eligible per
 
 The random walk method is illustrated in @fig-sample22.
 
-![Random walk sampling in a cluster](figures/stage2sample8.png){#fig-sample22 fig-alt="Random walk sampling in a cluster segment" fig-align="center" width="70%"}
+![Random walk sampling in a cluster](images/stage2sample8.png){#fig-sample22 fig-alt="Random walk sampling in a cluster segment" fig-align="center" width="70%"}
 
 ### Systematic sampling {#sec-02-06-10}
 
@@ -437,14 +437,14 @@ If, when you have sampled all segments, you have not sampled twelve eligible per
 
 The systematic sampling method is illustrated in @fig-sample23.
 
-![Systematic sampling in a ribbon segment](figures/stage2sample9.png){#fig-sample23 fig-alt="Systematic sampling in a ribbon segment" fig-align="center" width="70%"}
+![Systematic sampling in a ribbon segment](images/stage2sample9.png){#fig-sample23 fig-alt="Systematic sampling in a ribbon segment" fig-align="center" width="70%"}
 
 ### Sampling in urban settings {#sec-02-06-11}
 
 In urban areas the first stage sample is taken by replacing sub-districts with "sections" and communities with city blocks.
 Examples of sections may be administrative districts/sub-districts or electoral wards.
 
-![Administrative divisions in an urban setting](figures/stage2sample10.png){#fig-sample24 fig-alt="Administrative divisions in an urban setting" fig-align="center" width="70%"}
+![Administrative divisions in an urban setting](images/stage2sample10.png){#fig-sample24 fig-alt="Administrative divisions in an urban setting" fig-align="center" width="70%"}
 
 Census enumeration areas (EAs) are usually city blocks.
 Central statistics offices can usually provide lists of EAs by "section" and large-scale maps of EAs selected for sampling (See @fig-sample25 and @fig-sample26).
@@ -467,19 +467,19 @@ The number of blocks to be sampled will depend on the expected number of eligibl
 You should aim for an overall sample size of about $n = 192$.
 You should not sample fewer than $m = 16$ blocks.
 
-![Enumeration area map for a city block in Freetown, Sierra Leon](figures/stage2sample11.png){#fig-sample25 fig-alt="Enumeration area map for a city block in Freetown, Sierra Leone" fig-align="center" width="70%"}
+![Enumeration area map for a city block in Freetown, Sierra Leon](images/stage2sample11.png){#fig-sample25 fig-alt="Enumeration area map for a city block in Freetown, Sierra Leone" fig-align="center" width="70%"}
 
 \newpage
 
-![Enumeration area map for a city block in Addis Ababa, Ethiopia](figures/stage2sample12.png){#fig-sample26 fig-alt="Enumeration area map for a city block in Addis Ababa, Ethiopia" fig-align="center" width="70%"}
+![Enumeration area map for a city block in Addis Ababa, Ethiopia](images/stage2sample12.png){#fig-sample26 fig-alt="Enumeration area map for a city block in Addis Ababa, Ethiopia" fig-align="center" width="70%"}
 
-![Systematic sampling in a city block](figures/stage2sample13.png){#fig-sample27 fig-alt="Systematic sampling in a city block" fig-align="center" width="70%"}
+![Systematic sampling in a city block](images/stage2sample13.png){#fig-sample27 fig-alt="Systematic sampling in a city block" fig-align="center" width="70%"}
 
 When useful lists and maps are not available then satellite imagery available though free services such as [Google Earth](http://earth.google.com) may be used.
 
 The quality (resolution) of the images available from these services is variable but is usually good enough to allow you to segment the town into small areas of approximately equal volume (approximately the same number of dwellings) in each:
 
-![Segmenting a town into smaller sampling areas](figures/stage2sample14.png){#fig-sample28 fig-alt="Segmenting a town into smaller sampling areas" fig-align="center" width="70%"}
+![Segmenting a town into smaller sampling areas](images/stage2sample14.png){#fig-sample28 fig-alt="Segmenting a town into smaller sampling areas" fig-align="center" width="70%"}
 
 When creating segments using maps or satellite images it is a good idea to use main roads, rivers, canals, railway lines, public parks, etc as boundaries.
 This simplifies the segmentation process and also simplifies fieldwork by making areas and their boundaries easier to locate and sample.
@@ -490,4 +490,4 @@ Larger scale "maps" of blocks to be sampled can also me made using satellite ima
 
 \newpage
 
-![A large scale map of a city block made from satellite imagery](figures/stage2sample15.png){#fig-sample29 fig-alt="A large scale map of a city block made from satellite imagery" fig-align="center" width="70%"}
+![A large scale map of a city block made from satellite imagery](images/stage2sample15.png){#fig-sample29 fig-alt="A large scale map of a city block made from satellite imagery" fig-align="center" width="70%"}

@@ -54,19 +54,19 @@ A recode operation shows changes that are made to data so that it can be used to
 They are also used to specify what should be done with missing or out-of-range values.
 For example:
 
-![Example recode operation flowchart](figures/indicators02.png){#fig-indicators02 fig-alt="Example recode operations flowchart" fig-align="center" width="70%"}
+![Example recode operation flowchart](images/indicators02.png){#fig-indicators02 fig-alt="Example recode operations flowchart" fig-align="center" width="70%"}
 
 ## Demography and situation {#sec-03-02}
 
 The demography and situation indicators are used to describe the survey sample and are derived from this questionnaire component:
 
-![Demography and situation questionnaire module](figures/questionnaire01.png){#fig-questionnaire01 fig-alt="Demography and situation questionnaire module" fig-align="center" width="70%"}
+![Demography and situation questionnaire module](images/questionnaire01.png){#fig-questionnaire01 fig-alt="Demography and situation questionnaire module" fig-align="center" width="70%"}
 
 \newpage
 
 Each of the questions yields a separate indicator:
 
-![Demography and situation indicators](figures/indicators03.png){#fig-indicators03 fig-alt="Demography and situation indicators" fig-align="center" width="70%"}
+![Demography and situation indicators](images/indicators03.png){#fig-indicators03 fig-alt="Demography and situation indicators" fig-align="center" width="70%"}
 
 ## Food intake {#sec-03-03}
 
@@ -75,7 +75,7 @@ This data can be queried to yield a large number of useful indicators.
 
 \newpage
 
-![Food intake questionnaire module](figures/questionnaire02.png){#fig-questionnaire02 fig-alt="Food intake questionnaire module" fig-align="center" width="70%"}
+![Food intake questionnaire module](images/questionnaire02.png){#fig-questionnaire02 fig-alt="Food intake questionnaire module" fig-align="center" width="70%"}
 
 \newpage
 
@@ -87,7 +87,7 @@ There are three related sets of diet-related indicators:
 
 The indicator hierarchy is:
 
-![Diet-relalted indicators hierarchy](figures/indicators04.png){#fig-indicators04 fig-alt="Diet-related indicators hierarchy" fig-align="center" width="70%"}
+![Diet-relalted indicators hierarchy](images/indicators04.png){#fig-indicators04 fig-alt="Diet-related indicators hierarchy" fig-align="center" width="70%"}
 
 The data on the number of meals taken in the previous twenty-four hours forms a *meal frequency score*.
 
@@ -111,7 +111,7 @@ This also follows @swindale_household_2006 and @kennedy_guidelines_2010, and @wo
 
 The meal frequency score indicator is the answer given to the first food intake question:
 
-![First food intake question](figures/indicators05.png){#fig-indicators05 fig-alt="First food intake question" fig-align="center" width="70%"}
+![First food intake question](images/indicators05.png){#fig-indicators05 fig-alt="First food intake question" fig-align="center" width="70%"}
 
 Meal frequency is a crude measure of food security.
 
@@ -121,7 +121,7 @@ Higher values of meal frequency are associated with better food security.
 
 Questions relating to the consumption of individual food items / food types are combined to create food groups and the number of food groups consumed are counted to create a dietary diversity score:
 
-![Workflow for creating food groups](figures/indicators06.png){#fig-indicators06 fig-alt="Workflow for creating food groups" fig-align="center" width="70%"}
+![Workflow for creating food groups](images/indicators06.png){#fig-indicators06 fig-alt="Workflow for creating food groups" fig-align="center" width="70%"}
 
 The consumption of the eleven individual food groups and the dietary diversity score are reported separately.
 
@@ -135,12 +135,12 @@ Higher values of the dietary diversity score are associated with better food sec
 
 Questions and combinations of questions relating to the consumption of individual food items and food types can be used to determine whether the reported diet is likely to be provide sufficient nutrients of various types:
 
-![Workflow for creating nutrients uptake indicators](figures/indicators07.png){#fig-indicators07 fig-alt="Workflow for nutrients uptake indicators" fig-align="center" width="70%"}
+![Workflow for creating nutrients uptake indicators](images/indicators07.png){#fig-indicators07 fig-alt="Workflow for nutrients uptake indicators" fig-align="center" width="70%"}
 
 Each indicator is formed using logical "or" operations (i.e. the indicator is true if **any** of the constituent foods are consumed).
 For example, the indicator for the consumption of iron rich foods:
 
-![Recoding for iron rich foods](figures/indicators08.png){#fig-indicators08 fig-alt="Recoding for iron rich foods" fig-align="center" width="70%"}
+![Recoding for iron rich foods](images/indicators08.png){#fig-indicators08 fig-alt="Recoding for iron rich foods" fig-align="center" width="70%"}
 
 requires the consumption of one or more of green leafy vegetables, organ meats, meat, or fish and shellfish.
 Consumption of **any** of these foods is sufficient to indicate that the survey subject consumes iron rich food.
@@ -149,13 +149,13 @@ Consumption of **any** of these foods is sufficient to indicate that the survey 
 
 Indicators of consumption of protein rich foods from animal sources, plant source, and any / all sources are calculated as:
 
-![Recoding for protein-rich foods](figures/indicators09.png){#fig-indicators09 fig-alt="Recoding for protein-rich foods" fig-align="center" width="70%"}
+![Recoding for protein-rich foods](images/indicators09.png){#fig-indicators09 fig-alt="Recoding for protein-rich foods" fig-align="center" width="70%"}
 
 ### Vitamin A rich foods {#sec-03-06-02}
 
 Indicators of consumption of vitamin A rich foods from animal sources, plant source, and any / all sources are calculated as:
 
-![Recoding for vitamin A-rich foods](figures/indicators10.png){#fig-indicators10 fig-alt="Recoding for vitamin A-rich foods" fig-align="center" width="70%"}
+![Recoding for vitamin A-rich foods](images/indicators10.png){#fig-indicators10 fig-alt="Recoding for vitamin A-rich foods" fig-align="center" width="70%"}
 
 \newpage
 
@@ -163,19 +163,19 @@ Indicators of consumption of vitamin A rich foods from animal sources, plant sou
 
 An indicator of consumption of iron rich foods from any / all sources is calculated as:
 
-![Recoding of iron-rich foods from any source](figures/indicators11.png){#fig-indicators11 fig-alt="Recoding of iron-rich foods from any source" fig-align="center" width="70%"}
+![Recoding of iron-rich foods from any source](images/indicators11.png){#fig-indicators11 fig-alt="Recoding of iron-rich foods from any source" fig-align="center" width="70%"}
 
 ### Calcium rich foods {#sec-03-06-04}
 
 An indicator of consumption of calcium rich foods from any / all sources is calculated as:
 
-![Recoding of calcium-rich foods](figures/indicators12.png){#fig-indicators12 fig-alt="Recoding of caclcium-rich foods" fig-align="center" width="70%"}
+![Recoding of calcium-rich foods](images/indicators12.png){#fig-indicators12 fig-alt="Recoding of caclcium-rich foods" fig-align="center" width="70%"}
 
 ### Zinc rich foods {#sec-03-06-05}
 
 An indicator of consumption of zinc rich foods from any / all sources is calculated as:
 
-![Recoding of zinc-rich foods](figures/indicators13.png){#fig-indicators13 fig-alt="Recoding of zinc-rich foods" fig-align="center" width="70%"}
+![Recoding of zinc-rich foods](images/indicators13.png){#fig-indicators13 fig-alt="Recoding of zinc-rich foods" fig-align="center" width="70%"}
 
 \newpage
 
@@ -183,7 +183,7 @@ An indicator of consumption of zinc rich foods from any / all sources is calcula
 
 Indicators of consumption of vitamin B rich foods from any / all sources are calculated as:
 
-![Recoding of vitamin B-rich foods](figures/indicators14.png){#fig-indicators14 fig-alt="Recoding if vitamin B-rich foods" fig-align="center" width="70%"}
+![Recoding of vitamin B-rich foods](images/indicators14.png){#fig-indicators14 fig-alt="Recoding if vitamin B-rich foods" fig-align="center" width="70%"}
 
 Note that the vitamin B complex indicator requires that at least one food from each of the B1, B2, B3, B6, and B12 rich food combinations is consumed.
 
@@ -191,11 +191,11 @@ Note that the vitamin B complex indicator requires that at least one food from e
 
 An indicator of severe food insecurity (hunger) is derived from this questionnaire component:
 
-![Severe food insecurity questionnaire module](figures/questionnaire03.png){#fig-questionnaire03 fig-alt="Severe food insecurity questionnaire module" fig-align="center" width="70%"}
+![Severe food insecurity questionnaire module](images/questionnaire03.png){#fig-questionnaire03 fig-alt="Severe food insecurity questionnaire module" fig-align="center" width="70%"}
 
 and is calculated as:
 
-![Recoding of severe food indsecurity indicator](figures/indicators15.png){#fig-indicators15 fig-alt="Recoding of severe food insecurity indicator" fig-align="center" width="70%"}
+![Recoding of severe food indsecurity indicator](images/indicators15.png){#fig-indicators15 fig-alt="Recoding of severe food insecurity indicator" fig-align="center" width="70%"}
 
 \newpage
 
@@ -209,7 +209,7 @@ This indicator is the *Household Hunger Scale (HHS)* and is a simple, well-valid
 
 Indicators of disability across six different domains are derived from this questionnaire component:
 
-![Disability questionnaire module](figures/questionnaire04.png){#fig-questionnaire04 fig-alt="Disability questionnaire module" fig-align="center" width="70%"}
+![Disability questionnaire module](images/questionnaire04.png){#fig-questionnaire04 fig-alt="Disability questionnaire module" fig-align="center" width="70%"}
 
 \newpage
 
@@ -219,7 +219,7 @@ Overall disability prevalence indicators are also reported.
 
 Indicators of disability in each domain are calculated as:
 
-![Recoding of disability indicators](figures/indicators16.png){#fig-indicators16 fig-alt="Recoding of disability indicators" fig-align="center" width="70%"}
+![Recoding of disability indicators](images/indicators16.png){#fig-indicators16 fig-alt="Recoding of disability indicators" fig-align="center" width="70%"}
 
 Overall disability prevalence indicators are calculated as:
 
@@ -235,7 +235,7 @@ Overall disability prevalence indicators are calculated as:
 
 Indicators of how well the subject copes with activities of daily living are derived from this questionnaire component:
 
-![Activities of daily living questionnaire module](figures/questionnaire05.png){#fig-questionnaire05 fig-alt="Activities of daily living questionnaire module" fig-align="center" width="70%"}
+![Activities of daily living questionnaire module](images/questionnaire05.png){#fig-questionnaire05 fig-alt="Activities of daily living questionnaire module" fig-align="center" width="70%"}
 
 Individual *independence* indicators are reported for each dimension (i.e. bathing, dressing, toilet, mobility, continence, and eating) of daily living activities.
 
@@ -262,7 +262,7 @@ The seventh question of this module, which is not part of the Katz Index of ADL,
 
 It is not possible to know if the help available completely meets a subject's needs, but we can identify the proportion of subjects needing help with one or more activities of daily living who also report not having someone to help them:
 
-![Conceptual representation of indicator on unmet need](figures/indicators17.png){#fig-indicators17 fig-alt="Conceptual representation of indicator on unmet need" fig-align="center"}
+![Conceptual representation of indicator on unmet need](images/indicators17.png){#fig-indicators17 fig-alt="Conceptual representation of indicator on unmet need" fig-align="center"}
 
 This is an indicator of unmet need.
 
@@ -270,13 +270,13 @@ This is an indicator of unmet need.
 
 Indicators of how well the subject can cope with activities of daily living and probable unmet need are calculated as:
 
-![Recode for unmet need indicator](figures/indicators18.png){#fig-indicators18 fig-alt="Recode for unmet need indicator" fig-align="center" width="70%"}
+![Recode for unmet need indicator](images/indicators18.png){#fig-indicators18 fig-alt="Recode for unmet need indicator" fig-align="center" width="70%"}
 
 ## Mental health and well-being {#sec-03-10}
 
 Indicators of mental health and well being are derived from this questionnaire component:
 
-![Mental health and well-being questionnaire module](figures/questionnaire06.png){#fig-quesetionnaire06 fig-alt="Mental health and well-being questionnaire module" fig-align="center" width="70%"}
+![Mental health and well-being questionnaire module](images/questionnaire06.png){#fig-quesetionnaire06 fig-alt="Mental health and well-being questionnaire module" fig-align="center" width="70%"}
 
 A score is calculated.
 This is the *Kessler K6 Psychological Distress Scale*.
@@ -290,7 +290,7 @@ The Kessler K6 Psychological Distress Scale is a widely recommended, widely used
 
 Indicators of mental health and well-being are calculated as:
 
-![Recode of mental health and well-being indicators](figures/indicators19.png){#fig-indicators19 fig-alt="Recode of mental health and well-being indicators" fig-align="center"}
+![Recode of mental health and well-being indicators](images/indicators19.png){#fig-indicators19 fig-alt="Recode of mental health and well-being indicators" fig-align="center"}
 
 \newpage
 
@@ -298,13 +298,13 @@ Indicators of mental health and well-being are calculated as:
 
 An indicator of probable dementia is derived from this questionnaire component:
 
-![Dementia questionnaire module](figures/questionnaire07.png){#fig-questionnaire07 fig-alt="Dementia questionnaire module" fig-align="center" width="70%"}
+![Dementia questionnaire module](images/questionnaire07.png){#fig-questionnaire07 fig-alt="Dementia questionnaire module" fig-align="center" width="70%"}
 
 \newpage
 
 The indicator of *probable* dementia is calculated as:
 
-![Recode of probably dementia indicator](figures/indicators20.png){#fig-indicators20 fig-alt="Recode of probably dementia indicator" fig-align="center" width="70%"}
+![Recode of probably dementia indicator](images/indicators20.png){#fig-indicators20 fig-alt="Recode of probably dementia indicator" fig-align="center" width="70%"}
 
 This indicator is derived from the Community Screening Instrument for Dementia (CSID) developed by the 10/66 Dementia Research Group.
 This is a simple, validated, and widely used indicator of probable dementia [@prince_brief_2010].
@@ -317,29 +317,29 @@ This is a simple, validated, and widely used indicator of probable dementia [@pr
 
 Indicators of health and health-seeking behaviour for chronic and acute conditions are derived from this questionnaire component:
 
-![Health and health-seeking behaviour questionnaire module](figures/questionnaire08.png){#fig-questionnaire08 fig-alt="Health and health-seeking behaviour questionnaire module" fig-align="center" width="70%"}
+![Health and health-seeking behaviour questionnaire module](images/questionnaire08.png){#fig-questionnaire08 fig-alt="Health and health-seeking behaviour questionnaire module" fig-align="center" width="70%"}
 
 \newpage
 
 Indicators of health and health-seeking behaviour for chronic conditions are calculated as:
 
-![Recode of health and health-seeking behaviour indicators for chronic conditions](figures/indicators21.png){#fig-indicators21 fig-alt="Recode of health and health-seeking behaviour indicators for chronic conditions" fig-align="center" width="70%"}
+![Recode of health and health-seeking behaviour indicators for chronic conditions](images/indicators21.png){#fig-indicators21 fig-alt="Recode of health and health-seeking behaviour indicators for chronic conditions" fig-align="center" width="70%"}
 
 \newpage
 
 Indicators of health and health-seeking behaviour for acute conditions are calculated as:
 
-![Recode of health and health-seeking behaviour indicators for acute conditions](figures/indicators22.png){#fig-indicators22 fig-alt="Recode of health and health-seeking behaviour indicators for acute conditions" fig-align="center" width="70%"}
+![Recode of health and health-seeking behaviour indicators for acute conditions](images/indicators22.png){#fig-indicators22 fig-alt="Recode of health and health-seeking behaviour indicators for acute conditions" fig-align="center" width="70%"}
 
 ## Sources of income {#sec-03-13}
 
 Indicators related to sources of income are derived from this questionnaire component:
 
-![Sources of income questionnaire module](figures/questionnaire09.png){#fig-questionnaire09 fig-alt="Sources of income questionnaire module" fig-align="center" width="70%"}
+![Sources of income questionnaire module](images/questionnaire09.png){#fig-questionnaire09 fig-alt="Sources of income questionnaire module" fig-align="center" width="70%"}
 
 and are calculated as:
 
-![Recode of sources of income indicators](figures/indicators23.png){#fig-indicators23 fig-alt="Recode of sources of income indicators" fig-align="center" width="70%"}
+![Recode of sources of income indicators](images/indicators23.png){#fig-indicators23 fig-alt="Recode of sources of income indicators" fig-align="center" width="70%"}
 
 The grouped income sources (i.e. `m2a`, `m2b`, etc.) and individual income sources may vary between settings.
 The questionnaire component shown above has proved suitable for use in Ethiopia, South Sudan, and Tanzania.
@@ -350,7 +350,7 @@ The questionnaire component shown above has proved suitable for use in Ethiopia,
 
 Indicators relating to water, sanitation, and hygiene (WASH) are derived from this questionnaire component:
 
-![Water, sanitation, and hygiene questionnaire module](figures/questionnaire10.png){#fig-questionnaire10 fig-alt="Water, sanitation, and hygiene questionnaire module" fig-align="center" width="70%"}
+![Water, sanitation, and hygiene questionnaire module](images/questionnaire10.png){#fig-questionnaire10 fig-alt="Water, sanitation, and hygiene questionnaire module" fig-align="center" width="70%"}
 
 \newpage
 
@@ -360,7 +360,7 @@ Indicators are calculated following @world_health_organization_core_2006.
 
 Indicators relating to water, sanitation, and hygiene (WASH) are calculated as:
 
-![Recode of water, sanitation, and hygiene indicators](figures/indicators24.png){#fig-indicators24 fig-alt="Recode of water, sanitation, and hygiene indicators" fig-align="center" width="70%"}
+![Recode of water, sanitation, and hygiene indicators](images/indicators24.png){#fig-indicators24 fig-alt="Recode of water, sanitation, and hygiene indicators" fig-align="center" width="70%"}
 
 \newpage
 
@@ -368,11 +368,11 @@ Indicators relating to water, sanitation, and hygiene (WASH) are calculated as:
 
 Indicators relating to anthropometry and screening coverage are derived from this questionnaire component:
 
-![Anthropometry and screening questionnaire module](figures/questionnaire11.png){#fig-questionnaire11 fig-alt="Anthropometry and screening questionnaire module" fig-align="center" width="70%"}
+![Anthropometry and screening questionnaire module](images/questionnaire11.png){#fig-questionnaire11 fig-alt="Anthropometry and screening questionnaire module" fig-align="center" width="70%"}
 
 And are calculated as:
 
-![Recode of anthropometry and screening indicators](figures/indicators25.png){#fig-indicators25 fig-alt="Recode of anthropometry and screening indicators" fig-align="center" width="70%"}
+![Recode of anthropometry and screening indicators](images/indicators25.png){#fig-indicators25 fig-alt="Recode of anthropometry and screening indicators" fig-align="center" width="70%"}
 
 Raw MUAC data (i.e. not MUAC class) is collected, entered, and analysed.
 This requires that an adult MUAC tape (i.e. capable of measuring MUAC to 450 mm) is used.
@@ -427,7 +427,7 @@ Both the classic and the PROBIT methods can be thought of as estimating area:
 
  
 
-![Area under the curve](figures/indicators26.png){#fig-auc fig-alt="Area under the curve" fig-align="center" width="70%"}
+![Area under the curve](images/indicators26.png){#fig-auc fig-alt="Area under the curve" fig-align="center" width="70%"}
 
  
 
@@ -452,13 +452,13 @@ $$\widehat{MAM prevalence} = \widehat{GAM prevalence} - \widehat{SAM prevalence}
 
 An indicator of visual impairment is derived from this questionnaire component:
 
-![Visual impairment questionnaire module](figures/questionnaire12.png){#fig-quesetionnaire12 fig-alt="Visual impairment questionnaire module" fig-align="center" width="70%"}
+![Visual impairment questionnaire module](images/questionnaire12.png){#fig-quesetionnaire12 fig-alt="Visual impairment questionnaire module" fig-align="center" width="70%"}
 
 \newpage
 
 And is calculated as:
 
-![Recode of visual impairment indicator](figures/indicators27.png){#fig-indicators27 fig-alt="Recode of visual impairment indicator" fig-align="center" width="70%"}
+![Recode of visual impairment indicator](images/indicators27.png){#fig-indicators27 fig-alt="Recode of visual impairment indicator" fig-align="center" width="70%"}
 
 The *"illiterate E"* or *"tumbling E"* (the preferred term) is a validated and widely used method for measuring visual acuity [@taylor_applying_1978; @kaiser_prospective_2009]
 
@@ -470,7 +470,7 @@ The *"illiterate E"* or *"tumbling E"* (the preferred term) is a validated and w
 
 The size of the "E" used:
 
-![The tumbling E](figures/indicators28.png){#fig-indicators28 fig-alt="The tumbling E" fig-align="center" width="70%"}
+![The tumbling E](images/indicators28.png){#fig-indicators28 fig-alt="The tumbling E" fig-align="center" width="70%"}
 
 as well as the distance used for the test (two metres) and the indicator calculation apply the WHO case definition of visual impairment (i.e. visual acuity \< 6 / 18).
 
@@ -488,7 +488,7 @@ Subjects failing the visual acuity test should be counselled to visit an ophthal
 
 \newpage
 
-![Equipment used to measure visual acuity](figures/indicators29.png){#fig-indicators29 fig-alt="Equipment used to measure visual acuity" fig-align="center" width="70%"}
+![Equipment used to measure visual acuity](images/indicators29.png){#fig-indicators29 fig-alt="Equipment used to measure visual acuity" fig-align="center" width="70%"}
 
 \newpage
 
@@ -516,7 +516,7 @@ These are derived from these questions:
 
 and are calculated as:
 
-![Recode for miscellaneous indicators](figures/indicators30.png){#fig-indicators30 fig-alt="Recode for miscellaneous indicators" fig-align="center" width="70%"}
+![Recode for miscellaneous indicators](images/indicators30.png){#fig-indicators30 fig-alt="Recode for miscellaneous indicators" fig-align="center" width="70%"}
 
 ## A note on data management and data analysis {#sec-03-18}
 
@@ -558,4 +558,4 @@ The standard RAM-OP data analysis software is described in the section [**Standa
 
 \newpage
 
-![The blocked weighted bootstrap used by the standard RAM-OP software](figures/bbw.png){#fig-indicators31 fig-alt="The blocked weighted bootstrap used by the standard RAM-OP software" fig-align="center" width="70%"}
+![The blocked weighted bootstrap used by the standard RAM-OP software](images/bbw.png){#fig-indicators31 fig-alt="The blocked weighted bootstrap used by the standard RAM-OP software" fig-align="center" width="70%"}

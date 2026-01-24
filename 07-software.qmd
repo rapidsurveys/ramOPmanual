@@ -75,7 +75,7 @@ These are available from [here](http://www.brixtonhealth.com/ramOP.rflow.zip).
 
 You may need to extract the file from the ZIP archive before use if this is not done automatically.
 
-![Directory structure of the software download](figures/dirStructureRAF.png){#fig-raf1 fig-alt="Directory structure of the software download" fig-align="center" width="70%"}
+![Directory structure of the software download](images/dirStructureRAF.png){#fig-raf1 fig-alt="Directory structure of the software download" fig-align="center" width="70%"}
 
 Before starting to analyse your data you should create a project directory or project folder.
 This is just a normal folder or directory that can be created using your usual file manager (e.g. Windows ExplorerTM in WindowsTM or the FinderTM in Macintosh OS-XTM).
@@ -99,7 +99,7 @@ When you have created the project directory or project folder with the required 
 Note: The `testSVY.rec` and `testPSU.csv` files are example data files and are distributed with the **RAnalyticFlow** workflow.
 You can use these files to practice analysing data using **RAnalyticFlow**, and as examples of RAM-OP survey data and PSU files.
 
-![Creating a RAM-OP RAnalyticFlow project](figures/openProjectRAF.png){#fig-raf2 fig-alt="Creating a RAM-OP RAnalyticFow project" fig-align="center" width="70%"}
+![Creating a RAM-OP RAnalyticFlow project](images/openProjectRAF.png){#fig-raf2 fig-alt="Creating a RAM-OP RAnalyticFow project" fig-align="center" width="70%"}
 
 Before you start work you will need to create a project for your survey:
 
@@ -116,7 +116,7 @@ Before you start work you will need to create a project for your survey:
 
 4.  Click the **OK** button
 
-![Opening a RAM-OP RAnalyticFlow workflow](figures/openWorkflowRAF.png){#fig-raf3 fig-alt="Opening a RAM-OP RAnalyticFlow workflow" fig-align="center" width="70%"}
+![Opening a RAM-OP RAnalyticFlow workflow](images/openWorkflowRAF.png){#fig-raf3 fig-alt="Opening a RAM-OP RAnalyticFlow workflow" fig-align="center" width="70%"}
 
 Double click the item named **ramOP.rflow** shown in the file manager pane of the **RAnalyticFlow** window.
 This will open the data-analysis workflow which will be shown in the workflow viewer / editor window of the **RAnalyticFlow** window.
@@ -125,7 +125,7 @@ Once you have opened the workflow you need to initialise it (i.e. load libraries
 
 \newpage
 
-![Running a RAM-OP RAnalyticFlow workflow](figures/runWorkflowRAF.png){#fig-raf4 fig-alt="Running a RAM-OP RAnalyticFlow workflow" fig-align="center" width="70%"}
+![Running a RAM-OP RAnalyticFlow workflow](images/runWorkflowRAF.png){#fig-raf4 fig-alt="Running a RAM-OP RAnalyticFlow workflow" fig-align="center" width="70%"}
 
 Once this is done, you should:
 
@@ -143,13 +143,13 @@ Once this is done, you should:
 
 When the analysis is complete your project directory or project folder should contain eight new files:
 
-![RAnalyticFlow workflow outputs](figures/workflowResults01.png){#fig-raf5 fig-alt="RAnalyticFlow workflow outputs" fig-align="center" width="70%"}
+![RAnalyticFlow workflow outputs](images/workflowResults01.png){#fig-raf5 fig-alt="RAnalyticFlow workflow outputs" fig-align="center" width="70%"}
 
 The files ending in `.png` are graphics files.
 The names of these files are intended to be informative.
 For example:
 
-![Filename structure of RAnalyticFlow outputs](figures/workflowResults02.png){#fig-raf6 fig-alt="Filename structure of RAnalyticFlow outputs" fig-align="center" width="70%"}
+![Filename structure of RAnalyticFlow outputs](images/workflowResults02.png){#fig-raf6 fig-alt="Filename structure of RAnalyticFlow outputs" fig-align="center" width="70%"}
 
 The file ending in `.report.csv` is the survey report file (see below).
 
@@ -159,7 +159,7 @@ This is a project information file used by **RAnalyticFlow** and can be ignored.
 The file ending in `.report.csv` is the survey report file.
 This file can be opened, formatted and edited in a spreadsheet program such as **Microsoft Excel** or **OpenOffice Calc**:
 
-![RAnalyticFlow workflow report output](figures/reportFile.png){#fig-raf7 fig-alt="RAnalyticFlow workflow report output" fig-align="center" width="70%"}
+![RAnalyticFlow workflow report output](images/reportFile.png){#fig-raf7 fig-alt="RAnalyticFlow workflow report output" fig-align="center" width="70%"}
 
 In the illustration above, proportions have been formatted as percentages with one decimal place, means have been formatted as numbers with two decimal places, and column titles have been formatted as bold text.
 
