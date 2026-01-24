@@ -381,7 +381,7 @@ N &amp; ~ = ~ \text{Population} \\[1pt]
 <p>Sampling fewer than <span class="math inline">\(m = 16\)</span> communities will tend to reduce the precision with which estimates can be made. If you have the resources to sample more than <span class="math inline">\(m = 16\)</span> communities then you should do so. A sample of <span class="math inline">\(m = 24\)</span> communities and <span class="math inline">\(n = 8\)</span> eligible subjects, for example, will tend to yield estimates with better precision than a sample with <span class="math inline">\(m = 16\)</span> communities and <span class="math inline">\(n = 12\)</span> eligible subjects.</p>
 <p>Do not be tempted to increase the size of the within-community sample in order to achieve an overall sample size of <span class="math inline">\(n = 192\)</span> from fewer than <span class="math inline">\(m = 16\)</span> communities. Doing so will tend to reduce the precision with which estimates are made. It may also be impossible to do this in many settings.</p>
 <p>Here, for example, is a <em>population pyramid</em> for a typical developing country:</p>
-<div id="fig-sample2" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Population pyramid for a typical developing country">
+<div id="fig-sample2" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Population pyramid for a typical developing country" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sample2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/popPyramid1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Population pyramid for a typical developing country">
@@ -399,7 +399,7 @@ Figure&nbsp;1.2: Population pyramid for a typical developing country
 <p>In some settings different eligibility criteria may apply. This will likely be the case in settings with very high life-expectancies (usually middle and high income countries) or very low life-expectancies (usually low income countries and in emergencies).</p>
 <p>In a setting of very high life-expectancy you may want to restrict eligibility, to persons aged 65 years or older, for example. A local definition of older people is likely to be available.</p>
 <p>In a setting with very low life-expectancy, very few people are aged 60 years or older. For example:</p>
-<div id="fig-sample3" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Population pyramid for a setting with low life-expectancy">
+<div id="fig-sample3" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Population pyramid for a setting with low life-expectancy" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sample3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/popPyramid2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Population pyramid for a setting with low life-expectancy">
@@ -444,7 +444,7 @@ Figure&nbsp;1.3: Population pyramid for a setting with low life-expectancy
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">RANDBETWEEN</span>(<span class="dv">1</span>, <span class="dv">4</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>&nbsp;</p>
 <p><strong>Step 3:</strong> Using the <em>random starting point</em> and the <em>sampling interval</em>, select the sampling villages from a list of all villages organised/sorted by a <strong>non-overlapping</strong> spatial factor such as district or sub-district.</p>
-<div id="fig-sample4" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Selection of sampling villages using lists">
+<div id="fig-sample4" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Selection of sampling villages using lists" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sample4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/listSample2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Selection of sampling villages using lists">
@@ -460,7 +460,7 @@ Figure&nbsp;1.4: Selection of sampling villages using lists
 <p>An alternative approach to list-based sampling is to use map-based sampling. The map-based (CSAS) sample selects communities from the centre of squares of a grid drawn over a map. The map must be sufficiently well made and of sufficiently large scale to show the position of <strong>all</strong> communities in the survey area.</p>
 <p>A square grid is drawn over the map. The size of the grid squares should be small enough so that the number of squares covering the survey area is the same as (or very similar to) the number of communities that you plan to sample. You may need to experiment with different grid sizes to achieve this. <a href="#fig-sample6" class="quarto-xref">Figure&nbsp;<span>1.6 (a)</span></a> shows an example map and grid with <span class="math inline">\(m = 16\)</span> grid squares.</p>
 <p>The sample is drawn by selecting the community that is located closest to the centre of each grid square:</p>
-<div id="fig-sample5" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Selection of sampling villages using maps">
+<div id="fig-sample5" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Selection of sampling villages using maps" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sample5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/mapSample1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Selection of sampling villages using maps">
@@ -477,7 +477,7 @@ Figure&nbsp;1.5: Selection of sampling villages using maps
 <div aria-describedby="fig-csas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-csas" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="fig-sample6" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Drawing a square grid over the map">
+<div id="fig-sample6" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Drawing a square grid over the map" data-fig-align="center">
 <figure class="quarto-float quarto-subfloat-fig figure">
 <div aria-describedby="fig-sample6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/mapSample2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-ref-parent="fig-csas" alt="Drawing a square grid over the map">
@@ -489,7 +489,7 @@ Figure&nbsp;1.5: Selection of sampling villages using maps
 </div>
 </div>
 <div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-csas" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="fig-sample7" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Drawing the first-stage CSAS sample">
+<div id="fig-sample7" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Drawing the first-stage CSAS sample" data-fig-align="center">
 <figure class="quarto-float quarto-subfloat-fig figure">
 <div aria-describedby="fig-sample7-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/mapSample3.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-ref-parent="fig-csas" alt="Drawing the first-stage CSAS sample">
@@ -514,7 +514,7 @@ Figure&nbsp;1.6: Map-based sampling
 <div aria-describedby="fig-list-csas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-list-csas" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="fig-sample8" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Example of an urban sample (list-based)">
+<div id="fig-sample8" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Example of an urban sample (list-based)" data-fig-align="center">
 <figure class="quarto-float quarto-subfloat-fig figure">
 <div aria-describedby="fig-sample8-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/mapSample4.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-ref-parent="fig-list-csas" alt="Example of an urban sample (list-based)">
@@ -526,7 +526,7 @@ Figure&nbsp;1.6: Map-based sampling
 </div>
 </div>
 <div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-list-csas" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="fig-sample9" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Example of an urban sample (map-based)">
+<div id="fig-sample9" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Example of an urban sample (map-based)" data-fig-align="center">
 <figure class="quarto-float quarto-subfloat-fig figure">
 <div aria-describedby="fig-sample9-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/mapSample5.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-ref-parent="fig-list-csas" alt="Example of an urban sample (map-based)">
@@ -551,7 +551,7 @@ Figure&nbsp;1.7: List-based vs map-based sampling
 <p>The second stage (within-community) sample uses a map-segment-sample approach:</p>
 <p><strong>Map:</strong> Make a rough map of the community to be sampled. It is helpful to think of communities as being made of ribbons (i.e.&nbsp;lines of dwellings located along roads, tracks, or rivers) and clusters of dwellings.</p>
 <p>Here is an example of a ribbon of dwellings:</p>
-<div id="fig-sample10" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Example of a ribbon of dwellings">
+<div id="fig-sample10" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Example of a ribbon of dwellings" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sample10-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/stage2sample1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Example of a ribbon of dwellings">
@@ -562,7 +562,7 @@ Figure&nbsp;1.8: Example of a ribbon of dwellings
 </figure>
 </div>
 <p>Here is an example of a cluster of dwellings:</p>
-<div id="fig-sample11" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Example of a cluster of dwellings">
+<div id="fig-sample11" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Example of a cluster of dwellings" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sample11-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/stage2sample2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Example of a cluster of dwellings">
@@ -583,7 +583,7 @@ Figure&nbsp;1.9: Example of a cluster of dwellings
 <section id="sec-02-06-04" class="level3" data-number="1.6.4">
 <h3 data-number="1.6.4" class="anchored" data-anchor-id="sec-02-06-04"><span class="header-section-number">1.6.4</span> Mapping the community - single and multiple clusters</h3>
 <p>Some communities consist of a single cluster of dwellings:</p>
-<div id="fig-sample12" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Example of a cluster of dwellings">
+<div id="fig-sample12" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Example of a cluster of dwellings" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sample12-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/stage2sample2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Example of a cluster of dwellings">
@@ -594,7 +594,7 @@ Figure&nbsp;1.10: Example of a cluster of dwellings
 </figure>
 </div>
 <p>or a set of clusters of dwellings:</p>
-<div id="fig-sample13" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Example of a set of clusters of dwellings">
+<div id="fig-sample13" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Example of a set of clusters of dwellings" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sample13-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/stage2sample3.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Example of a set of clusters of dwellings">
@@ -609,7 +609,7 @@ Figure&nbsp;1.11: Example of a set of clusters of dwellings
 <section id="sec-02-06-05" class="level3" data-number="1.6.5">
 <h3 data-number="1.6.5" class="anchored" data-anchor-id="sec-02-06-05"><span class="header-section-number">1.6.5</span> Mapping the community - ribbon communities</h3>
 <p>Ribbon communities have dwellings arranged in a line:</p>
-<div id="fig-sample14" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Dwellings arranged in a line">
+<div id="fig-sample14" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Dwellings arranged in a line" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sample14-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/stage2sample1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Dwellings arranged in a line">
@@ -620,7 +620,7 @@ Figure&nbsp;1.12: Dwellings arranged in a line
 </figure>
 </div>
 <p>or in several lines:</p>
-<div id="fig-sample15" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Dwellings arranged in several lines">
+<div id="fig-sample15" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Dwellings arranged in several lines" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sample15-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/stage2sample4.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Dwellings arranged in several lines">
@@ -635,7 +635,7 @@ Figure&nbsp;1.13: Dwellings arranged in several lines
 <section id="sec-02-06-06" class="level3" data-number="1.6.6">
 <h3 data-number="1.6.6" class="anchored" data-anchor-id="sec-02-06-06"><span class="header-section-number">1.6.6</span> Mapping the community - mixed communities</h3>
 <p>Some communities are a mixture of clusters and ribbons:</p>
-<div id="fig-sample16" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Mixture of clusters and ribbons">
+<div id="fig-sample16" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Mixture of clusters and ribbons" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sample16-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/stage2sample5.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Mixture of clusters and ribbons">
@@ -651,7 +651,7 @@ Figure&nbsp;1.14: Mixture of clusters and ribbons
 <section id="sec-02-06-07" class="level3" data-number="1.6.7">
 <h3 data-number="1.6.7" class="anchored" data-anchor-id="sec-02-06-07"><span class="header-section-number">1.6.7</span> Segmentation</h3>
 <p>For more complicated communities we divide the community into several parts or segments, such as a community made up of several clusters:</p>
-<div id="fig-sample17" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Example of a set of clusters of dwellings">
+<div id="fig-sample17" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Example of a set of clusters of dwellings" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sample17-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/stage2sample3.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Example of a set of clusters of dwellings">
@@ -662,7 +662,7 @@ Figure&nbsp;1.15: Example of a set of clusters of dwellings
 </figure>
 </div>
 <p>or a community made up of several ribbons:</p>
-<div id="fig-sample18" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Dwellings arranged in several lines">
+<div id="fig-sample18" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Dwellings arranged in several lines" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sample18-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/stage2sample4.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Dwellings arranged in several lines">
@@ -673,7 +673,7 @@ Figure&nbsp;1.16: Dwellings arranged in several lines
 </figure>
 </div>
 <p>or a mixed community:</p>
-<div id="fig-sample19" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Mixture of clusters and ribbons">
+<div id="fig-sample19" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Mixture of clusters and ribbons" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sample19-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/stage2sample5.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Mixture of clusters and ribbons">
@@ -685,7 +685,7 @@ Figure&nbsp;1.17: Mixture of clusters and ribbons
 </div>
 <p>We take a small sample from each segment using the appropriate sampling method.</p>
 <p>For example, with a community made up of three segments:</p>
-<div id="fig-sample20" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Community made up of three segments">
+<div id="fig-sample20" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Community made up of three segments" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sample20-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/stage2sample6.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Community made up of three segments">
@@ -706,7 +706,7 @@ Figure&nbsp;1.18: Community made up of three segments
 <h3 data-number="1.6.8" class="anchored" data-anchor-id="sec-02-06-08"><span class="header-section-number">1.6.8</span> Sample dwellings</h3>
 <p><strong>All</strong> segments should be sampled.</p>
 <p>If, for example, there are five segments in a community:</p>
-<div id="fig-sample21" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Community made up of five segments">
+<div id="fig-sample21" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Community made up of five segments" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sample21-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/stage2sample7.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Community made up of five segments">
@@ -737,7 +737,7 @@ Figure&nbsp;1.19: Community made up of five segments
 </ol>
 <p>If, when you have sampled all segments, you have not sampled twelve eligible persons, you should return to the <strong>largest</strong> segment to finish sampling using the appropriate sampling method.</p>
 <p>The random walk method is illustrated in <a href="#fig-sample22" class="quarto-xref">Figure&nbsp;<span>1.20</span></a>.</p>
-<div id="fig-sample22" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Random walk sampling in a cluster segment">
+<div id="fig-sample22" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Random walk sampling in a cluster segment" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sample22-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/stage2sample8.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Random walk sampling in a cluster segment">
@@ -762,7 +762,7 @@ Figure&nbsp;1.20: Random walk sampling in a cluster
 </ol>
 <p>If, when you have sampled all segments, you have not sampled twelve eligible persons, you should return to the <strong>largest</strong> segment to finish sampling using the appropriate sampling method.</p>
 <p>The systematic sampling method is illustrated in <a href="#fig-sample23" class="quarto-xref">Figure&nbsp;<span>1.21</span></a>.</p>
-<div id="fig-sample23" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Systematic sampling in a ribbon segment">
+<div id="fig-sample23" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Systematic sampling in a ribbon segment" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sample23-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/stage2sample9.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Systematic sampling in a ribbon segment">
@@ -776,7 +776,7 @@ Figure&nbsp;1.21: Systematic sampling in a ribbon segment
 <section id="sec-02-06-11" class="level3" data-number="1.6.11">
 <h3 data-number="1.6.11" class="anchored" data-anchor-id="sec-02-06-11"><span class="header-section-number">1.6.11</span> Sampling in urban settings</h3>
 <p>In urban areas the first stage sample is taken by replacing sub-districts with “sections” and communities with city blocks. Examples of sections may be administrative districts/sub-districts or electoral wards.</p>
-<div id="fig-sample24" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Administrative divisions in an urban setting">
+<div id="fig-sample24" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Administrative divisions in an urban setting" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sample24-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/stage2sample10.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Administrative divisions in an urban setting">
@@ -790,7 +790,7 @@ Figure&nbsp;1.22: Administrative divisions in an urban setting
 <p>In these settings, eligible persons may be sampled by moving from door-to-door. All dwellings in the selected block are sampled and all eligible persons in the selected dwellings are sampled. This means that all eligible persons in a selected block are sampled.</p>
 <p>If city blocks are large then a type of systematic sampling may be used. With this method a rough map of the streets in the block is made and the number of doorways on each street is counted and copied onto the rough street map (as shown in <a href="#fig-sample27" class="quarto-xref">Figure&nbsp;<span>1.25</span></a>). The total number of doorways on all streets is calculated. A step size is calculated by dividing the total number of doorways on all streets by the number of dwellings to be sampled. A systematic sample along a route around the block that includes all streets in the block is taken. Streets can be sampled in any order. If you find that you have sampled all streets but have not yet sampled the required number of eligible persons then you should return to the street with the largest number of houses to collect the remainder of the sample.</p>
 <p>The number of blocks to be sampled will depend on the expected number of eligible persons in each block. You should aim for an overall sample size of about <span class="math inline">\(n = 192\)</span>. You should not sample fewer than <span class="math inline">\(m = 16\)</span> blocks.</p>
-<div id="fig-sample25" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Enumeration area map for a city block in Freetown, Sierra Leone">
+<div id="fig-sample25" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Enumeration area map for a city block in Freetown, Sierra Leone" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sample25-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/stage2sample11.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Enumeration area map for a city block in Freetown, Sierra Leone">
@@ -800,7 +800,7 @@ Figure&nbsp;1.23: Enumeration area map for a city block in Freetown, Sierra Leon
 </figcaption>
 </figure>
 </div>
-<div id="fig-sample26" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Enumeration area map for a city block in Addis Ababa, Ethiopia">
+<div id="fig-sample26" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Enumeration area map for a city block in Addis Ababa, Ethiopia" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sample26-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/stage2sample12.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Enumeration area map for a city block in Addis Ababa, Ethiopia">
@@ -810,7 +810,7 @@ Figure&nbsp;1.24: Enumeration area map for a city block in Addis Ababa, Ethiopia
 </figcaption>
 </figure>
 </div>
-<div id="fig-sample27" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Systematic sampling in a city block">
+<div id="fig-sample27" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Systematic sampling in a city block" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sample27-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/stage2sample13.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Systematic sampling in a city block">
@@ -822,7 +822,7 @@ Figure&nbsp;1.25: Systematic sampling in a city block
 </div>
 <p>When useful lists and maps are not available then satellite imagery available though free services such as <a href="http://earth.google.com">Google Earth</a> may be used.</p>
 <p>The quality (resolution) of the images available from these services is variable but is usually good enough to allow you to segment the town into small areas of approximately equal volume (approximately the same number of dwellings) in each:</p>
-<div id="fig-sample28" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Segmenting a town into smaller sampling areas">
+<div id="fig-sample28" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Segmenting a town into smaller sampling areas" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sample28-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/stage2sample14.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Segmenting a town into smaller sampling areas">
@@ -835,7 +835,7 @@ Figure&nbsp;1.26: Segmenting a town into smaller sampling areas
 <p>When creating segments using maps or satellite images it is a good idea to use main roads, rivers, canals, railway lines, public parks, etc as boundaries. This simplifies the segmentation process and also simplifies fieldwork by making areas and their boundaries easier to locate and sample.</p>
 <p>The first stage sample can be list-based (such as where each area is numbered in a systematic north to south and east to west order and a systematic sample taken) or map-based (CSAS).</p>
 <p>Larger scale “maps” of blocks to be sampled can also me made using satellite imagery (see <a href="#fig-sample29" class="quarto-xref">Figure&nbsp;<span>1.27</span></a>).</p>
-<div id="fig-sample29" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="A large scale map of a city block made from satellite imagery">
+<div id="fig-sample29" class="quarto-float quarto-figure quarto-figure-center anchored" alt="A large scale map of a city block made from satellite imagery" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sample29-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/stage2sample15.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="A large scale map of a city block made from satellite imagery">
